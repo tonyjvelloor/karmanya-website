@@ -1,0 +1,46 @@
+[
+  {
+    "id": "claim_001",
+    "topic": "facility",
+    "claim": "Karmanya offers three dedicated therapy chambers",
+    "status": "approved",
+    "source": "Clinic Manager Verification",
+    "approved_by": "Dr. Irshad",
+    "approved_at": "2026-08-31",
+    "review_expires": "2027-08-31",
+    "notes": "Verified by walk-through."
+  },
+  {
+    "id": "claim_002",
+    "topic": "medical",
+    "claim": "Authentic Kerala Ayurveda therapies delivered by qualified physicians",
+    "status": "approved",
+    "source": "Foundational Strategy",
+    "approved_by": "Strategy Lead",
+    "approved_at": "2026-08-31",
+    "review_expires": "2027-08-31",
+    "notes": "Core positioning statement."
+  },
+  {
+    "id": "claim_003",
+    "topic": "medical",
+    "claim": "Diabetes reversal",
+    "status": "rejected",
+    "source": "AI_summary_input",
+    "approved_by": "Strategy Lead",
+    "approved_at": "2026-08-31",
+    "review_expires": "2027-08-31",
+    "notes": "Materially too strong. Change to 'Ayurvedic support for diabetes management'."
+  },
+  {
+    "id": "claim_005",
+    "topic": "positioning",
+    "claim": "Integrated Physiotherapy linking Ayurvedic poultices with manual physical therapy",
+    "status": "approved",
+    "source": "Clinical Team",
+    "approved_by": "Dr. Irshad",
+    "approved_at": "2026-08-31",
+    "review_expires": "2027-08-31",
+    "notes": "Verified. We have a licensed physiotherapist who co-manages cases."
+  }
+]

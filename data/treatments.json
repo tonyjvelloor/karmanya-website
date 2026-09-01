@@ -1,0 +1,89 @@
+[
+  {
+    "id": "kizhi",
+    "title": "Kizhi",
+    "slug": "kizhi",
+    "category": "Kerala Chikitsa",
+    "seo": {
+      "meta_title": "Kizhi Treatment in Pune | Authentic Kerala Ayurveda | Karmanya",
+      "meta_description": "Kizhi is a traditional Kerala therapy involving herbal preparations applied using heated boluses, performed under physician guidance."
+    },
+    "marketing": {
+      "hero_title": "What is Kizhi?",
+      "hero_description": "A traditional Kerala therapy combining herbal preparations and rhythmic application for targeted relief."
+    },
+    "clinical": {
+      "ayurvedic_perspective": "Kizhi is a Swedana (sudation) therapy. It is traditionally used to balance Vata and Kapha doshas, reduce stiffness, and improve circulation.",
+      "process": "Herbal powders or leaves are tied in a cloth bolus, heated in medicated oils, and applied rhythmically over the affected areas or the entire body.",
+      "common_uses": "Often considered by our physicians as part of an approach for joint discomfort, muscle stiffness, and musculoskeletal conditions.",
+      "related_conditions": []
+    },
+    "safety": {
+      "suitability": "Kizhi is not suitable for everyone. It may be contraindicated during acute inflammation, high fever, or for certain skin conditions. Your physician will determine if this therapy is appropriate for you.",
+      "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."
+    },
+    "metadata": {
+      "reviewed_by": "Dr. Irshad T.M.",
+      "reviewed_date": "August 2026",
+      "doctor_url": "/doctors/dr-irshad/"
+    }
+  },
+  {
+    "id": "panchakarma",
+    "title": "Panchakarma",
+    "slug": "panchakarma",
+    "category": "Detoxification & Rejuvenation",
+    "seo": {
+      "meta_title": "Panchakarma Treatment in Pune | Authentic Ayurvedic Detox | Karmanya",
+      "meta_description": "Physician-guided Panchakarma treatment in Pimple Saudagar, Pune. Authentic Ayurvedic detoxification therapies tailored to your unique health profile."
+    },
+    "marketing": {
+      "hero_title": "Ayurvedic Panchakarma",
+      "hero_description": "A comprehensive, physician-guided detoxification and rejuvenation protocol designed to address the root cause of chronic imbalances."
+    },
+    "clinical": {
+      "ayurvedic_perspective": "Panchakarma translates to 'five actions'. It is the ultimate Shodhana (purification) therapy in Ayurveda, designed to eliminate deep-rooted Ama (toxins) and balance the Doshas.",
+      "process": "The process is highly personalized. It involves Purvakarma (preparatory procedures like internal oleation and Swedana), Pradhana Karma (the main detoxification therapies like Basti or Virechana), and Paschatkarma (post-treatment restorative regimens).",
+      "common_uses": "Utilized for chronic metabolic conditions, severe musculoskeletal issues, long-term skin disorders, and comprehensive systemic rejuvenation.",
+      "related_conditions": ["knee-joint-pain"]
+    },
+    "safety": {
+      "suitability": "Panchakarma is an intensive clinical procedure. It requires a thorough medical evaluation by our chief physician. It is absolutely contraindicated during pregnancy, extreme weakness, and acute illnesses.",
+      "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."
+    },
+    "metadata": {
+      "reviewed_by": "Dr. Irshad T.M.",
+      "reviewed_date": "August 2026",
+      "doctor_url": "/doctors/dr-irshad/"
+    }
+  },
+  {
+    "id": "kerala-chikitsa",
+    "title": "Kerala Chikitsa",
+    "slug": "kerala-chikitsa",
+    "category": "Signature Therapies",
+    "seo": {
+      "meta_title": "Authentic Kerala Chikitsa in Pune | Shirodhara, Abhyangam, Pizhichil | Karmanya",
+      "meta_description": "Experience authentic Kerala Ayurveda therapies in Pune. Our physician-led clinic offers traditional treatments like Shirodhara, Pizhichil, Njavarakizhi, and Abhyangam."
+    },
+    "marketing": {
+      "hero_title": "Authentic Kerala Chikitsa",
+      "hero_description": "The purest form of traditional Ayurvedic therapies, preserved and practiced exactly as they originated in the Ashtavaidya tradition of Kerala."
+    },
+    "clinical": {
+      "ayurvedic_perspective": "Kerala's unique Ashtavaidya tradition developed highly specialized therapies combining deep tissue treatments with potent herbal preparations. Unlike generic spa massages, these are rigorous clinical protocols globally renowned for their efficacy in managing chronic, neurological, and degenerative conditions. Our therapies use authentic oils imported from Kerala, warmed to specific temperatures, and applied with precise rhythmic strokes by traditionally trained therapists.",
+      "process": "Our Kerala Chikitsa portfolio includes several major therapies:\n\n• ABHYANGAM: A specialized full-body massage using warm, Dosha-specific medicated oils. It deeply nourishes the tissues (Dhatus), improves circulation, and pacifies aggravated Vata.\n\n• SHIRODHARA: The continuous, rhythmic pouring of warm medicated oil, herbal decoctions, or buttermilk over the forehead (Ajna Chakra). It induces a profound state of relaxation and is a primary clinical tool for stress, anxiety, insomnia, and neurological disorders.\n\n• PIZHICHIL (Sarvangadhara): Often called the 'Treatment of Kings', this involves squeezing warm medicated oil from cloth continuous over the entire body while simultaneously massaging it. It is unmatched for severe Vata disorders, muscular degeneration, and joint stiffness.\n\n• NJAVARAKIZHI: A unique sudation therapy where a special type of medicinal rice (Njavara) is cooked with herbal decoctions and milk, tied in boluses, and applied rhythmically over the body. It strengthens muscles, nourishes the nerves, and is highly effective for paralysis and muscle wasting.\n\n• UDHVARTHANAM: A vigorous deep-tissue massage using dry herbal powders. It is the primary Ayurvedic clinical intervention for lymphatic drainage, breaking down subcutaneous fat (Kapha reduction), and improving metabolic sluggishness.",
+      "common_uses": "These therapies form the core of our management protocols for neurological conditions, severe joint pain, stress disorders, muscular degeneration, and metabolic resets.",
+      "related_conditions": ["knee-joint-pain"]
+    },
+    "safety": {
+      "suitability": "Specific Kerala therapies (like Shirodhara or Pizhichil) are selected strictly based on your Nadi Pariksha (pulse diagnosis) and current Dosha assessment. Not all therapies are suitable for all patients. An initial consultation is mandatory.",
+      "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."
+    },
+    "metadata": {
+      "reviewed_by": "Dr. Irshad T.M.",
+      "reviewed_date": "August 2026",
+      "doctor_url": "/doctors/dr-irshad/"
+    }
+  }
+]

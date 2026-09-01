@@ -1,0 +1,61 @@
+:root {
+    /* Brand Colors - Earthy Organic & Cultural */
+    --color-botanical-900: #2C3E2D; /* Deep Kerala Forest */
+    --color-botanical-700: #3E5A41;
+    --color-sage: #E8EDE6;
+    --color-ivory: #F4F1EA; /* Warm Linen */
+    --color-white: #FFFFFF;
+    --color-brass: #C87941; /* Warm Terracotta / Laterite */
+    --color-charcoal: #3E3832; /* Soft Dark Brown */
+    --color-gray-soft: #EBE5D9; /* Darker Earthy Cream */
+
+    /* Semantic Roles */
+    --color-primary: var(--color-botanical-900);
+    --color-secondary: var(--color-botanical-700);
+    --color-bg: var(--color-ivory);
+    --color-surface: var(--color-gray-soft); /* Using earthy cream for cards */
+    --color-accent: var(--color-brass);
+    --color-border: rgba(93, 64, 55, 0.15); /* Soft brown border */
+    --color-text: var(--color-charcoal);
+
+    /* Typography */
+    --font-heading: 'Marcellus', serif;
+    --font-body: 'Jost', sans-serif;
+
+    /* Spacing Tokens */
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-6: 24px;
+    --space-8: 32px;
+    --space-12: 48px;
+    --space-16: 64px;
+    --space-20: 80px;
+    --space-24: 96px;
+    --space-30: 120px;
+
+    /* Shadows (Luxury feels elevated) */
+    --shadow-sm: 0 4px 12px rgba(44, 62, 45, 0.08);
+    --shadow-md: 0 12px 24px rgba(44, 62, 45, 0.12);
+    --shadow-lg: 0 24px 48px rgba(44, 62, 45, 0.15);
+
+    /* Organic Soft Radii */
+    --radius-sm: 12px;
+    --radius-md: 24px;
+    --radius-lg: 40px;
+    --radius-leaf: 40px 12px 40px 12px; /* Kerala leaf motif */
+
+    /* Section Padding */
+    --pad-section-desktop: var(--space-24);
+    --pad-section-tablet: var(--space-16);
+    --pad-section-mobile: var(--space-12);
+
+    /* Layout Containers */
+    --container-main: 1280px;
+    --container-editorial: 720px;
+    
+    /* Animation Timing */
+    --transition-micro: 150ms ease;
+    --transition-standard: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}

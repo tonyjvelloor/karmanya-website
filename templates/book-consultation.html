@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Consultation | Karmanya Ayurveda</title>
+    <meta name="description" content="Tell us what you're looking for and our team will help you understand the next step.">
+    <link rel="canonical" href="https://karmanyaayurveda.com/book-consultation/">
+    
+    <link rel="stylesheet" href="/css/tokens.css?v=3">
+    <link rel="stylesheet" href="/css/base.css?v=3">
+    <link rel="stylesheet" href="/css/components.css?v=3">
+    <style>
+        .form-group {
+            margin-bottom: var(--space-6);
+            text-align: left;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: var(--space-2);
+            font-weight: 500;
+        }
+        .form-control {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid var(--color-border);
+            border-radius: 4px;
+            font-family: var(--font-body);
+            font-size: 1rem;
+        }
+        .form-control:focus {
+            outline: none;
+            border-color: var(--color-primary);
+            box-shadow: 0 0 0 3px rgba(22, 51, 33, 0.1);
+        }
+    </style>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css?v=3" rel="stylesheet">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18375933203"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-18375933203');
+</script>
+</head>
+<body style="background: var(--color-bg);">
+
+    <!-- Global Header -->
+    <header class="global-header">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center; padding-top: var(--space-4); padding-bottom: var(--space-4);">
+            <a href="/" class="brand-logo" style="display: flex; align-items: center;">
+                <img src="/images/logo.png" alt="Karmanya Ayurveda Logo" style="height: 48px; width: auto;">
+            </a>
+            <nav class="desktop-nav" style="display: flex; gap: var(--space-6); align-items: center;">
+                <a href="/treatments/kerala-chikitsa/" class="nav-link">Kerala Treatments</a>
+                <a href="/treatments/panchakarma/" class="nav-link">Panchakarma</a>
+                <a href="/conditions/knee-joint-pain/" class="nav-link">Conditions</a>
+                <a href="/doctors/dr-irshad/" class="nav-link">Our Doctors</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section-padding">
+        <div class="container container-editorial" style="max-width: 600px; text-align: center;">
+            <h1 style="font-size: 3.5rem;">Start with a Consultation</h1>
+            <p style="font-size: 1.1rem; margin-bottom: var(--space-8);">Tell us what you're looking for and our team will help you understand the next step.</p>
+            
+            <div class="card" style="background: var(--color-surface); padding: var(--space-8);">
+                <form class="consultation-form" id="bookingForm" onsubmit="handleBooking(event)">
+                    <div class="form-group">
+                        <label class="form-label" for="name">Full Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="phone">Phone Number</label>
+                        <input type="tel" id="phone" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="concern">Primary Health Concern</label>
+                        <select id="concern" class="form-control" required>
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="joint_pain">Joint & Knee Pain</option>
+                            <option value="metabolic">Diabetes / Weight</option>
+                            <option value="womens_health">PCOS / Women's Wellness</option>
+                            <option value="stress">Stress / Insomnia</option>
+                            <option value="panchakarma">Panchakarma Inquiry</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block" style="width: 100%; font-size: 1.1rem; padding: 16px;">Request Consultation</button>
+                </form>
+            </div>
+            
+            <div style="margin-top: var(--space-8);">
+                <p style="color: #666; margin-bottom: var(--space-2);">Prefer WhatsApp?</p>
+                <a href="{{brand.whatsapp_url}}" style="color: #25D366; font-weight: 600; font-size: 1.1rem; display: inline-flex; align-items: center; gap: 8px;">
+                    Chat with Karmanya &rarr;
+                </a>
+            </div>
+            
+            <div class="clinical-disclaimer" style="margin-top: var(--space-12); font-size: 0.85rem; text-align: left; background: transparent; border-left: none; border-top: 1px solid var(--color-border); padding: var(--space-6) 0 0;">
+                Submitting this form does not establish a physician-patient relationship or constitute emergency medical care. If you are experiencing a medical emergency, please visit your nearest hospital.
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Analytics Tracking -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function handleBooking(e) {
+            e.preventDefault();
+            var concern = document.getElementById('concern').value;
+            
+            // Push conversion event to dataLayer for GTM to capture
+            window.dataLayer.push({
+                'event': 'generate_lead',
+                'lead_type': 'consultation_form',
+                'health_concern': concern
+            });
+            
+            alert("Thank you. Your consultation request has been received. Our team will contact you shortly.");
+            document.getElementById('bookingForm').reset();
+        }
+    </script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    once: true,
+    offset: 50
+  });
+</script>
+</body>
+</html>

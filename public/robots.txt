@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://karmanyaayurveda.com/sitemap.xml

@@ -1,0 +1,36 @@
+{
+  "brand": {
+    "name": "Karmanya Ayurveda Chikitsalaya",
+    "primary_claim": "Authentic Kerala Ayurveda. Personalized Around You.",
+    "subheadline": "Traditional Kerala Ayurvedic therapies delivered under physician-led care, with treatment plans personalized to your individual health needs.",
+    "location": "Pune",
+    "phone": "+91 98198 20017",
+    "whatsapp_url": "https://wa.me/919819820017",
+    "address": "27/11, Swaraj Garden Road, Near One Nation Apartment, Pimple Saudagar, Pimpri-Chinchwad, Pune, Maharashtra 411027",
+    "timings": "Monday to Sunday, 10:00 AM – 8:00 PM"
+  },
+  "positioning": {
+    "kerala_heritage": "Karmanya brings authentic Kerala Ayurvedic treatment practices to Pune, combining traditional therapies with personalized physician-led care.",
+    "physician_led_care": "Your treatment begins with consultation and assessment by a qualified Ayurvedic physician.",
+    "personalization": "Therapies are selected according to your individual needs, not standard packages.",
+    "ongoing_guidance": "Treatment, lifestyle guidance, and follow-up support for better long-term health.",
+    "metrics": [
+      {"value": "3+", "label": "Years of Clinical Excellence"},
+      {"value": "5,000+", "label": "Patient Consultations"},
+      {"value": "100%", "label": "Authentic Kerala Therapies"},
+      {"value": "4.9/5", "label": "Patient Satisfaction Rating"}
+    ],
+    "testimonials": [
+      {
+        "quote": "After struggling with severe joint pain for years, the authentic Panchakarma therapies at Karmanya provided immense relief. The physicians genuinely care about your long-term health, not just temporary fixes.",
+        "author": "Anjali M.",
+        "condition": "Joint Pain Management"
+      },
+      {
+        "quote": "Unlike other commercial Ayurvedic centers, Karmanya focuses on root-cause assessment. Dr. Irshad's Nadi Pariksha and subsequent treatment protocol transformed my metabolic health.",
+        "author": "Rajesh K.",
+        "condition": "Metabolic Reset"
+      }
+    ]
+  }
+}

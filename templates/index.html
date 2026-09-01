@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentic Kerala Ayurveda in Pune | {{brand.name}}</title>
+    <meta name="description" content="{{brand.subheadline}}">
+    <link rel="canonical" href="https://karmanyaayurveda.com/">
+    
+    <link rel="stylesheet" href="/css/tokens.css?v=3">
+    <link rel="stylesheet" href="/css/base.css?v=3">
+    <link rel="stylesheet" href="/css/components.css?v=3">
+    <style>
+        .hero {
+            position: relative;
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            background-color: var(--color-primary); /* fallback */
+        }
+        .hero .container {
+            position: relative;
+            z-index: 1;
+            max-width: 900px;
+        }
+        .hero-eyebrow {
+            color: var(--color-accent);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            display: block;
+            margin-bottom: var(--space-6);
+        }
+        .trust-strip {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(255,255,255,0.05);
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding: var(--space-4) 0;
+            text-align: center;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            z-index: 1;
+        }
+        .section-kerala {
+            background-color: var(--color-bg);
+            text-align: center;
+        }
+        .method-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: var(--space-4);
+        }
+        @media (max-width: 1024px) {
+            .method-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        @media (max-width: 768px) {
+            .method-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        .method-step {
+            padding: var(--space-6) 0;
+            border-top: 2px solid var(--color-border);
+        }
+        .local-seo-block {
+            background-color: var(--color-primary);
+            color: var(--color-white);
+            padding: var(--space-12) 0;
+        }
+        .local-seo-block h2 {
+            color: var(--color-white);
+        }
+        .local-seo-block a {
+            color: var(--color-accent);
+        }
+    </style>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css?v=3" rel="stylesheet">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18375933203"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-18375933203');
+</script>
+</head>
+<body>
+
+    <!-- Global Header -->
+    <header class="global-header">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center; padding-top: var(--space-4); padding-bottom: var(--space-4);">
+            <a href="/" class="brand-logo" style="display: flex; align-items: center;">
+                <img src="/images/logo.png" alt="Karmanya Ayurveda Logo" style="height: 48px; width: auto;">
+            </a>
+            <nav class="desktop-nav" style="display: flex; gap: var(--space-6); align-items: center;">
+                <a href="/treatments/kerala-chikitsa/" class="nav-link">Kerala Treatments</a>
+                <a href="/treatments/panchakarma/" class="nav-link">Panchakarma</a>
+                <a href="/conditions/knee-joint-pain/" class="nav-link">Conditions</a>
+                <a href="/doctors/dr-irshad/" class="nav-link">Our Doctors</a>
+                <a href="/book-consultation/" class="btn btn-primary" style="padding: 8px 24px; font-size: 0.9rem;">Book Consult</a>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+    <div class="hero" style="text-align: center; position: relative;">
+        <!-- Malayalam Watermark for true Kerala Essence -->
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: clamp(8rem, 20vw, 25rem); color: rgba(255,255,255,0.03); font-family: sans-serif; white-space: nowrap; z-index: 1; pointer-events: none; font-weight: 800; letter-spacing: -0.05em;">
+            കർമ്മണ്യ
+        </div>
+        
+        <!-- HIGGSFIELD AI VIDEO INTEGRATION -->
+        <!-- Replace 'YOUR_HIGGSFIELD_VIDEO.mp4' with the generated asset -->
+        <video autoplay muted loop playsinline poster="/images/hero-treatment.jpg" style="position: absolute; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto; transform: translate(-50%, -50%); z-index: 0; object-fit: cover;">
+            <!-- Uncomment and link when Higgsfield render is ready -->
+            <!-- <source src="/images/higgsfield-kerala-hero.mp4" type="video/mp4"> -->
+        </video>
+        
+        <!-- Elegant gradient overlay to ensure text readability -->
+        <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(135deg, rgba(14,35,21,0.85) 0%, rgba(14,35,21,0.6) 100%); z-index: 1;"></div>
+
+        <div class="container" style="display: flex; flex-direction: column; align-items: center; position: relative; z-index: 2;">
+            <span class="hero-eyebrow" style="text-align: center;">AUTHENTIC KERALA AYURVEDA · PUNE</span>
+            <h1 style="color: var(--color-white); font-size: clamp(3rem, 6vw, 5.5rem); margin-bottom: var(--space-6); text-align: center;">{{brand.primary_claim}}</h1>
+            <p style="font-size: 1.25rem; opacity: 0.9; margin-bottom: var(--space-8); max-width: 700px; text-align: center;">{{brand.subheadline}}</p>
+            
+            <div style="display: flex; gap: var(--space-4); flex-wrap: wrap; justify-content: center;">
+                <a href="/book-consultation/" class="btn" style="background: var(--color-white); color: var(--color-primary);">Book a Consultation</a>
+                <a href="/treatments/kerala-chikitsa/" class="btn btn-secondary" style="border-color: rgba(255,255,255,0.3); color: var(--color-white);">Explore Kerala Treatments</a>
+            </div>
+        </div>
+        <div class="trust-strip" style="position: absolute; bottom: 0; left: 0; width: 100%; z-index: 2; background: linear-gradient(90deg, #8B6914, #D4AF37, #F3E5AB, #D4AF37, #8B6914); color: #1a1a1a; font-weight: 600; text-transform: uppercase; letter-spacing: 0.15em; box-shadow: 0 -4px 20px rgba(0,0,0,0.2);">
+            Experienced Ayurvedic Physicians · Authentic Kerala Therapies · Personalized Care · Pune
+        </div>
+    </div>
+    <div style="width: 100%; height: 1px; background: linear-gradient(90deg, transparent, var(--color-accent), transparent); opacity: 0.3; margin-top: -1px; position: relative; z-index: 2;"></div>
+
+    <!-- The Kerala Narrative Section -->
+    <section class="section-padding section-kerala" style="background-color: var(--color-bg); position: relative;">
+        <!-- Subtle background pattern for texture -->
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.03; background-image: radial-gradient(var(--color-primary) 1px, transparent 1px); background-size: 20px 20px; z-index: 0;"></div>
+        
+        <div class="container container-editorial" style="position: relative; z-index: 1; text-align: center;" data-aos="fade-up">
+            <span style="display: block; font-size: 0.85rem; font-weight: 600; color: var(--color-accent); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: var(--space-4);">The Ashtavaidya Heritage</span>
+            <h2 style="font-size: 3.5rem; margin-bottom: var(--space-6);">The Kerala tradition, brought to Pune.</h2>
+            <p style="font-size: 1.25rem; margin-bottom: var(--space-12); color: #555; max-width: 600px; margin-left: auto; margin-right: auto;">{{positioning.kerala_heritage}}</p>
+            
+            <div class="grid-2" style="text-align: left; margin-bottom: var(--space-12);">
+                <div class="card luxury-card">
+                    <div class="card-image-placeholder" style="background: var(--color-primary); height: 160px; border-radius: var(--radius-sm) var(--radius-sm) 0 0; margin: calc(var(--space-8) * -1) calc(var(--space-8) * -1) var(--space-6) calc(var(--space-8) * -1); position: relative; overflow: hidden;">
+                        <div style="position: absolute; bottom: 10px; left: 10px; color: var(--color-accent); font-size: 0.75rem; letter-spacing: 2px; text-transform: uppercase;">01 / Therapy</div>
+                    </div>
+                    <h4 style="color: var(--color-primary); font-size: 1.5rem; font-family: var(--font-heading); text-transform: none; letter-spacing: 0;">Kizhi & Bolus Therapies</h4>
+                    <p style="font-size: 0.95rem; margin-bottom: 0;">Targeted herbal poultices applied rhythmically to alleviate deep muscular and joint discomfort.</p>
+                </div>
+                
+                <div class="card luxury-card">
+                    <div class="card-image-placeholder" style="background: var(--color-primary); height: 160px; border-radius: var(--radius-sm) var(--radius-sm) 0 0; margin: calc(var(--space-8) * -1) calc(var(--space-8) * -1) var(--space-6) calc(var(--space-8) * -1); position: relative; overflow: hidden;">
+                        <div style="position: absolute; bottom: 10px; left: 10px; color: var(--color-accent); font-size: 0.75rem; letter-spacing: 2px; text-transform: uppercase;">02 / Therapy</div>
+                    </div>
+                    <h4 style="color: var(--color-primary); font-size: 1.5rem; font-family: var(--font-heading); text-transform: none; letter-spacing: 0;">Panchakarma Detoxification</h4>
+                    <p style="font-size: 0.95rem; margin-bottom: 0;">Comprehensive, physician-guided purification protocols to address chronic metabolic imbalances.</p>
+                </div>
+            </div>
+            
+            <a href="/treatments/kerala-chikitsa/" class="btn btn-secondary" style="border-color: var(--color-accent); color: var(--color-primary);">Explore All Kerala Treatments &rarr;</a>
+        </div>
+    </section>
+
+    <!-- The Karmanya Method -->
+    <section class="section-padding" style="background: var(--color-surface); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border);">
+        <div class="container">
+            <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: var(--space-8); flex-wrap: wrap; gap: var(--space-6);">
+                <div style="max-width: 600px;">
+                    <span style="display: block; font-size: 0.85rem; font-weight: 600; color: var(--color-accent); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: var(--space-2);">Our Approach</span>
+                    <h2 style="font-size: 3rem; margin-bottom: 0;">Physician-led care, personalized for you.</h2>
+                </div>
+            </div>
+                     <div style="display: grid; grid-template-columns: repeat(12, 1fr); align-items: center; gap: 0; position: relative;">
+                
+                <!-- Large Background Image Side -->
+                <div style="grid-column: 1 / 9; position: relative; border-radius: var(--radius-leaf); overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.1); z-index: 1;">
+                    <img src="/images/doctor-consult.jpg" alt="Ayurvedic Doctor Consultation at Karmanya" style="width: 100%; height: 600px; object-fit: cover; display: block; filter: sepia(0.15) contrast(1.1);">
+                </div>
+                
+                <!-- Floating Editorial Card Side -->
+                <div style="grid-column: 7 / 13; background: var(--color-bg); padding: var(--space-8); border-radius: var(--radius-md); box-shadow: 0 10px 50px rgba(14,35,21,0.08); position: relative; z-index: 2; margin-top: 40px; border-left: 3px solid var(--color-accent);" data-aos="fade-left" data-aos-delay="200">
+                    <div class="method-grid" style="display: flex; flex-direction: column; gap: var(--space-6);">
+                        <div style="display: flex; gap: var(--space-4);">
+                            <span style="color: var(--color-accent); font-family: var(--font-heading); font-size: 2.5rem; line-height: 1; font-style: italic;">01</span>
+                            <div>
+                                <h3 style="font-size: 1.5rem; margin-bottom: var(--space-1); font-family: var(--font-heading);">Understand & Assess</h3>
+                                <p style="font-size: 1rem; margin-bottom: 0; color: #555;">Deep dive into medical history and traditional Nadi Pariksha (pulse diagnosis).</p>
+                            </div>
+                        </div>
+                        <div style="display: flex; gap: var(--space-4);">
+                            <span style="color: var(--color-accent); font-family: var(--font-heading); font-size: 2.5rem; line-height: 1; font-style: italic;">02</span>
+                            <div>
+                                <h3 style="font-size: 1.5rem; margin-bottom: var(--space-1); font-family: var(--font-heading);">Personalize</h3>
+                                <p style="font-size: 1rem; margin-bottom: 0; color: #555;">A treatment protocol designed specifically for your unique Dosha imbalances.</p>
+                            </div>
+                        </div>
+                        <div style="display: flex; gap: var(--space-4);">
+                            <span style="color: var(--color-accent); font-family: var(--font-heading); font-size: 2.5rem; line-height: 1; font-style: italic;">03</span>
+                            <div>
+                                <h3 style="font-size: 1.5rem; margin-bottom: var(--space-1); font-family: var(--font-heading);">Guide & Follow-up</h3>
+                                <p style="font-size: 1rem; margin-bottom: 0; color: #555;">Ongoing lifestyle and dietary guidance to ensure long-term sustained wellness.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Metrics (Authority) -->
+    <section class="section-padding" style="background-color: var(--color-primary); color: var(--color-white); border-bottom: 1px solid rgba(212, 175, 55, 0.2);">
+        <div class="container">
+            <div class="grid-4" style="text-align: center;">
+                {{#positioning.metrics}}
+                <div style="padding: var(--space-4);">
+                    <h3 style="font-size: 3.5rem; color: var(--color-accent); margin-bottom: var(--space-2);">{{value}}</h3>
+                    <p style="font-size: 1.1rem; color: var(--color-white); opacity: 0.9; margin: 0; font-family: var(--font-heading); letter-spacing: 1px;">{{label}}</p>
+                </div>
+                {{/positioning.metrics}}
+            </div>
+        </div>
+    </section>
+
+    <!-- Patient Success Stories (Testimonials) -->
+    <section class="section-padding" style="background-color: var(--color-bg);">
+        <div class="container container-editorial">
+            <div style="text-align: center; margin-bottom: var(--space-12);">
+                <span style="display: block; font-size: 0.85rem; font-weight: 600; color: var(--color-accent); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: var(--space-2);">Patient Success</span>
+                <h2 style="font-size: 3.5rem;">Authentic care. Real outcomes.</h2>
+            </div>
+            
+            <div class="grid-2">
+                {{#positioning.testimonials}}
+                <div class="card luxury-card" style="display: flex; flex-direction: column; justify-content: space-between;">
+                    <div>
+                        <div style="color: var(--color-accent); font-size: 1.5rem; margin-bottom: var(--space-4);">★★★★★</div>
+                        <p style="font-size: 1.15rem; font-style: italic; color: #444; line-height: 1.6;">"{{quote}}"</p>
+                    </div>
+                    <div style="margin-top: var(--space-6); border-top: 1px solid var(--color-border); padding-top: var(--space-4);">
+                        <p style="font-weight: 600; color: var(--color-primary); margin-bottom: 0;">{{author}}</p>
+                        <p style="font-size: 0.85rem; color: #777; margin-bottom: 0;">Treated for: {{condition}}</p>
+                    </div>
+                </div>
+                {{/positioning.testimonials}}
+            </div>
+        </div>
+    </section>
+    
+    <!-- Local SEO & NAP Block -->
+    <section class="local-seo-block" style="background: var(--color-primary); color: var(--color-white); padding: var(--space-16) 0; position: relative; overflow: hidden;">
+        <!-- Decorative brass accent -->
+        <div style="position: absolute; top: 0; left: 0; width: 10px; height: 100%; background: var(--color-accent);"></div>
+        
+        <div class="container">
+            <div class="grid-2" style="align-items: center;">
+                <div>
+                    <h2 style="font-size: 3rem; color: var(--color-white); margin-bottom: var(--space-6); line-height: 1;">Authentic Kerala Ayurveda in Pune.</h2>
+                    <p style="font-size: 1.15rem; opacity: 0.8; margin-bottom: var(--space-8); max-width: 500px;">
+                        {{brand.name}} provides physician-led Ayurvedic care in Pimple Saudagar, Pune, with a focus on traditional therapies and personalized treatment approaches.
+                    </p>
+                    <div style="display: flex; gap: var(--space-4);">
+                        <a href="https://maps.google.com/?q={{brand.address}}" class="btn btn-primary" style="background: var(--color-accent); color: var(--color-primary);" target="_blank" rel="noopener">Get Directions</a>
+                        <a href="tel:{{brand.phone}}" class="btn btn-secondary" style="border-color: rgba(255,255,255,0.2); color: var(--color-white);">Call Clinic</a>
+                    </div>
+                </div>
+                
+                <div style="background: rgba(255,255,255,0.03); padding: var(--space-8); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-lg);">
+                    <div style="margin-bottom: var(--space-6); padding-bottom: var(--space-6); border-bottom: 1px solid rgba(255,255,255,0.1);">
+                        <h4 style="color: var(--color-accent); font-size: 0.85rem; margin-bottom: var(--space-2);">Visit Our Centre</h4>
+                        <p style="opacity: 0.9; margin-bottom: 0; font-size: 1.1rem;">{{brand.address}}</p>
+                    </div>
+                    <div>
+                        <h4 style="color: var(--color-accent); font-size: 0.85rem; margin-bottom: var(--space-2);">Clinic Hours</h4>
+                        <p style="opacity: 0.9; margin-bottom: 0; font-size: 1.1rem;">{{brand.timings}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Editorial Footer -->
+    <footer style="background: var(--color-bg); padding: var(--space-12) 0 var(--space-6); border-top: 1px solid var(--color-border);">
+        <div class="container">
+            <div class="grid-4" style="margin-bottom: var(--space-12);">
+                <div style="grid-column: span 2;">
+                    <a href="/" style="font-family: var(--font-heading); font-size: 2rem; color: var(--color-primary); display: block; margin-bottom: var(--space-4);">{{brand.name}}</a>
+                    <p style="max-width: 300px; font-size: 0.95rem;">{{brand.subheadline}}</p>
+                </div>
+                <div>
+                    <h4 style="font-size: 0.85rem; color: var(--color-primary); margin-bottom: var(--space-4);">Specialties</h4>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 8px;"><a href="/treatments/panchakarma/" style="color: #666; font-size: 0.95rem;">Panchakarma</a></li>
+                        <li style="margin-bottom: 8px;"><a href="/treatments/kerala-chikitsa/" style="color: #666; font-size: 0.95rem;">Kerala Chikitsa</a></li>
+                        <li style="margin-bottom: 8px;"><a href="/conditions/knee-joint-pain/" style="color: #666; font-size: 0.95rem;">Pain Management</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="font-size: 0.85rem; color: var(--color-primary); margin-bottom: var(--space-4);">Connect</h4>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 8px;"><a href="/book-consultation/" style="color: #666; font-size: 0.95rem;">Book Consultation</a></li>
+                        <li style="margin-bottom: 8px;"><a href="{{brand.whatsapp_url}}" style="color: #666; font-size: 0.95rem;" target="_blank">WhatsApp</a></li>
+                        <li style="margin-bottom: 8px;"><a href="tel:{{brand.phone}}" style="color: #666; font-size: 0.95rem;">{{brand.phone}}</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div style="border-top: 1px solid var(--color-border); padding-top: var(--space-6); display: flex; justify-content: space-between; font-size: 0.85rem; color: #888;">
+                <span>&copy; 2026 {{brand.name}}. All rights reserved.</span>
+                <span>Designed for Clinical Excellence.</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile CTA Bar & Tracking -->
+    <script>window.dataLayer = window.dataLayer || [];</script>
+    <div class="mobile-cta-bar">
+        <a href="{{brand.whatsapp_url}}" onclick="window.dataLayer.push({'event':'whatsapp_click'}); gtag('event', 'conversion', {'send_to': 'AW-18375933203/91coCMuK5uscEJP6qbpE'});" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="tel:{{brand.phone}}" onclick="window.dataLayer.push({'event':'phone_click'}); gtag('event', 'conversion', {'send_to': 'AW-18375933203/91coCMuK5uscEJP6qbpE'});">Call</a>
+        <a href="/book-consultation/" onclick="window.dataLayer.push({'event':'book_consultation_click'})">Book Consult.</a>
+    </div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    once: true,
+    offset: 50
+  });
+</script>
+</body>
+</html>

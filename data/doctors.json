@@ -1,0 +1,66 @@
+[
+  {
+    "id": "dr-irshad",
+    "name": "Dr. Irshad T.M.",
+    "slug": "dr-irshad",
+    "title": "Chief Ayurvedic Physician",
+    "qualifications": "BAMS, MD (Ayurveda)",
+    "seo": {
+      "meta_title": "Dr. Irshad T.M. | Best Ayurvedic Doctor in Pune | Karmanya Ayurveda",
+      "meta_description": "Consult Dr. Irshad T.M., a leading Ayurvedic physician in Pimple Saudagar, Pune, specializing in Panchakarma, pain management, and Kerala therapies."
+    },
+    "marketing": {
+      "hero_title": "Dr. Irshad T.M.",
+      "hero_description": "Expert in authentic Kerala Ayurveda, Panchakarma, and specialized pain management.",
+      "image_url": "/images/doctors/dr-irshad-portrait.jpg"
+    },
+    "clinical": {
+      "experience": "15+ Years",
+      "clinical_focus": "Specializes in complex musculoskeletal disorders, metabolic syndromes, and the precise administration of traditional Panchakarma therapies.",
+      "ayurvedic_approach": "Dr. Irshad utilizes classical Nadi Pariksha (pulse diagnosis) combined with a deep understanding of Kerala's Ashtavaidya tradition to formulate personalized treatment protocols.",
+      "specialties": ["Pain Management", "Panchakarma", "Kerala Chikitsa", "Metabolic Disorders"],
+      "related_treatments": ["panchakarma", "kizhi", "pizhichil"],
+      "related_conditions": ["knee-joint-pain"]
+    },
+    "safety": {
+      "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."
+    },
+    "metadata": {
+      "reviewed_by": "Clinical Review Board",
+      "reviewed_date": "August 2026",
+      "doctor_url": "/doctors/dr-irshad/"
+    }
+  },
+  {
+    "id": "dr-tejasvi",
+    "name": "Dr. Tejasvi",
+    "slug": "dr-tejasvi",
+    "title": "Senior Ayurvedic Consultant",
+    "qualifications": "BAMS",
+    "seo": {
+      "meta_title": "Dr. Tejasvi | Ayurvedic Doctor in Pimple Saudagar, Pune | Karmanya",
+      "meta_description": "Consult Dr. Tejasvi, an experienced Ayurvedic physician in Pune specializing in women's wellness, skin health, and lifestyle disorders."
+    },
+    "marketing": {
+      "hero_title": "Dr. Tejasvi",
+      "hero_description": "Specialist in women's health, dermatology, and lifestyle-related metabolic management.",
+      "image_url": "/images/doctors/dr-tejasvi-portrait.jpg"
+    },
+    "clinical": {
+      "experience": "10+ Years",
+      "clinical_focus": "Focuses on holistic wellness, specifically addressing PCOS/PCOD, skin disorders, and stress-induced insomnia.",
+      "ayurvedic_approach": "Emphasizes the critical role of Ahara (diet) and Vihara (lifestyle) alongside targeted herbal formulations to restore Dosha equilibrium.",
+      "specialties": ["Women's Wellness", "Dermatology", "Stress Management", "Digestive Health"],
+      "related_treatments": ["uzhichil", "dhara"],
+      "related_conditions": []
+    },
+    "safety": {
+      "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."
+    },
+    "metadata": {
+      "reviewed_by": "Clinical Review Board",
+      "reviewed_date": "August 2026",
+      "doctor_url": "/doctors/dr-tejasvi/"
+    }
+  }
+]

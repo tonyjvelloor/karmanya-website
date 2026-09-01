@@ -1,0 +1,194 @@
+/* Buttons */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 28px;
+    font-family: var(--font-body);
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: all var(--transition-standard);
+    text-align: center;
+    border: 1px solid transparent;
+    letter-spacing: 0.02em;
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.btn-secondary:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.btn-block {
+    display: flex;
+    width: 100%;
+}
+
+/* Form Controls */
+.form-group {
+    margin-bottom: var(--space-6);
+}
+
+.form-label {
+    display: block;
+    margin-bottom: var(--space-2);
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--color-primary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.form-control {
+    width: 100%;
+    padding: 16px;
+    font-size: 1rem;
+    font-family: var(--font-body);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    background-color: var(--color-gray-soft);
+    transition: all var(--transition-micro);
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: var(--color-accent);
+    background-color: var(--color-white);
+    box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
+}
+
+/* Cards */
+.card {
+    background-color: var(--color-surface);
+    border: 1px solid transparent;
+    border-radius: var(--radius-md);
+    padding: var(--space-8);
+    box-shadow: var(--shadow-sm);
+    transition: all var(--transition-standard);
+}
+
+.card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+    border-color: rgba(212, 175, 55, 0.2);
+}
+
+/* Global Navigation */
+.global-header {
+    background-color: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+}
+
+.desktop-nav a.nav-link {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--color-text);
+    transition: color var(--transition-micro);
+}
+
+.desktop-nav a.nav-link:hover {
+    color: var(--color-accent);
+}
+
+@media (max-width: 768px) {
+    .desktop-nav {
+        display: none !important;
+    }
+}
+
+/* Medical Review Block */
+.medically-reviewed {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    background-color: var(--color-gray-soft);
+    padding: var(--space-2) var(--space-4);
+    border-radius: 20px;
+    font-size: 0.85rem;
+    color: var(--color-primary);
+    margin-bottom: var(--space-8);
+}
+
+.medically-reviewed a {
+    color: var(--color-primary);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/* Clinical Disclaimer */
+.clinical-disclaimer {
+    background-color: rgba(212, 175, 55, 0.05);
+    border-left: 3px solid var(--color-accent);
+    padding: var(--space-4) var(--space-6);
+    font-size: 0.95rem;
+    color: var(--color-primary);
+    margin: var(--space-8) 0;
+    font-style: italic;
+}
+
+/* Mobile Bottom Bar (iOS Safe Area Enabled) */
+.mobile-cta-bar {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background: var(--color-surface);
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
+    padding-bottom: env(safe-area-inset-bottom);
+}
+
+@media (max-width: 768px) {
+    .mobile-cta-bar {
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+    }
+    
+    body {
+        padding-bottom: calc(70px + env(safe-area-inset-bottom));
+    }
+    
+    .mobile-cta-bar a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 16px 0;
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: var(--color-primary);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        border-right: 1px solid var(--color-border);
+    }
+    
+    .mobile-cta-bar a:last-child {
+        background-color: var(--color-primary);
+        color: var(--color-accent);
+        border: none;
+    }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "knee-joint-pain",
+    "title": "Knee & Joint Pain",
+    "slug": "knee-joint-pain",
+    "seo": {
+      "meta_title": "Ayurvedic Treatment for Knee & Joint Pain in Pune | Karmanya",
+      "meta_description": "Personalized Ayurvedic approach to knee and joint pain, combining authentic Kerala therapies with physician-led care."
+    },
+    "marketing": {
+      "hero_eyebrow": "PAIN & MOBILITY",
+      "hero_title": "Ayurvedic Approach to Knee & Joint Pain",
+      "hero_description": "Personalized treatment combining Authentic Kerala therapies, physician assessment, and lifestyle guidance."
+    },
+    "clinical": {
+      "ayurvedic_perspective": "Ayurveda traditionally interprets certain musculoskeletal complaints through concepts such as Vata imbalance and tissue involvement (Dhatu Kshaya). Your physician will assess your individual presentation before recommending treatment.",
+      "assessment_process": "Your consultation will include Nadi Pariksha (pulse diagnosis), a detailed lifestyle review, and a physical mobility assessment to determine the root cause of the discomfort.",
+      "related_treatments": ["kizhi", "uzhichil", "panchakarma"]
+    },
+    "safety": {
+      "disclaimer": "These therapies are not selected as a standard package. Your physician determines an appropriate approach based on your individual assessment.",
+      "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."
+    },
+    "faqs": [
+      {
+        "question": "Can Ayurveda cure knee joint pain permanently?",
+        "answer": "Ayurveda focuses on treating the root cause (such as Vata dosha imbalance and joint degeneration) rather than just masking the pain. While 'permanent cure' depends on the severity (e.g., stage of osteoarthritis), our Panchakarma therapies aim for long-term mobility and sustained pain relief."
+      },
+      {
+        "question": "How long does Panchakarma treatment for joint pain take?",
+        "answer": "A typical treatment protocol spans 7 to 14 days, depending on your clinical assessment. This includes therapies like Janu Basti, Patra Pinda Sweda (Kizhi), and internal medications."
+      },
+      {
+        "question": "Do I need to stop my allopathic painkillers during treatment?",
+        "answer": "Do not stop any prescribed medication abruptly. During your initial consultation, our physician will review your current prescriptions and create an integrative tapering plan as your Ayurvedic treatment begins to take effect."
+      }
+    ],
+    "metadata": {
+      "reviewed_by": "Dr. Irshad T.M.",
+      "reviewed_date": "August 2026",
+      "doctor_url": "/doctors/dr-irshad/"
+    }
+  }
+]
