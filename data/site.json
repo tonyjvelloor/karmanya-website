@@ -6,8 +6,54 @@
     "location": "Pune",
     "phone": "+91 98198 20017",
     "whatsapp_url": "https://wa.me/919819820017",
-    "address": "27/11, Swaraj Garden Road, Near One Nation Apartment, Pimple Saudagar, Pimpri-Chinchwad, Pune, Maharashtra 411027",
-    "timings": "Monday to Sunday, 10:00 AM – 8:00 PM"
+    "address": "27/11, Swaraj Garden Road, Near One Nation Apartment, Pimple Saudagar, Pimpri-Chinchwad, Maharashtra 411027",
+    "timings": "Monday to Sunday, 10:00 AM \u2013 8:00 PM",
+    "geo": {
+      "latitude": 18.5956,
+      "longitude": 73.7979
+    },
+    "opening_hours": [
+      {
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "10:00",
+        "closes": "20:00"
+      }
+    ],
+    "seo": {
+      "local_target": "Pimple Saudagar, Pune",
+      "primary_keyword": "Ayurvedic Clinic in Pimple Saudagar, Pune"
+    },
+    "service_areas": [
+      "Pimple Saudagar",
+      "Wakad",
+      "Hinjawadi",
+      "Baner",
+      "Aundh",
+      "Pimpri-Chinchwad",
+      "Rahatani",
+      "Kalewadi",
+      "Ravet",
+      "Punawale"
+    ],
+    "neighborhood_keywords": [
+      "Ayurvedic Clinic in Pimple Saudagar",
+      "Ayurvedic Doctor near Wakad Pune",
+      "Panchakarma in Hinjawadi IT Park",
+      "Knee Pain Treatment near Baner Pune",
+      "Ayurveda Clinic near Aundh",
+      "PCMC Ayurvedic Hospital"
+    ],
+    "google_maps_cid": "3077549578320836260",
+    "google_maps_url": "https://maps.google.com/?cid=3077549578320836260",
+    "search_url": "https://www.google.com/search?q=karmanya+ayurveda+address&ludocid=3077549578320836260"
   },
   "positioning": {
     "kerala_heritage": "Karmanya brings authentic Kerala Ayurvedic treatment practices to Pune, combining traditional therapies with personalized physician-led care.",
@@ -15,10 +61,22 @@
     "personalization": "Therapies are selected according to your individual needs, not standard packages.",
     "ongoing_guidance": "Treatment, lifestyle guidance, and follow-up support for better long-term health.",
     "metrics": [
-      {"value": "3+", "label": "Years of Clinical Excellence"},
-      {"value": "5,000+", "label": "Patient Consultations"},
-      {"value": "100%", "label": "Authentic Kerala Therapies"},
-      {"value": "4.9/5", "label": "Patient Satisfaction Rating"}
+      {
+        "value": "3+",
+        "label": "Years of Clinical Excellence"
+      },
+      {
+        "value": "5,000+",
+        "label": "Patient Consultations"
+      },
+      {
+        "value": "100%",
+        "label": "Authentic Kerala Therapies"
+      },
+      {
+        "value": "4.9/5",
+        "label": "Patient Satisfaction Rating"
+      }
     ],
     "testimonials": [
       {

@@ -4,18 +4,23 @@
     "title": "Knee & Joint Pain",
     "slug": "knee-joint-pain",
     "seo": {
-      "meta_title": "Ayurvedic Treatment for Knee & Joint Pain in Pune | Karmanya",
-      "meta_description": "Personalized Ayurvedic approach to knee and joint pain, combining authentic Kerala therapies with physician-led care."
+      "meta_title": "Non-Surgical Ayurvedic Treatment for Knee Pain in Pune | Karmanya",
+      "meta_description": "Avoid knee surgery with personalized Ayurvedic treatment in Pune. Authentic Kerala therapies, Janu Basti, and physician-led care for chronic joint pain relief."
     },
     "marketing": {
-      "hero_eyebrow": "PAIN & MOBILITY",
-      "hero_title": "Ayurvedic Approach to Knee & Joint Pain",
-      "hero_description": "Personalized treatment combining Authentic Kerala therapies, physician assessment, and lifestyle guidance."
+      "hero_eyebrow": "NON-SURGICAL PAIN RELIEF",
+      "hero_title": "Ayurvedic Treatment for Knee & Joint Pain",
+      "hero_description": "A natural, non-surgical alternative for managing chronic knee pain and arthritis, combining authentic Kerala therapies with physician-led care in Pimple Saudagar."
     },
     "clinical": {
-      "ayurvedic_perspective": "Ayurveda traditionally interprets certain musculoskeletal complaints through concepts such as Vata imbalance and tissue involvement (Dhatu Kshaya). Your physician will assess your individual presentation before recommending treatment.",
-      "assessment_process": "Your consultation will include Nadi Pariksha (pulse diagnosis), a detailed lifestyle review, and a physical mobility assessment to determine the root cause of the discomfort.",
-      "related_treatments": ["kizhi", "uzhichil", "panchakarma"]
+      "ayurvedic_perspective": "In Ayurveda, chronic knee pain is traditionally understood as Sandhigata Vata (osteoarthritis) or Amavata (inflammatory arthritis). As Vata dosha accumulates, synovial fluid (Sleshaka Kapha) depletes, causing cartilage friction, stiffness, and bone spurs. Rather than masking pain with NSAIDs, Ayurvedic protocols focus on nourishing the Dhatus (tissues) and lubricating the joint space.",
+      "assessment_process": "Your consultation includes classical Nadi Pariksha (pulse diagnosis), physical range-of-motion assessment, review of recent X-rays/MRIs, and evaluation of your metabolic digestive fire (Agni).",
+      "related_treatments": [
+        "janu-basti",
+        "kizhi",
+        "panchakarma",
+        "abhyangam"
+      ]
     },
     "safety": {
       "disclaimer": "These therapies are not selected as a standard package. Your physician determines an appropriate approach based on your individual assessment.",
@@ -23,21 +28,299 @@
     },
     "faqs": [
       {
-        "question": "Can Ayurveda cure knee joint pain permanently?",
-        "answer": "Ayurveda focuses on treating the root cause (such as Vata dosha imbalance and joint degeneration) rather than just masking the pain. While 'permanent cure' depends on the severity (e.g., stage of osteoarthritis), our Panchakarma therapies aim for long-term mobility and sustained pain relief."
+        "question": "Can Ayurveda help me avoid knee replacement surgery?",
+        "answer": "For patients in early to moderate stages of knee osteoarthritis (Grades 1, 2, and early Grade 3), Ayurvedic therapies like Janu Basti and Kizhi help lubricate cartilage, reduce osteophyte inflammation, and restore pain-free walking mobility, often eliminating or delaying the need for surgical replacement."
       },
       {
-        "question": "How long does Panchakarma treatment for joint pain take?",
-        "answer": "A typical treatment protocol spans 7 to 14 days, depending on your clinical assessment. This includes therapies like Janu Basti, Patra Pinda Sweda (Kizhi), and internal medications."
+        "question": "How long does Ayurvedic treatment for knee pain take?",
+        "answer": "A typical intensive outpatient protocol spans 7 to 14 days of daily 45 to 60-minute therapeutic procedures, accompanied by prescribed classical herbal rasayanas and dietary guidance for sustained long-term relief."
       },
       {
-        "question": "Do I need to stop my allopathic painkillers during treatment?",
-        "answer": "Do not stop any prescribed medication abruptly. During your initial consultation, our physician will review your current prescriptions and create an integrative tapering plan as your Ayurvedic treatment begins to take effect."
+        "question": "What specific therapies are used for knee pain?",
+        "answer": "Our primary interventions include Janu Basti (retaining warm medicated herbal oil over the knee joint in a dough dam), Patra Pinda Sweda (herbal leaf bolus massage), and systemic Vata-pacifying internal formulations."
       }
     ],
     "metadata": {
       "reviewed_by": "Dr. Irshad T.M.",
-      "reviewed_date": "August 2026",
+      "reviewed_date": "September 2026",
+      "doctor_url": "/doctors/dr-irshad/"
+    }
+  },
+  {
+    "id": "spine-sciatica-back-pain",
+    "title": "Spine, Sciatica & Back Pain",
+    "slug": "spine-sciatica-back-pain",
+    "seo": {
+      "meta_title": "Ayurvedic Treatment for Sciatica & Slip Disc in Pune | Karmanya",
+      "meta_description": "Non-surgical Ayurvedic care for slip disc, sciatica, and chronic lower back pain in Pune. Authentic Kati Basti and Kerala therapies under MD Ayurvedic physicians."
+    },
+    "marketing": {
+      "hero_eyebrow": "SPINAL CARE & MOBILITY",
+      "hero_title": "Ayurvedic Treatment for Spine, Sciatica & Back Pain",
+      "hero_description": "Targeted non-invasive therapies for lumbar disc herniation, sciatic nerve compression, and chronic back stiffness in Pimple Saudagar, Pune."
+    },
+    "clinical": {
+      "ayurvedic_perspective": "Lower back pain and sciatica are clinically termed Kati Shula and Gridhrasi in classical Ayurveda. Aggravated Vata settles in the lumbar spine (Katisthana), dehydrating the intervertebral discs and inflaming the nerve roots. Classical treatments restore elasticity to spinal ligaments, soothe nerve irritation, and relax paraspinal muscle spasms.",
+      "assessment_process": "Detailed spinal range-of-motion examination, neurological reflex check, evaluation of radiating leg pain, posture assessment, and Nadi Pariksha.",
+      "related_treatments": [
+        "kati-basti",
+        "kizhi",
+        "panchakarma",
+        "abhyangam"
+      ]
+    },
+    "safety": {
+      "disclaimer": "Therapies are tailored strictly to spinal imaging and physical diagnostic findings. Not all back conditions are managed identically.",
+      "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."
+    },
+    "faqs": [
+      {
+        "question": "What is Kati Basti and how does it help back pain?",
+        "answer": "Kati Basti is a specialized procedure where a reservoir of warm, herbal medicated oil is retained over the lumbosacral region inside a dough ring for 30 to 45 minutes. The continuous therapeutic heat and herbal actives penetrate deeply to rehydrate compressed spinal discs and ease nerve compression."
+      },
+      {
+        "question": "Can sciatica radiating down the leg be managed without surgery?",
+        "answer": "Yes. Sciatica (Gridhrasi) responds very well to conservative Ayurvedic treatment combining Kati Basti, Patra Pinda Sweda (Kizhi), and herbal anti-inflammatory decoctions that reduce swelling around the sciatic nerve root."
+      },
+      {
+        "question": "How many sessions are typically required?",
+        "answer": "Most acute to subacute lumbar cases require a course of 7 to 10 consecutive daily sessions, while chronic degenerative disc conditions may benefit from 14 sessions followed by maintenance exercises."
+      }
+    ],
+    "metadata": {
+      "reviewed_by": "Dr. Irshad T.M.",
+      "reviewed_date": "September 2026",
+      "doctor_url": "/doctors/dr-irshad/"
+    }
+  },
+  {
+    "id": "cervical-spondylosis-neck-pain",
+    "title": "Cervical Spondylosis & Neck Pain",
+    "slug": "cervical-spondylosis-neck-pain",
+    "seo": {
+      "meta_title": "Ayurvedic Treatment for Cervical Spondylosis in Pune | Karmanya",
+      "meta_description": "Relief from tech-neck, cervical spondylosis, and radiating arm numbness in Pune. Authentic Griva Basti and Kerala therapies tailored for desk professionals."
+    },
+    "marketing": {
+      "hero_eyebrow": "POSTURE & DESK WORK HEALTH",
+      "hero_title": "Ayurvedic Care for Cervical Spondylosis & Tech-Neck",
+      "hero_description": "Physician-led protocols to relieve chronic neck stiffness, shoulder blade tension, and radiating arm numbness caused by prolonged screen work and disc degeneration."
+    },
+    "clinical": {
+      "ayurvedic_perspective": "Known as Griva Sandhigata Vata or Manyasthambha, cervical spondylosis arises when sedentary posture, forward head tilt, and mental stress dry up the cervical discs and tighten the trapezius and levator scapulae muscles. Our protocols combine local oil reservoirs (Griva Basti) with Nasya (nasal administration) to clear neurological channels above the clavicle.",
+      "assessment_process": "Cervical posture analysis, evaluation of radiating numbness/tingling in fingers, range-of-motion testing, and pulse diagnosis.",
+      "related_treatments": [
+        "kizhi",
+        "abhyangam",
+        "shirodhara",
+        "panchakarma"
+      ]
+    },
+    "safety": {
+      "disclaimer": "Individual treatment plans depend on cervical MRI findings and clinical presentation.",
+      "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."
+    },
+    "faqs": [
+      {
+        "question": "Why do IT professionals in Pune frequently suffer from cervical spondylosis?",
+        "answer": "Prolonged 8-10 hour desk sessions with forward-head posture place immense mechanical strain on cervical vertebrae C5-C7, causing premature disc wear and severe muscle splinting. Ayurveda addresses both the physical disc wear and the muscular tension."
+      },
+      {
+        "question": "How does Nasya therapy help cervical spondylosis?",
+        "answer": "Classical Ayurveda regards the nose as the doorway to the head and neck. Nasya involves instilling medicated oils (like Ksheerabala 101) into nasal passages, which directly pacifies cervical nerves and alleviates tension in the head and shoulders."
+      },
+      {
+        "question": "Can dizziness or vertigo caused by cervical issues be treated?",
+        "answer": "Yes. Cervical vertigo caused by vertebral artery compression and severe neck muscle spasm often subsides as Griva Basti and gentle Kerala therapies restore normal cervical mobility and blood flow."
+      }
+    ],
+    "metadata": {
+      "reviewed_by": "Dr. Irshad T.M.",
+      "reviewed_date": "September 2026",
+      "doctor_url": "/doctors/dr-irshad/"
+    }
+  },
+  {
+    "id": "digestive-metabolic-disorders",
+    "title": "Digestive Disorders & IBS",
+    "slug": "digestive-metabolic-disorders",
+    "seo": {
+      "meta_title": "Ayurvedic Treatment for IBS & Digestive Disorders Pune | Karmanya",
+      "meta_description": "Treat chronic acidity, IBS, bloating, and sluggish metabolism with authentic Ayurvedic medicine in Pune. Gut-reset protocols with Dr. Tejasvi & Dr. Irshad."
+    },
+    "marketing": {
+      "hero_eyebrow": "GUT HEALTH & METABOLIC RESET",
+      "hero_title": "Ayurvedic Treatment for Digestive Disorders & IBS",
+      "hero_description": "Root-cause management of Irritable Bowel Syndrome, chronic acid peptic disease, sluggish metabolism, and food intolerances through classical Agni restoration."
+    },
+    "clinical": {
+      "ayurvedic_perspective": "Ayurveda considers Agni (digestive fire) the foundational pillar of all health. When Agni is disturbed (Mandagni or Vishamagni), incompletely digested toxins called Ama enter systemic circulation, manifesting as Grahani (IBS), Amlapitta (acid reflux), and chronic fatigue. Treatment focuses on Dipana-Pachana (kindling digestive enzymes), gut cleansing, and gut microbiome revitalization.",
+      "assessment_process": "Thorough dietary history, stool pattern analysis, tongue diagnosis (Jihva Pariksha), pulse assessment, and lifestyle rhythm review.",
+      "related_treatments": [
+        "panchakarma",
+        "abhyangam",
+        "kerala-chikitsa"
+      ]
+    },
+    "safety": {
+      "disclaimer": "Dietary modifications and herbal preparations are personalized to constitutional Prakriti and Dosha state.",
+      "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."
+    },
+    "faqs": [
+      {
+        "question": "How does Ayurveda manage Irritable Bowel Syndrome (IBS)?",
+        "answer": "In Ayurveda, IBS corresponds to Grahani Roga. Rather than relying on temporary antispasmodics, we restore the intestinal barrier and digestive enzymes using gut-healing formulations (like Takrarishta, Bilva, and Kutaja) paired with therapeutic gut-cleansing."
+      },
+      {
+        "question": "Can chronic acid reflux be cured with Ayurveda?",
+        "answer": "Chronic acidity (Amlapitta) is primarily a Pitta-dominant metabolic disorder. With customized herbal cooling formulations, tailored dietary guidelines, and gentle therapeutic purgation (Virechana), long-term symptom resolution is achievable."
+      },
+      {
+        "question": "Do I have to follow a very strict diet during treatment?",
+        "answer": "We emphasize sustainable, nourishing dietary shifts (Ahara) tailored to your digestive capacity rather than extreme starvation diets."
+      }
+    ],
+    "metadata": {
+      "reviewed_by": "Dr. Tejasvi",
+      "reviewed_date": "September 2026",
+      "doctor_url": "/doctors/dr-tejasvi/"
+    }
+  },
+  {
+    "id": "skin-disorders-psoriasis",
+    "title": "Skin Disorders & Psoriasis",
+    "slug": "skin-disorders-psoriasis",
+    "seo": {
+      "meta_title": "Ayurvedic Treatment for Psoriasis & Eczema in Pune | Karmanya",
+      "meta_description": "Holistic Ayurvedic dermatology in Pune under Dr. Tejasvi. Natural, steroid-free management for chronic psoriasis, eczema, dermatitis, and allergic skin conditions."
+    },
+    "marketing": {
+      "hero_eyebrow": "HERBAL DERMATOLOGY",
+      "hero_title": "Ayurvedic Treatment for Psoriasis & Chronic Skin Disorders",
+      "hero_description": "Long-term management of autoimmune and chronic inflammatory dermatological conditions through blood purification (Raktaprasadana) and external Kerala therapies."
+    },
+    "clinical": {
+      "ayurvedic_perspective": "Classical Ayurveda classifies skin conditions under Kushta Roga, stemming from deep-rooted impurities in Rasa, Rakta (blood), and Mamsa (muscle) tissues caused by impaired liver metabolism and chronic stress. Instead of relying on topical corticosteroids that lead to rebound flare-ups, we cleanse the system internally through Shodhana (detoxification) and Takradhara (medicated buttermilk stream).",
+      "assessment_process": "Skin lesion morphology examination, trigger-factor mapping, liver metabolic assessment, and Nadi Pariksha.",
+      "related_treatments": [
+        "panchakarma",
+        "kerala-chikitsa",
+        "abhyangam"
+      ]
+    },
+    "safety": {
+      "disclaimer": "Skin treatments require disciplined adherence to dietary guidelines (avoiding incompatible foods/Viruddha Ahara).",
+      "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."
+    },
+    "faqs": [
+      {
+        "question": "How does Ayurveda manage chronic psoriasis without steroids?",
+        "answer": "Psoriasis involves systemic immune hyperactivity. We use internal blood-purifying herbs (such as Khadira, Manjistha, and Neem), coupled with therapeutic purgation (Virechana) and soothing medicated external therapies (Takradhara) to calm skin inflammation at its physiological root."
+      },
+      {
+        "question": "What is Takradhara and why is it beneficial for skin diseases?",
+        "answer": "Takradhara involves the rhythmic pouring of medicated herbal buttermilk over the forehead or affected skin. Its cooling and immunomodulatory properties dramatically reduce pruritus (itching), scaling, and emotional stress."
+      },
+      {
+        "question": "Can childhood eczema or adult dermatitis be managed safely?",
+        "answer": "Yes. Ayurvedic skin formulations are plant- and mineral-based, offering safe, non-steroidal options that nurture the skin barrier rather than thinning the epidermis."
+      }
+    ],
+    "metadata": {
+      "reviewed_by": "Dr. Tejasvi",
+      "reviewed_date": "September 2026",
+      "doctor_url": "/doctors/dr-tejasvi/"
+    }
+  },
+  {
+    "id": "womens-health-pcod-hormonal",
+    "title": "Women's Health & PCOS/PCOD",
+    "slug": "womens-health-pcod-hormonal",
+    "seo": {
+      "meta_title": "Ayurvedic Treatment for PCOS / PCOD in Pune | Karmanya Ayurveda",
+      "meta_description": "Holistic care for PCOS, PCOD, hormonal imbalances, and menstrual irregularities in Pune. Consult experienced Ayurvedic specialist Dr. Tejasvi at Karmanya."
+    },
+    "marketing": {
+      "hero_eyebrow": "WOMEN'S WELLNESS",
+      "hero_title": "Ayurvedic Care for PCOS, PCOD & Hormonal Health",
+      "hero_description": "Physician-directed hormonal balance, natural cycle regulation, and metabolic health restoration under Senior Ayurvedic Consultant Dr. Tejasvi in Pune."
+    },
+    "clinical": {
+      "ayurvedic_perspective": "In Ayurveda, conditions like PCOS/PCOD are recognized under Artava Kshaya and Granthi, representing a dual imbalance of Kapha (which causes follicular cyst formation and insulin resistance) and Vata (which impairs ovulation and menstrual flow). Our protocols combine endocrine-balancing botanical rasayanas with specialized Panchakarma therapies to restore regular ovulatory cycles naturally.",
+      "assessment_process": "Menstrual cycle tracking, ultrasound report review, metabolic/insulin sensitivity assessment, lifestyle rhythm evaluation, and pulse diagnosis.",
+      "related_treatments": [
+        "panchakarma",
+        "kerala-chikitsa",
+        "abhyangam"
+      ]
+    },
+    "safety": {
+      "disclaimer": "Individual treatment duration depends on baseline hormone profiles and metabolic indicators.",
+      "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."
+    },
+    "faqs": [
+      {
+        "question": "Can PCOS be cured permanently with Ayurveda?",
+        "answer": "While PCOS is a metabolic-endocrine disorder that requires sustained lifestyle awareness, Ayurvedic protocols successfully restore natural ovulatory cycles, clear follicular cysts on ultrasound, balance androgens, and eliminate dependency on hormonal contraceptive pills."
+      },
+      {
+        "question": "How does Dr. Tejasvi approach fertility and cycle irregularity?",
+        "answer": "Dr. Tejasvi emphasizes normalizing the Agni (metabolic rate), improving insulin sensitivity through classical herbs (like Kanchnar Guggulu, Varuna, and Shatavari), and improving pelvic circulation through gentle specialized therapies."
+      },
+      {
+        "question": "Does Ayurveda help with PCOS-related weight gain and facial hair?",
+        "answer": "Yes. Because Kapha-Medas (adipose tissue sluggishness) is addressed at the root cause, patients experience healthy metabolic weight loss and reduction in hyperandrogenic signs naturally."
+      }
+    ],
+    "metadata": {
+      "reviewed_by": "Dr. Tejasvi",
+      "reviewed_date": "September 2026",
+      "doctor_url": "/doctors/dr-tejasvi/"
+    }
+  },
+  {
+    "id": "stress-insomnia-anxiety",
+    "title": "Stress, Anxiety & Insomnia",
+    "slug": "stress-insomnia-anxiety",
+    "seo": {
+      "meta_title": "Ayurvedic Treatment for Stress, Anxiety & Insomnia Pune | Karmanya",
+      "meta_description": "Natural relief from chronic stress, mental fatigue, burnout, and insomnia in Pune. Authentic Kerala Shirodhara and physician care at Karmanya Ayurveda."
+    },
+    "marketing": {
+      "hero_eyebrow": "MENTAL CALM & RESTORATIVE SLEEP",
+      "hero_title": "Ayurvedic Treatment for Stress, Anxiety & Insomnia",
+      "hero_description": "Calm hyperactive nervous system activity, restore natural circadian sleep cycles, and overcome corporate burnout with classical Kerala Shirodhara and herbal neuro-nutrients."
+    },
+    "clinical": {
+      "ayurvedic_perspective": "Chronic psychological stress, panic, and fragmented sleep (Anidra) represent acute Prana Vata and Sadhaka Pitta hyperactivation. When Vata dosha becomes excessively dry and turbulent in the nervous system (Majja Dhatu), it disrupts the natural downward settling of consciousness needed for deep sleep. Authentic Kerala therapies directly soothe the central nervous system through sustained sensory calming.",
+      "assessment_process": "Sleep pattern diary, cognitive burnout assessment, blood pressure and autonomic tone evaluation, and Nadi Pariksha.",
+      "related_treatments": [
+        "shirodhara",
+        "abhyangam",
+        "kerala-chikitsa"
+      ]
+    },
+    "safety": {
+      "disclaimer": "Severe psychiatric emergencies require specialist allopathic psychiatric care.",
+      "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."
+    },
+    "faqs": [
+      {
+        "question": "How quickly does Shirodhara provide relief from insomnia?",
+        "answer": "Most patients experience a profound sense of calm and sleep improvements after their very first Shirodhara session. A clinical course of 5 to 7 sessions creates sustained resets in sleep architecture and daytime mental clarity."
+      },
+      {
+        "question": "Is Ayurvedic stress treatment habit-forming like sleeping pills?",
+        "answer": "No. Ayurvedic therapies and Medhya Rasayanas (nervine botanicals like Brahmi, Ashwagandha, and Shankhpushpi) work by nourishing neural pathways and regulating neurotransmitters naturally, with zero physical dependency or grogginess."
+      },
+      {
+        "question": "Can I combine this with my existing anxiety or BP medications?",
+        "answer": "Yes. Our physician evaluates all current prescriptions during your consultation to ensure complete safety and positive synergy."
+      }
+    ],
+    "metadata": {
+      "reviewed_by": "Dr. Irshad T.M.",
+      "reviewed_date": "September 2026",
       "doctor_url": "/doctors/dr-irshad/"
     }
   }

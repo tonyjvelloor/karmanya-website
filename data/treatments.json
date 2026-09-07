@@ -1,34 +1,5 @@
 [
   {
-    "id": "kizhi",
-    "title": "Kizhi",
-    "slug": "kizhi",
-    "category": "Kerala Chikitsa",
-    "seo": {
-      "meta_title": "Kizhi Treatment in Pune | Authentic Kerala Ayurveda | Karmanya",
-      "meta_description": "Kizhi is a traditional Kerala therapy involving herbal preparations applied using heated boluses, performed under physician guidance."
-    },
-    "marketing": {
-      "hero_title": "What is Kizhi?",
-      "hero_description": "A traditional Kerala therapy combining herbal preparations and rhythmic application for targeted relief."
-    },
-    "clinical": {
-      "ayurvedic_perspective": "Kizhi is a Swedana (sudation) therapy. It is traditionally used to balance Vata and Kapha doshas, reduce stiffness, and improve circulation.",
-      "process": "Herbal powders or leaves are tied in a cloth bolus, heated in medicated oils, and applied rhythmically over the affected areas or the entire body.",
-      "common_uses": "Often considered by our physicians as part of an approach for joint discomfort, muscle stiffness, and musculoskeletal conditions.",
-      "related_conditions": []
-    },
-    "safety": {
-      "suitability": "Kizhi is not suitable for everyone. It may be contraindicated during acute inflammation, high fever, or for certain skin conditions. Your physician will determine if this therapy is appropriate for you.",
-      "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."
-    },
-    "metadata": {
-      "reviewed_by": "Dr. Irshad T.M.",
-      "reviewed_date": "August 2026",
-      "doctor_url": "/doctors/dr-irshad/"
-    }
-  },
-  {
     "id": "panchakarma",
     "title": "Panchakarma",
     "slug": "panchakarma",
@@ -39,13 +10,19 @@
     },
     "marketing": {
       "hero_title": "Ayurvedic Panchakarma",
-      "hero_description": "A comprehensive, physician-guided detoxification and rejuvenation protocol designed to address the root cause of chronic imbalances."
+      "hero_description": "A comprehensive, physician-guided detoxification and rejuvenation protocol designed to address the root cause of chronic imbalances.",
+      "image_url": "/images/doctor-consult.jpg"
     },
     "clinical": {
       "ayurvedic_perspective": "Panchakarma translates to 'five actions'. It is the ultimate Shodhana (purification) therapy in Ayurveda, designed to eliminate deep-rooted Ama (toxins) and balance the Doshas.",
-      "process": "The process is highly personalized. It involves Purvakarma (preparatory procedures like internal oleation and Swedana), Pradhana Karma (the main detoxification therapies like Basti or Virechana), and Paschatkarma (post-treatment restorative regimens).",
+      "process": "The process is highly personalized. It involves Purvakarma (preparatory procedures like internal oleation and Swedana), Pradhana Karma (the main detoxification therapies like Basti, Virechana, Nasya), and Paschatkarma (post-treatment restorative regimens).",
       "common_uses": "Utilized for chronic metabolic conditions, severe musculoskeletal issues, long-term skin disorders, and comprehensive systemic rejuvenation.",
-      "related_conditions": ["knee-joint-pain"]
+      "related_conditions": [
+        "knee-joint-pain",
+        "spine-sciatica-back-pain",
+        "digestive-metabolic-disorders",
+        "skin-disorders-psoriasis"
+      ]
     },
     "safety": {
       "suitability": "Panchakarma is an intensive clinical procedure. It requires a thorough medical evaluation by our chief physician. It is absolutely contraindicated during pregnancy, extreme weakness, and acute illnesses.",
@@ -53,7 +30,172 @@
     },
     "metadata": {
       "reviewed_by": "Dr. Irshad T.M.",
-      "reviewed_date": "August 2026",
+      "reviewed_date": "September 2026",
+      "doctor_url": "/doctors/dr-irshad/"
+    }
+  },
+  {
+    "id": "janu-basti",
+    "title": "Janu Basti",
+    "slug": "janu-basti",
+    "category": "Targeted Joint Therapy",
+    "seo": {
+      "meta_title": "Janu Basti Treatment in Pune | Non-Surgical Knee Care | Karmanya",
+      "meta_description": "Authentic Janu Basti therapy in Pimple Saudagar, Pune. Continuous warm medicated herbal oil pooling for knee osteoarthritis, cartilage wear, and pain relief."
+    },
+    "marketing": {
+      "hero_title": "Janu Basti Knee Therapy",
+      "hero_description": "Classical warm medicated herbal oil pooling therapy designed to nourish synovial fluid, lubricate knee cartilage, and relieve osteoarthritic pain.",
+      "image_url": "/images/hero-treatment.jpg"
+    },
+    "clinical": {
+      "ayurvedic_perspective": "Janu Basti is the premier Snigdha-Swedana procedure for the knee joint (Janu Sandhi). By building a leak-proof dough dam around the patella, warm medicated tailas (like Sahacharadi, Mahanarayana, or Ksheerabala) are pooled continuously for 30 to 45 minutes, deeply diffusing herbal lipids into the subchondral bone and synovial membrane.",
+      "process": "A ring of black gram dough is sealed around the knee joint. Medicated herbal oil warmed to a precise therapeutic temperature is poured and maintained continuously with frequent rejuvenation. The procedure is concluded with gentle localized Swedana (steam massage).",
+      "common_uses": "First-line conservative management for Knee Osteoarthritis (Sandhigata Vata), ligament sprains, chondromalacia patellae, stiffness, and cracking joints.",
+      "related_conditions": [
+        "knee-joint-pain"
+      ]
+    },
+    "safety": {
+      "suitability": "Contraindicated in acute severe septic arthritis with active infection or open knee wounds. Physician evaluation required.",
+      "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."
+    },
+    "metadata": {
+      "reviewed_by": "Dr. Irshad T.M.",
+      "reviewed_date": "September 2026",
+      "doctor_url": "/doctors/dr-irshad/"
+    }
+  },
+  {
+    "id": "kati-basti",
+    "title": "Kati Basti",
+    "slug": "kati-basti",
+    "category": "Spinal & Lumbosacral Therapy",
+    "seo": {
+      "meta_title": "Kati Basti Treatment for Back Pain & Sciatica in Pune | Karmanya",
+      "meta_description": "Authentic Kati Basti therapy in Pune for slip disc, lumbar spondylosis, and sciatica. Relieve nerve compression and back spasms naturally."
+    },
+    "marketing": {
+      "hero_title": "Kati Basti Spinal Care",
+      "hero_description": "Specialized therapeutic oil pooling over the lumbar and sacral spine to soothe inflamed nerves, rehydrate discs, and eliminate chronic back pain.",
+      "image_url": "/images/doctor-consult.jpg"
+    },
+    "clinical": {
+      "ayurvedic_perspective": "Kati Basti specifically addresses aggravated Apana and Vyana Vata in the lumbosacral region. By pooling warm lipophilic herbal preparations over the lower back, tissue stiffness is resolved, intervertebral spacing is decompressed, and muscle guarding softens.",
+      "process": "A dough ring of herbal gram flour is placed securely over the affected lumbar vertebrae (L3-S1). Warm anti-inflammatory herbal oils are poured and maintained at a constant therapeutic temperature for 35 to 45 minutes.",
+      "common_uses": "Lumbar spondylosis, slip disc (disc bulge/herniation), sciatica (Gridhrasi), coccydynia, and postural lumbar strain.",
+      "related_conditions": [
+        "spine-sciatica-back-pain"
+      ]
+    },
+    "safety": {
+      "suitability": "Not recommended during acute lumbar spinal trauma or fractures. Pre-assessment with recent MRI/X-ray is conducted.",
+      "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."
+    },
+    "metadata": {
+      "reviewed_by": "Dr. Irshad T.M.",
+      "reviewed_date": "September 2026",
+      "doctor_url": "/doctors/dr-irshad/"
+    }
+  },
+  {
+    "id": "shirodhara",
+    "title": "Shirodhara",
+    "slug": "shirodhara",
+    "category": "Mind & Neurological Therapy",
+    "seo": {
+      "meta_title": "Authentic Shirodhara Treatment in Pune | Stress & Insomnia | Karmanya",
+      "meta_description": "Experience classical Kerala Shirodhara in Pune. Continuous warm herbal oil stream over the forehead for deep stress relief, sleep restoration, and anxiety management."
+    },
+    "marketing": {
+      "hero_title": "Authentic Kerala Shirodhara",
+      "hero_description": "A deeply restorative classical therapy featuring a continuous, rhythmic stream of warm medicated oil on the forehead, inducing profound mental stillness and autonomic balance.",
+      "image_url": "/images/hero-treatment.jpg"
+    },
+    "clinical": {
+      "ayurvedic_perspective": "Shirodhara directly soothes Prana Vata and Sadhaka Pitta located in the head and brain (Murdha). Modern physiological research demonstrates that Shirodhara lowers sympathetic arousal, slows heart rate, increases alpha and theta brainwaves, and dramatically reduces serum cortisol.",
+      "process": "The patient reclines comfortably on an authentic Kerala teak Droni table. An earthen or copper vessel (Dhara Patra) suspended above rhythmically pours a gentle, continuous stream of warm herbal oil, herbal decoctions (Kashayadhara), or medicated buttermilk (Takradhara) across the forehead.",
+      "common_uses": "Chronic insomnia, anxiety disorders, mental fatigue, burnout, hypertension, migraines, and hair fall.",
+      "related_conditions": [
+        "stress-insomnia-anxiety",
+        "cervical-spondylosis-neck-pain"
+      ]
+    },
+    "safety": {
+      "suitability": "Contraindicated during acute fever, severe sinusitis attacks, or immediately following heavy meals.",
+      "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."
+    },
+    "metadata": {
+      "reviewed_by": "Dr. Irshad T.M.",
+      "reviewed_date": "September 2026",
+      "doctor_url": "/doctors/dr-irshad/"
+    }
+  },
+  {
+    "id": "kizhi",
+    "title": "Kizhi (Patra Pinda Sweda)",
+    "slug": "kizhi",
+    "category": "Kerala Chikitsa",
+    "seo": {
+      "meta_title": "Kizhi Treatment in Pune | Herbal Bolus Therapy | Karmanya Ayurveda",
+      "meta_description": "Kizhi is a traditional Kerala therapy involving heated herbal boluses applied rhythmically under physician guidance for joint stiffness and muscle aches."
+    },
+    "marketing": {
+      "hero_title": "Kerala Kizhi Therapy",
+      "hero_description": "A signature Kerala sudation therapy utilizing heated herbal leaf or powder boluses dipped in warm medicated oils to relieve deep tissue pain and inflammation.",
+      "image_url": "/images/hero-treatment.jpg"
+    },
+    "clinical": {
+      "ayurvedic_perspective": "Kizhi is an intensive Ruksha-Snigdha Swedana (sudation) therapy. It is traditionally used to pacify aggravated Vata and Kapha doshas, melt away tissue stiffness, improve peripheral circulation, and remove localized Ama.",
+      "process": "Fresh medicinal leaves (like Nirgundi, Eranda, and Arka) or classical herbal powders (Choorna) are tied into specialized cloth boluses, heated in medicated herbal oils, and applied rhythmically over the affected joints and body.",
+      "common_uses": "Knee arthritis, frozen shoulder, chronic muscular spasm, cervical stiffness, and neurological numbness.",
+      "related_conditions": [
+        "knee-joint-pain",
+        "spine-sciatica-back-pain",
+        "cervical-spondylosis-neck-pain"
+      ]
+    },
+    "safety": {
+      "suitability": "Kizhi is not suitable during acute inflammatory skin rashes, high fever, or severe bleeding disorders. Physician evaluation mandatory.",
+      "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."
+    },
+    "metadata": {
+      "reviewed_by": "Dr. Irshad T.M.",
+      "reviewed_date": "September 2026",
+      "doctor_url": "/doctors/dr-irshad/"
+    }
+  },
+  {
+    "id": "abhyangam",
+    "title": "Abhyangam",
+    "slug": "abhyangam",
+    "category": "Full Body Therapeutic Snehana",
+    "seo": {
+      "meta_title": "Authentic Abhyangam Massage in Pune | Kerala Ayurveda | Karmanya",
+      "meta_description": "Traditional Kerala Abhyangam in Pimple Saudagar, Pune. Medicated full-body warm herbal oil massage to tone tissues, pacify Vata, and promote longevity."
+    },
+    "marketing": {
+      "hero_title": "Authentic Kerala Abhyangam",
+      "hero_description": "A classical, therapeutic full-body oil massage administered by trained Kerala therapists using warm, Dosha-specific medicated oils to deeply nourish all tissue layers.",
+      "image_url": "/images/doctor-consult.jpg"
+    },
+    "clinical": {
+      "ayurvedic_perspective": "As taught by Acharya Charaka, daily Abhyangam wards off old age, fatigue, and Vata disorders while bestowing strength, restful sleep, and vibrant skin. It is not a generic spa rubdown; it follows the anatomical lines of circulation and energy channels (Marma points).",
+      "process": "Administered synchronously by trained therapists using customized herbal oils (such as Dhanwantharam, Balaswagandhadi, or Pinda Taila) heated to an exact therapeutic warmth.",
+      "common_uses": "Musculoskeletal fatigue, chronic stiffness, generalized Vata exhaustion, sleep disturbance, and preventive longevity.",
+      "related_conditions": [
+        "knee-joint-pain",
+        "spine-sciatica-back-pain",
+        "stress-insomnia-anxiety"
+      ]
+    },
+    "safety": {
+      "suitability": "Contraindicated during indigestion, active fever, heavy Kapha congestion, or acute menstrual flow.",
+      "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."
+    },
+    "metadata": {
+      "reviewed_by": "Dr. Irshad T.M.",
+      "reviewed_date": "September 2026",
       "doctor_url": "/doctors/dr-irshad/"
     }
   },
@@ -61,28 +203,33 @@
     "id": "kerala-chikitsa",
     "title": "Kerala Chikitsa",
     "slug": "kerala-chikitsa",
-    "category": "Signature Therapies",
+    "category": "Signature Heritage Therapies",
     "seo": {
-      "meta_title": "Authentic Kerala Chikitsa in Pune | Shirodhara, Abhyangam, Pizhichil | Karmanya",
-      "meta_description": "Experience authentic Kerala Ayurveda therapies in Pune. Our physician-led clinic offers traditional treatments like Shirodhara, Pizhichil, Njavarakizhi, and Abhyangam."
+      "meta_title": "Authentic Kerala Chikitsa in Pune | Pizhichil, Njavara | Karmanya",
+      "meta_description": "Experience the Ashtavaidya Kerala Ayurveda tradition in Pune. Specialized therapies including Pizhichil, Njavarakizhi, Shirodhara, and Udhwarthanam."
     },
     "marketing": {
       "hero_title": "Authentic Kerala Chikitsa",
-      "hero_description": "The purest form of traditional Ayurvedic therapies, preserved and practiced exactly as they originated in the Ashtavaidya tradition of Kerala."
+      "hero_description": "The purest form of traditional Ayurvedic therapies, preserved and practiced exactly as they originated in the Ashtavaidya tradition of Kerala.",
+      "image_url": "/images/hero-treatment.jpg"
     },
     "clinical": {
-      "ayurvedic_perspective": "Kerala's unique Ashtavaidya tradition developed highly specialized therapies combining deep tissue treatments with potent herbal preparations. Unlike generic spa massages, these are rigorous clinical protocols globally renowned for their efficacy in managing chronic, neurological, and degenerative conditions. Our therapies use authentic oils imported from Kerala, warmed to specific temperatures, and applied with precise rhythmic strokes by traditionally trained therapists.",
-      "process": "Our Kerala Chikitsa portfolio includes several major therapies:\n\n• ABHYANGAM: A specialized full-body massage using warm, Dosha-specific medicated oils. It deeply nourishes the tissues (Dhatus), improves circulation, and pacifies aggravated Vata.\n\n• SHIRODHARA: The continuous, rhythmic pouring of warm medicated oil, herbal decoctions, or buttermilk over the forehead (Ajna Chakra). It induces a profound state of relaxation and is a primary clinical tool for stress, anxiety, insomnia, and neurological disorders.\n\n• PIZHICHIL (Sarvangadhara): Often called the 'Treatment of Kings', this involves squeezing warm medicated oil from cloth continuous over the entire body while simultaneously massaging it. It is unmatched for severe Vata disorders, muscular degeneration, and joint stiffness.\n\n• NJAVARAKIZHI: A unique sudation therapy where a special type of medicinal rice (Njavara) is cooked with herbal decoctions and milk, tied in boluses, and applied rhythmically over the body. It strengthens muscles, nourishes the nerves, and is highly effective for paralysis and muscle wasting.\n\n• UDHVARTHANAM: A vigorous deep-tissue massage using dry herbal powders. It is the primary Ayurvedic clinical intervention for lymphatic drainage, breaking down subcutaneous fat (Kapha reduction), and improving metabolic sluggishness.",
-      "common_uses": "These therapies form the core of our management protocols for neurological conditions, severe joint pain, stress disorders, muscular degeneration, and metabolic resets.",
-      "related_conditions": ["knee-joint-pain"]
+      "ayurvedic_perspective": "Kerala's Ashtavaidya lineage developed specialized modalities combining deep tissue immersion with high-potency herbal decoctions for severe neuromuscular and degenerative conditions.",
+      "process": "Includes master therapies: Pizhichil (continuous warm oil bath), Njavarakizhi (medicinal rice and milk bolus sudation), and Udhwarthanam (herbal powder lymphatic massage).",
+      "common_uses": "Neurological conditions, severe joint pain, muscular atrophy, hemiplegia, and metabolic resets.",
+      "related_conditions": [
+        "knee-joint-pain",
+        "spine-sciatica-back-pain",
+        "skin-disorders-psoriasis"
+      ]
     },
     "safety": {
-      "suitability": "Specific Kerala therapies (like Shirodhara or Pizhichil) are selected strictly based on your Nadi Pariksha (pulse diagnosis) and current Dosha assessment. Not all therapies are suitable for all patients. An initial consultation is mandatory.",
+      "suitability": "Specific therapies are chosen strictly based on Nadi Pariksha and physician consultation.",
       "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."
     },
     "metadata": {
       "reviewed_by": "Dr. Irshad T.M.",
-      "reviewed_date": "August 2026",
+      "reviewed_date": "September 2026",
       "doctor_url": "/doctors/dr-irshad/"
     }
   }
