@@ -3,7 +3,7 @@
     "id": "dr-irshad",
     "name": "Dr. Irshad T.M.",
     "slug": "dr-irshad",
-    "title": "Chief Ayurvedic Physician",
+    "title": "Senior Consultant & Nadi Parikshan Specialist",
     "qualifications": "BAMS, MD (Ayurveda)",
     "seo": {
       "meta_title": "Dr. Irshad T.M. | Best Ayurvedic Doctor in Pune | Karmanya Ayurveda",
@@ -15,7 +15,7 @@
       "image_url": "/images/doctor-consult.jpg"
     },
     "clinical": {
-      "experience": "15+ Years",
+      "experience": "11+ Years",
       "clinical_focus": "Specializes in degenerative knee osteoarthritis, lumbar disc herniation, sciatica, and authentic Kerala Panchakarma therapies.",
       "ayurvedic_approach": "Dr. Irshad combines classical Ashtavaidya Nadi Pariksha (pulse diagnosis) with modern physical assessment to design individualized, non-surgical treatment plans.",
       "specialties": [
@@ -38,7 +38,8 @@
         "spine-sciatica-back-pain",
         "cervical-spondylosis-neck-pain",
         "stress-insomnia-anxiety"
-      ]
+      ],
+      "role_subtitle": "Senior Consultant \u00b7 Pain Management & Nadi Parikshan Specialist"
     },
     "safety": {
       "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."
@@ -51,9 +52,9 @@
   },
   {
     "id": "dr-tejasvi",
-    "name": "Dr. Tejasvi Mulik",
+    "name": "Dr. Tejasiv Mulik",
     "slug": "dr-tejasvi",
-    "title": "Senior Ayurvedic Consultant",
+    "title": "Senior Consultant \u00b7 Panchakarma & Metabolic Disorders",
     "qualifications": "BAMS",
     "seo": {
       "meta_title": "Dr. Tejasvi Mulik | Ayurvedic Doctor in Pimple Saudagar, Pune | Karmanya",
@@ -65,7 +66,7 @@
       "image_url": "/images/doctor-consult.jpg"
     },
     "clinical": {
-      "experience": "10+ Years",
+      "experience": "7+ Years",
       "clinical_focus": "Specializes in natural cycle regulation for PCOS/PCOD, chronic skin disorders (psoriasis, eczema), and IBS/metabolic digestive resets.",
       "ayurvedic_approach": "Emphasizes targeted Ahara (dietary medicine) and Vihara (lifestyle rhythms) paired with classical herbal rasayanas and gentle detoxification to resolve chronic imbalances.",
       "specialties": [
@@ -86,7 +87,8 @@
         "skin-disorders-psoriasis",
         "digestive-metabolic-disorders",
         "stress-insomnia-anxiety"
-      ]
+      ],
+      "role_subtitle": "Senior Consultant \u00b7 Panchakarma & Metabolic Disorders Specialist"
     },
     "safety": {
       "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."

@@ -1,0 +1,309 @@
+{
+  "accreditation": "CERTIFIED BEST AYURVEDIC CENTRE IN INDIA",
+  "menu_title": "Wellness & Therapy Menu",
+  "tagline": "Experience the Healing Power of Ancient Kerala Wisdom",
+  "categories": [
+    {
+      "id": "keraliya-relaxation",
+      "name": "Keraliya Relaxation Therapy",
+      "subtitle": "Signature Therapies",
+      "description": "Warm medicated oils with rhythmic strokes to melt away tension and restore balance.",
+      "items": [
+        {
+          "name": "Abhyanga + Swedana (Two Hands)",
+          "duration": "50 min massage + 10 min steam",
+          "price": 1499,
+          "price_formatted": "Rs. 1,499/-",
+          "badge": null
+        },
+        {
+          "name": "Abhyanga + Swedana (Four Hands)",
+          "duration": "50 min massage + 10 min steam",
+          "price": 1799,
+          "price_formatted": "Rs. 1,799/-",
+          "badge": "PREMIUM"
+        },
+        {
+          "name": "Shiroabhyanga",
+          "duration": "15 min \u00b7 Head, Neck & Shoulder",
+          "price": 499,
+          "price_formatted": "Rs. 499/-",
+          "badge": null
+        },
+        {
+          "name": "Padaabhyanga",
+          "duration": "15 min \u00b7 Foot Marma Therapy",
+          "price": 499,
+          "price_formatted": "Rs. 499/-",
+          "badge": null
+        }
+      ]
+    },
+    {
+      "id": "dhara-therapies",
+      "name": "Dhara Therapies",
+      "subtitle": "Deep Healing",
+      "description": "Continuous stream of warm medicated liquid for profound nervous system relaxation.",
+      "items": [
+        {
+          "name": "Shirodhara (Full)",
+          "duration": "60 min \u00b7 Oil on forehead",
+          "price": 1999,
+          "price_formatted": "Rs. 1,999/-",
+          "badge": "POPULAR"
+        },
+        {
+          "name": "Shirodhara (Express)",
+          "duration": "30 min \u00b7 Quick stress relief",
+          "price": 999,
+          "price_formatted": "Rs. 999/-",
+          "badge": null
+        },
+        {
+          "name": "Taila Dhara",
+          "duration": "60 min \u00b7 Warm medicated oil stream",
+          "price": 2449,
+          "price_formatted": "Rs. 2,449/-",
+          "badge": null
+        },
+        {
+          "name": "Kashaya Dhara",
+          "duration": "60 min \u00b7 Herbal decoction stream",
+          "price": 2449,
+          "price_formatted": "Rs. 2,449/-",
+          "badge": null
+        }
+      ]
+    },
+    {
+      "id": "kizhi-pottali",
+      "name": "Kizhi \u2014 Pottali Therapy",
+      "subtitle": "Therapeutic Heat",
+      "description": "Herbal poultice heat therapy for neuromuscular stiffness, chronic arthritis, and joint pain.",
+      "items": [
+        {
+          "name": "Podikizhi (Herbal Powder Bolus)",
+          "duration": "50 min massage + 10 min steam",
+          "price": 2200,
+          "price_formatted": "Rs. 2,200/-",
+          "badge": null
+        },
+        {
+          "name": "Elakizhi (Medicinal Leaf Bolus)",
+          "duration": "50 min massage + 10 min steam",
+          "price": 2200,
+          "price_formatted": "Rs. 2,200/-",
+          "badge": null
+        }
+      ]
+    },
+    {
+      "id": "soundaryavardhini",
+      "name": "Soundaryavardhini",
+      "subtitle": "Beauty & Radiance",
+      "description": "Authentic Ayurvedic botanical beauty care, cellular rejuvenation, and complexion restoration.",
+      "items": [
+        {
+          "name": "Shiropothichil",
+          "duration": "60 min \u00b7 Scalp nourishment & cooling",
+          "price": 2849,
+          "price_formatted": "Rs. 2,849/-",
+          "badge": null
+        },
+        {
+          "name": "Udvartana",
+          "duration": "60 min \u00b7 Herbal powder exfoliation & lymphatic massage",
+          "price": 2199,
+          "price_formatted": "Rs. 2,199/-",
+          "badge": null
+        },
+        {
+          "name": "Navara Facial",
+          "duration": "60 min \u00b7 Medicated rice & milk botanical facial",
+          "price": 1499,
+          "price_formatted": "Rs. 1,499/-",
+          "badge": null
+        },
+        {
+          "name": "Mukhalepam",
+          "duration": "60 min \u00b7 Herbal face therapy & herbal mask",
+          "price": 999,
+          "price_formatted": "Rs. 999/-",
+          "badge": null
+        }
+      ]
+    },
+    {
+      "id": "specialised-therapies",
+      "name": "Specialised Therapies",
+      "subtitle": "Targeted Healing",
+      "description": "Classical targeted therapeutic procedures for specific organ systems and chronic pathologies.",
+      "items": [
+        {
+          "name": "Nasya + Dhumapanam",
+          "duration": "30 min \u00b7 Sinus & cranial clearance",
+          "price": 1499,
+          "price_formatted": "Rs. 1,499/-",
+          "badge": null
+        },
+        {
+          "name": "Netratarpanam",
+          "duration": "30 min \u00b7 Medicated ghee eye bath",
+          "price": 1199,
+          "price_formatted": "Rs. 1,199/-",
+          "badge": null
+        },
+        {
+          "name": "Taila Basti",
+          "duration": "15 min \u00b7 Medicated oil enema",
+          "price": 499,
+          "price_formatted": "Rs. 499/-",
+          "badge": null
+        },
+        {
+          "name": "Ksheera Basti",
+          "duration": "15 min \u00b7 Medicated herbal milk enema",
+          "price": 499,
+          "price_formatted": "Rs. 499/-",
+          "badge": null
+        }
+      ]
+    }
+  ],
+  "combo_packages": [
+    {
+      "name": "Relaxation Ritual",
+      "duration": "1.5 hrs",
+      "price": 2499,
+      "price_formatted": "Rs. 2,499/-",
+      "badge": null,
+      "inclusions": [
+        "Abhyanga",
+        "Swedana",
+        "Shirodhara"
+      ]
+    },
+    {
+      "name": "Deep Healing Journey",
+      "duration": "2 hrs",
+      "price": 2999,
+      "price_formatted": "Rs. 2,999/-",
+      "badge": "BEST VALUE",
+      "inclusions": [
+        "Abhyanga",
+        "Swedana",
+        "Shirodhara",
+        "Basti / Nasya"
+      ]
+    },
+    {
+      "name": "Pottali Bliss",
+      "duration": "1.5 hrs",
+      "price": 2499,
+      "price_formatted": "Rs. 2,499/-",
+      "badge": null,
+      "inclusions": [
+        "Abhyanga",
+        "Swedana",
+        "Pottali Kizhi"
+      ]
+    },
+    {
+      "name": "Glow & Radiance",
+      "duration": "1.5 hrs",
+      "price": 1999,
+      "price_formatted": "Rs. 1,999/-",
+      "badge": null,
+      "inclusions": [
+        "Abhyanga",
+        "Swedana",
+        "Mukhalepam"
+      ]
+    }
+  ],
+  "kayakalpa": {
+    "title": "The Kayakalpa Rejuvenation Ritual",
+    "subtitle": "\u2726 THE ULTIMATE EXPERIENCE \u2726",
+    "duration": "3-hour immersive Ayurvedic journey",
+    "description": "A complete 3-hour immersive Ayurvedic journey combining seven powerful therapies for total mind-body transformation.",
+    "price": 4999,
+    "price_formatted": "Rs. 4,999/-",
+    "therapies": [
+      "Abhyanga",
+      "Swedana",
+      "Shirodhara",
+      "Netratarpana",
+      "Nasya",
+      "Dhoomapana",
+      "Basti"
+    ]
+  },
+  "memberships": [
+    {
+      "name": "Wellness Membership",
+      "price_formatted": "Rs. 4,000/-",
+      "subtitle": "20% OFF ALL YEAR",
+      "description": "Pay once and enjoy 20% off on every therapy for an entire year.",
+      "tag": "Annual Access"
+    },
+    {
+      "name": "Therapy Pack",
+      "price_formatted": "25% Off \u00d7 10",
+      "subtitle": "BEST FOR REGULAR VISITORS",
+      "description": "Pre-book 10 therapies at 25% off \u2014 valid for 1 full year.",
+      "tag": "Package Savings"
+    }
+  ],
+  "conditions_catalog": [
+    "Arthritis",
+    "Obesity",
+    "Infertility",
+    "Headache",
+    "Liver Health",
+    "Cancer Support",
+    "Acidity & IBS",
+    "Chronic Pain",
+    "PCOS / PCOD",
+    "Skin Disorders",
+    "Hair Fall",
+    "Asthma",
+    "Thyroid",
+    "Diabetes",
+    "Knee Pain",
+    "Heart Health",
+    "Hypertension",
+    "Cold & Cough",
+    "Stress & Anxiety",
+    "Children's Health"
+  ],
+  "wellness_programmes": [
+    {
+      "name": "Panchakarma",
+      "desc": "Complete 5-fold detox"
+    },
+    {
+      "name": "Pain Management",
+      "desc": "Chronic & acute pain relief"
+    },
+    {
+      "name": "Stress Management",
+      "desc": "Mental clarity & sleep reset"
+    },
+    {
+      "name": "Obesity Management",
+      "desc": "Natural metabolic weight loss"
+    },
+    {
+      "name": "Diabetes Management",
+      "desc": "Holistic blood sugar support"
+    },
+    {
+      "name": "Garbha Sanskar",
+      "desc": "Prenatal wellness & maternal care"
+    },
+    {
+      "name": "Physiotherapy",
+      "desc": "Modern musculoskeletal rehabilitation"
+    }
+  ]
+}

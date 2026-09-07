@@ -691,13 +691,23 @@ def build_site():
     
     doctors_html = ""
     for doc in doctors:
+        role_sub = doc['clinical'].get('role_subtitle', doc['title'])
         doc_html = f"""
-        <div class="doctor-card">
-            <h2 style="margin-bottom: 8px;"><a href="/doctors/{doc['slug']}/" style="color: var(--color-primary); text-decoration: none;">{doc['name']}</a></h2>
-            <p style="font-weight: 600; color: var(--color-accent); margin-bottom: 16px;">{doc['qualifications']} | {doc['title']}</p>
-            <p style="font-size: 1.1rem; line-height: 1.6; color: #444;">{doc['marketing']['hero_description']}</p>
-            <div style="margin-top: 16px;">
-                <a href="/doctors/{doc['slug']}/" class="btn btn-secondary" style="padding: 8px 18px; font-size: 0.9rem;">View Physician Profile &rarr;</a>
+        <div class="doctor-card" style="background: white; border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: var(--space-8); margin-bottom: var(--space-8); box-shadow: var(--shadow-sm);">
+            <div style="display: flex; gap: var(--space-6); align-items: flex-start; flex-wrap: wrap;">
+                <div style="width: 64px; height: 64px; border-radius: 50%; background: var(--color-primary); color: var(--color-accent); display: flex; align-items: center; justify-content: center; font-family: var(--font-heading); font-size: 1.6rem; font-weight: 700; flex-shrink: 0;">
+                    Dr
+                </div>
+                <div style="flex: 1; min-width: 260px;">
+                    <div style="font-size: 0.85rem; font-weight: 700; color: var(--color-accent); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px;">SENIOR CONSULTANT &bull; {doc['clinical']['experience']}</div>
+                    <h2 style="margin-bottom: 6px;"><a href="/doctors/{doc['slug']}/" style="color: var(--color-primary); text-decoration: none;">{doc['name']}</a></h2>
+                    <p style="font-weight: 600; color: #555; margin-bottom: 12px;">{doc['qualifications']} &bull; {role_sub}</p>
+                    <p style="font-size: 1.05rem; line-height: 1.6; color: #444; margin-bottom: 16px;">{doc['marketing']['hero_description']}</p>
+                    <div style="display: flex; gap: var(--space-3); flex-wrap: wrap;">
+                        <a href="/doctors/{doc['slug']}/" class="btn btn-secondary" style="padding: 8px 18px; font-size: 0.9rem;">View Clinical Profile &rarr;</a>
+                        <a href="/book-consultation/" class="btn btn-primary" style="padding: 8px 18px; font-size: 0.9rem;">Book Consultation</a>
+                    </div>
+                </div>
             </div>
         </div>
         """
