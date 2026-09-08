@@ -38,10 +38,10 @@
     <!-- Critical Resource Preloads (LCP optimisation) -->
     <link rel="preload" href="/images/logo.png" as="image" type="image/png">
     <link rel="preload" href="/css/tokens.css" as="style">
-    <link rel="preload" href="/css/base.css" as="style">
+    <link rel="preload" href="/css/base.css?v=10" as="style">
     <link rel="stylesheet" href="/css/tokens.css?v=9">
-    <link rel="stylesheet" href="/css/base.css?v=9">
-    <link rel="stylesheet" href="/css/components.css?v=9">
+    <link rel="stylesheet" href="/css/base.css?v=10">
+    <link rel="stylesheet" href="/css/components.css?v=10">
     <style>
         .menu-category-card {
             background: white;
@@ -123,7 +123,35 @@
                 <a href="/locations/" class="nav-link">Nearby Areas</a>
                 <a href="/book-consultation/" class="btn btn-primary" style="padding: 8px 22px; font-size: 0.9rem;">Book Consult</a>
             </nav>
+            <!-- Mobile Menu Hamburger Button -->
+            <button class="mobile-menu-toggle" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
         </div>
+        <!-- Mobile Navigation Drawer -->
+        <div class="mobile-nav-drawer" id="mobileNavDrawer">
+            <div class="mobile-nav-header">
+                <span style="font-weight: 700; color: var(--color-primary); font-size: 1.1rem; font-family: var(--font-heading);">Menu</span>
+                <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close menu">&times;</button>
+            </div>
+            <nav class="mobile-nav-links">
+                <a href="/treatments/" class="mobile-nav-item">🌿 Treatments</a>
+                <a href="/conditions/" class="mobile-nav-item">🩺 Conditions We Treat</a>
+                <a href="/our-story/" class="mobile-nav-item">📜 Our Story</a>
+                <a href="/doctors/" class="mobile-nav-item">👨‍⚕️ Our Doctors</a>
+                <a href="/blog/" class="mobile-nav-item">📖 Patient Education</a>
+                <a href="/reviews/" class="mobile-nav-item">⭐ Patient Reviews</a>
+                <a href="/locations/" class="mobile-nav-item">📍 Nearby Areas</a>
+                <div style="margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--color-border);">
+                    <a href="/book-consultation/" class="btn btn-primary" style="display: block; width: 100%; text-align: center; padding: 12px; margin-bottom: 10px; box-sizing: border-box;">Book Consultation</a>
+                    <a href="https://wa.me/919819820017" target="_blank" rel="noopener" class="btn" style="display: block; width: 100%; text-align: center; padding: 12px; background: #25D366; color: white; box-sizing: border-box;">💬 WhatsApp Us</a>
+                </div>
+            </nav>
+        </div>
+        <!-- Mobile Menu Backdrop -->
+        <div class="mobile-nav-backdrop" id="mobileNavBackdrop"></div>
     </header>
 
     <!-- Hero Header with Accreditation -->
@@ -789,6 +817,37 @@
             Book
         </a>
     </div>
+
+
+<script>
+// Mobile Navigation Drawer Toggle
+document.addEventListener('DOMContentLoaded', function() {
+    const menuBtn = document.getElementById('mobileMenuBtn');
+    const closeBtn = document.getElementById('mobileNavClose');
+    const drawer = document.getElementById('mobileNavDrawer');
+    const backdrop = document.getElementById('mobileNavBackdrop');
+    
+    function openMenu() {
+        if (drawer) drawer.classList.add('active');
+        if (backdrop) backdrop.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+    
+    function closeMenu() {
+        if (drawer) drawer.classList.remove('active');
+        if (backdrop) backdrop.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+    
+    if (menuBtn) menuBtn.addEventListener('click', openMenu);
+    if (closeBtn) closeBtn.addEventListener('click', closeMenu);
+    if (backdrop) backdrop.addEventListener('click', closeMenu);
+    
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') closeMenu();
+    });
+});
+</script>
 
 </body>
 </html>
