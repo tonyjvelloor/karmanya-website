@@ -462,6 +462,7 @@ def build_site():
     all_errors = []
     urls_for_sitemap = [
         ('https://karmanyaayurveda.com/', '1.0', 'weekly'),
+        ('https://karmanyaayurveda.com/our-story/', '0.8', 'monthly'),
         ('https://karmanyaayurveda.com/treatments/', '0.9', 'weekly'),
         ('https://karmanyaayurveda.com/conditions/', '0.9', 'weekly'),
         ('https://karmanyaayurveda.com/doctors/', '0.9', 'monthly'),
@@ -778,6 +779,21 @@ def build_site():
     os.makedirs(hub_dir, exist_ok=True)
     with open(os.path.join(hub_dir, 'index.html'), 'w') as f:
         f.write(doctors_hub_template)
+
+    # Render Our Story
+    with open(os.path.join(base_dir, 'templates', 'our-story.html'), 'r') as f:
+        story_template = f.read()
+    out_dir = os.path.join(base_dir, 'public', 'our-story')
+    os.makedirs(out_dir, exist_ok=True)
+    site_data['seo_head_tags'] = '''<title>Founders’ Story | Authentic Kerala Ayurveda in Pune | Karmanya</title>
+<meta name="description" content="Discover the story behind Karmanya Ayurveda, founded by Dr. Anandu and Dr. Aditya to bring authentic Kerala Ayurveda and traditional Ayurvedic knowledge to Pune.">
+<meta property="og:title" content="Why We Started Karmanya Ayurveda">
+<meta property="og:description" content="The story of two friends and a shared belief in authentic Kerala Ayurveda.">
+<meta property="og:url" content="https://karmanyaayurveda.com/our-story/">'''
+    with open(os.path.join(out_dir, 'index.html'), 'w') as f:
+        f.write(render_template(story_template, site_data))
+        
+    # Render Homepage
 
     # 6. Render Homepage & Book Consult
     with open(os.path.join(base_dir, 'templates', 'index.html'), 'r') as f:
