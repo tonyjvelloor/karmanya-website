@@ -14,8 +14,8 @@
       "image_url": "/images/doctor-consult.jpg"
     },
     "clinical": {
-      "ayurvedic_perspective": "Panchakarma translates to 'five actions'. It is the ultimate Shodhana (purification) therapy in Ayurveda, designed to eliminate deep-rooted Ama (toxins) and balance the Doshas.",
-      "process": "The process is highly personalized. It involves Purvakarma (preparatory procedures like internal oleation and Swedana), Pradhana Karma (the main detoxification therapies like Basti, Virechana, Nasya), and Paschatkarma (post-treatment restorative regimens).",
+      "ayurvedic_perspective": "Panchakarma is not merely a relaxation massage; it is the ultimate, profound detoxification and cellular rejuvenation protocol documented in classical Ayurvedic texts (Charaka Samhita). It literally means 'Five Actions' (Vamana, Virechana, Basti, Nasya, Raktamokshana) designed to uproot deeply embedded metabolic toxins (Ama) from the cellular level and expel them through the body's natural excretory channels.",
+      "process": "A complete Panchakarma consists of three phases: 1. Purvakarma (Preparation) - internal oleation with medicated ghee (Snehapana) and external sweating (Swedana) to loosen toxins. 2. Pradhana Karma (Main Action) - the specific cleansing procedure like therapeutic purgation or enema. 3. Paschat Karma (Post-Therapy) - strict dietary protocols (Samsarjana Krama) to gradually rebuild the digestive fire (Agni).",
       "common_uses": "Utilized for chronic metabolic conditions, severe musculoskeletal issues, long-term skin disorders, and comprehensive systemic rejuvenation.",
       "related_conditions": [
         "knee-joint-pain",
@@ -32,7 +32,29 @@
       "reviewed_by": "Dr. Irshad T.M.",
       "reviewed_date": "September 2026",
       "doctor_url": "/doctors/dr-irshad/"
-    }
+    },
+    "faqs": [
+      {
+        "question": "How many days does a full Panchakarma take?",
+        "answer": "A traditional, authentic Panchakarma program takes a minimum of 14 to 21 days depending on the specific procedures prescribed by the physician. Shorter 7-day programs are available for specific localized detox."
+      },
+      {
+        "question": "Is Panchakarma only for sick people?",
+        "answer": "No. While highly effective for chronic conditions like autoimmune disorders, arthritis, and metabolic syndrome, Panchakarma is highly recommended as a preventive, annual wellness reset for healthy individuals to maintain longevity and vitality."
+      },
+      {
+        "question": "Can I work during my Panchakarma treatment?",
+        "answer": "We strongly advise physical and mental rest during the intensive phases of Panchakarma. The body uses significant energy for deep cellular cleansing, and working can disrupt the therapeutic process."
+      },
+      {
+        "question": "How many days of leave should I take from work during Panchakarma?",
+        "answer": "Most outpatient Panchakarma therapies at Karmanya in Pimple Saudagar are scheduled in early morning or evening slots (1-2 hours per session) allowing working professionals in Hinjawadi and Wakad to continue desk jobs. However, taking 2-3 days off during active purgation (Virechana) or peak treatment days is medically advised for optimal rest."
+      },
+      {
+        "question": "What are the dietary restrictions during and after Panchakarma?",
+        "answer": "During the preparatory (Purvakarma) and main treatment phases, a strict light diet of fresh warm moong dal khichdi, thin rice gruel (Peya), and warm spiced water is prescribed. Heavy oils, processed snacks, dairy, refrigerated items, alcohol, and non-veg food are completely restricted for up to 2 weeks post-therapy (Samsarjana Krama) to protect digestive Agni."
+      }
+    ]
   },
   {
     "id": "janu-basti",
@@ -64,7 +86,29 @@
       "reviewed_by": "Dr. Irshad T.M.",
       "reviewed_date": "September 2026",
       "doctor_url": "/doctors/dr-irshad/"
-    }
+    },
+    "faqs": [
+      {
+        "question": "What is Janu Basti and how does it work?",
+        "answer": "Janu Basti is a localised warm oil retention therapy specifically for the knee joint. A ring-shaped dam of black gram flour (urad dough) is constructed around the knee, filled with warm medicated oil — typically Mahanarayana Taila or Ksheerabala Taila — and retained for 30–45 minutes. The sustained heat and medicated lipids penetrate the joint capsule, nourish the synovial membrane, reduce subchondral bone inflammation, and restore lubrication to the joint space."
+      },
+      {
+        "question": "How many Janu Basti sessions are required for knee osteoarthritis?",
+        "answer": "A minimum course of 14 consecutive daily sessions is required for meaningful clinical benefit in knee osteoarthritis. Most physicians at Karmanya prescribe 21 sessions for moderate-to-severe cases, followed by a maintenance protocol of weekly sessions for 4–6 weeks. The exact course length depends on the grade of osteoarthritis and the patient's response. Single or occasional sessions provide temporary relief but not sustained therapeutic benefit."
+      },
+      {
+        "question": "Is Janu Basti painful or uncomfortable?",
+        "answer": "No — Janu Basti is deeply soothing. Patients typically experience gentle warmth spreading through the knee joint and describe the therapy as relaxing. The oil temperature is carefully maintained at a comfortable therapeutic level throughout the session. Patients with very severe osteoarthritis may experience mild initial stiffness as the joint responds to heat, which resolves within minutes."
+      },
+      {
+        "question": "Can Janu Basti be done at home?",
+        "answer": "Home Janu Basti is not recommended without physician supervision. The procedure requires precise oil temperature maintenance, specific medicated oils prescribed for your dosha and condition, correct dough dam construction to prevent oil leakage, and post-therapy care. Incorrect oil temperature or wrong oil selection can worsen inflammation. At Karmanya, trained therapists under physician supervision administer all Basti procedures."
+      },
+      {
+        "question": "What is the cost of Janu Basti at Karmanya Ayurveda, Pune?",
+        "answer": "Janu Basti at Karmanya Ayurveda starts from ₹800–₹1,200 per session depending on the medicated oil prescribed. A full 14-session course including herbal medicines typically ranges from ₹14,000–₹22,000. Transparent pricing is available at the clinic. This compares favourably to the cumulative cost of pain management injections or physiotherapy courses — and is a fraction of knee replacement surgery costs."
+      }
+    ]
   },
   {
     "id": "kati-basti",
@@ -96,7 +140,29 @@
       "reviewed_by": "Dr. Irshad T.M.",
       "reviewed_date": "September 2026",
       "doctor_url": "/doctors/dr-irshad/"
-    }
+    },
+    "faqs": [
+      {
+        "question": "What conditions is Kati Basti specifically prescribed for?",
+        "answer": "Kati Basti is prescribed for conditions affecting the lumbar spine and lower back: sciatica (L4-L5, L5-S1 disc herniation), lumbar spondylosis, sacroiliac joint dysfunction, ankylosing spondylitis (in mild-to-moderate stages), chronic low back pain from disc degeneration, and post-surgical lumbar rehabilitation. It is also used for kidney-related lower back ache (Mutrakrichra) when specified in the physician's assessment."
+      },
+      {
+        "question": "How long does a Kati Basti session take?",
+        "answer": "A complete Kati Basti session takes 60–75 minutes including: patient positioning and preparation (10 minutes), dough dam construction (5 minutes), oil filling and retention at therapeutic temperature (45 minutes), and post-therapy gentle massage with the same oil (10 minutes). Patients should plan to arrive 10 minutes before their scheduled time."
+      },
+      {
+        "question": "Can Kati Basti be combined with other spinal treatments?",
+        "answer": "Yes — Kati Basti is most effective when part of a combined protocol. At Karmanya, it is routinely combined with Njavara Kizhi (for muscle strength and nerve nourishment), Basti (medicated enema — the primary internal Vata treatment), and internal herbal medicines. For cervical conditions, Griva Basti (the cervical equivalent) may be combined on alternate days. The physician designs the combined protocol based on your specific imaging findings and clinical presentation."
+      },
+      {
+        "question": "Is there any preparation required before Kati Basti?",
+        "answer": "Arrive on an empty or light stomach (avoid heavy meals 2 hours before the session). Wear comfortable, loose clothing that allows easy access to the lower back. Bring your MRI or X-ray reports for the physician's review. Avoid consuming cold water, refrigerated foods, or alcohol the day of treatment. If you are on blood thinners or have an active skin infection on the lower back, inform the clinic before the session."
+      },
+      {
+        "question": "Does Kati Basti show results on MRI follow-up?",
+        "answer": "Several patients at Karmanya who have undergone repeat MRI after a complete course of Kati Basti + Basti + internal medicines have shown measurable improvements: reduced disc bulge size, improved disc hydration signal, and reduced perineural oedema (nerve root inflammation). These imaging changes correlate with clinical symptom reduction. Disc herniation does not 'disappear' on MRI but the inflammatory component and functional deficit reliably improve."
+      }
+    ]
   },
   {
     "id": "shirodhara",
@@ -113,8 +179,8 @@
       "image_url": "/images/hero-treatment.jpg"
     },
     "clinical": {
-      "ayurvedic_perspective": "Shirodhara directly soothes Prana Vata and Sadhaka Pitta located in the head and brain (Murdha). Modern physiological research demonstrates that Shirodhara lowers sympathetic arousal, slows heart rate, increases alpha and theta brainwaves, and dramatically reduces serum cortisol.",
-      "process": "The patient reclines comfortably on an authentic Kerala teak Droni table. An earthen or copper vessel (Dhara Patra) suspended above rhythmically pours a gentle, continuous stream of warm herbal oil, herbal decoctions (Kashayadhara), or medicated buttermilk (Takradhara) across the forehead.",
+      "ayurvedic_perspective": "Shirodhara directly soothes Prana Vata and Sadhaka Pitta located in the head and brain (Murdha). The forehead is the site of the Ajna Chakra and a major Marma (vital point). Continuous rhythmic pouring of oil induces a state of deep physiological relaxation, activating the parasympathetic nervous system. Modern research shows Shirodhara lowers sympathetic arousal, slows heart rate, increases alpha and theta brainwaves, and dramatically reduces serum cortisol levels.",
+      "process": "The patient reclines comfortably in a quiet, dimly lit room on an authentic Kerala Droni (wooden table). A Dhara Patra (vessel) suspended above the head rhythmically pours a gentle, continuous, precise stream of warm herbal oil across the forehead in a specific oscillating pattern. The process typically lasts 45 to 60 minutes.",
       "common_uses": "Chronic insomnia, anxiety disorders, mental fatigue, burnout, hypertension, migraines, and hair fall.",
       "related_conditions": [
         "stress-insomnia-anxiety",
@@ -129,7 +195,29 @@
       "reviewed_by": "Dr. Irshad T.M.",
       "reviewed_date": "September 2026",
       "doctor_url": "/doctors/dr-irshad/"
-    }
+    },
+    "faqs": [
+      {
+        "question": "What kind of oil is used in Shirodhara?",
+        "answer": "The oil is strictly customized based on your clinical assessment. We commonly use Ksheerabala Taila for severe stress and insomnia, Brahmi Taila for cognitive enhancement, or medicated buttermilk (Takradhara) for psoriasis and cooling effects."
+      },
+      {
+        "question": "Does Shirodhara help with hair fall?",
+        "answer": "Yes, stress-induced hair fall (Telogen Effluvium) responds excellently to Shirodhara, especially when specific cooling oils like Neelibhringadi or Bhringamalakadi are used, as it improves scalp circulation and reduces heat (Pitta) in the hair follicles."
+      },
+      {
+        "question": "How will I feel immediately after the session?",
+        "answer": "Most patients report a feeling of profound mental stillness, clarity, and lightness in the head. It is common to feel deeply relaxed or sleepy. We advise resting and avoiding bright screens or heavy work immediately afterward."
+      },
+      {
+        "question": "Can Shirodhara be done during severe headache or fever?",
+        "answer": "No. Shirodhara is strictly contraindicated during active high fever, acute sinusitis with heavy mucus congestion, severe indigestion, or active scalp infections. Our physician will evaluate your pulse and vitals during consultation before scheduling any Shirodhara session."
+      },
+      {
+        "question": "How should I travel home after a Shirodhara session in Pune?",
+        "answer": "After Shirodhara, your head will be wrapped in a soft cotton scarf or band to shield you from direct wind and air conditioning. We strongly recommend avoiding two-wheeler rides directly after the therapy; arrange a cab or car ride home to Pimple Saudagar, Wakad, Baner, or Hinjawadi and avoid immediate cold showers."
+      }
+    ]
   },
   {
     "id": "kizhi",
@@ -163,7 +251,29 @@
       "reviewed_by": "Dr. Irshad T.M.",
       "reviewed_date": "September 2026",
       "doctor_url": "/doctors/dr-irshad/"
-    }
+    },
+    "faqs": [
+      {
+        "question": "What is Kizhi and what types of Kizhi does Karmanya offer?",
+        "answer": "Kizhi refers to warm herbal bolus therapy — specially prepared pouches (kizhi) containing medicated herbs, rice, or sand, applied in rhythmic strokes over the body or specific joints after heating in medicated oil or decoctions. Karmanya offers three main types: Patra Pinda Sweda (fresh herbal leaf bolus — for joint pain, muscle stiffness), Njavara Kizhi (medicinal rice bolus — for nerve disorders, muscle wasting, paralysis rehabilitation), and Mana Kizhi (dry powder bolus — for conditions requiring dry heat therapy, obesity, Kapha disorders)."
+      },
+      {
+        "question": "How does Njavara Kizhi differ from Patra Pinda Sweda?",
+        "answer": "Njavara Kizhi uses boluses of Njavara rice cooked in medicated milk and herbal decoctions. It is deeply nourishing (Brimhana) — building Ojas and nourishing nerve tissue, muscles, and joints. It is prescribed for sciatica nerve damage, muscle wasting, paralysis rehabilitation, and weakness. Patra Pinda Sweda uses fresh herbal leaves (coconut, castor, calotropis, drumstick) processed in medicated oil. It is primarily analgesic and anti-inflammatory — prescribed for joint pain, stiffness, and arthritis. They have opposite effects and are prescribed for different conditions."
+      },
+      {
+        "question": "Is Kizhi suitable for elderly patients?",
+        "answer": "Yes — Kizhi is one of the gentlest and most suitable therapies for elderly patients. It requires no special positioning, causes no discomfort, and is easily tolerated even by patients with limited mobility. Njavara Kizhi is particularly beneficial for age-related muscle wasting (sarcopenia), osteoporosis-related pain, and parkinsonism-related rigidity. The therapist adjusts pressure and oil temperature to the patient's comfort at all times."
+      },
+      {
+        "question": "Can Kizhi be used for sports injuries and muscle recovery?",
+        "answer": "Yes. Patra Pinda Sweda (herbal leaf Kizhi) is very effective for sports injuries — muscle sprains, ligament strains, post-exercise delayed onset muscle soreness (DOMS), and post-training recovery in athletes. It accelerates resolution of haematomas (bruising), reduces lactic acid accumulation, and improves tissue elasticity. It should not be applied over open wounds, fresh fractures, or acutely inflamed joints (within 48 hours of injury)."
+      },
+      {
+        "question": "How many Kizhi sessions form a complete course?",
+        "answer": "Kizhi is typically administered as part of a daily Panchakarma sequence — usually alongside Abhyangam (full-body oil massage) as a combined 90-minute therapy block. For musculoskeletal conditions, a minimum course of 7–14 consecutive daily sessions is prescribed. For paralysis rehabilitation or severe neurological conditions, 21–28 daily sessions may be required. The physician determines the course duration based on clinical response."
+      }
+    ]
   },
   {
     "id": "abhyangam",
@@ -197,7 +307,29 @@
       "reviewed_by": "Dr. Irshad T.M.",
       "reviewed_date": "September 2026",
       "doctor_url": "/doctors/dr-irshad/"
-    }
+    },
+    "faqs": [
+      {
+        "question": "What is Abhyangam and how is it different from a regular massage?",
+        "answer": "Abhyangam is a full-body synchronised Ayurvedic oil massage performed by trained therapists following classical strokes described in Ayurvedic texts (Charaka Samhita). It is distinct from relaxation massage in several important ways: the oil is physician-prescribed based on your dosha and condition (not chosen for fragrance); the strokes follow the direction of hair follicles, lymphatic channels, and muscle fibres for specific therapeutic effects; pressure and speed are calibrated to your constitution; and the session is followed by Swedana (herbal steam) to enhance oil absorption. Abhyangam is a medical procedure, not a spa treatment."
+      },
+      {
+        "question": "What medicated oil is used in Abhyangam at Karmanya?",
+        "answer": "The oil is physician-prescribed based on your Prakriti (constitution) and presenting condition. Common prescriptions include: Dhanwantaram Taila (for Vata conditions — joint pain, dryness, nerve disorders), Ksheerabala Taila (for neurological and degenerative conditions), Eladi Keram (for Kapha conditions — obesity, congestion), Nalpamaradi Keram (for skin conditions and brightening), and Pinda Taila (for inflammatory conditions). The same oil is not appropriate for all patients — this is a critical reason why physician consultation precedes all treatments at Karmanya."
+      },
+      {
+        "question": "How often should Abhyangam be done for general health maintenance?",
+        "answer": "Classical Ayurvedic texts recommend daily self-Abhyangam (Svabhyanga) as part of the daily routine (Dinacharya) — a practice with documented benefits for longevity, skin health, nervous system regulation, and joint mobility. At Karmanya, therapeutic Abhyangam is prescribed as a course (7, 14, or 21 consecutive days) for clinical conditions. For maintenance and prevention, a weekly session is beneficial for most adults, particularly those with sedentary work patterns, high stress, or a Vata-dominant constitution."
+      },
+      {
+        "question": "Is Abhyangam safe during menstruation?",
+        "answer": "Light Abhyangam with gentle pressure on the abdomen is generally acceptable during menstruation. However, deep abdominal massage, vigorous Kapha-reducing strokes, and Kizhi (which generates significant heat) are contraindicated during the menstrual period — they can increase bleeding or disturb Apana Vata (the downward-flowing energy governing menstrual flow). Inform the clinic if your session falls on a menstrual day, and the therapist will modify the protocol accordingly."
+      },
+      {
+        "question": "What should I do after an Abhyangam session?",
+        "answer": "Rest for 30–45 minutes after the session in a warm room. Do not wash off the oil immediately — allow 1–2 hours for the medicated oil to continue absorbing. When you do bathe, use warm (not hot) water and a gentle gram flour (besan) scrub rather than soap, which strips the therapeutic oil. Avoid cold water, cold food, and vigorous exercise for the remainder of the day. Most patients feel deeply relaxed and may experience improved sleep the same night."
+      }
+    ]
   },
   {
     "id": "kerala-chikitsa",
@@ -231,6 +363,28 @@
       "reviewed_by": "Dr. Irshad T.M.",
       "reviewed_date": "September 2026",
       "doctor_url": "/doctors/dr-irshad/"
-    }
+    },
+    "faqs": [
+      {
+        "question": "What is Kerala Chikitsa and how does it differ from standard Ayurveda?",
+        "answer": "Kerala Chikitsa refers to the distinctive Ayurvedic tradition developed and refined in Kerala over the past 2,000 years — particularly the Ashtavaidya tradition (eight families of physicians preserving classical Ayurvedic lineages). Kerala Chikitsa is characterised by heavy use of medicated oils and ghee (both internally and externally), specific procedural therapies not commonly practised in North India (Dhara, Pizhichil, Navarakizhi), and a strong emphasis on Panchakarma as the primary therapeutic tool. At Karmanya, Dr. Irshad T.M. brings the Ashtavaidya Kerala tradition directly to Pune."
+      },
+      {
+        "question": "What is Pizhichil and when is it prescribed?",
+        "answer": "Pizhichil (also called Sarvanga Dhara or Kerala's 'royal treatment') involves continuous pouring of warm medicated oil over the entire body by two therapists simultaneously, for 45–60 minutes, while the patient is in 7 standardised positions. The volume of oil used is large — 3–5 litres in a single session. It is prescribed for: paralysis and hemiplegia rehabilitation, severe Vata disorders with generalised dryness and weakness, multiple sclerosis (adjunctive management), Parkinson's disease tremor management, and advanced osteoarthritis with generalised joint involvement. It is a deeply nourishing (Brimhana) procedure."
+      },
+      {
+        "question": "What makes Karmanya's Kerala Chikitsa authentic?",
+        "answer": "Authenticity in Kerala Chikitsa depends on three factors: physician lineage and training (Dr. Irshad trained under classical Kerala Ayurvedic institutions with Ashtavaidya lineage), oil authenticity (classical formulations prepared using the correct base oils, herbs, and processing methods), and procedural fidelity (correct sequence, dosage, duration, and post-procedure care as described in classical texts). At Karmanya, all medicated oils are sourced from authenticated Kerala manufacturers using classical methods, and all procedures follow classical protocols."
+      },
+      {
+        "question": "Is Kerala Chikitsa only for serious medical conditions?",
+        "answer": "No. While Kerala Chikitsa is most powerful for serious conditions (paralysis, advanced joint disease, neurological disorders), many procedures are appropriate for healthy individuals seeking Prakriti-appropriate maintenance, seasonal detoxification, and rejuvenation. Annual Virechana (for Pitta types), Rasayana therapy, and Abhyangam courses are excellent preventive healthcare for working professionals in Pune, particularly those with sedentary lifestyles and chronic stress exposure."
+      },
+      {
+        "question": "How does Karmanya ensure quality of medicated oils used in Kerala Chikitsa?",
+        "answer": "All medicated oils and herbal formulations used at Karmanya are sourced from GMP-certified Ayurvedic pharmacies in Kerala with documented classical preparation methods. Key oils — Mahanarayana Taila, Ksheerabala Taila, Dhanwantaram Taila, Pinda Taila — are batch-tested for quality markers before use. Classical preparations require 100+ hours of processing; 'express' versions cut this to hours and lose therapeutic efficacy. The physician reviews sourcing documentation before selecting formulations for your protocol."
+      }
+    ]
   }
 ]

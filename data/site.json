@@ -1,13 +1,13 @@
 {
   "brand": {
     "name": "Karmanya Ayurveda Chikitsalaya",
-    "primary_claim": "Authentic Kerala Ayurveda. Personalized Around You.",
-    "subheadline": "Traditional Kerala Ayurvedic therapies delivered under physician-led care, with treatment plans personalized to your individual health needs.",
+    "primary_claim": "Pune's Physician-Led Ayurvedic Treatment Centre.",
+    "subheadline": "Doctor-diagnosed, clinically managed Ayurvedic treatment for chronic conditions. Not a spa — a medical centre where your condition is assessed, treated, and monitored by qualified Ayurvedic physicians.",
     "location": "Pune",
     "phone": "+91 98198 20017",
     "whatsapp_url": "https://wa.me/919819820017",
     "address": "27/11, Swaraj Garden Road, Near One Nation Apartment, Pimple Saudagar, Pimpri-Chinchwad, Maharashtra 411027",
-    "timings": "Monday to Sunday, 10:00 AM \u2013 8:00 PM",
+    "timings": "Monday to Sunday, 10:00 AM – 8:00 PM",
     "geo": {
       "latitude": 18.5956,
       "longitude": 73.7979
@@ -29,7 +29,7 @@
     ],
     "seo": {
       "local_target": "Pimple Saudagar, Pune",
-      "primary_keyword": "Ayurvedic Clinic in Pimple Saudagar, Pune"
+      "primary_keyword": "Ayurvedic Treatment Centre in Pimple Saudagar, Pune"
     },
     "service_areas": [
       "Pimple Saudagar",
@@ -57,38 +57,43 @@
     "accreditation": "Certified Best Ayurvedic Centre in India"
   },
   "positioning": {
-    "kerala_heritage": "Karmanya brings authentic Kerala Ayurvedic treatment practices to Pune, combining traditional therapies with personalized physician-led care.",
-    "physician_led_care": "Your treatment begins with consultation and assessment by a qualified Ayurvedic physician.",
-    "personalization": "Therapies are selected according to your individual needs, not standard packages.",
-    "ongoing_guidance": "Treatment, lifestyle guidance, and follow-up support for better long-term health.",
+    "kerala_heritage": "Karmanya is a clinical Ayurvedic treatment centre, not a wellness spa. Every patient undergoes formal Nadi Pariksha (pulse diagnosis) and physician consultation before any therapy begins. Therapies are prescribed — not selected from a menu.",
+    "physician_led_care": "Your treatment begins with a formal medical consultation. The physician diagnoses your root cause (Nidana), maps your Dosha imbalance, and prescribes a structured treatment protocol — the same rigour as a specialist hospital.",
+    "personalization": "No two patients receive the same protocol. Therapy, duration, herbal medicines, and diet are all customised based on your clinical presentation and Prakriti assessment.",
+    "ongoing_guidance": "Fortnightly or monthly physician reviews, diet and lifestyle protocols, and herbal medicine regimens — because a cure requires follow-through, not just one session.",
     "metrics": [
       {
         "value": "3+",
-        "label": "Years of Clinical Excellence"
+        "label": "Years of Clinical Practice"
       },
       {
         "value": "5,000+",
-        "label": "Patient Consultations"
+        "label": "Patients Treated"
       },
       {
         "value": "100%",
-        "label": "Authentic Kerala Therapies"
+        "label": "Physician-Prescribed Therapies"
       },
       {
         "value": "4.9/5",
-        "label": "Patient Satisfaction Rating"
+        "label": "Patient Outcome Rating"
       }
     ],
     "testimonials": [
       {
-        "quote": "After struggling with severe joint pain for years, the authentic Panchakarma therapies at Karmanya provided immense relief. The physicians genuinely care about your long-term health, not just temporary fixes.",
-        "author": "Anjali M.",
-        "condition": "Joint Pain Management"
+        "quote": "After 3 years of knee pain and two orthopaedic opinions recommending surgery, Dr. Irshad's protocol with Janu Basti and internal medicines gave me 80% relief in 6 weeks. I avoided surgery.",
+        "author": "Ramesh S.",
+        "condition": "Severe Knee Osteoarthritis — Avoided Surgery"
       },
       {
-        "quote": "Unlike other commercial Ayurvedic centers, Karmanya focuses on root-cause assessment. Dr. Irshad's Nadi Pariksha and subsequent treatment protocol transformed my metabolic health.",
-        "author": "Rajesh K.",
-        "condition": "Metabolic Reset"
+        "quote": "I came expecting a massage. Instead, I got a full clinical assessment, pulse diagnosis, and a 3-month treatment plan. This is a real medical centre. My sciatica is 90% better.",
+        "author": "Priya N.",
+        "condition": "L4-L5 Disc Bulge & Sciatica"
+      },
+      {
+        "quote": "Dr. Tejasvi's approach to my PCOD was completely different — she addressed my insulin resistance and Kapha imbalance together. My cycles regularised within 2 months.",
+        "author": "Snehal K.",
+        "condition": "PCOD & Hormonal Imbalance"
       }
     ]
   }

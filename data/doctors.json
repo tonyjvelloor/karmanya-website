@@ -12,7 +12,7 @@
     "marketing": {
       "hero_title": "Dr. Irshad T.M.",
       "hero_description": "Expert in authentic Kerala Ashtavaidya Ayurveda, Panchakarma, non-surgical joint rehabilitation, and complex musculoskeletal care with 15+ years of clinical experience.",
-      "image_url": "/images/doctor-consult.jpg"
+      "image_url": "/images/doctors/dr-irshad-portrait.jpg"
     },
     "clinical": {
       "experience": "11+ Years",
@@ -39,7 +39,7 @@
         "cervical-spondylosis-neck-pain",
         "stress-insomnia-anxiety"
       ],
-      "role_subtitle": "Senior Consultant \u00b7 Pain Management & Nadi Parikshan Specialist"
+      "role_subtitle": "Senior Consultant · Pain Management & Nadi Parikshan Specialist"
     },
     "safety": {
       "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."
@@ -54,7 +54,7 @@
     "id": "dr-tejasvi",
     "name": "Dr. Tejasiv Mulik",
     "slug": "dr-tejasvi",
-    "title": "Senior Consultant \u00b7 Panchakarma & Metabolic Disorders",
+    "title": "Senior Consultant · Panchakarma & Metabolic Disorders",
     "qualifications": "BAMS",
     "seo": {
       "meta_title": "Dr. Tejasvi Mulik | Ayurvedic Doctor in Pimple Saudagar, Pune | Karmanya",
@@ -63,7 +63,7 @@
     "marketing": {
       "hero_title": "Dr. Tejasvi Mulik",
       "hero_description": "Specialist in women's health, PCOS/PCOD management, herbal dermatology, and metabolic digestive disorders with 10+ years of clinical practice.",
-      "image_url": "/images/doctor-consult.jpg"
+      "image_url": "/images/doctors/dr-tejasvi-portrait.jpg"
     },
     "clinical": {
       "experience": "7+ Years",
@@ -88,7 +88,7 @@
         "digestive-metabolic-disorders",
         "stress-insomnia-anxiety"
       ],
-      "role_subtitle": "Senior Consultant \u00b7 Panchakarma & Metabolic Disorders Specialist"
+      "role_subtitle": "Senior Consultant · Panchakarma & Metabolic Disorders Specialist"
     },
     "safety": {
       "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."

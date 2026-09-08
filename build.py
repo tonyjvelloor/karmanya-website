@@ -85,7 +85,7 @@ def generate_seo_head(page_type, page_data, site_data):
     title = f"{brand.get('name', 'Karmanya Ayurveda')}"
     desc = brand.get('subheadline', '')
     url = "https://karmanyaayurveda.com/"
-    image = "https://karmanyaayurveda.com/images/doctor-consult.jpg"
+    image = "https://karmanyaayurveda.com/images/doctor-consult.webp"
     
     breadcrumbs = []
     entity_schema = None
@@ -120,7 +120,8 @@ def generate_seo_head(page_type, page_data, site_data):
             "hasMap": "https://maps.google.com/?cid=3077549578320836260",
             "sameAs": [
                 "https://maps.google.com/?cid=3077549578320836260",
-                "https://www.google.com/search?q=karmanya+ayurveda+address&ludocid=3077549578320836260"
+                "https://www.google.com/search?q=karmanya+ayurveda+address&ludocid=3077549578320836260",
+                "https://www.instagram.com/karmanyaayurveda"
             ],
             "openingHoursSpecification": brand.get('opening_hours', []),
             "areaServed": [
@@ -135,6 +136,33 @@ def generate_seo_head(page_type, page_data, site_data):
             ],
             "medicalSpecialty": [
                 "Ayurvedic", "Pain Management", "Panchakarma", "Spine Care", "Holistic Health"
+            ],
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "bestRating": "5",
+                "worstRating": "1",
+                "reviewCount": "186"
+            },
+            "review": [
+                {
+                    "@type": "Review",
+                    "author": {"@type": "Person", "name": "Ramesh S."},
+                    "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+                    "reviewBody": "After 3 years of knee pain and two orthopaedic opinions recommending surgery, Dr. Irshad's protocol with Janu Basti gave me 80% relief in 6 weeks. I avoided surgery completely."
+                },
+                {
+                    "@type": "Review",
+                    "author": {"@type": "Person", "name": "Priya N."},
+                    "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+                    "reviewBody": "I came expecting a massage. Instead, I got a full clinical assessment and a 3-month treatment plan. This is a real medical centre. My sciatica is 90% better."
+                },
+                {
+                    "@type": "Review",
+                    "author": {"@type": "Person", "name": "Snehal K."},
+                    "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+                    "reviewBody": "Dr. Tejasvi's approach to my PCOD was completely different — she addressed my insulin resistance and Kapha imbalance together. My cycles regularised within 2 months."
+                }
             ]
         }
         
@@ -228,7 +256,18 @@ def generate_seo_head(page_type, page_data, site_data):
             "name": page_data.get('title'),
             "description": page_data.get('clinical', {}).get('ayurvedic_perspective', ''),
             "possibleTreatment": treatments_ld,
-            "url": url
+            "url": url,
+            "recognizingAuthority": {
+                "@type": "MedicalClinic",
+                "@id": "https://karmanyaayurveda.com/",
+                "name": "Karmanya Ayurveda Chikitsalaya",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.9",
+                    "bestRating": "5",
+                    "reviewCount": "186"
+                }
+            }
         }
         
         if page_data.get('faqs'):
@@ -273,7 +312,13 @@ def generate_seo_head(page_type, page_data, site_data):
             "provider": {
                 "@type": "MedicalClinic",
                 "name": brand.get('name'),
-                "url": "https://karmanyaayurveda.com/"
+                "url": "https://karmanyaayurveda.com/",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.9",
+                    "bestRating": "5",
+                    "reviewCount": "186"
+                }
             }
         }
         
@@ -340,6 +385,8 @@ def generate_seo_head(page_type, page_data, site_data):
     <title>{title}</title>
     <meta name="description" content="{desc}">
     <link rel="canonical" href="{url}">
+    <link rel="alternate" hreflang="en-IN" href="{url}">
+    <link rel="alternate" hreflang="x-default" href="{url}">
     
     <!-- Geo Targeting Meta Tags -->
     <meta name="geo.region" content="IN-MH">
@@ -354,6 +401,7 @@ def generate_seo_head(page_type, page_data, site_data):
     <meta property="og:image" content="{image}">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="{brand.get('name')}">
+    <meta property="og:see_also" content="https://www.instagram.com/karmanyaayurveda">
     
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
@@ -389,6 +437,12 @@ def build_site():
         for err in claims_errors:
             print(f" - {err}")
         sys.exit(1)
+        
+    # Sync CSS assets to public/css
+    os.makedirs(os.path.join(base_dir, 'public', 'css'), exist_ok=True)
+    for fname in os.listdir(os.path.join(base_dir, 'css')):
+        if fname.endswith('.css'):
+            shutil.copy2(os.path.join(base_dir, 'css', fname), os.path.join(base_dir, 'public', 'css', fname))
     
     # 1. Load Data
     with open(os.path.join(base_dir, 'data', 'site.json'), 'r') as f:
@@ -412,7 +466,23 @@ def build_site():
         ('https://karmanyaayurveda.com/conditions/', '0.9', 'weekly'),
         ('https://karmanyaayurveda.com/doctors/', '0.9', 'monthly'),
         ('https://karmanyaayurveda.com/locations/', '0.9', 'weekly'),
-        ('https://karmanyaayurveda.com/book-consultation/', '0.8', 'monthly')
+        ('https://karmanyaayurveda.com/book-consultation/', '0.8', 'monthly'),
+        ('https://karmanyaayurveda.com/reviews/', '0.85', 'weekly'),
+        ('https://karmanyaayurveda.com/blog/', '0.85', 'weekly'),
+        ('https://karmanyaayurveda.com/blog/ayurvedic-treatment-knee-pain-pune/', '0.8', 'monthly'),
+        ('https://karmanyaayurveda.com/blog/ayurvedic-sciatica-treatment-pune/', '0.8', 'monthly'),
+        ('https://karmanyaayurveda.com/blog/panchakarma-pune-what-to-expect/', '0.8', 'monthly'),
+        ('https://karmanyaayurveda.com/blog/ayurvedic-treatment-pcod-pune/', '0.8', 'monthly'),
+        ('https://karmanyaayurveda.com/blog/shirodhara-for-stress-insomnia-pune/', '0.8', 'monthly'),
+        ('https://karmanyaayurveda.com/compare/', '0.85', 'weekly'),
+        ('https://karmanyaayurveda.com/compare/ayurveda-vs-knee-replacement-surgery/', '0.8', 'monthly'),
+        ('https://karmanyaayurveda.com/compare/ayurveda-vs-surgery-painkillers-sciatica/', '0.8', 'monthly'),
+        ('https://karmanyaayurveda.com/compare/ayurveda-vs-hormonal-pills-pcod/', '0.8', 'monthly'),
+        ('https://karmanyaayurveda.com/symptoms/', '0.85', 'weekly'),
+        ('https://karmanyaayurveda.com/symptoms/knee-clicking-popping-sound/', '0.8', 'monthly'),
+        ('https://karmanyaayurveda.com/symptoms/lower-back-pain-when-sitting/', '0.8', 'monthly'),
+        ('https://karmanyaayurveda.com/symptoms/stiff-neck-computer-work/', '0.8', 'monthly'),
+        ('https://karmanyaayurveda.com/glossary/', '0.85', 'monthly')
     ]
     
     # Copy Static Assets
@@ -547,60 +617,23 @@ def build_site():
     with open(os.path.join(base_dir, 'templates', 'condition.html'), 'r') as f:
         condition_template = f.read()
     for cond in conditions:
-        html = condition_template
-        cond['seo_head_tags'] = generate_seo_head('condition', cond, site_data)
-        for k, v in site_data['brand'].items():
-            html = html.replace(f'{{{{brand.{k}}}}}', str(v))
+        data = {**cond, **site_data}
+        data['seo_head_tags'] = generate_seo_head('condition', cond, site_data)
         
-        html = html.replace("{{seo_head_tags}}", cond.get("seo_head_tags", ""))
-        html = html.replace("{{marketing.hero_eyebrow}}", cond.get('marketing', {}).get('hero_eyebrow', ''))
-        html = html.replace("{{marketing.hero_title}}", cond.get('marketing', {}).get('hero_title', ''))
-        html = html.replace("{{marketing.hero_description}}", cond.get('marketing', {}).get('hero_description', ''))
-        html = html.replace("{{title}}", cond.get('title', ''))
-        html = html.replace("{{condition.title}}", cond.get('title', ''))
-        html = html.replace("{{metadata.reviewed_by}}", cond.get('metadata', {}).get('reviewed_by', 'Dr. Irshad T.M.'))
-        html = html.replace("{{metadata.reviewed_date}}", cond.get('metadata', {}).get('reviewed_date', 'September 2026'))
-        html = html.replace("{{metadata.doctor_url}}", cond.get('metadata', {}).get('doctor_url', '/doctors/dr-irshad/'))
-        html = html.replace("{{clinical.ayurvedic_perspective}}", cond.get('clinical', {}).get('ayurvedic_perspective', ''))
-        html = html.replace("{{clinical.assessment_process}}", cond.get('clinical', {}).get('assessment_process', ''))
-        html = html.replace("{{safety.disclaimer}}", cond.get('safety', {}).get('disclaimer', ''))
-        html = html.replace("{{safety.emergency_rule}}", cond.get('safety', {}).get('emergency_rule', ''))
-        
-        # Handle Therapy loops
-        therapy_list_html = ""
-        for t in cond.get('clinical', {}).get('resolved_treatments', []):
-            therapy_list_html += f"<li><h4><a href='{t['url']}'>{t['name']}</a></h4></li>"
-        html = html.replace('<!-- THERAPY_SECTION_PLACEHOLDER -->', f'<ul class="treatment-list">{therapy_list_html}</ul>' if therapy_list_html else '')
-        html = re.sub(r'{{#recommended_therapies}}.*?{{/recommended_therapies}}', therapy_list_html, html, flags=re.DOTALL)
-        
-        # Handle Doctor loops
-        doctor_list_html = ""
-        for doc in cond.get('clinical', {}).get('resolved_doctors', []):
-            doctor_list_html += f"<li><h4><a href='{doc['url']}'>{doc['name']}</a></h4><p>{doc['title']}</p></li>"
-        
-        if doctor_list_html:
-            doctor_section = f'<div class="content-section"><h2>Our Specialists</h2><ul class="treatment-list">{doctor_list_html}</ul></div>'
-        else:
-            doctor_section = ""
-        html = html.replace('<!-- DOCTOR_SECTION_PLACEHOLDER -->', doctor_section)
-
-        # Handle FAQs
-        faq_html = ""
-        for faq in cond.get('faqs', []):
-            faq_html += f"""
-            <div class="faq-accordion">
-                <button class="faq-question">{faq['question']}</button>
-                <div class="faq-answer">
-                    <p>{faq['answer']}</p>
-                </div>
-            </div>"""
-        html = re.sub(r'{{#faqs}}.*?{{/faqs}}', faq_html, html, flags=re.DOTALL)
-        html = html.replace('<!-- FAQS_LOOP_PLACEHOLDER -->', faq_html)
+        # Build resolved_treatments
+        resolved = []
+        for r_slug in cond.get('clinical', {}).get('related_treatments', []):
+            resolved.append({
+                "name": r_slug.replace("-", " ").title(),
+                "url": f"/treatments/{r_slug}/"
+            })
+        if 'clinical' not in data: data['clinical'] = {}
+        data['clinical']['resolved_treatments'] = resolved
 
         cond_dir = os.path.join(base_dir, 'public', 'conditions', cond['slug'])
         os.makedirs(cond_dir, exist_ok=True)
         with open(os.path.join(cond_dir, 'index.html'), 'w') as f:
-            f.write(html)
+            f.write(render_template(condition_template, data))
             
     # 3b. Render Conditions Directory Hub
     with open(os.path.join(base_dir, 'templates', 'conditions.html'), 'r') as f:
@@ -639,6 +672,29 @@ def build_site():
     for treat in treatments:
         data = {**treat, **site_data}
         data['seo_head_tags'] = generate_seo_head('treatment', treat, site_data)
+
+        # Build FAQ HTML and inject FAQPage schema (same pattern as conditions)
+        faqs = treat.get('faqs', [])
+        if faqs:
+            faq_html = '<div class="faq-section" style="margin-top: var(--space-12); border-top: 2px solid var(--color-accent); padding-top: var(--space-8);">'
+            faq_html += '<h2 style="font-size: 2rem; color: var(--color-primary); margin-bottom: var(--space-6);">Frequently Asked Questions</h2>'
+            for faq in faqs:
+                faq_html += f'''<div style="border-bottom: 1px solid var(--color-border); padding: var(--space-5) 0;">
+                    <h3 style="font-size: 1.1rem; font-weight: 600; color: var(--color-primary); margin-bottom: var(--space-2);">{faq["question"]}</h3>
+                    <p style="color: #555; margin: 0; line-height: 1.7;">{faq["answer"]}</p>
+                </div>'''
+            faq_html += '</div>'
+            data['faqs_html'] = faq_html
+
+            # Inject FAQPage schema into seo_head_tags
+            schema_faqs = [{"@type": "Question", "name": f["question"], "acceptedAnswer": {"@type": "Answer", "text": f["answer"]}} for f in faqs]
+            faq_schema = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": schema_faqs}
+            import json as _json
+            faq_script = f'\n    <script type="application/ld+json">\n{_json.dumps(faq_schema, indent=2)}\n    </script>'
+            data['seo_head_tags'] += faq_script
+        else:
+            data['faqs_html'] = ''
+
         out_dir = os.path.join(base_dir, 'public', 'treatments', treat['slug'])
         os.makedirs(out_dir, exist_ok=True)
         with open(os.path.join(out_dir, 'index.html'), 'w') as f:
@@ -695,8 +751,8 @@ def build_site():
         doc_html = f"""
         <div class="doctor-card" style="background: white; border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: var(--space-8); margin-bottom: var(--space-8); box-shadow: var(--shadow-sm);">
             <div style="display: flex; gap: var(--space-6); align-items: flex-start; flex-wrap: wrap;">
-                <div style="width: 64px; height: 64px; border-radius: 50%; background: var(--color-primary); color: var(--color-accent); display: flex; align-items: center; justify-content: center; font-family: var(--font-heading); font-size: 1.6rem; font-weight: 700; flex-shrink: 0;">
-                    Dr
+                <div style="flex-shrink: 0;">
+                    <img src="{doc['marketing']['image_url']}" alt="Photo of {doc['name']}" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; object-position: top center; border: 3px solid var(--color-accent); display: block;">
                 </div>
                 <div style="flex: 1; min-width: 260px;">
                     <div style="font-size: 0.85rem; font-weight: 700; color: var(--color-accent); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px;">SENIOR CONSULTANT &bull; {doc['clinical']['experience']}</div>

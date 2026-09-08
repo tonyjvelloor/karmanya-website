@@ -8,19 +8,20 @@
       "meta_description": "Avoid knee surgery with personalized Ayurvedic treatment in Pune. Authentic Kerala therapies, Janu Basti, and physician-led care for chronic joint pain relief."
     },
     "marketing": {
-      "hero_eyebrow": "NON-SURGICAL PAIN RELIEF",
+      "hero_eyebrow": "Clinical Treatment · Non-Surgical Cure",
       "hero_title": "Ayurvedic Treatment for Knee & Joint Pain",
       "hero_description": "A natural, non-surgical alternative for managing chronic knee pain and arthritis, combining authentic Kerala therapies with physician-led care in Pimple Saudagar."
     },
     "clinical": {
-      "ayurvedic_perspective": "In Ayurveda, chronic knee pain is traditionally understood as Sandhigata Vata (osteoarthritis) or Amavata (inflammatory arthritis). As Vata dosha accumulates, synovial fluid (Sleshaka Kapha) depletes, causing cartilage friction, stiffness, and bone spurs. Rather than masking pain with NSAIDs, Ayurvedic protocols focus on nourishing the Dhatus (tissues) and lubricating the joint space.",
+      "ayurvedic_perspective": "In Ayurveda, Knee Joint Pain is primarily classified under 'Janu Sandhigata Vata'. This condition arises when Vata dosha becomes aggravated and localizes in the knee joints (Janu Sandhi). The excess Vata causes depletion of synovial fluid (Shleshaka Kapha), leading to a dry, rough joint space, which results in friction, pain, crepitus (cracking sounds), and restricted movement. In chronic cases, Ama (metabolic toxins) can also accumulate, leading to inflammation and swelling, known as 'Amavata' when systemic or 'Kroshtukashirsha' when localized specifically with intense swelling.",
       "assessment_process": "Your consultation includes classical Nadi Pariksha (pulse diagnosis), physical range-of-motion assessment, review of recent X-rays/MRIs, and evaluation of your metabolic digestive fire (Agni).",
       "related_treatments": [
         "janu-basti",
         "kizhi",
         "panchakarma",
         "abhyangam"
-      ]
+      ],
+      "approach": "Our clinical approach focuses on three core pillars: 1. Pacifying aggravated Vata and resolving pain through sustained localized oil pooling (Janu Basti). 2. Restoring synovial fluid lubrication and protecting joint cartilage with tissue-nourishing Rasayana formulations. 3. Strengthening peri-articular ligaments and musculature with Patra Pinda Sweda (Kizhi) and targeted ergonomic rehabilitation."
     },
     "safety": {
       "disclaimer": "These therapies are not selected as a standard package. Your physician determines an appropriate approach based on your individual assessment.",
@@ -28,16 +29,36 @@
     },
     "faqs": [
       {
-        "question": "Can Ayurveda help me avoid knee replacement surgery?",
-        "answer": "For patients in early to moderate stages of knee osteoarthritis (Grades 1, 2, and early Grade 3), Ayurvedic therapies like Janu Basti and Kizhi help lubricate cartilage, reduce osteophyte inflammation, and restore pain-free walking mobility, often eliminating or delaying the need for surgical replacement."
+        "question": "Can Ayurveda help avoid knee replacement surgery?",
+        "answer": "Yes, in mild to moderate cases of osteoarthritis, authentic Ayurvedic therapies like Janu Basti and Lepam can significantly reduce pain, improve joint mobility, and delay or even prevent the need for surgical intervention by naturally lubricating the joint space."
       },
       {
-        "question": "How long does Ayurvedic treatment for knee pain take?",
-        "answer": "A typical intensive outpatient protocol spans 7 to 14 days of daily 45 to 60-minute therapeutic procedures, accompanied by prescribed classical herbal rasayanas and dietary guidance for sustained long-term relief."
+        "question": "How many sessions of Janu Basti are required?",
+        "answer": "Typically, a continuous course of 7, 14, or 21 days is recommended depending on the severity of cartilage degeneration and Vata vitiation."
       },
       {
-        "question": "What specific therapies are used for knee pain?",
-        "answer": "Our primary interventions include Janu Basti (retaining warm medicated herbal oil over the knee joint in a dough dam), Patra Pinda Sweda (herbal leaf bolus massage), and systemic Vata-pacifying internal formulations."
+        "question": "Are there specific dietary restrictions for knee pain?",
+        "answer": "Yes. To balance Vata, patients are advised to avoid dry, cold, and stale foods, as well as excess legumes (like chickpeas) which increase internal dryness. Warm, freshly cooked meals with moderate healthy fats like pure cow's ghee are highly recommended."
+      },
+      {
+        "question": "Can I continue walking and exercising during Ayurvedic knee treatment?",
+        "answer": "Light walking (15–20 minutes on flat ground) is encouraged throughout treatment and aids recovery. High-impact activities — running, climbing stairs repeatedly, squatting — should be avoided during the active treatment phase. Your physician will advise a graded return to activity as pain resolves. Specific yoga postures beneficial for knee rehabilitation are prescribed after the acute phase."
+      },
+      {
+        "question": "Is Janu Basti effective for both knees simultaneously?",
+        "answer": "Yes. When both knees are affected (bilateral osteoarthritis), Janu Basti can be administered to both simultaneously using two dough dams. This is common practice at Karmanya for patients with bilateral Grade I-II osteoarthritis. The session duration remains the same."
+      },
+      {
+        "question": "What is the Ayurvedic diet recommended during knee pain treatment?",
+        "answer": "The physician prescribes a Vata-pacifying diet: warm, cooked, lightly spiced foods; good quality fats (ghee, sesame oil); root vegetables; and warm milk with Ashwagandha at night. Foods to avoid include raw salads, cold foods, fermented foods, processed snacks, and excess dry or light foods (popcorn, crackers). Adequate hydration with warm water is essential."
+      },
+      {
+        "question": "How soon after knee replacement surgery can I start Ayurvedic rehabilitation?",
+        "answer": "Post-surgical Ayurvedic rehabilitation can typically begin 6–8 weeks after knee replacement surgery, once the surgical wound has fully healed and your orthopaedic surgeon has cleared you for gentle therapy. We use specific Snehana (oil application) and gentle Swedana to reduce post-surgical stiffness, improve range of motion, and accelerate functional recovery. Please bring your surgical notes and post-op instructions for the physician's review."
+      },
+      {
+        "question": "What is the difference between Janu Basti and a regular oil massage for knee pain?",
+        "answer": "A regular oil massage (Abhyangam) applies oil superficially to the skin surface. Janu Basti is a localised medicated oil retention — the oil is pooled inside a flour dam directly over the joint space and maintained at therapeutic temperature for 30–45 minutes. This allows deep penetration of medicated lipids into the joint capsule, synovial membrane, and subchondral bone — effects that cannot be achieved through surface massage. The two procedures have entirely different mechanisms and clinical indications."
       }
     ],
     "metadata": {
@@ -55,19 +76,20 @@
       "meta_description": "Non-surgical Ayurvedic care for slip disc, sciatica, and chronic lower back pain in Pune. Authentic Kati Basti and Kerala therapies under MD Ayurvedic physicians."
     },
     "marketing": {
-      "hero_eyebrow": "SPINAL CARE & MOBILITY",
+      "hero_eyebrow": "Clinical Treatment · Nerve Decompression",
       "hero_title": "Ayurvedic Treatment for Spine, Sciatica & Back Pain",
       "hero_description": "Targeted non-invasive therapies for lumbar disc herniation, sciatic nerve compression, and chronic back stiffness in Pimple Saudagar, Pune."
     },
     "clinical": {
-      "ayurvedic_perspective": "Lower back pain and sciatica are clinically termed Kati Shula and Gridhrasi in classical Ayurveda. Aggravated Vata settles in the lumbar spine (Katisthana), dehydrating the intervertebral discs and inflaming the nerve roots. Classical treatments restore elasticity to spinal ligaments, soothe nerve irritation, and relax paraspinal muscle spasms.",
+      "ayurvedic_perspective": "Spinal issues and Sciatica are deeply understood in Ayurveda as 'Gridhrasi' (Sciatica) and 'Kati Shoola' (Lower Back Pain). Gridhrasi refers to the gait of a vulture, characteristic of the limp caused by sciatic nerve compression. It is primarily a Vata Vyadhi (neurological disorder caused by Vata), often complicated by Kapha (causing stiffness). The intervertebral discs act as shock absorbers; when Vata dries them out, disc desiccation or herniation (slip disc) occurs, pinching the spinal nerves.",
       "assessment_process": "Detailed spinal range-of-motion examination, neurological reflex check, evaluation of radiating leg pain, posture assessment, and Nadi Pariksha.",
       "related_treatments": [
         "kati-basti",
         "kizhi",
         "panchakarma",
         "abhyangam"
-      ]
+      ],
+      "approach": "Our spine and disc protocol combines: 1. Reducing nerve root oedema and muscular spasm with warm medicinal oil pooling over the lumbar spine (Kati Basti). 2. Clearing pelvic Vata stagnation and rehydrating intervertebral disc tissue through classical internal medicated enemas (Basti). 3. Strengthening the spinal core musculature with Njavara Kizhi and structured postural correction."
     },
     "safety": {
       "disclaimer": "Therapies are tailored strictly to spinal imaging and physical diagnostic findings. Not all back conditions are managed identically.",
@@ -75,16 +97,36 @@
     },
     "faqs": [
       {
-        "question": "What is Kati Basti and how does it help back pain?",
-        "answer": "Kati Basti is a specialized procedure where a reservoir of warm, herbal medicated oil is retained over the lumbosacral region inside a dough ring for 30 to 45 minutes. The continuous therapeutic heat and herbal actives penetrate deeply to rehydrate compressed spinal discs and ease nerve compression."
+        "question": "What is Kati Basti and how does it help a slipped disc?",
+        "answer": "Kati Basti involves pooling warm, medicated herbal oil over the lower back using a dough ring. The heat and specific herbs penetrate the tissues, relaxing severe muscle spasms and increasing blood circulation to the dehydrated disc, aiding in natural healing."
       },
       {
-        "question": "Can sciatica radiating down the leg be managed without surgery?",
-        "answer": "Yes. Sciatica (Gridhrasi) responds very well to conservative Ayurvedic treatment combining Kati Basti, Patra Pinda Sweda (Kizhi), and herbal anti-inflammatory decoctions that reduce swelling around the sciatic nerve root."
+        "question": "Is Ayurvedic treatment safe for severe sciatica?",
+        "answer": "Yes, Ayurveda offers non-invasive, gentle therapies. We do not perform harsh bone manipulation. Treatment focuses on reducing nerve inflammation and muscle tension through external oils and internal medicines."
       },
       {
-        "question": "How many sessions are typically required?",
-        "answer": "Most acute to subacute lumbar cases require a course of 7 to 10 consecutive daily sessions, while chronic degenerative disc conditions may benefit from 14 sessions followed by maintenance exercises."
+        "question": "How soon can I see relief from back pain?",
+        "answer": "Patients often experience reduced muscle stiffness within the first 3-5 sessions of external therapy. Comprehensive healing of the nerve and disc structure typically requires a tailored 14 to 21-day program."
+      },
+      {
+        "question": "Can Ayurveda help with spinal canal stenosis (narrowing)?",
+        "answer": "Spinal canal stenosis causes neurological symptoms (leg weakness, claudication) by physically narrowing the spinal canal. Ayurvedic treatment can significantly reduce neurogenic inflammation and improve function in mild-to-moderate stenosis — particularly through Basti therapy and specific nerve-nourishing Rasayanas. Severe stenosis with progressive neurological deficit (foot drop, bladder involvement) requires surgical evaluation. Our physician reviews imaging before advising."
+      },
+      {
+        "question": "How long should I rest after a Kati Basti session?",
+        "answer": "A 30-minute rest in a comfortable supine or lateral position is recommended immediately after Kati Basti. Light activity (walking, desk work) is fine 1–2 hours post-session. Avoid heavy lifting, bending forward from the waist, or prolonged sitting for the remainder of the day. The medicated oil continues to absorb for several hours after the session."
+      },
+      {
+        "question": "Is Ayurvedic treatment for sciatica suitable during pregnancy?",
+        "answer": "Sciatica during pregnancy (caused by uterine pressure on the sciatic nerve) is very common, particularly in the second and third trimester. However, many standard Ayurvedic procedures — Basti, Virechana, Kati Basti with very warm oil — are contraindicated during pregnancy. Safe alternatives during pregnancy include Abhyangam with appropriate oils, Pinda Sweda with modified temperature, and specific oral herbal formulations safe in pregnancy. A dedicated consultation is required for pregnant patients."
+      },
+      {
+        "question": "What causes sciatica to recur after treatment?",
+        "answer": "Sciatica recurs most commonly due to: continued Vata-aggravating lifestyle (cold diet, irregular sleep, prolonged sitting), poor ergonomics at the desk, re-injury from heavy lifting, and failure to complete the full internal medicine course. Our physician provides a detailed relapse-prevention protocol at the end of treatment including dietary guidelines, posture correction, and specific yoga. Patients who follow this protocol show significantly lower recurrence rates."
+      },
+      {
+        "question": "Can children or teenagers have Ayurvedic treatment for back pain?",
+        "answer": "Yes. Adolescent back pain — increasingly common among students with heavy school bags and prolonged screen time — responds well to Ayurvedic treatment. Procedures are modified for younger patients: lighter oils, shorter Basti durations, and age-appropriate dietary advice. Scoliosis and Scheuermann's disease in adolescents have been managed effectively at our clinic with postural correction, specific Kizhi therapy, and internal medicines."
       }
     ],
     "metadata": {
@@ -102,7 +144,7 @@
       "meta_description": "Relief from tech-neck, cervical spondylosis, and radiating arm numbness in Pune. Authentic Griva Basti and Kerala therapies tailored for desk professionals."
     },
     "marketing": {
-      "hero_eyebrow": "POSTURE & DESK WORK HEALTH",
+      "hero_eyebrow": "Clinical Treatment · Cervical Rehabilitation",
       "hero_title": "Ayurvedic Care for Cervical Spondylosis & Tech-Neck",
       "hero_description": "Physician-led protocols to relieve chronic neck stiffness, shoulder blade tension, and radiating arm numbness caused by prolonged screen work and disc degeneration."
     },
@@ -114,7 +156,8 @@
         "abhyangam",
         "shirodhara",
         "panchakarma"
-      ]
+      ],
+      "approach": "Our cervical spine care strategy targets both nerve decompression and muscular relaxation: 1. Localised pooling of warm therapeutic oils over C4-C7 vertebrae (Griva Basti) to soothe irritated nerve roots and relieve trapezium stiffness. 2. Nasal instillation of potent neuro-protective oils (Nasya) to directly reach cervical and cranial nerve micro-channels. 3. Classical internal nervine Rasayanas to halt progressive disc dehydration and prevent cervicogenic headaches."
     },
     "safety": {
       "disclaimer": "Individual treatment plans depend on cervical MRI findings and clinical presentation.",
@@ -132,6 +175,26 @@
       {
         "question": "Can dizziness or vertigo caused by cervical issues be treated?",
         "answer": "Yes. Cervical vertigo caused by vertebral artery compression and severe neck muscle spasm often subsides as Griva Basti and gentle Kerala therapies restore normal cervical mobility and blood flow."
+      },
+      {
+        "question": "What is Griva Basti and how does it help cervical spondylosis?",
+        "answer": "Griva Basti is the cervical equivalent of Kati Basti — a dough dam is constructed around the cervical spine (neck), filled with warm medicated oil, and retained for 30–45 minutes. The sustained heat and medicated oil nourish the cervical intervertebral discs, reduce nerve root inflammation, and relax the paraspinal musculature. It is the primary physician-prescribed therapy for cervical spondylosis, cervical disc prolapse, and cervicogenic headaches at Karmanya."
+      },
+      {
+        "question": "Can Ayurveda help with numbness and tingling in arms caused by cervical spondylosis?",
+        "answer": "Yes. Arm and hand numbness (brachialgia) from cervical nerve root compression responds well to a combined protocol of Griva Basti (nourishes the disc and nerve root), Nasya therapy (medicated oil nasal administration — the most direct route to cervical nerve structures), and internal Rasayanas like Mahayogaraj Guggulu and Ashwagandha. Most patients experience significant reduction in radicular symptoms within 7–14 days of daily therapy."
+      },
+      {
+        "question": "Is it safe to use a cervical collar during Ayurvedic treatment?",
+        "answer": "A cervical collar can be worn during the day for acute pain relief — your physician will advise on duration (typically no more than 4–6 hours per day to avoid muscle deconditioning). Remove the collar during Griva Basti sessions. Prolonged collar use beyond the acute phase is discouraged as it weakens the cervical musculature; Ayurvedic treatment aims to build intrinsic muscular support rather than depend on external devices."
+      },
+      {
+        "question": "How many sessions of Nasya therapy are needed for cervical spondylosis?",
+        "answer": "A standard Nasya course for cervical spondylosis is 7 consecutive daily sessions. Each session involves instillation of 6–8 drops of medicated oil (Ksheerabala, Anu Taila, or Shadbindu Taila, depending on the physician's assessment) into each nostril, followed by gentle facial steam and massage. The procedure takes 30–40 minutes. Most patients notice headache relief within the first 3 sessions and arm numbness improvement by session 5–7."
+      },
+      {
+        "question": "What pillow and sleeping position is best for cervical spondylosis?",
+        "answer": "Sleeping on the back with a thin, firm pillow that maintains the natural cervical curve is ideal. Side sleeping is acceptable with a pillow thick enough to keep the neck aligned with the spine. Sleeping on the stomach is strongly discouraged as it forces maximum rotation of the cervical spine. Our physician prescribes specific sleeping posture guidance as part of the treatment protocol."
       }
     ],
     "metadata": {
@@ -149,7 +212,7 @@
       "meta_description": "Treat chronic acidity, IBS, bloating, and sluggish metabolism with authentic Ayurvedic medicine in Pune. Gut-reset protocols with Dr. Tejasvi & Dr. Irshad."
     },
     "marketing": {
-      "hero_eyebrow": "GUT HEALTH & METABOLIC RESET",
+      "hero_eyebrow": "Clinical Treatment · Root Cause Gut Cure",
       "hero_title": "Ayurvedic Treatment for Digestive Disorders & IBS",
       "hero_description": "Root-cause management of Irritable Bowel Syndrome, chronic acid peptic disease, sluggish metabolism, and food intolerances through classical Agni restoration."
     },
@@ -160,7 +223,8 @@
         "panchakarma",
         "abhyangam",
         "kerala-chikitsa"
-      ]
+      ],
+      "approach": "Our digestive restoration protocol addresses the fundamental bio-fire (Agni): 1. Deep cellular digestive detox to digest and clear toxic metabolic waste (Ama) using customized carminative formulations (Deepana-Pachana). 2. Targeted systemic cleansing through physician-guided Virechana or Basti to reset gut motility and microbiome balance. 3. Strict constitutional dietary guidelines (Ahara Vidhi) to prevent recurrence of IBS, bloating, and metabolic stagnation."
     },
     "safety": {
       "disclaimer": "Dietary modifications and herbal preparations are personalized to constitutional Prakriti and Dosha state.",
@@ -178,6 +242,26 @@
       {
         "question": "Do I have to follow a very strict diet during treatment?",
         "answer": "We emphasize sustainable, nourishing dietary shifts (Ahara) tailored to your digestive capacity rather than extreme starvation diets."
+      },
+      {
+        "question": "What digestive conditions does Karmanya Ayurveda treat?",
+        "answer": "We treat a range of chronic digestive and metabolic conditions including Irritable Bowel Syndrome (IBS), chronic constipation, chronic acid reflux and GERD, bloating and gas disorders (Adhmana), liver congestion and fatty liver, metabolic syndrome, Type 2 diabetes (adjunctive management), obesity with Kapha dominance, and food intolerances. Each condition is diagnosed and treated according to the patient's specific dosha imbalance and digestive fire (Agni) status."
+      },
+      {
+        "question": "How does Ayurveda approach IBS differently from gastroenterology?",
+        "answer": "Gastroenterology focuses on ruling out pathology (colonoscopy, endoscopy) and symptom management (antispasmodics, laxatives, dietary restriction). Ayurveda evaluates why the digestive fire (Agni) is imbalanced — assessing stress levels, eating habits, sleep patterns, food quality, and dosha constitution. Treatment addresses the root cause: restoring Agni through herbal formulations, Panchakarma (especially Virechana and Basti), dietary overhaul, and stress management. This combined approach consistently produces better long-term outcomes than symptom suppression alone."
+      },
+      {
+        "question": "Is Panchakarma (Virechana) safe for people with IBS?",
+        "answer": "Therapeutic purgation (Virechana) is specifically contraindicated during active IBS flares, diarrhoea-predominant phases, or states of significant debility. It is very effective for IBS-C (constipation-predominant) and for chronic hepatic congestion when the patient is in a stable phase. Basti (medicated enema) is generally well-tolerated across IBS types and is often the primary Panchakarma procedure for IBS-D and mixed-type IBS. The physician determines suitability through clinical assessment."
+      },
+      {
+        "question": "Can Ayurvedic treatment help reduce HbA1c in Type 2 diabetes?",
+        "answer": "Ayurvedic treatment is effective as an adjunctive therapy for Type 2 diabetes with Kapha-Medas dominance (metabolic type). Specific herbs — Vijaysar (Pterocarpus marsupium), Meshashringi (Gymnema sylvestre), Karela (bitter melon standardised extract), and Turmeric (curcumin) — have documented insulin-sensitising and beta-cell protective effects. Panchakarma (particularly Virechana) combined with strict dietary management consistently produces reductions in fasting glucose and HbA1c. Ayurvedic treatment is used alongside, not instead of, prescribed anti-diabetic medication."
+      },
+      {
+        "question": "How long does it take to see results for chronic bloating with Ayurvedic treatment?",
+        "answer": "Chronic bloating (Adhmana) — particularly Vata-type bloating that worsens in the evening — typically responds within 7–14 days of herbal treatment and dietary correction. The physician prescribes carminative formulations (Hingvastak Churna, Trikatu), specifies meal timing and food combinations, and addresses the underlying Agni imbalance. Bloating with an underlying SIBO or gut dysbiosis pattern requires a longer protocol of 60–90 days."
       }
     ],
     "metadata": {
@@ -195,7 +279,7 @@
       "meta_description": "Holistic Ayurvedic dermatology in Pune under Dr. Tejasvi. Natural, steroid-free management for chronic psoriasis, eczema, dermatitis, and allergic skin conditions."
     },
     "marketing": {
-      "hero_eyebrow": "HERBAL DERMATOLOGY",
+      "hero_eyebrow": "Clinical Treatment · Blood Purification Protocol",
       "hero_title": "Ayurvedic Treatment for Psoriasis & Chronic Skin Disorders",
       "hero_description": "Long-term management of autoimmune and chronic inflammatory dermatological conditions through blood purification (Raktaprasadana) and external Kerala therapies."
     },
@@ -206,7 +290,8 @@
         "panchakarma",
         "kerala-chikitsa",
         "abhyangam"
-      ]
+      ],
+      "approach": "Our dermatological management addresses internal blood and metabolic purity: 1. Deep hepatic and blood channel purification (Raktamokshana and Virechana) to purge accumulated Pitta-Kapha toxins. 2. External soothing and plaque softening via medicated buttermilk irrigation (Takradhara) and herbal washes. 3. Long-term internal blood-purifying Rasayanas coupled with strict exclusion of inflammatory food triggers."
     },
     "safety": {
       "disclaimer": "Skin treatments require disciplined adherence to dietary guidelines (avoiding incompatible foods/Viruddha Ahara).",
@@ -224,6 +309,26 @@
       {
         "question": "Can childhood eczema or adult dermatitis be managed safely?",
         "answer": "Yes. Ayurvedic skin formulations are plant- and mineral-based, offering safe, non-steroidal options that nurture the skin barrier rather than thinning the epidermis."
+      },
+      {
+        "question": "Which Panchakarma procedures are used for psoriasis at Karmanya?",
+        "answer": "The primary Panchakarma for psoriasis is Virechana (therapeutic purgation) — which purifies the blood (Rakta Dhatu) and clears hepatic toxins (Pitta-Ama) that are the root cause of inflammatory skin diseases in Ayurveda. This is followed by Takradhara (medicated buttermilk Shirodhara) for psoriasis with scalp involvement, Raktamokshana (leech therapy) for localised plaque psoriasis with intense itching, and Kashaya Seka (medicated herbal decoction wash) applied directly to affected skin. The combination is selected by the physician based on disease severity."
+      },
+      {
+        "question": "How long before psoriasis plaques start clearing with Ayurvedic treatment?",
+        "answer": "Patients typically notice: reduced itching within 7–10 days, reduced redness and scaling within 14–21 days, and visible reduction in plaque size by weeks 4–6. Complete clearance of extensive plaque psoriasis takes longer — typically 3–6 months of consistent treatment. Guttate psoriasis (small drop-shaped lesions) clears faster than large plaque psoriasis. Palmoplantar psoriasis (hands and feet) is the most treatment-resistant variant and may require 6–9 months."
+      },
+      {
+        "question": "Can Ayurvedic treatment help with psoriatic arthritis (joint pain + psoriasis)?",
+        "answer": "Yes. Psoriatic arthritis — where psoriasis is accompanied by joint inflammation — is treated at Karmanya with a combined protocol: Virechana and blood purification for the skin component, plus Basti and joint-specific therapies (Janu Basti, Kati Basti) for the arthritic component. This dual approach is one area where Ayurveda offers a genuine advantage over conventional treatment, which manages the two conditions separately."
+      },
+      {
+        "question": "What dietary changes are mandatory during Ayurvedic psoriasis treatment?",
+        "answer": "Dietary compliance is non-negotiable for psoriasis treatment. Foods strictly avoided: milk and dairy (major psoriasis trigger in Ayurveda and confirmed by clinical observation), non-vegetarian foods during active treatment, fermented foods (yogurt, vinegar, alcohol), sour and pungent foods, and nightshades (tomato, brinjal, capsicum). Recommended: bitter vegetables (bitter gourd, neem leaves in small quantities), whole grains, turmeric in cooking, adequate warm water. The physician provides a written dietary chart."
+      },
+      {
+        "question": "Is Ayurvedic ointment alone sufficient for psoriasis, or is internal treatment necessary?",
+        "answer": "External applications (Ayurvedic oils, herbal pastes like Neem-Turmeric paste, or classical formulations like Mahamarichyadi Taila) provide symptomatic relief of scaling and itching, but do not address the systemic Pitta-Rakta imbalance causing the disease. For lasting results, internal treatment — herbal decoctions, blood-purifying Rasayanas, and Panchakarma — is essential. External application alone is insufficient and will result in relapse when stopped. Karmanya prescribes both simultaneously."
       }
     ],
     "metadata": {
@@ -241,7 +346,7 @@
       "meta_description": "Holistic care for PCOS, PCOD, hormonal imbalances, and menstrual irregularities in Pune. Consult experienced Ayurvedic specialist Dr. Tejasvi at Karmanya."
     },
     "marketing": {
-      "hero_eyebrow": "WOMEN'S WELLNESS",
+      "hero_eyebrow": "Clinical Treatment · Hormonal Restoration",
       "hero_title": "Ayurvedic Care for PCOS, PCOD & Hormonal Health",
       "hero_description": "Physician-directed hormonal balance, natural cycle regulation, and metabolic health restoration under Senior Ayurvedic Consultant Dr. Tejasvi in Pune."
     },
@@ -252,7 +357,8 @@
         "panchakarma",
         "kerala-chikitsa",
         "abhyangam"
-      ]
+      ],
+      "approach": "Led by Dr. Tejasvi Mulik, our women's endocrine care protocol focuses on: 1. Clearing follicular Kapha stagnation and correcting insulin resistance through tailored Virechana detox. 2. Promoting healthy spontaneous ovulation and endometrial receptivity using gentle Uttara Basti and targeted botanicals like Shatavari and Kanchanar Guggulu. 3. Balancing ovarian and adrenal rhythms through clinical lifestyle and circadian nutrition charts."
     },
     "safety": {
       "disclaimer": "Individual treatment duration depends on baseline hormone profiles and metabolic indicators.",
@@ -270,6 +376,26 @@
       {
         "question": "Does Ayurveda help with PCOS-related weight gain and facial hair?",
         "answer": "Yes. Because Kapha-Medas (adipose tissue sluggishness) is addressed at the root cause, patients experience healthy metabolic weight loss and reduction in hyperandrogenic signs naturally."
+      },
+      {
+        "question": "Can Ayurveda help with primary infertility caused by PCOD?",
+        "answer": "Ayurvedic treatment can significantly improve fertility outcomes in PCOD-related infertility by restoring ovulation, improving egg quality (Artava quality), normalising the uterine lining, and correcting hormonal imbalances. Key procedures include Uttara Basti (intrauterine medicated oil administration by Dr. Tejasvi), Virechana for hormonal purification, and Rasayana therapy with Shatavari and Ashoka. Couples who have been trying to conceive for more than 12 months (6 months over age 35) should also pursue parallel investigation through a reproductive endocrinologist."
+      },
+      {
+        "question": "What is the Ayurvedic approach to menopausal symptoms?",
+        "answer": "Menopause in Ayurveda is understood as a natural Vata-predominant transition (Rajavritti Nivritti). Hot flashes, insomnia, mood changes, vaginal dryness, and joint pain are all expressions of increasing Vata. Treatment uses Rasayana therapy (Shatavari, Ashwagandha, Kapikachhu), specific Shirodhara protocols for sleep and mood, and dietary management. Unlike HRT, Ayurvedic treatment does not introduce exogenous hormones — it supports the body's own adaptive capacity through the transition."
+      },
+      {
+        "question": "Is there an Ayurvedic treatment for endometriosis?",
+        "answer": "Endometriosis (classified as Udavarta in Ayurveda — a reverse flow of Apana Vata) is treated with Uttara Basti, Basti enema therapy, Virechana, and specific herbs including Kanchanar Guggulu, Ashoka, and Lodhra. These reduce ectopic endometrial proliferation, manage pain, and improve fertility. Results are most pronounced in Stage I-II endometriosis. Stage III-IV may require surgical evaluation, with Ayurvedic treatment used for pain management and post-surgical fertility support."
+      },
+      {
+        "question": "How does Dr. Tejasvi at Karmanya approach PCOD in teenagers?",
+        "answer": "Adolescent PCOD (girls 13–18) requires a sensitive, age-appropriate approach. Dr. Tejasvi focuses primarily on dietary correction (reducing insulin load through a low-glycaemic diet), herbal regulation of the menstrual cycle with mild Kapha-reducing formulations, and lifestyle guidance (sleep, stress, exercise). Panchakarma procedures for adolescents are modified — gentler Virechana where indicated, no Uttara Basti until adulthood. Early intervention at this stage can prevent the long-term metabolic and fertility consequences of untreated PCOD."
+      },
+      {
+        "question": "Does Karmanya offer post-partum (after childbirth) Ayurvedic care?",
+        "answer": "Yes. Post-partum Ayurvedic care (Sutika Paricharya) is an important part of classical Ayurvedic women's health. This includes Abhyangam with specific post-natal oils, Basti therapy to restore Apana Vata (which is severely disrupted by childbirth), dietary protocols to support lactation (Shatavari, Vidari), and uterine toning herbs. This is ideally started 2–3 weeks post-delivery (after lochia has reduced) and continues for 6 weeks. Dr. Tejasvi conducts all post-partum consultations."
       }
     ],
     "metadata": {
@@ -287,7 +413,7 @@
       "meta_description": "Natural relief from chronic stress, mental fatigue, burnout, and insomnia in Pune. Authentic Kerala Shirodhara and physician care at Karmanya Ayurveda."
     },
     "marketing": {
-      "hero_eyebrow": "MENTAL CALM & RESTORATIVE SLEEP",
+      "hero_eyebrow": "Clinical Treatment · Nervous System Restoration",
       "hero_title": "Ayurvedic Treatment for Stress, Anxiety & Insomnia",
       "hero_description": "Calm hyperactive nervous system activity, restore natural circadian sleep cycles, and overcome corporate burnout with classical Kerala Shirodhara and herbal neuro-nutrients."
     },
@@ -298,7 +424,8 @@
         "shirodhara",
         "abhyangam",
         "kerala-chikitsa"
-      ]
+      ],
+      "approach": "Our neuro-psychological care restores nervous system resilience: 1. Shifting sympathetic fight-or-flight overdrive into deep parasympathetic healing through rhythmic warm herbal oil streaming (Shirodhara). 2. Nourishing depleted neuro-tissues and vital resilience (Ojas) with adaptogenic herbs including Brahmi, Shankhpushpi, and Ashwagandha. 3. Regulating natural circadian melatonin rhythms through bedtime foot massage (Padabhyanga) and breathing practices (Pranayama)."
     },
     "safety": {
       "disclaimer": "Severe psychiatric emergencies require specialist allopathic psychiatric care.",
@@ -316,6 +443,26 @@
       {
         "question": "Can I combine this with my existing anxiety or BP medications?",
         "answer": "Yes. Our physician evaluates all current prescriptions during your consultation to ensure complete safety and positive synergy."
+      },
+      {
+        "question": "What is the Ayurvedic understanding of anxiety and how is it different from psychiatric treatment?",
+        "answer": "In Ayurveda, anxiety is classified as Chittodvega — a Vata-dominant disturbance of the mind (Manas). The underlying cause is depletion of Ojas (vital essence), aggravation of Prana Vata (the sub-dosha governing the mind and nervous system), and accumulation of Rajas (mental agitation). Ayurvedic treatment rebuilds Ojas through Rasayana therapy, calms Prana Vata through Shirodhara and Nasya, and reduces Rajas through dietary and lifestyle regulation. This is fundamentally different from pharmacological approaches that modulate neurotransmitter levels chemically — Ayurveda works by nourishing the neural substrate itself."
+      },
+      {
+        "question": "Can Shirodhara help with migraine headaches?",
+        "answer": "Yes. Shirodhara is one of the most effective treatments for chronic migraine at Karmanya. Migraines in Ayurveda are classified as Suryavarta (a Pitta-Vata headache that worsens with sun exposure and stress) or Anantavata (a severe hemi-cranial headache with neurological features). Takradhara (medicated buttermilk Shirodhara) is particularly effective for Pitta-type migraines with heat sensitivity and visual aura. Most patients with chronic migraine (>4 attacks/month) report significant reduction in attack frequency and severity after a 7–14 session course."
+      },
+      {
+        "question": "Are Ayurvedic nervine herbs (Brahmi, Ashwagandha) safe long-term?",
+        "answer": "Classical Rasayana herbs like Brahmi (Bacopa monnieri), Ashwagandha (Withania somnifera), Shankhpushpi, and Jatamansi have centuries of safe clinical use and are well-documented in peer-reviewed literature. They are non-habit-forming, have no withdrawal effects, and are generally safe for long-term use at therapeutic doses. However, all herbal medicines should be prescribed and monitored by a qualified physician — interactions with specific medications (anticoagulants, thyroid medication, immunosuppressants) need to be assessed."
+      },
+      {
+        "question": "Does Karmanya treat clinical depression with Ayurveda?",
+        "answer": "Ayurvedic treatment for depression (Vishada in Ayurveda — a Tamas-dominant mental state with Ojas depletion) works well as an adjunctive therapy alongside psychiatric care. We do not recommend replacing antidepressants with Ayurvedic treatment in moderate-to-severe depression. We work alongside your treating psychiatrist. For mild depression and burnout (without suicidal ideation), Ayurvedic treatment — Shirodhara, Rasayana, dietary correction, and lifestyle regulation — is often sufficient as a primary intervention."
+      },
+      {
+        "question": "What lifestyle changes support Ayurvedic treatment for insomnia?",
+        "answer": "The physician at Karmanya prescribes specific Dinacharya (daily routine) modifications: waking at the same time daily (ideally sunrise), avoiding screens for 60 minutes before bed, eating a warm, light dinner before 7:30 PM, applying warm Brahmi or Ksheerabala oil to the soles of feet before sleep, and practising Pranayama (Anuloma Viloma breath work) for 10 minutes before bed. These practices directly regulate Prana Vata and re-establish the circadian rhythm disrupted by modern lifestyles."
       }
     ],
     "metadata": {
