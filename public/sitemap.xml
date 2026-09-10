@@ -186,6 +186,11 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://karmanyaayurveda.com/treatments/nadi-pariksha/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://karmanyaayurveda.com/doctors/dr-irshad/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

@@ -237,7 +237,8 @@ reviews_page = f"""<!DOCTYPE html>
                 <div style="font-size: 2.5rem; font-weight: 700; color: white; margin: 8px 0;">4.9 / 5</div>
                 <div style="font-size: 0.9rem; color: rgba(255,255,255,0.7);">Based on 186+ patient reviews</div>
                 <div style="margin-top: var(--space-4); display: flex; gap: var(--space-4); flex-wrap: wrap; justify-content: center;">
-                    <a href="https://maps.google.com/?cid=3077549578320836260" target="_blank" rel="noopener" style="background: white; color: var(--color-primary); padding: 8px 16px; border-radius: 6px; font-size: 0.85rem; font-weight: 600; text-decoration: none;">View on Google Maps ↗</a>
+                    <a href="https://maps.google.com/?cid=3077549578320836260" target="_blank" rel="noopener" style="background: white; color: var(--color-primary); padding: 8px 16px; border-radius: 6px; font-size: 0.85rem; font-weight: 600; text-decoration: none;">View Google Reviews ↗</a>
+                    <a href="https://search.google.com/local/writereview?placeid=ChIJ5OSOur_rwjsR5OSuu3t6qio" target="_blank" rel="noopener" style="background: #4285F4; color: white; padding: 8px 16px; border-radius: 6px; font-size: 0.85rem; font-weight: 700; text-decoration: none; box-shadow: 0 2px 8px rgba(66,133,244,0.35);">★ Write a Review on Google</a>
                     <a href="/book-consultation/" class="btn btn-primary" style="padding: 8px 16px; font-size: 0.85rem;">Book Consultation</a>
                 </div>
             </div>

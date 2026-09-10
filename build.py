@@ -259,8 +259,19 @@ def generate_seo_head(page_type, page_data, site_data):
             "url": url,
             "recognizingAuthority": {
                 "@type": "MedicalClinic",
-                "@id": "https://karmanyaayurveda.com/",
+                "@id": "https://karmanyaayurveda.com/#clinic",
                 "name": "Karmanya Ayurveda Chikitsalaya",
+                "url": "https://karmanyaayurveda.com/",
+                "telephone": brand.get('phone', '+919819820017'),
+                "hasMap": "https://maps.google.com/?cid=3077549578320836260",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "27/11, Swaraj Garden Road, Near One Nation Apartment",
+                    "addressLocality": "Pimple Saudagar, Pimpri-Chinchwad, Pune",
+                    "addressRegion": "Maharashtra",
+                    "postalCode": "411027",
+                    "addressCountry": "IN"
+                },
                 "aggregateRating": {
                     "@type": "AggregateRating",
                     "ratingValue": "4.9",
@@ -311,8 +322,19 @@ def generate_seo_head(page_type, page_data, site_data):
             "url": url,
             "provider": {
                 "@type": "MedicalClinic",
+                "@id": "https://karmanyaayurveda.com/#clinic",
                 "name": brand.get('name'),
                 "url": "https://karmanyaayurveda.com/",
+                "telephone": brand.get('phone', '+919819820017'),
+                "hasMap": "https://maps.google.com/?cid=3077549578320836260",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "27/11, Swaraj Garden Road, Near One Nation Apartment",
+                    "addressLocality": "Pimple Saudagar, Pimpri-Chinchwad, Pune",
+                    "addressRegion": "Maharashtra",
+                    "postalCode": "411027",
+                    "addressCountry": "IN"
+                },
                 "aggregateRating": {
                     "@type": "AggregateRating",
                     "ratingValue": "4.9",
@@ -848,13 +870,14 @@ def build_site():
 - Stress, Anxiety & Insomnia: Kerala Shirodhara, restorative nervous system therapy.
 
 ## Authentic Kerala Therapies Provided
-- Panchakarma (5-fold classical detoxification)
-- Janu Basti (Warm medicated oil pooling on knee joints)
-- Kati Basti (Warm medicated oil pooling on lumbar spine)
-- Shirodhara (Rhythmic warm herbal oil stream on forehead)
-- Kizhi / Patra Pinda Sweda (Medicated herbal leaf boluses)
+- Nadi Pariksha (Classical 3-finger radial pulse diagnosis for Dosha & metabolic mapping)
+- Panchakarma (5-fold classical detoxification protocol)
+- Janu Basti (Warm medicated oil pooling on knee joints — cartilage rejuvenation)
+- Kati Basti (Warm medicated oil pooling on lumbar spine — sciatica & slip disc)
+- Shirodhara (Rhythmic warm herbal oil stream on forehead — stress & sleep)
+- Kizhi / Patra Pinda Sweda (Medicated herbal leaf boluses for joint inflammation)
 - Abhyangam (Synchronized full-body therapeutic oil massage)
-- Pizhichil & Njavarakizhi (Signature Ashtavaidya immersion therapies)
+- Pizhichil & Njavarakizhi (Signature Ashtavaidya restorative immersion therapies)
 
 ## Physical Location (Single Facility)
 - Single Clinic Address: 27/11, Swaraj Garden Road, Near One Nation Apartment, Pimple Saudagar, Pimpri-Chinchwad, Pune, Maharashtra 411027
