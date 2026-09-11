@@ -848,6 +848,66 @@ def build_site():
     with open(os.path.join(base_dir, 'public', 'robots.txt'), 'w') as f:
         f.write("User-agent: *\nAllow: /\nSitemap: https://karmanyaayurveda.com/sitemap.xml\n")
 
+    # 7b. Generate Legacy Redirect Fallback Files
+    legacy_redirects = {
+        'panchakarma': '/treatments/panchakarma/',
+        'kizhi': '/treatments/kizhi/',
+        'dhara': '/treatments/shirodhara/',
+        'about-karmanya-ayurveda': '/our-story/',
+        'karmanya-health': '/',
+        'contact-karmanya-ayurvedic': '/book-consultation/',
+        'stress-management-program': '/conditions/stress-insomnia-anxiety/',
+        'diabetes-management': '/conditions/digestive-metabolic-disorders/',
+        'obesity-management': '/conditions/digestive-metabolic-disorders/',
+        'pain-management': '/conditions/joint-musculoskeletal-pain/',
+        'spine-and-joint-care-program': '/conditions/joint-musculoskeletal-pain/',
+        'panchakarma-detoxification-program': '/treatments/panchakarma/',
+        'hypertension-management': '/conditions/stress-insomnia-anxiety/',
+        'ayurvedic-services-pune': '/treatments/',
+        '2024': '/blog/',
+        '2024/06/28': '/blog/',
+        'monsoon-and-your-health-what-you-need-to-know-karkidakam-ayurveda': '/blog/',
+        'nasya': '/treatments/nasya/',
+        'pizhichil': '/treatments/pizhichil/',
+        'netratarpana': '/treatments/netratarpana/',
+        'netra-tarpana': '/treatments/netratarpana/',
+        'urdvartana': '/treatments/udvartana/',
+        'udvartana': '/treatments/udvartana/',
+        'agnikarma': '/treatments/agnikarma/',
+        'garbha-sanskar': '/treatments/garbha-sanskar/',
+        'swedana': '/treatments/panchakarma/',
+        'snehana': '/treatments/panchakarma/',
+        'pichu': '/treatments/kati-basti/',
+        'uzhichil': '/treatments/abhyangam/',
+        'physiotherapy': '/treatments/kerala-chikitsa/',
+        'thalam': '/treatments/shirodhara/',
+        'dhumapanam': '/treatments/nasya/',
+        'mukhalepam': '/treatments/',
+        'vidhakarma': '/treatments/agnikarma/',
+        'viddhakarma': '/treatments/agnikarma/'
+    }
+    for slug, target in legacy_redirects.items():
+        clean_slug = slug.strip('/')
+        out_dir = os.path.join(base_dir, 'public', clean_slug)
+        os.makedirs(out_dir, exist_ok=True)
+        out_file = os.path.join(out_dir, 'index.html')
+        html_content = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; url={target}">
+  <link rel="canonical" href="https://karmanyaayurveda.com{target}">
+  <title>Redirecting to Karmanya Ayurveda...</title>
+  <script>window.location.replace("{target}");</script>
+</head>
+<body>
+  <p>Redirecting to <a href="{target}">{target}</a>...</p>
+</body>
+</html>
+'''
+        with open(out_file, 'w') as f:
+            f.write(html_content)
+
     # 8. Generate AI-SEO (llms.txt & llms-full.txt)
     llms_txt = """# Karmanya Ayurveda Chikitsalaya
 > Authentic Ashtavaidya Kerala Ayurveda in Pimple Saudagar, Pune.
