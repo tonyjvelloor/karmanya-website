@@ -882,7 +882,7 @@ def build_site():
         'physiotherapy': '/treatments/kerala-chikitsa/',
         'thalam': '/treatments/shirodhara/',
         'dhumapanam': '/treatments/nasya/',
-        'mukhalepam': '/treatments/',
+        'mukhalepam': '/treatments/mukhalepam/',
         'vidhakarma': '/treatments/agnikarma/',
         'viddhakarma': '/treatments/agnikarma/'
     }

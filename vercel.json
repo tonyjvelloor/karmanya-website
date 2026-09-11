@@ -523,17 +523,17 @@
     },
     {
       "source": "/mukhalepam",
-      "destination": "/treatments/",
+      "destination": "/treatments/mukhalepam/",
       "permanent": true
     },
     {
       "source": "/mukhalepam/",
-      "destination": "/treatments/",
+      "destination": "/treatments/mukhalepam/",
       "permanent": true
     },
     {
       "source": "/mukhalepam/(.*)",
-      "destination": "/treatments/",
+      "destination": "/treatments/mukhalepam/",
       "permanent": true
     },
     {
