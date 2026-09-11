@@ -191,6 +191,36 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://karmanyaayurveda.com/treatments/nasya/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://karmanyaayurveda.com/treatments/pizhichil/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://karmanyaayurveda.com/treatments/netratarpana/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://karmanyaayurveda.com/treatments/udvartana/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://karmanyaayurveda.com/treatments/agnikarma/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://karmanyaayurveda.com/treatments/garbha-sanskar/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://karmanyaayurveda.com/doctors/dr-irshad/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

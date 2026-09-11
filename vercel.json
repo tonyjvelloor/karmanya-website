@@ -39,5 +39,167 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/panchakarma/:path*",
+      "destination": "/treatments/panchakarma/",
+      "permanent": true
+    },
+    {
+      "source": "/kizhi/:path*",
+      "destination": "/treatments/kizhi/",
+      "permanent": true
+    },
+    {
+      "source": "/dhara/:path*",
+      "destination": "/treatments/shirodhara/",
+      "permanent": true
+    },
+    {
+      "source": "/about-karmanya-ayurveda/:path*",
+      "destination": "/our-story/",
+      "permanent": true
+    },
+    {
+      "source": "/karmanya-health/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/contact-karmanya-ayurvedic/:path*",
+      "destination": "/book-consultation/",
+      "permanent": true
+    },
+    {
+      "source": "/stress-management-program/:path*",
+      "destination": "/conditions/stress-insomnia-anxiety/",
+      "permanent": true
+    },
+    {
+      "source": "/diabetes-management/:path*",
+      "destination": "/conditions/digestive-metabolic-disorders/",
+      "permanent": true
+    },
+    {
+      "source": "/obesity-management/:path*",
+      "destination": "/conditions/digestive-metabolic-disorders/",
+      "permanent": true
+    },
+    {
+      "source": "/pain-management/:path*",
+      "destination": "/conditions/spine-sciatica-back-pain/",
+      "permanent": true
+    },
+    {
+      "source": "/hypertension-management/:path*",
+      "destination": "/conditions/stress-insomnia-anxiety/",
+      "permanent": true
+    },
+    {
+      "source": "/ayurvedic-services-pune/:path*",
+      "destination": "/treatments/",
+      "permanent": true
+    },
+    {
+      "source": "/2024/:path*",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/monsoon-and-your-health-what-you-need-to-know-karkidakam-ayurveda/:path*",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/nasya/:path*",
+      "destination": "/treatments/nasya/",
+      "permanent": true
+    },
+    {
+      "source": "/pizhichil/:path*",
+      "destination": "/treatments/pizhichil/",
+      "permanent": true
+    },
+    {
+      "source": "/netratarpana/:path*",
+      "destination": "/treatments/netratarpana/",
+      "permanent": true
+    },
+    {
+      "source": "/netra-tarpana/:path*",
+      "destination": "/treatments/netratarpana/",
+      "permanent": true
+    },
+    {
+      "source": "/urdvartana/:path*",
+      "destination": "/treatments/udvartana/",
+      "permanent": true
+    },
+    {
+      "source": "/udvartana/:path*",
+      "destination": "/treatments/udvartana/",
+      "permanent": true
+    },
+    {
+      "source": "/agnikarma/:path*",
+      "destination": "/treatments/agnikarma/",
+      "permanent": true
+    },
+    {
+      "source": "/garbha-sanskar/:path*",
+      "destination": "/treatments/garbha-sanskar/",
+      "permanent": true
+    },
+    {
+      "source": "/swedana/:path*",
+      "destination": "/treatments/panchakarma/",
+      "permanent": true
+    },
+    {
+      "source": "/snehana/:path*",
+      "destination": "/treatments/panchakarma/",
+      "permanent": true
+    },
+    {
+      "source": "/pichu/:path*",
+      "destination": "/treatments/kati-basti/",
+      "permanent": true
+    },
+    {
+      "source": "/uzhichil/:path*",
+      "destination": "/treatments/abhyangam/",
+      "permanent": true
+    },
+    {
+      "source": "/physiotherapy/:path*",
+      "destination": "/treatments/kerala-chikitsa/",
+      "permanent": true
+    },
+    {
+      "source": "/thalam/:path*",
+      "destination": "/treatments/shirodhara/",
+      "permanent": true
+    },
+    {
+      "source": "/dhumapanam/:path*",
+      "destination": "/treatments/",
+      "permanent": true
+    },
+    {
+      "source": "/mukhalepam/:path*",
+      "destination": "/treatments/",
+      "permanent": true
+    },
+    {
+      "source": "/vidhakarma/:path*",
+      "destination": "/treatments/agnikarma/",
+      "permanent": true
+    },
+    {
+      "source": "/viddhakarma/:path*",
+      "destination": "/treatments/agnikarma/",
+      "permanent": true
+    }
   ]
 }
