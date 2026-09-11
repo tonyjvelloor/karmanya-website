@@ -178,32 +178,32 @@
     },
     {
       "source": "/pain-management",
-      "destination": "/conditions/joint-musculoskeletal-pain/",
+      "destination": "/conditions/spine-sciatica-back-pain/",
       "permanent": true
     },
     {
       "source": "/pain-management/",
-      "destination": "/conditions/joint-musculoskeletal-pain/",
+      "destination": "/conditions/spine-sciatica-back-pain/",
       "permanent": true
     },
     {
       "source": "/pain-management/(.*)",
-      "destination": "/conditions/joint-musculoskeletal-pain/",
+      "destination": "/conditions/spine-sciatica-back-pain/",
       "permanent": true
     },
     {
       "source": "/spine-and-joint-care-program",
-      "destination": "/conditions/joint-musculoskeletal-pain/",
+      "destination": "/conditions/spine-sciatica-back-pain/",
       "permanent": true
     },
     {
       "source": "/spine-and-joint-care-program/",
-      "destination": "/conditions/joint-musculoskeletal-pain/",
+      "destination": "/conditions/spine-sciatica-back-pain/",
       "permanent": true
     },
     {
       "source": "/spine-and-joint-care-program/(.*)",
-      "destination": "/conditions/joint-musculoskeletal-pain/",
+      "destination": "/conditions/spine-sciatica-back-pain/",
       "permanent": true
     },
     {
