@@ -176,3 +176,18 @@ img, video {
 @media (max-width: 768px) {
     .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
 }
+
+/* Agency Credit Badge */
+.tbm-badge {
+    transition: all 0.2s ease;
+}
+.tbm-badge:hover {
+    background: #1a3d2b !important;
+    color: #ffffff !important;
+    border-color: #1a3d2b !important;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(26, 61, 43, 0.25);
+}
+.tbm-badge:hover svg {
+    stroke: #ffffff;
+}
