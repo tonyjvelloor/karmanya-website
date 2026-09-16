@@ -84,6 +84,210 @@
             position: relative;
             box-shadow: var(--shadow-sm);
         }
+        
+        /* Treatments Fast-Track Lead Card */
+        .treatments-lead-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.15fr;
+            gap: var(--space-8);
+            align-items: center;
+        }
+        .treat-form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+        @media (max-width: 860px) {
+            .treatments-lead-grid {
+                grid-template-columns: 1fr !important;
+                padding: var(--space-6) var(--space-4) !important;
+            }
+            .treat-form-row {
+                grid-template-columns: 1fr !important;
+            }
+        }
+        
+        /* Interactive Filter Tabs */
+        .therapy-filter-container {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: var(--space-10);
+        }
+        .therapy-filter-btn {
+            background: #ffffff;
+            border: 1px solid var(--color-border);
+            color: var(--color-primary);
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 0.92rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: var(--shadow-xs);
+        }
+        .therapy-filter-btn:hover {
+            border-color: var(--color-accent);
+            background: #fffdf9;
+            color: var(--color-accent);
+            transform: translateY(-1px);
+        }
+        .therapy-filter-btn.active {
+            background: var(--color-primary);
+            color: #ffffff;
+            border-color: var(--color-primary);
+            box-shadow: var(--shadow-sm);
+        }
+        .therapy-filter-btn .filter-count {
+            background: rgba(0, 0, 0, 0.08);
+            color: inherit;
+            font-size: 0.75rem;
+            padding: 2px 7px;
+            border-radius: 12px;
+            font-weight: 700;
+        }
+        .therapy-filter-btn.active .filter-count {
+            background: rgba(255, 255, 255, 0.25);
+            color: #ffffff;
+        }
+        
+        /* Interactive Therapies Grid & Cards */
+        .treatments-interactive-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: var(--space-8);
+        }
+        @media (max-width: 600px) {
+            .treatments-interactive-grid {
+                grid-template-columns: 1fr !important;
+            }
+        }
+        .treatment-interactive-card {
+            background: #ffffff;
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            box-shadow: var(--shadow-xs);
+            transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        .treatment-interactive-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--color-accent);
+        }
+        .treatment-interactive-thumb {
+            position: relative;
+            height: 200px;
+            width: 100%;
+            overflow: hidden;
+            background: #f4f0ea;
+        }
+        .treatment-interactive-thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+        .treatment-interactive-card:hover .treatment-interactive-thumb img {
+            transform: scale(1.05);
+        }
+        .treatment-badge-tag {
+            position: absolute;
+            top: 12px;
+            left: 12px;
+            background: rgba(30, 20, 15, 0.88);
+            backdrop-filter: blur(4px);
+            color: #ffffff;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            padding: 4px 10px;
+            border-radius: 4px;
+            text-transform: uppercase;
+        }
+        .treatment-interactive-content {
+            padding: var(--space-6);
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+        .treatment-category-label {
+            color: var(--color-accent);
+            font-size: 0.78rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            margin-bottom: 6px;
+        }
+        .treatment-card-title {
+            margin: 0 0 10px 0;
+            font-size: 1.35rem;
+            font-family: var(--font-heading);
+            color: var(--color-primary);
+            line-height: 1.3;
+        }
+        .treatment-card-title a {
+            color: inherit;
+            text-decoration: none;
+        }
+        .treatment-card-title a:hover {
+            color: var(--color-accent);
+        }
+        .treatment-card-desc {
+            color: #555;
+            font-size: 0.95rem;
+            line-height: 1.55;
+            margin: 0 0 14px 0;
+            flex-grow: 1;
+        }
+        .treatment-indications-wrap {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            align-items: center;
+            margin-bottom: 18px;
+            font-size: 0.8rem;
+        }
+        .indication-pill {
+            background: #faf6f0;
+            color: #78350f;
+            border: 1px solid #f0e6d6;
+            padding: 3px 9px;
+            border-radius: 12px;
+            font-weight: 500;
+            font-size: 0.78rem;
+        }
+        .treatment-card-actions {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            border-top: 1px solid #f0ede8;
+            padding-top: 14px;
+        }
+        .btn-wa-inquire {
+            background: #25D366;
+            color: #ffffff !important;
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: background 0.2s, transform 0.2s;
+        }
+        .btn-wa-inquire:hover {
+            background: #1ebc59;
+            transform: translateY(-1px);
+        }
     </style>
 </head>
 <body>
@@ -168,12 +372,400 @@
                 Pricing is published for complete transparency. Your consulting physician will determine the precise therapy, duration, and session count tailored to your clinical presentation.
             </p>
             <div style="display: flex; gap: var(--space-4); justify-content: center; flex-wrap: wrap;">
-                <a href="/book-consultation/" class="btn btn-primary">Book Physician Consultation First</a>
-                <a href="/conditions/" class="btn btn-secondary">Browse Conditions We Treat &rarr;</a>
+                <a href="#consult-fast-track" class="btn btn-primary">Request Doctor Callback</a>
+                <a href="#therapies-catalog" class="btn btn-secondary">Explore 15 Classical Therapies &darr;</a>
             </div>
         </div>
     </div>
     <div class="kerala-kasavu-trim"></div>
+
+    <!-- Fast-Track Consultation Lead Capture Card (Inspired by Yuvrit's top placement, elevated with Ashtavaidya clinical rigor) -->
+    <section style="background: #ffffff; padding: var(--space-8) 0; border-bottom: 1px solid var(--color-border);" id="consult-fast-track">
+        <div class="container" style="max-width: 1080px;">
+            <div style="background: linear-gradient(135deg, #fdfbf7 0%, #f7f3eb 100%); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: var(--space-6) var(--space-8); box-shadow: var(--shadow-sm);" class="treatments-lead-grid">
+                <div>
+                    <span style="color: var(--color-accent); font-size: 0.8rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; display: block; margin-bottom: 6px;">✦ DIRECT CLINICAL ACCESS</span>
+                    <h2 style="font-size: clamp(1.6rem, 2.5vw, 2.2rem); color: var(--color-primary); margin: 0 0 10px; font-family: var(--font-heading);">Not Sure Which Therapy You Need?</h2>
+                    <p style="font-size: 0.98rem; color: #555; line-height: 1.6; margin-bottom: 16px;">
+                        Authentic Ayurvedic therapies are prescribed by our physicians after radial pulse diagnosis (Nadi Pariksha) and Prakriti evaluation — never sold as generic spa packages.
+                    </p>
+                    <div style="display: flex; flex-direction: column; gap: 8px; font-size: 0.88rem; color: var(--color-primary); font-weight: 600;">
+                        <div>👨‍⚕️ Senior BAMS / MD Physicians: Dr. Irshad T.M. &amp; Dr. Tejasvi Mulik</div>
+                        <div>⏱️ 45-Min In-Clinic Evaluation at Pimple Saudagar (₹500)</div>
+                        <div>🌿 100% Classical Kerala GMP Formulations (Kottakkal &amp; Vaidyaratnam)</div>
+                    </div>
+                </div>
+                <div>
+                    <form class="consultation-form" id="treatmentsBookingForm" onsubmit="handleTreatmentsLead(event)" style="background: white; border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-6); box-shadow: var(--shadow-xs);">
+                        <div style="font-weight: 700; color: var(--color-primary); font-size: 1.1rem; margin-bottom: 12px; font-family: var(--font-heading);">Connect with Our Clinical Coordinators</div>
+                        <div class="treat-form-row">
+                            <div>
+                                <label for="t_name" style="display: block; font-size: 0.78rem; font-weight: 700; color: var(--color-primary); margin-bottom: 4px; letter-spacing: 0.5px;">YOUR NAME *</label>
+                                <input type="text" id="t_name" class="form-control" placeholder="e.g. Anand Sharma" required style="width: 100%; box-sizing: border-box; padding: 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 0.9rem;">
+                            </div>
+                            <div>
+                                <label for="t_phone" style="display: block; font-size: 0.78rem; font-weight: 700; color: var(--color-primary); margin-bottom: 4px; letter-spacing: 0.5px;">PHONE NUMBER *</label>
+                                <input type="tel" id="t_phone" class="form-control" placeholder="e.g. 98198 20017" required style="width: 100%; box-sizing: border-box; padding: 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 0.9rem;">
+                            </div>
+                        </div>
+                        <div style="margin-bottom: 12px;">
+                            <label for="t_concern" style="display: block; font-size: 0.78rem; font-weight: 700; color: var(--color-primary); margin-bottom: 4px; letter-spacing: 0.5px;">PRIMARY HEALTH CONCERN *</label>
+                            <select id="t_concern" class="form-control" required style="width: 100%; box-sizing: border-box; padding: 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 0.9rem; background: white;">
+                                <option value="" disabled selected>Select concern or desired therapy</option>
+                                <option value="Knee & Joint Pain (Janu Basti / Kizhi)">Knee &amp; Joint Pain (Janu Basti, Kizhi, Sandhigata Vata)</option>
+                                <option value="Spine, Sciatica & Slip Disc (Kati Basti)">Spine, Sciatica &amp; Slip Disc (Kati Basti, Greeva Basti)</option>
+                                <option value="Detox & Cellular Reset (Panchakarma)">Detox &amp; Cellular Cleansing (Panchakarma, Swedana, Vasti)</option>
+                                <option value="Stress, Insomnia & Anxiety (Shirodhara)">Stress, Insomnia &amp; Mental Exhaustion (Shirodhara, Abhyanga)</option>
+                                <option value="Weight Loss & Lymphatic Drainage (Udvartana)">Weight Management &amp; Lymphatic Stagnation (Udvartana)</option>
+                                <option value="Skin, Melasma & Complexion (Mukhalepam)">Skin Glow, Melasma &amp; Complexion (Mukhalepam, Navara)</option>
+                                <option value="General Health / Doctor Recommendation">Not Sure — Need Physician Recommendation</option>
+                            </select>
+                        </div>
+                        <div style="margin-bottom: 14px;">
+                            <label for="t_slot" style="display: block; font-size: 0.78rem; font-weight: 700; color: var(--color-primary); margin-bottom: 4px; letter-spacing: 0.5px;">PREFERRED TIME</label>
+                            <select id="t_slot" class="form-control" style="width: 100%; box-sizing: border-box; padding: 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 0.9rem; background: white;">
+                                <option value="Morning (10:00 AM – 1:00 PM)">Morning (10:00 AM – 1:00 PM)</option>
+                                <option value="Afternoon (1:00 PM – 5:00 PM)">Afternoon (1:00 PM – 5:00 PM)</option>
+                                <option value="Evening (5:00 PM – 8:00 PM)" selected>Evening (5:00 PM – 8:00 PM)</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%; padding: 12px; font-weight: 700; font-size: 0.95rem; border-radius: 6px; cursor: pointer;">
+                            Request Physician Consultation &rarr;
+                        </button>
+                        <div style="margin-top: 10px; text-align: center;">
+                            <a href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20inquire%20about%20a%20therapy%20consultation." target="_blank" rel="noopener" style="font-size: 0.85rem; color: #25D366; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 4px;">
+                                💬 Or Chat Directly on WhatsApp &rarr;
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clinical Therapies Interactive Catalog with Category Filter Tabs -->
+    <section class="section-padding" style="background: #ffffff;" id="therapies-catalog">
+        <div class="container">
+            <div style="text-align: center; max-width: 780px; margin: 0 auto var(--space-8);">
+                <span style="color: var(--color-accent); font-size: 0.85rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;">ASHTAVAIDYA KERALA CLINICAL DIRECTORY</span>
+                <h2 style="font-size: clamp(2.2rem, 4vw, 3.2rem); color: var(--color-primary); margin: 8px 0 14px; font-family: var(--font-heading);">
+                    Physician-Prescribed <span style="color: var(--color-accent);">Therapies</span>
+                </h2>
+                <p style="font-size: 1.15rem; color: #555; line-height: 1.6;">
+                    Explore our 15 classical Ayurvedic therapies. Administered by certified therapists from Kerala using authentic GMP medicated oils. Every therapy is customized based on individual Nadi Pariksha diagnosis.
+                </p>
+            </div>
+
+            <!-- Category Filter Tabs (Client-Side Instant Switching) -->
+            <div class="therapy-filter-container">
+                <button class="therapy-filter-btn active" data-filter="all">
+                    ✦ All Therapies <span class="filter-count">15</span>
+                </button>
+                <button class="therapy-filter-btn" data-filter="spine">
+                    🦴 Spine &amp; Joint Care <span class="filter-count">6</span>
+                </button>
+                <button class="therapy-filter-btn" data-filter="detox">
+                    🌿 Detox &amp; Panchakarma <span class="filter-count">6</span>
+                </button>
+                <button class="therapy-filter-btn" data-filter="neuro">
+                    🧠 Neuro-Calm &amp; Stress <span class="filter-count">7</span>
+                </button>
+                <button class="therapy-filter-btn" data-filter="metabolic">
+                    ✨ Metabolic &amp; Radiance <span class="filter-count">4</span>
+                </button>
+            </div>
+
+            <!-- Therapies Grid -->
+            <div class="treatments-interactive-grid" id="treatmentsInteractiveGrid">
+                
+        <div class="treatment-interactive-card" data-categories="detox">
+            <div class="treatment-interactive-thumb"><img src="/images/protocols/protocol-pinda-sweda.png" alt="Panchakarma at Karmanya Ayurveda" loading="lazy"><span class="treatment-badge-tag">Ashtavaidya Detox</span></div>
+            <div class="treatment-interactive-content">
+                <div class="treatment-category-label">Detoxification & Rejuvenation</div>
+                <h3 class="treatment-card-title"><a href="/treatments/panchakarma/">Panchakarma</a></h3>
+                <p class="treatment-card-desc">A comprehensive, physician-guided detoxification and rejuvenation protocol designed to address the root cause of chronic imbalances.</p>
+                <div class="treatment-indications-wrap">
+                    <span class="indication-pill">Cellular Detox</span><span class="indication-pill">Metabolic Reset</span><span class="indication-pill">Virechana & Vasti</span>
+                </div>
+                <div class="treatment-card-actions">
+                    <a href="/treatments/panchakarma/" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.88rem;">Clinical Details &rarr;</a>
+                    <a href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20inquire%20about%20Panchakarma%20therapy." target="_blank" rel="noopener" class="btn-wa-inquire">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="white" style="flex-shrink: 0;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        Inquire
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="treatment-interactive-card" data-categories="spine">
+            <div class="treatment-interactive-thumb"><img src="/images/protocols/protocol-knee-janu-basti.jpg" alt="Janu Basti at Karmanya Ayurveda" loading="lazy"><span class="treatment-badge-tag">Targeted Joint Care</span></div>
+            <div class="treatment-interactive-content">
+                <div class="treatment-category-label">Targeted Joint Therapy</div>
+                <h3 class="treatment-card-title"><a href="/treatments/janu-basti/">Janu Basti</a></h3>
+                <p class="treatment-card-desc">Classical warm medicated herbal oil pooling therapy designed to nourish synovial fluid, lubricate knee cartilage, and relieve osteoarthritic pain.</p>
+                <div class="treatment-indications-wrap">
+                    <span class="indication-pill">Knee Osteoarthritis</span><span class="indication-pill">Cartilage Wear</span><span class="indication-pill">Synovial Fluid</span>
+                </div>
+                <div class="treatment-card-actions">
+                    <a href="/treatments/janu-basti/" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.88rem;">Clinical Details &rarr;</a>
+                    <a href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20inquire%20about%20Janu%20Basti%20therapy." target="_blank" rel="noopener" class="btn-wa-inquire">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="white" style="flex-shrink: 0;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        Inquire
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="treatment-interactive-card" data-categories="spine">
+            <div class="treatment-interactive-thumb"><img src="/images/protocols/protocol-spine-kati-basti.png" alt="Kati Basti at Karmanya Ayurveda" loading="lazy"><span class="treatment-badge-tag">Spine & Sciatica</span></div>
+            <div class="treatment-interactive-content">
+                <div class="treatment-category-label">Spinal & Lumbosacral Therapy</div>
+                <h3 class="treatment-card-title"><a href="/treatments/kati-basti/">Kati Basti</a></h3>
+                <p class="treatment-card-desc">Specialized therapeutic oil pooling over the lumbar and sacral spine to soothe inflamed nerves, rehydrate discs, and eliminate chronic back pain.</p>
+                <div class="treatment-indications-wrap">
+                    <span class="indication-pill">L4-L5 / L5-S1 Sciatica</span><span class="indication-pill">Disc Herniation</span><span class="indication-pill">Lower Back Pain</span>
+                </div>
+                <div class="treatment-card-actions">
+                    <a href="/treatments/kati-basti/" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.88rem;">Clinical Details &rarr;</a>
+                    <a href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20inquire%20about%20Kati%20Basti%20therapy." target="_blank" rel="noopener" class="btn-wa-inquire">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="white" style="flex-shrink: 0;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        Inquire
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="treatment-interactive-card" data-categories="neuro">
+            <div class="treatment-interactive-thumb"><img src="/images/facility/shirodhara-suite-room.jpg" alt="Shirodhara at Karmanya Ayurveda" loading="lazy"><span class="treatment-badge-tag">Neuro-Calm & Sleep</span></div>
+            <div class="treatment-interactive-content">
+                <div class="treatment-category-label">Mind & Neurological Therapy</div>
+                <h3 class="treatment-card-title"><a href="/treatments/shirodhara/">Shirodhara</a></h3>
+                <p class="treatment-card-desc">A deeply restorative classical therapy featuring a continuous, rhythmic stream of warm medicated oil on the forehead, inducing profound mental stillness and autonomic balance.</p>
+                <div class="treatment-indications-wrap">
+                    <span class="indication-pill">Insomnia & Sleep Reset</span><span class="indication-pill">Chronic Anxiety</span><span class="indication-pill">Migraines</span>
+                </div>
+                <div class="treatment-card-actions">
+                    <a href="/treatments/shirodhara/" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.88rem;">Clinical Details &rarr;</a>
+                    <a href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20inquire%20about%20Shirodhara%20therapy." target="_blank" rel="noopener" class="btn-wa-inquire">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="white" style="flex-shrink: 0;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        Inquire
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="treatment-interactive-card" data-categories="spine detox">
+            <div class="treatment-interactive-thumb"><img src="/images/protocols/protocol-pinda-sweda.png" alt="Kizhi (Patra Pinda Sweda) at Karmanya Ayurveda" loading="lazy"><span class="treatment-badge-tag">Herbal Poultice</span></div>
+            <div class="treatment-interactive-content">
+                <div class="treatment-category-label">Kerala Chikitsa</div>
+                <h3 class="treatment-card-title"><a href="/treatments/kizhi/">Kizhi (Patra Pinda Sweda)</a></h3>
+                <p class="treatment-card-desc">A signature Kerala sudation therapy utilizing heated herbal leaf or powder boluses dipped in warm medicated oils to relieve deep tissue pain and inflammation.</p>
+                <div class="treatment-indications-wrap">
+                    <span class="indication-pill">Cervical Stiffness</span><span class="indication-pill">Frozen Shoulder</span><span class="indication-pill">Joint Inflammation</span>
+                </div>
+                <div class="treatment-card-actions">
+                    <a href="/treatments/kizhi/" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.88rem;">Clinical Details &rarr;</a>
+                    <a href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20inquire%20about%20Kizhi%20%28Patra%20Pinda%20Sweda%29%20therapy." target="_blank" rel="noopener" class="btn-wa-inquire">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="white" style="flex-shrink: 0;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        Inquire
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="treatment-interactive-card" data-categories="neuro detox">
+            <div class="treatment-interactive-thumb"><img src="/images/hero-treatment.webp" alt="Abhyangam & Uzhichil (Traditional Kerala Body Therapy) at Karmanya Ayurveda" loading="lazy"><span class="treatment-badge-tag">Kerala Full Body</span></div>
+            <div class="treatment-interactive-content">
+                <div class="treatment-category-label">Full Body Therapeutic Snehana</div>
+                <h3 class="treatment-card-title"><a href="/treatments/abhyangam/">Abhyangam & Uzhichil (Traditional Kerala Body Therapy)</a></h3>
+                <p class="treatment-card-desc">A classical, therapeutic full-body oil massage administered by trained Kerala therapists using warm, Dosha-specific medicated oils to deeply nourish all tissue layers.</p>
+                <div class="treatment-indications-wrap">
+                    <span class="indication-pill">Chronic Fatigue</span><span class="indication-pill">Vata Balance</span><span class="indication-pill">Lymphatic Flow</span>
+                </div>
+                <div class="treatment-card-actions">
+                    <a href="/treatments/abhyangam/" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.88rem;">Clinical Details &rarr;</a>
+                    <a href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20inquire%20about%20Abhyangam%20%26%20Uzhichil%20%28Traditional%20Kerala%20Body%20Therapy%29%20therapy." target="_blank" rel="noopener" class="btn-wa-inquire">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="white" style="flex-shrink: 0;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        Inquire
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="treatment-interactive-card" data-categories="spine neuro">
+            <div class="treatment-interactive-thumb"><img src="/images/facility/kerala-droni-suite.jpg" alt="Kerala Chikitsa at Karmanya Ayurveda" loading="lazy"><span class="treatment-badge-tag">Heritage Chikitsa</span></div>
+            <div class="treatment-interactive-content">
+                <div class="treatment-category-label">Signature Heritage Therapies</div>
+                <h3 class="treatment-card-title"><a href="/treatments/kerala-chikitsa/">Kerala Chikitsa</a></h3>
+                <p class="treatment-card-desc">The purest form of traditional Ayurvedic therapies, preserved and practiced exactly as they originated in the Ashtavaidya tradition of Kerala.</p>
+                <div class="treatment-indications-wrap">
+                    <span class="indication-pill">Marma Physiotherapy</span><span class="indication-pill">Degenerative Spine</span><span class="indication-pill">Paralysis Care</span>
+                </div>
+                <div class="treatment-card-actions">
+                    <a href="/treatments/kerala-chikitsa/" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.88rem;">Clinical Details &rarr;</a>
+                    <a href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20inquire%20about%20Kerala%20Chikitsa%20therapy." target="_blank" rel="noopener" class="btn-wa-inquire">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="white" style="flex-shrink: 0;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        Inquire
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="treatment-interactive-card" data-categories="neuro detox">
+            <div class="treatment-interactive-thumb"><img src="/images/doctor-consult.jpg" alt="Nadi Pariksha (Pulse Diagnosis) at Karmanya Ayurveda" loading="lazy"><span class="treatment-badge-tag">Classical Pulse Diagnosis</span></div>
+            <div class="treatment-interactive-content">
+                <div class="treatment-category-label">Classical Diagnostic Science</div>
+                <h3 class="treatment-card-title"><a href="/treatments/nadi-pariksha/">Nadi Pariksha (Pulse Diagnosis)</a></h3>
+                <p class="treatment-card-desc">The classical science of pulse examination to decode your Dosha imbalances, metabolic health, and disease root causes before symptoms manifest.</p>
+                <div class="treatment-indications-wrap">
+                    <span class="indication-pill">Root-Cause Analysis</span><span class="indication-pill">Prakriti Assessment</span><span class="indication-pill">Dosha Reading</span>
+                </div>
+                <div class="treatment-card-actions">
+                    <a href="/treatments/nadi-pariksha/" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.88rem;">Clinical Details &rarr;</a>
+                    <a href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20inquire%20about%20Nadi%20Pariksha%20%28Pulse%20Diagnosis%29%20therapy." target="_blank" rel="noopener" class="btn-wa-inquire">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="white" style="flex-shrink: 0;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        Inquire
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="treatment-interactive-card" data-categories="detox neuro">
+            <div class="treatment-interactive-thumb"><img src="/images/protocols/protocol-nasya.jpg" alt="Nasya (Medicated Nasal Therapy) at Karmanya Ayurveda" loading="lazy"><span class="treatment-badge-tag">Cranial Cleansing</span></div>
+            <div class="treatment-interactive-content">
+                <div class="treatment-category-label">Head & Sensory Organ Rejuvenation</div>
+                <h3 class="treatment-card-title"><a href="/treatments/nasya/">Nasya (Medicated Nasal Therapy)</a></h3>
+                <p class="treatment-card-desc">One of the five core Panchakarma therapies. Specialized administration of medicated herbal oils through the nasal passageway — the direct gateway to the head, neck, and brain.</p>
+                <div class="treatment-indications-wrap">
+                    <span class="indication-pill">Cervical Spondylosis</span><span class="indication-pill">Chronic Sinusitis</span><span class="indication-pill">Headaches</span>
+                </div>
+                <div class="treatment-card-actions">
+                    <a href="/treatments/nasya/" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.88rem;">Clinical Details &rarr;</a>
+                    <a href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20inquire%20about%20Nasya%20%28Medicated%20Nasal%20Therapy%29%20therapy." target="_blank" rel="noopener" class="btn-wa-inquire">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="white" style="flex-shrink: 0;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        Inquire
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="treatment-interactive-card" data-categories="neuro spine">
+            <div class="treatment-interactive-thumb"><img src="/images/protocols/protocol-pizhichil.jpg" alt="Pizhichil (Royal Medicated Oil Bath) at Karmanya Ayurveda" loading="lazy"><span class="treatment-badge-tag">Royal Oil Squeeze</span></div>
+            <div class="treatment-interactive-content">
+                <div class="treatment-category-label">Kerala Ashtavaidya Immersion</div>
+                <h3 class="treatment-card-title"><a href="/treatments/pizhichil/">Pizhichil (Royal Medicated Oil Bath)</a></h3>
+                <p class="treatment-card-desc">Known as the 'King of Ayurvedic Therapies'. Continuous streams of rhythmic warm medicated oil poured over the entire body, combining oleation and sudation simultaneously.</p>
+                <div class="treatment-indications-wrap">
+                    <span class="indication-pill">Neuromuscular Recovery</span><span class="indication-pill">Severe Spondylosis</span><span class="indication-pill">Full-Body Vata</span>
+                </div>
+                <div class="treatment-card-actions">
+                    <a href="/treatments/pizhichil/" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.88rem;">Clinical Details &rarr;</a>
+                    <a href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20inquire%20about%20Pizhichil%20%28Royal%20Medicated%20Oil%20Bath%29%20therapy." target="_blank" rel="noopener" class="btn-wa-inquire">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="white" style="flex-shrink: 0;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        Inquire
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="treatment-interactive-card" data-categories="metabolic neuro">
+            <div class="treatment-interactive-thumb"><img src="/images/protocols/protocol-netra-tarpana.jpg" alt="Netra Tarpana (Ayurvedic Eye Rejuvenation) at Karmanya Ayurveda" loading="lazy"><span class="treatment-badge-tag">Ophthalmic Care</span></div>
+            <div class="treatment-interactive-content">
+                <div class="treatment-category-label">Ophthalmic & Sensory Care</div>
+                <h3 class="treatment-card-title"><a href="/treatments/netratarpana/">Netra Tarpana (Ayurvedic Eye Rejuvenation)</a></h3>
+                <p class="treatment-card-desc">Gentle pooling of purified, medicated Ayurvedic ghee over the eyes in specialized herbal dough rings to nourish the optic nerves, cornea, and tired vision.</p>
+                <div class="treatment-indications-wrap">
+                    <span class="indication-pill">IT Digital Screen Strain</span><span class="indication-pill">Dry Eye Syndrome</span><span class="indication-pill">Optic Fatigue</span>
+                </div>
+                <div class="treatment-card-actions">
+                    <a href="/treatments/netratarpana/" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.88rem;">Clinical Details &rarr;</a>
+                    <a href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20inquire%20about%20Netra%20Tarpana%20%28Ayurvedic%20Eye%20Rejuvenation%29%20therapy." target="_blank" rel="noopener" class="btn-wa-inquire">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="white" style="flex-shrink: 0;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        Inquire
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="treatment-interactive-card" data-categories="metabolic detox">
+            <div class="treatment-interactive-thumb"><img src="/images/protocols/protocol-udvartana.jpg" alt="Udvartana (Herbal Powder Scrub Therapy) at Karmanya Ayurveda" loading="lazy"><span class="treatment-badge-tag">Lymphatic Scrub</span></div>
+            <div class="treatment-interactive-content">
+                <div class="treatment-category-label">Metabolic & Lymphatic Therapy</div>
+                <h3 class="treatment-card-title"><a href="/treatments/udvartana/">Udvartana (Herbal Powder Scrub Therapy)</a></h3>
+                <p class="treatment-card-desc">Vigorous upward strokes using specially compounded warm medicinal herbal powders to mobilize sub-cutaneous fat, stimulate lymphatic circulation, and tone skin.</p>
+                <div class="treatment-indications-wrap">
+                    <span class="indication-pill">Metabolic Sluggishness</span><span class="indication-pill">Cellulite Mobilization</span><span class="indication-pill">PCOS Support</span>
+                </div>
+                <div class="treatment-card-actions">
+                    <a href="/treatments/udvartana/" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.88rem;">Clinical Details &rarr;</a>
+                    <a href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20inquire%20about%20Udvartana%20%28Herbal%20Powder%20Scrub%20Therapy%29%20therapy." target="_blank" rel="noopener" class="btn-wa-inquire">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="white" style="flex-shrink: 0;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        Inquire
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="treatment-interactive-card" data-categories="spine">
+            <div class="treatment-interactive-thumb"><img src="/images/doctor-consult.jpg" alt="Agnikarma & Viddhakarma (Instant Pain Relief Therapy) at Karmanya Ayurveda" loading="lazy"><span class="treatment-badge-tag">Instant Pain Relief</span></div>
+            <div class="treatment-interactive-content">
+                <div class="treatment-category-label">Specialized Para-Surgical Therapy</div>
+                <h3 class="treatment-card-title"><a href="/treatments/agnikarma/">Agnikarma & Viddhakarma (Instant Pain Relief Therapy)</a></h3>
+                <p class="treatment-card-desc">A celebrated ancient Ayurvedic para-surgical technique providing rapid, targeted relief for chronic tendon, ligament, and localized joint pain without drugs or surgery.</p>
+                <div class="treatment-indications-wrap">
+                    <span class="indication-pill">Calcaneal Heel Spur</span><span class="indication-pill">Frozen Shoulder</span><span class="indication-pill">Tendonitis</span>
+                </div>
+                <div class="treatment-card-actions">
+                    <a href="/treatments/agnikarma/" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.88rem;">Clinical Details &rarr;</a>
+                    <a href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20inquire%20about%20Agnikarma%20%26%20Viddhakarma%20%28Instant%20Pain%20Relief%20Therapy%29%20therapy." target="_blank" rel="noopener" class="btn-wa-inquire">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="white" style="flex-shrink: 0;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        Inquire
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="treatment-interactive-card" data-categories="metabolic">
+            <div class="treatment-interactive-thumb"><img src="/images/doctor-consult.jpg" alt="Garbha Sanskar (Ayurvedic Pregnancy & Post-Natal Care) at Karmanya Ayurveda" loading="lazy"><span class="treatment-badge-tag">Maternal Wellness</span></div>
+            <div class="treatment-interactive-content">
+                <div class="treatment-category-label">Maternal & Child Wellness</div>
+                <h3 class="treatment-card-title"><a href="/treatments/garbha-sanskar/">Garbha Sanskar (Ayurvedic Pregnancy & Post-Natal Care)</a></h3>
+                <p class="treatment-card-desc">Holistic Ayurvedic protocols for pre-conception purification (Beeja Shuddhi), month-by-month pregnancy regimen (Masanumashika), and restorative post-natal recovery (Sutika Paricharya).</p>
+                <div class="treatment-indications-wrap">
+                    <span class="indication-pill">Pre-Conception Care</span><span class="indication-pill">Prenatal Trimester Support</span><span class="indication-pill">Postpartum Recovery</span>
+                </div>
+                <div class="treatment-card-actions">
+                    <a href="/treatments/garbha-sanskar/" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.88rem;">Clinical Details &rarr;</a>
+                    <a href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20inquire%20about%20Garbha%20Sanskar%20%28Ayurvedic%20Pregnancy%20%26%20Post-Natal%20Care%29%20therapy." target="_blank" rel="noopener" class="btn-wa-inquire">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="white" style="flex-shrink: 0;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        Inquire
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="treatment-interactive-card" data-categories="metabolic">
+            <div class="treatment-interactive-thumb"><img src="/images/hero-treatment.jpg" alt="Mukhalepam (Ayurvedic Herbal Facial & Skin Therapy) at Karmanya Ayurveda" loading="lazy"><span class="treatment-badge-tag">Herbal Dermatology</span></div>
+            <div class="treatment-interactive-content">
+                <div class="treatment-category-label">Classical Dermatology & Natural Aesthetics</div>
+                <h3 class="treatment-card-title"><a href="/treatments/mukhalepam/">Mukhalepam (Ayurvedic Herbal Facial & Skin Therapy)</a></h3>
+                <p class="treatment-card-desc">Classical Ayurvedic facial therapy using customized micro-ground herbal pastes to treat hyperpigmentation, melasma, acne marks, and restore natural cellular skin radiance.</p>
+                <div class="treatment-indications-wrap">
+                    <span class="indication-pill">Melasma & Dark Spots</span><span class="indication-pill">Acne Scars</span><span class="indication-pill">Cellular Skin Radiance</span>
+                </div>
+                <div class="treatment-card-actions">
+                    <a href="/treatments/mukhalepam/" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.88rem;">Clinical Details &rarr;</a>
+                    <a href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20inquire%20about%20Mukhalepam%20%28Ayurvedic%20Herbal%20Facial%20%26%20Skin%20Therapy%29%20therapy." target="_blank" rel="noopener" class="btn-wa-inquire">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="white" style="flex-shrink: 0;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        Inquire
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+            </div>
+        </div>
+    </section>
 
     <!-- The Kayakalpa Rejuvenation Ritual Feature -->
     <section class="section-padding" style="background: var(--color-primary); color: var(--color-white);">
@@ -605,200 +1197,6 @@
         </div>
     </section>
 
-    <!-- Deep Clinical Therapies Grid (Janu Basti, Kati Basti, etc.) -->
-    <section class="section-padding" style="background: white; border-top: 1px solid var(--color-border);">
-        <div class="container">
-            <div style="text-align: center; margin-bottom: var(--space-8);">
-                <span style="color: var(--color-accent); font-size: 0.85rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;">CLINICAL SPECIALTIES</span>
-                <h2 style="font-size: 2.2rem; color: var(--color-primary);">Targeted Condition Interventions</h2>
-                <p style="color: #666;">Explore in-depth clinical protocols for chronic pain, spinal disc strain, and joint preservation.</p>
-            </div>
-            <div class="grid-2" style="gap: var(--space-8);">
-                
-        <div class="treatment-card">
-            <div>
-                <div class="condition-card-image" style="height: 160px; margin-bottom: 14px;"><img src="/images/protocols/protocol-pinda-sweda.png" alt="Panchakarma at Karmanya Ayurveda" loading="lazy"></div>
-                <span style="color: var(--color-accent); font-weight: 600; font-size: 0.85rem; text-transform: uppercase;">Detoxification & Rejuvenation</span>
-                <h3 style="margin: 8px 0 12px; font-size: 1.6rem;"><a href="/treatments/panchakarma/" style="color: var(--color-primary); text-decoration: none;">Panchakarma</a></h3>
-                <p style="color: #555; font-size: 1rem; line-height: 1.5; margin-bottom: 16px;">A comprehensive, physician-guided detoxification and rejuvenation protocol designed to address the root cause of chronic imbalances.</p>
-            </div>
-            <div style="margin-top: 16px;">
-                <a href="/treatments/panchakarma/" class="btn btn-secondary" style="padding: 8px 18px; font-size: 0.9rem;">View Therapy Details &rarr;</a>
-            </div>
-        </div>
-        
-        <div class="treatment-card">
-            <div>
-                <div class="condition-card-image" style="height: 160px; margin-bottom: 14px;"><img src="/images/protocols/protocol-knee-janu-basti.jpg" alt="Janu Basti at Karmanya Ayurveda" loading="lazy"></div>
-                <span style="color: var(--color-accent); font-weight: 600; font-size: 0.85rem; text-transform: uppercase;">Targeted Joint Therapy</span>
-                <h3 style="margin: 8px 0 12px; font-size: 1.6rem;"><a href="/treatments/janu-basti/" style="color: var(--color-primary); text-decoration: none;">Janu Basti</a></h3>
-                <p style="color: #555; font-size: 1rem; line-height: 1.5; margin-bottom: 16px;">Classical warm medicated herbal oil pooling therapy designed to nourish synovial fluid, lubricate knee cartilage, and relieve osteoarthritic pain.</p>
-            </div>
-            <div style="margin-top: 16px;">
-                <a href="/treatments/janu-basti/" class="btn btn-secondary" style="padding: 8px 18px; font-size: 0.9rem;">View Therapy Details &rarr;</a>
-            </div>
-        </div>
-        
-        <div class="treatment-card">
-            <div>
-                <div class="condition-card-image" style="height: 160px; margin-bottom: 14px;"><img src="/images/protocols/protocol-spine-kati-basti.png" alt="Kati Basti at Karmanya Ayurveda" loading="lazy"></div>
-                <span style="color: var(--color-accent); font-weight: 600; font-size: 0.85rem; text-transform: uppercase;">Spinal & Lumbosacral Therapy</span>
-                <h3 style="margin: 8px 0 12px; font-size: 1.6rem;"><a href="/treatments/kati-basti/" style="color: var(--color-primary); text-decoration: none;">Kati Basti</a></h3>
-                <p style="color: #555; font-size: 1rem; line-height: 1.5; margin-bottom: 16px;">Specialized therapeutic oil pooling over the lumbar and sacral spine to soothe inflamed nerves, rehydrate discs, and eliminate chronic back pain.</p>
-            </div>
-            <div style="margin-top: 16px;">
-                <a href="/treatments/kati-basti/" class="btn btn-secondary" style="padding: 8px 18px; font-size: 0.9rem;">View Therapy Details &rarr;</a>
-            </div>
-        </div>
-        
-        <div class="treatment-card">
-            <div>
-                <div class="condition-card-image" style="height: 160px; margin-bottom: 14px;"><img src="/images/hero-treatment.webp" alt="Shirodhara at Karmanya Ayurveda" loading="lazy"></div>
-                <span style="color: var(--color-accent); font-weight: 600; font-size: 0.85rem; text-transform: uppercase;">Mind & Neurological Therapy</span>
-                <h3 style="margin: 8px 0 12px; font-size: 1.6rem;"><a href="/treatments/shirodhara/" style="color: var(--color-primary); text-decoration: none;">Shirodhara</a></h3>
-                <p style="color: #555; font-size: 1rem; line-height: 1.5; margin-bottom: 16px;">A deeply restorative classical therapy featuring a continuous, rhythmic stream of warm medicated oil on the forehead, inducing profound mental stillness and autonomic balance.</p>
-            </div>
-            <div style="margin-top: 16px;">
-                <a href="/treatments/shirodhara/" class="btn btn-secondary" style="padding: 8px 18px; font-size: 0.9rem;">View Therapy Details &rarr;</a>
-            </div>
-        </div>
-        
-        <div class="treatment-card">
-            <div>
-                <div class="condition-card-image" style="height: 160px; margin-bottom: 14px;"><img src="/images/protocols/protocol-pinda-sweda.png" alt="Kizhi (Patra Pinda Sweda) at Karmanya Ayurveda" loading="lazy"></div>
-                <span style="color: var(--color-accent); font-weight: 600; font-size: 0.85rem; text-transform: uppercase;">Kerala Chikitsa</span>
-                <h3 style="margin: 8px 0 12px; font-size: 1.6rem;"><a href="/treatments/kizhi/" style="color: var(--color-primary); text-decoration: none;">Kizhi (Patra Pinda Sweda)</a></h3>
-                <p style="color: #555; font-size: 1rem; line-height: 1.5; margin-bottom: 16px;">A signature Kerala sudation therapy utilizing heated herbal leaf or powder boluses dipped in warm medicated oils to relieve deep tissue pain and inflammation.</p>
-            </div>
-            <div style="margin-top: 16px;">
-                <a href="/treatments/kizhi/" class="btn btn-secondary" style="padding: 8px 18px; font-size: 0.9rem;">View Therapy Details &rarr;</a>
-            </div>
-        </div>
-        
-        <div class="treatment-card">
-            <div>
-                <div class="condition-card-image" style="height: 160px; margin-bottom: 14px;"><img src="/images/hero-treatment.webp" alt="Abhyangam & Uzhichil (Traditional Kerala Body Therapy) at Karmanya Ayurveda" loading="lazy"></div>
-                <span style="color: var(--color-accent); font-weight: 600; font-size: 0.85rem; text-transform: uppercase;">Full Body Therapeutic Snehana</span>
-                <h3 style="margin: 8px 0 12px; font-size: 1.6rem;"><a href="/treatments/abhyangam/" style="color: var(--color-primary); text-decoration: none;">Abhyangam & Uzhichil (Traditional Kerala Body Therapy)</a></h3>
-                <p style="color: #555; font-size: 1rem; line-height: 1.5; margin-bottom: 16px;">A classical, therapeutic full-body oil massage administered by trained Kerala therapists using warm, Dosha-specific medicated oils to deeply nourish all tissue layers.</p>
-            </div>
-            <div style="margin-top: 16px;">
-                <a href="/treatments/abhyangam/" class="btn btn-secondary" style="padding: 8px 18px; font-size: 0.9rem;">View Therapy Details &rarr;</a>
-            </div>
-        </div>
-        
-        <div class="treatment-card">
-            <div>
-                <div class="condition-card-image" style="height: 160px; margin-bottom: 14px;"><img src="/images/clinic-exterior.jpg" alt="Kerala Chikitsa at Karmanya Ayurveda" loading="lazy"></div>
-                <span style="color: var(--color-accent); font-weight: 600; font-size: 0.85rem; text-transform: uppercase;">Signature Heritage Therapies</span>
-                <h3 style="margin: 8px 0 12px; font-size: 1.6rem;"><a href="/treatments/kerala-chikitsa/" style="color: var(--color-primary); text-decoration: none;">Kerala Chikitsa</a></h3>
-                <p style="color: #555; font-size: 1rem; line-height: 1.5; margin-bottom: 16px;">The purest form of traditional Ayurvedic therapies, preserved and practiced exactly as they originated in the Ashtavaidya tradition of Kerala.</p>
-            </div>
-            <div style="margin-top: 16px;">
-                <a href="/treatments/kerala-chikitsa/" class="btn btn-secondary" style="padding: 8px 18px; font-size: 0.9rem;">View Therapy Details &rarr;</a>
-            </div>
-        </div>
-        
-        <div class="treatment-card">
-            <div>
-                <div class="condition-card-image" style="height: 160px; margin-bottom: 14px;"><img src="/images/doctor-consult.jpg" alt="Nadi Pariksha (Pulse Diagnosis) at Karmanya Ayurveda" loading="lazy"></div>
-                <span style="color: var(--color-accent); font-weight: 600; font-size: 0.85rem; text-transform: uppercase;">Classical Diagnostic Science</span>
-                <h3 style="margin: 8px 0 12px; font-size: 1.6rem;"><a href="/treatments/nadi-pariksha/" style="color: var(--color-primary); text-decoration: none;">Nadi Pariksha (Pulse Diagnosis)</a></h3>
-                <p style="color: #555; font-size: 1rem; line-height: 1.5; margin-bottom: 16px;">The classical science of pulse examination to decode your Dosha imbalances, metabolic health, and disease root causes before symptoms manifest.</p>
-            </div>
-            <div style="margin-top: 16px;">
-                <a href="/treatments/nadi-pariksha/" class="btn btn-secondary" style="padding: 8px 18px; font-size: 0.9rem;">View Therapy Details &rarr;</a>
-            </div>
-        </div>
-        
-        <div class="treatment-card">
-            <div>
-                <div class="condition-card-image" style="height: 160px; margin-bottom: 14px;"><img src="/images/doctor-consult.jpg" alt="Nasya (Medicated Nasal Therapy) at Karmanya Ayurveda" loading="lazy"></div>
-                <span style="color: var(--color-accent); font-weight: 600; font-size: 0.85rem; text-transform: uppercase;">Head & Sensory Organ Rejuvenation</span>
-                <h3 style="margin: 8px 0 12px; font-size: 1.6rem;"><a href="/treatments/nasya/" style="color: var(--color-primary); text-decoration: none;">Nasya (Medicated Nasal Therapy)</a></h3>
-                <p style="color: #555; font-size: 1rem; line-height: 1.5; margin-bottom: 16px;">One of the five core Panchakarma therapies. Specialized administration of medicated herbal oils through the nasal passageway — the direct gateway to the head, neck, and brain.</p>
-            </div>
-            <div style="margin-top: 16px;">
-                <a href="/treatments/nasya/" class="btn btn-secondary" style="padding: 8px 18px; font-size: 0.9rem;">View Therapy Details &rarr;</a>
-            </div>
-        </div>
-        
-        <div class="treatment-card">
-            <div>
-                <div class="condition-card-image" style="height: 160px; margin-bottom: 14px;"><img src="/images/doctor-consult.jpg" alt="Pizhichil (Royal Medicated Oil Bath) at Karmanya Ayurveda" loading="lazy"></div>
-                <span style="color: var(--color-accent); font-weight: 600; font-size: 0.85rem; text-transform: uppercase;">Kerala Ashtavaidya Immersion</span>
-                <h3 style="margin: 8px 0 12px; font-size: 1.6rem;"><a href="/treatments/pizhichil/" style="color: var(--color-primary); text-decoration: none;">Pizhichil (Royal Medicated Oil Bath)</a></h3>
-                <p style="color: #555; font-size: 1rem; line-height: 1.5; margin-bottom: 16px;">Known as the 'King of Ayurvedic Therapies'. Continuous streams of rhythmic warm medicated oil poured over the entire body, combining oleation and sudation simultaneously.</p>
-            </div>
-            <div style="margin-top: 16px;">
-                <a href="/treatments/pizhichil/" class="btn btn-secondary" style="padding: 8px 18px; font-size: 0.9rem;">View Therapy Details &rarr;</a>
-            </div>
-        </div>
-        
-        <div class="treatment-card">
-            <div>
-                <div class="condition-card-image" style="height: 160px; margin-bottom: 14px;"><img src="/images/doctor-consult.jpg" alt="Netra Tarpana (Ayurvedic Eye Rejuvenation) at Karmanya Ayurveda" loading="lazy"></div>
-                <span style="color: var(--color-accent); font-weight: 600; font-size: 0.85rem; text-transform: uppercase;">Ophthalmic & Sensory Care</span>
-                <h3 style="margin: 8px 0 12px; font-size: 1.6rem;"><a href="/treatments/netratarpana/" style="color: var(--color-primary); text-decoration: none;">Netra Tarpana (Ayurvedic Eye Rejuvenation)</a></h3>
-                <p style="color: #555; font-size: 1rem; line-height: 1.5; margin-bottom: 16px;">Gentle pooling of purified, medicated Ayurvedic ghee over the eyes in specialized herbal dough rings to nourish the optic nerves, cornea, and tired vision.</p>
-            </div>
-            <div style="margin-top: 16px;">
-                <a href="/treatments/netratarpana/" class="btn btn-secondary" style="padding: 8px 18px; font-size: 0.9rem;">View Therapy Details &rarr;</a>
-            </div>
-        </div>
-        
-        <div class="treatment-card">
-            <div>
-                <div class="condition-card-image" style="height: 160px; margin-bottom: 14px;"><img src="/images/doctor-consult.jpg" alt="Udvartana (Herbal Powder Scrub Therapy) at Karmanya Ayurveda" loading="lazy"></div>
-                <span style="color: var(--color-accent); font-weight: 600; font-size: 0.85rem; text-transform: uppercase;">Metabolic & Lymphatic Therapy</span>
-                <h3 style="margin: 8px 0 12px; font-size: 1.6rem;"><a href="/treatments/udvartana/" style="color: var(--color-primary); text-decoration: none;">Udvartana (Herbal Powder Scrub Therapy)</a></h3>
-                <p style="color: #555; font-size: 1rem; line-height: 1.5; margin-bottom: 16px;">Vigorous upward strokes using specially compounded warm medicinal herbal powders to mobilize sub-cutaneous fat, stimulate lymphatic circulation, and tone skin.</p>
-            </div>
-            <div style="margin-top: 16px;">
-                <a href="/treatments/udvartana/" class="btn btn-secondary" style="padding: 8px 18px; font-size: 0.9rem;">View Therapy Details &rarr;</a>
-            </div>
-        </div>
-        
-        <div class="treatment-card">
-            <div>
-                <div class="condition-card-image" style="height: 160px; margin-bottom: 14px;"><img src="/images/doctor-consult.jpg" alt="Agnikarma & Viddhakarma (Instant Pain Relief Therapy) at Karmanya Ayurveda" loading="lazy"></div>
-                <span style="color: var(--color-accent); font-weight: 600; font-size: 0.85rem; text-transform: uppercase;">Specialized Para-Surgical Therapy</span>
-                <h3 style="margin: 8px 0 12px; font-size: 1.6rem;"><a href="/treatments/agnikarma/" style="color: var(--color-primary); text-decoration: none;">Agnikarma & Viddhakarma (Instant Pain Relief Therapy)</a></h3>
-                <p style="color: #555; font-size: 1rem; line-height: 1.5; margin-bottom: 16px;">A celebrated ancient Ayurvedic para-surgical technique providing rapid, targeted relief for chronic tendon, ligament, and localized joint pain without drugs or surgery.</p>
-            </div>
-            <div style="margin-top: 16px;">
-                <a href="/treatments/agnikarma/" class="btn btn-secondary" style="padding: 8px 18px; font-size: 0.9rem;">View Therapy Details &rarr;</a>
-            </div>
-        </div>
-        
-        <div class="treatment-card">
-            <div>
-                <div class="condition-card-image" style="height: 160px; margin-bottom: 14px;"><img src="/images/doctor-consult.jpg" alt="Garbha Sanskar (Ayurvedic Pregnancy & Post-Natal Care) at Karmanya Ayurveda" loading="lazy"></div>
-                <span style="color: var(--color-accent); font-weight: 600; font-size: 0.85rem; text-transform: uppercase;">Maternal & Child Wellness</span>
-                <h3 style="margin: 8px 0 12px; font-size: 1.6rem;"><a href="/treatments/garbha-sanskar/" style="color: var(--color-primary); text-decoration: none;">Garbha Sanskar (Ayurvedic Pregnancy & Post-Natal Care)</a></h3>
-                <p style="color: #555; font-size: 1rem; line-height: 1.5; margin-bottom: 16px;">Holistic Ayurvedic protocols for pre-conception purification (Beeja Shuddhi), month-by-month pregnancy regimen (Masanumashika), and restorative post-natal recovery (Sutika Paricharya).</p>
-            </div>
-            <div style="margin-top: 16px;">
-                <a href="/treatments/garbha-sanskar/" class="btn btn-secondary" style="padding: 8px 18px; font-size: 0.9rem;">View Therapy Details &rarr;</a>
-            </div>
-        </div>
-        
-        <div class="treatment-card">
-            <div>
-                <div class="condition-card-image" style="height: 160px; margin-bottom: 14px;"><img src="/images/hero-treatment.jpg" alt="Mukhalepam (Ayurvedic Herbal Facial & Skin Therapy) at Karmanya Ayurveda" loading="lazy"></div>
-                <span style="color: var(--color-accent); font-weight: 600; font-size: 0.85rem; text-transform: uppercase;">Classical Dermatology & Natural Aesthetics</span>
-                <h3 style="margin: 8px 0 12px; font-size: 1.6rem;"><a href="/treatments/mukhalepam/" style="color: var(--color-primary); text-decoration: none;">Mukhalepam (Ayurvedic Herbal Facial & Skin Therapy)</a></h3>
-                <p style="color: #555; font-size: 1rem; line-height: 1.5; margin-bottom: 16px;">Classical Ayurvedic facial therapy using customized micro-ground herbal pastes to treat hyperpigmentation, melasma, acne marks, and restore natural cellular skin radiance.</p>
-            </div>
-            <div style="margin-top: 16px;">
-                <a href="/treatments/mukhalepam/" class="btn btn-secondary" style="padding: 8px 18px; font-size: 0.9rem;">View Therapy Details &rarr;</a>
-            </div>
-        </div>
-        
-            </div>
-        </div>
-    </section>
-
     <!-- Unified Clinic Location & Contact Bar -->
     <div class="clinic-location-bar" style="background: var(--color-primary); color: var(--color-white); padding: var(--space-8) 0; border-top: 1px solid rgba(255,255,255,0.1);">
         <div class="container" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: var(--space-6);">
@@ -951,6 +1349,74 @@ document.addEventListener('DOMContentLoaded', function() {
         if (e.key === 'Escape') closeMenu();
     });
 });
+
+// Interactive Category Filter for Treatments Catalog
+document.addEventListener('DOMContentLoaded', function() {
+    const filterBtns = document.querySelectorAll('.therapy-filter-btn');
+    const cards = document.querySelectorAll('.treatment-interactive-card');
+    
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            const filter = this.getAttribute('data-filter');
+            
+            filterBtns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            
+            cards.forEach(card => {
+                if (filter === 'all') {
+                    card.style.display = 'flex';
+                } else {
+                    const categories = (card.getAttribute('data-categories') || '').split(' ');
+                    if (categories.includes(filter)) {
+                        card.style.display = 'flex';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                }
+            });
+        });
+    });
+});
+
+// Fast-Track Lead Submission Handler
+window.dataLayer = window.dataLayer || [];
+function handleTreatmentsLead(e) {
+    e.preventDefault();
+    var name = document.getElementById('t_name').value.trim();
+    var phone = document.getElementById('t_phone').value.trim();
+    var concernSelect = document.getElementById('t_concern');
+    var concernText = concernSelect.options[concernSelect.selectedIndex].text;
+    var timeSlot = document.getElementById('t_slot').value;
+    
+    window.dataLayer.push({
+        'event': 'generate_lead',
+        'lead_type': 'treatments_fast_track',
+        'patient_name': name,
+        'patient_phone': phone,
+        'health_concern': concernText,
+        'preferred_timeslot': timeSlot
+    });
+    
+    try {
+        var leads = JSON.parse(localStorage.getItem('karmanya_leads') || '[]');
+        leads.push({ name: name, phone: phone, concern: concernText, timeslot: timeSlot, date: new Date().toISOString() });
+        localStorage.setItem('karmanya_leads', JSON.stringify(leads));
+    } catch(err){}
+    
+    var formEl = document.getElementById('treatmentsBookingForm');
+    formEl.innerHTML = `
+        <div style="text-align: center; padding: 20px 10px;">
+            <div style="width: 52px; height: 52px; border-radius: 50%; background: #e8f8f0; color: #25D366; font-size: 1.8rem; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px;">✔</div>
+            <h4 style="color: var(--color-primary); font-size: 1.25rem; margin-bottom: 6px; font-family: var(--font-heading);">Consultation Request Received</h4>
+            <p style="color: #555; font-size: 0.92rem; line-height: 1.5; margin-bottom: 16px;">
+                Thank you, <strong>${name}</strong>. Our clinical coordinator at Pimple Saudagar will contact you at <strong>${phone}</strong> shortly to confirm your consultation slot.
+            </p>
+            <a href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20my%20name%20is%20${encodeURIComponent(name)}%20(${encodeURIComponent(phone)}).%20I%20requested%20a%20consultation%20regarding%20${encodeURIComponent(concernText)}." target="_blank" rel="noopener" class="btn btn-primary" style="background: #25D366; border-color: #25D366; width: 100%; display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 10px; font-size: 0.95rem; text-decoration: none; box-sizing: border-box;">
+                Open WhatsApp for Instant Confirmation &rarr;
+            </a>
+        </div>
+    `;
+}
 </script>
 
 </body>

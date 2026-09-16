@@ -3,6 +3,7 @@ import os
 import sys
 import shutil
 import re
+import urllib.parse
 
 def render_template(template_str, data):
     def list_replacer(match):
@@ -779,20 +780,120 @@ def build_site():
         treatments_hub_template = f.read()
         
     treat_grid_html = ""
+    category_meta = {
+        'panchakarma': {
+            'categories': 'detox',
+            'badge': 'Ashtavaidya Detox',
+            'indications': ['Cellular Detox', 'Metabolic Reset', 'Virechana & Vasti']
+        },
+        'janu-basti': {
+            'categories': 'spine',
+            'badge': 'Targeted Joint Care',
+            'indications': ['Knee Osteoarthritis', 'Cartilage Wear', 'Synovial Fluid']
+        },
+        'kati-basti': {
+            'categories': 'spine',
+            'badge': 'Spine & Sciatica',
+            'indications': ['L4-L5 / L5-S1 Sciatica', 'Disc Herniation', 'Lower Back Pain']
+        },
+        'shirodhara': {
+            'categories': 'neuro',
+            'badge': 'Neuro-Calm & Sleep',
+            'indications': ['Insomnia & Sleep Reset', 'Chronic Anxiety', 'Migraines']
+        },
+        'kizhi': {
+            'categories': 'spine detox',
+            'badge': 'Herbal Poultice',
+            'indications': ['Cervical Stiffness', 'Frozen Shoulder', 'Joint Inflammation']
+        },
+        'abhyangam': {
+            'categories': 'neuro detox',
+            'badge': 'Kerala Full Body',
+            'indications': ['Chronic Fatigue', 'Vata Balance', 'Lymphatic Flow']
+        },
+        'kerala-chikitsa': {
+            'categories': 'spine neuro',
+            'badge': 'Heritage Chikitsa',
+            'indications': ['Marma Physiotherapy', 'Degenerative Spine', 'Paralysis Care']
+        },
+        'nadi-pariksha': {
+            'categories': 'neuro detox',
+            'badge': 'Classical Pulse Diagnosis',
+            'indications': ['Root-Cause Analysis', 'Prakriti Assessment', 'Dosha Reading']
+        },
+        'nasya': {
+            'categories': 'detox neuro',
+            'badge': 'Cranial Cleansing',
+            'indications': ['Cervical Spondylosis', 'Chronic Sinusitis', 'Headaches']
+        },
+        'pizhichil': {
+            'categories': 'neuro spine',
+            'badge': 'Royal Oil Squeeze',
+            'indications': ['Neuromuscular Recovery', 'Severe Spondylosis', 'Full-Body Vata']
+        },
+        'netratarpana': {
+            'categories': 'metabolic neuro',
+            'badge': 'Ophthalmic Care',
+            'indications': ['IT Digital Screen Strain', 'Dry Eye Syndrome', 'Optic Fatigue']
+        },
+        'udvartana': {
+            'categories': 'metabolic detox',
+            'badge': 'Lymphatic Scrub',
+            'indications': ['Metabolic Sluggishness', 'Cellulite Mobilization', 'PCOS Support']
+        },
+        'agnikarma': {
+            'categories': 'spine',
+            'badge': 'Instant Pain Relief',
+            'indications': ['Calcaneal Heel Spur', 'Frozen Shoulder', 'Tendonitis']
+        },
+        'garbha-sanskar': {
+            'categories': 'metabolic',
+            'badge': 'Maternal Wellness',
+            'indications': ['Pre-Conception Care', 'Prenatal Trimester Support', 'Postpartum Recovery']
+        },
+        'mukhalepam': {
+            'categories': 'metabolic',
+            'badge': 'Herbal Dermatology',
+            'indications': ['Melasma & Dark Spots', 'Acne Scars', 'Cellular Skin Radiance']
+        }
+    }
+
     for t in treatments:
         t_img = t.get('marketing', {}).get('image_url', '')
         t_title = t['title']
-        t_img_html = f'<div class="condition-card-image" style="height: 160px; margin-bottom: 14px;"><img src="{t_img}" alt="{t_title} at Karmanya Ayurveda" loading="lazy"></div>' if t_img else ''
+        t_slug = t['slug']
+        t_desc = t['marketing']['hero_description']
+        t_category = t['category']
+        meta = category_meta.get(t_slug, {
+            'categories': 'spine',
+            'badge': 'Classical Protocol',
+            'indications': ['Physician Prescribed']
+        })
+        cats = meta['categories']
+        badge_text = meta['badge']
+        pills_html = "".join([f'<span class="indication-pill">{ind}</span>' for ind in meta['indications']])
+        wa_text = f"Hello Karmanya Ayurveda, I would like to inquire about {t_title} therapy."
+        wa_url = "https://wa.me/919819820017?text=" + urllib.parse.quote(wa_text)
+        
+        t_img_html = f'<div class="treatment-interactive-thumb"><img src="{t_img}" alt="{t_title} at Karmanya Ayurveda" loading="lazy"><span class="treatment-badge-tag">{badge_text}</span></div>' if t_img else ''
+        
         card = f"""
-        <div class="treatment-card">
-            <div>
-                {t_img_html}
-                <span style="color: var(--color-accent); font-weight: 600; font-size: 0.85rem; text-transform: uppercase;">{t['category']}</span>
-                <h3 style="margin: 8px 0 12px; font-size: 1.6rem;"><a href="/treatments/{t['slug']}/" style="color: var(--color-primary); text-decoration: none;">{t['title']}</a></h3>
-                <p style="color: #555; font-size: 1rem; line-height: 1.5; margin-bottom: 16px;">{t['marketing']['hero_description']}</p>
-            </div>
-            <div style="margin-top: 16px;">
-                <a href="/treatments/{t['slug']}/" class="btn btn-secondary" style="padding: 8px 18px; font-size: 0.9rem;">View Therapy Details &rarr;</a>
+        <div class="treatment-interactive-card" data-categories="{cats}">
+            {t_img_html}
+            <div class="treatment-interactive-content">
+                <div class="treatment-category-label">{t_category}</div>
+                <h3 class="treatment-card-title"><a href="/treatments/{t_slug}/">{t_title}</a></h3>
+                <p class="treatment-card-desc">{t_desc}</p>
+                <div class="treatment-indications-wrap">
+                    {pills_html}
+                </div>
+                <div class="treatment-card-actions">
+                    <a href="/treatments/{t_slug}/" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.88rem;">Clinical Details &rarr;</a>
+                    <a href="{wa_url}" target="_blank" rel="noopener" class="btn-wa-inquire">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="white" style="flex-shrink: 0;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        Inquire
+                    </a>
+                </div>
             </div>
         </div>
         """
