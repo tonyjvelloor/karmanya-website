@@ -711,9 +711,13 @@ def build_site():
         
     cond_grid_html = ""
     for c in conditions:
+        img_url = c.get('marketing', {}).get('image_url', '')
+        c_title = c['title']
+        img_html = f'<div class="condition-card-image" style="height: 160px; margin-bottom: 14px;"><img src="{img_url}" alt="{c_title} Ayurvedic Treatment" loading="lazy"></div>' if img_url else ''
         card = f"""
         <div class="condition-card">
             <div>
+                {img_html}
                 <span style="color: var(--color-accent); font-weight: 600; font-size: 0.85rem; text-transform: uppercase;">{c['marketing']['hero_eyebrow']}</span>
                 <h3 style="margin: 8px 0 12px; font-size: 1.6rem;"><a href="/conditions/{c['slug']}/" style="color: var(--color-primary); text-decoration: none;">{c['title']}</a></h3>
                 <p style="color: #555; font-size: 1rem; line-height: 1.5; margin-bottom: 16px;">{c['marketing']['hero_description']}</p>
@@ -776,9 +780,13 @@ def build_site():
         
     treat_grid_html = ""
     for t in treatments:
+        t_img = t.get('marketing', {}).get('image_url', '')
+        t_title = t['title']
+        t_img_html = f'<div class="condition-card-image" style="height: 160px; margin-bottom: 14px;"><img src="{t_img}" alt="{t_title} at Karmanya Ayurveda" loading="lazy"></div>' if t_img else ''
         card = f"""
         <div class="treatment-card">
             <div>
+                {t_img_html}
                 <span style="color: var(--color-accent); font-weight: 600; font-size: 0.85rem; text-transform: uppercase;">{t['category']}</span>
                 <h3 style="margin: 8px 0 12px; font-size: 1.6rem;"><a href="/treatments/{t['slug']}/" style="color: var(--color-primary); text-decoration: none;">{t['title']}</a></h3>
                 <p style="color: #555; font-size: 1rem; line-height: 1.5; margin-bottom: 16px;">{t['marketing']['hero_description']}</p>
