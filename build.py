@@ -92,8 +92,8 @@ def generate_seo_head(page_type, page_data, site_data):
     faq_schema = None
     
     if page_type == 'home':
-        title = f"Ayurvedic Clinic in Pimple Saudagar, Pune | {brand.get('name')}"
-        desc = "Authentic Kerala Ayurvedic clinic in Pimple Saudagar, Pune. Physician-led Panchakarma, non-surgical knee joint pain, sciatica spine care, and holistic wellness."
+        title = f"Best Ayurvedic Clinic in Pimple Saudagar, Pune | Kerala Ayurveda | {brand.get('name')}"
+        desc = "Pune's premier Kerala Ayurvedic clinic in Pimple Saudagar. Doctor-prescribed non-surgical knee joint pain care, spine & sciatica decompression, Panchakarma, and Nadi Pariksha. Mon–Sun 10 AM–8 PM."
         url = "https://karmanyaayurveda.com/"
         
         entity_schema = {
@@ -162,6 +162,53 @@ def generate_seo_head(page_type, page_data, site_data):
                     "author": {"@type": "Person", "name": "Snehal K."},
                     "reviewRating": {"@type": "Rating", "ratingValue": "5"},
                     "reviewBody": "Dr. Tejasvi's approach to my PCOD was completely different — she addressed my insulin resistance and Kapha imbalance together. My cycles regularised within 2 months."
+                }
+            ]
+        }
+
+        faq_schema = {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Does Karmanya Ayurveda offer non-surgical treatment for knee and spine pain in Pune?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. Karmanya Ayurveda specializes in physician-prescribed, non-surgical management of knee osteoarthritis, sciatica, and lumbar disc bulges. Using authentic Kerala therapies like Janu Basti, Kati Basti, and Patra Pinda Sweda, our doctors focus on restoring synovial fluid and decompressing trapped nerve roots without surgery."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many sessions are required for Ayurvedic pain relief?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "In authentic classical Kerala Ayurveda, treatment duration and session frequency are never promised in advance. Every individual's body constitution (Prakriti), chronicity of pain, and tissue condition are distinct. Following an in-person Nadi Pariksha (pulse diagnosis) and scan review, our BAMS physicians prescribe a customized clinical care protocol (typically 7 to 14 days)."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How is Karmanya Ayurveda different from a commercial wellness spa?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Karmanya Ayurveda is a physician-led clinical treatment centre, not a day spa. Every therapy session is conducted under direct oversight of senior BAMS/MD Kerala physicians. We do not sell standardized relaxation packages; every protocol begins with a clinical diagnosis and uses 100% genuine GMP-certified medicines from Arya Vaidya Sala Kottakkal and Vaidyaratnam Oushadhasala."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is the Karmanya Ayurveda clinic located and what are the OPD timings?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Our clinic is located at 27/11 Swaraj Garden Road, near One Nation Apartment, Pimple Saudagar, Pune (411027). OPD timings are Monday to Sunday from 10:00 AM to 8:00 PM. Consultations are conducted in-person to ensure accurate Nadi Pariksha."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which areas in Pune are closest to Karmanya Ayurveda?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Karmanya Ayurveda serves patients across West Pune and PCMC, easily accessible within 5 to 15 minutes from Wakad (3.2 km), Hinjawadi IT Park (7.5 km), Baner (6.8 km), Aundh (5.5 km), Rahatani (1.5 km), and Ravet."
+                    }
                 }
             ]
         }
