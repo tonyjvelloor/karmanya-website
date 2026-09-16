@@ -939,7 +939,7 @@ def build_site():
                     <img src="{doc['marketing']['image_url']}" alt="Photo of {doc['name']}" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; object-position: top center; border: 3px solid var(--color-accent); display: block;">
                 </div>
                 <div style="flex: 1; min-width: 260px;">
-                    <div style="font-size: 0.85rem; font-weight: 700; color: var(--color-accent); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px;">SENIOR CONSULTANT &bull; {doc['clinical']['experience']}</div>
+                    <div style="font-size: 0.85rem; font-weight: 700; color: var(--color-accent); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px;">STAFF PHYSICIAN &bull; {doc['clinical']['experience']}</div>
                     <h2 style="margin-bottom: 6px;"><a href="/doctors/{doc['slug']}/" style="color: var(--color-primary); text-decoration: none;">{doc['name']}</a></h2>
                     <p style="font-weight: 600; color: #555; margin-bottom: 12px;">{doc['qualifications']} &bull; {role_sub}</p>
                     <p style="font-size: 1.05rem; line-height: 1.6; color: #444; margin-bottom: 16px;">{doc['marketing']['hero_description']}</p>
@@ -968,10 +968,10 @@ def build_site():
         story_template = f.read()
     out_dir = os.path.join(base_dir, 'public', 'our-story')
     os.makedirs(out_dir, exist_ok=True)
-    site_data['seo_head_tags'] = '''<title>Our Story & Heritage | Dr. Irshad T.M. & Dr. Tejasvi Mulik | Karmanya Ayurveda</title>
-<meta name="description" content="Discover how Dr. Irshad T.M. and Dr. Tejasvi Mulik founded Karmanya Ayurveda in Pimple Saudagar, Pune — bringing uncompromised Kerala Ashtavaidya Chikitsa, Nadi Pariksha, and authentic Panchakarma to Pune.">
-<meta property="og:title" content="Why We Started Karmanya Ayurveda | Authentic Kerala Medical Care">
-<meta property="og:description" content="The clinical journey of Dr. Irshad T.M. and Dr. Tejasvi Mulik bringing classical Ashtavaidya medicine to Pimple Saudagar, Pune.">
+    site_data['seo_head_tags'] = '''<title>Our Story & Founders | Dr. Anandhu & Dr. Aditya | Karmanya Ayurveda Pune</title>
+<meta name="description" content="Discover the story of Karmanya Ayurveda in Pune. Founded by Dr. Anandhu & Dr. Aditya with a vision for authentic Kerala Ashtavaidya medicine, clinically led by resident staff physicians Dr. Irshad T.M. and Dr. Tejasvi Mulik.">
+<meta property="og:title" content="Our Story | Founded by Dr. Anandhu & Dr. Aditya | Karmanya Ayurveda">
+<meta property="og:description" content="How Dr. Anandhu & Dr. Aditya founded Karmanya Ayurveda to bring authentic Kerala Ashtavaidya Chikitsa to Pune, led by staff physicians Dr. Irshad T.M. and Dr. Tejasvi Mulik.">
 <meta property="og:url" content="https://karmanyaayurveda.com/our-story/">'''
     with open(os.path.join(out_dir, 'index.html'), 'w') as f:
         f.write(render_template(story_template, site_data))
