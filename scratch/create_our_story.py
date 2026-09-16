@@ -47,9 +47,9 @@ content = """
             <h2 style="color: var(--color-primary); margin-bottom: 1.5rem;">Before Karmanya, There Was a Friendship</h2>
             <p>Our story started years before Karmanya had a name.</p>
             <p>We first met as students during our graduation in Ayurveda.</p>
-            <p><strong>Dr. Anandu</strong> was born in Kerala and brought up in Pune.</p>
-            <p><strong>Dr. Aditya</strong> came from Mumbai.</p>
-            <p>Different cities. Different experiences. Different stories.</p>
+            <p><strong>Dr. Irshad T.M.</strong> was born and trained in Kerala's Ashtavaidya tradition.</p>
+            <p><strong>Dr. Tejasvi Mulik</strong> brought her deep clinical experience in women's healthcare and metabolic medicine.</p>
+            <p>Different clinical strengths. One shared belief in authentic Ayurvedic medicine.</p>
             <p>But as we spent more time together studying Ayurveda, we discovered that we shared something much more important &mdash; a genuine curiosity about the science we had chosen to learn.</p>
             <p>What started as a friendship slowly became a journey of learning together.</p>
             <p>We discussed what we studied.</p>
@@ -85,16 +85,11 @@ content = """
             <h2 style="color: var(--color-primary); margin-bottom: 1.5rem;">Why Pune?</h2>
             <p>For us, Pune wasn't simply a location on a map.</p>
             <p>It was personal.</p>
-            <p>For Dr. Anandu, Pune was home.</p>
-            <p>He was born in Kerala but grew up in this city. He understood both worlds &mdash; the cultural roots of Kerala and the rapidly evolving lifestyle of Pune.</p>
-            <p>Dr. Aditya brought his own perspective from Mumbai &mdash; another city shaped by ambition, speed and modern urban life.</p>
-            <p>And somewhere between these two experiences, we saw an opportunity.</p>
-            <p>We saw a city where people were increasingly conscious about their health.</p>
-            <p>People were searching for holistic approaches.</p>
-            <p>People were rediscovering traditional knowledge.</p>
-            <p>But we also felt that there was an opportunity to make <strong>authentic Ayurvedic knowledge more accessible, more understandable and more relevant to the people living here.</strong></p>
+            <p>We saw a city where hardworking professionals and families were searching for genuine holistic care.</p>
+            <p>People were rediscovering traditional knowledge, yet caught between superficial day spas and invasive surgeries.</p>
+            <p>We saw an opportunity to make <strong>authentic Ayurvedic knowledge and clinical care accessible to the people living here.</strong></p>
             <p>We didn't want to simply bring a name from Kerala to Pune.</p>
-            <p><strong>We wanted to bring the knowledge behind it.</strong></p>
+            <p><strong>We wanted to bring the clinical excellence behind it.</strong></p>
 
             <hr style="margin: 3rem 0; border: 0; border-top: 1px solid var(--color-border);">
 
@@ -115,8 +110,8 @@ content = """
             <h2 style="color: var(--color-primary); margin-bottom: 1.5rem;">Why Kerala Ayurveda?</h2>
             <p>Kerala holds a special place in the history and practice of Ayurveda.</p>
             <p>For us, Kerala represents something deeper than a geographical identity.</p>
-            <p>It represents <strong>heritage, knowledge and continuity.</strong></p>
-            <p>Dr. Anandu's connection to Kerala made this particularly personal.</p>
+            <p>It represents <strong>heritage, knowledge and clinical continuity.</strong></p>
+            <p>Dr. Irshad's roots in Kerala made this particularly personal.</p>
             <p>But our intention was never to romanticise the past.</p>
             <p>We believe tradition becomes meaningful when it continues to serve people in the present.</p>
             <p>That is why our goal is not to recreate yesterday.</p>
@@ -195,8 +190,8 @@ content = """
                 <p style="font-weight: 600; font-size: 1.2rem; color: var(--color-accent); margin-bottom: 1rem;">
                     With roots in Kerala.<br>With a home in Pune.<br>And with a vision for the future.
                 </p>
-                <p style="font-weight: 700; color: var(--color-primary); margin-bottom: 0;">&mdash; Dr. Anandu & Dr. Aditya</p>
-                <p style="color: #666; font-size: 0.9rem;">Founders, Karmanya Ayurveda</p>
+                <p style="font-weight: 700; color: var(--color-primary); margin-bottom: 0;">&mdash; Dr. Irshad T.M. &amp; Dr. Tejasvi Mulik</p>
+                <p style="color: #666; font-size: 0.9rem;">Founders &amp; Chief Physicians, Karmanya Ayurveda</p>
             </div>
 
             <div style="text-align: center; margin-top: 4rem;">
@@ -239,10 +234,10 @@ story_build_code = """
         story_template = f.read()
     out_dir = os.path.join(base_dir, 'public', 'our-story')
     os.makedirs(out_dir, exist_ok=True)
-    site_data['seo_head_tags'] = '''<title>Founders’ Story | Authentic Kerala Ayurveda in Pune | Karmanya</title>
-<meta name="description" content="Discover the story behind Karmanya Ayurveda, founded by Dr. Anandu and Dr. Aditya to bring authentic Kerala Ayurveda and traditional Ayurvedic knowledge to Pune.">
+    site_data['seo_head_tags'] = '''<title>Our Story & Heritage | Authentic Kerala Ayurveda in Pune | Karmanya</title>
+<meta name="description" content="Discover how Dr. Irshad T.M. and Dr. Tejasvi Mulik founded Karmanya Ayurveda in Pimple Saudagar, Pune — bringing uncompromised Kerala Ashtavaidya Chikitsa to Pune.">
 <meta property="og:title" content="Why We Started Karmanya Ayurveda">
-<meta property="og:description" content="The story of two friends and a shared belief in authentic Kerala Ayurveda.">
+<meta property="og:description" content="The clinical journey of Dr. Irshad T.M. and Dr. Tejasvi Mulik bringing authentic Kerala Ayurveda to Pune.">
 <meta property="og:url" content="https://karmanyaayurveda.com/our-story/">'''
     with open(os.path.join(out_dir, 'index.html'), 'w') as f:
         f.write(render_template(story_template, site_data))

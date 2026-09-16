@@ -140,7 +140,7 @@ articles = [
     "meta_desc": "Physician-led Ayurvedic treatment for PCOD and PCOS in Pimple Saudagar, Pune. Cycle regularisation, insulin resistance correction, and fertility support without hormonal pills. Karmanya Ayurveda.",
     "category": "Women's Health",
     "date": "September 2, 2026",
-    "author": "Dr. Tejasiv Mulik, BAMS",
+    "author": "Dr. Tejasvi Mulik, BAMS",
     "author_url": "/doctors/dr-tejasvi/",
     "condition_url": "/conditions/womens-health-pcod-hormonal/",
     "read_time": "8 min read",
@@ -168,7 +168,7 @@ articles = [
       {"q": "How long does Ayurvedic PCOD treatment take?", "a": "A meaningful clinical response — regular cycles, reduced ultrasound cyst count — typically appears after 60–90 days of consistent treatment. The full protocol, including Panchakarma and Rasayana phase, spans 3–4 months."},
       {"q": "Can I take Ayurvedic medicines alongside my current hormonal pills?", "a": "Yes, in most cases. Our physician will review your current medications and coordinate the Ayurvedic protocol accordingly. Many patients gradually taper hormonal pills under gynaecological supervision as their natural cycle restores — but this is always done with their treating gynaecologist's agreement."},
       {"q": "Is the treatment suitable for teenage girls with PCOD?", "a": "Yes. Adolescent PCOD is increasingly common and responds very well to Ayurvedic treatment, particularly because the condition is usually less entrenched than in older women. We see girls as young as 14–15 years old at Karmanya, and dietary and herbal intervention at this stage can prevent long-term hormonal complications."},
-      {"q": "Does Karmanya have a female physician for PCOD consultations?", "a": "Yes. Dr. Tejasiv Mulik, BAMS, is our specialist in women's hormonal health and PCOD management. Consultations, Uttara Basti, and all female-specific procedures are conducted by Dr. Tejasvi."}
+      {"q": "Does Karmanya have a female physician for PCOD consultations?", "a": "Yes. Dr. Tejasvi Mulik, BAMS, is our specialist in women's hormonal health and PCOD management. Consultations, Uttara Basti, and all female-specific procedures are conducted by Dr. Tejasvi Mulik."}
     ]
   },
   {

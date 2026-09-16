@@ -15,7 +15,7 @@
       "image_url": "/images/doctors/dr-irshad-portrait.jpg"
     },
     "clinical": {
-      "experience": "11+ Years",
+      "experience": "15+ Years",
       "clinical_focus": "Specializes in degenerative knee osteoarthritis, lumbar disc herniation, sciatica, and authentic Kerala Panchakarma therapies.",
       "ayurvedic_approach": "Dr. Irshad combines classical Ashtavaidya Nadi Pariksha (pulse diagnosis) with modern physical assessment to design individualized, non-surgical treatment plans.",
       "specialties": [
@@ -52,7 +52,7 @@
   },
   {
     "id": "dr-tejasvi",
-    "name": "Dr. Tejasiv Mulik",
+    "name": "Dr. Tejasvi Mulik",
     "slug": "dr-tejasvi",
     "title": "Senior Consultant · Panchakarma & Metabolic Disorders",
     "qualifications": "BAMS",
@@ -66,7 +66,7 @@
       "image_url": "/images/doctors/dr-tejasvi-portrait.jpg"
     },
     "clinical": {
-      "experience": "7+ Years",
+      "experience": "10+ Years",
       "clinical_focus": "Specializes in natural cycle regulation for PCOS/PCOD, chronic skin disorders (psoriasis, eczema), and IBS/metabolic digestive resets.",
       "ayurvedic_approach": "Emphasizes targeted Ahara (dietary medicine) and Vihara (lifestyle rhythms) paired with classical herbal rasayanas and gentle detoxification to resolve chronic imbalances.",
       "specialties": [

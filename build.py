@@ -659,12 +659,17 @@ def build_site():
     
     loc_grid_html = ""
     for loc in locations:
+        lead_raw = loc['hero']['lead']
+        if len(lead_raw) > 175:
+            lead_snippet = lead_raw[:175].rsplit(' ', 1)[0] + '...'
+        else:
+            lead_snippet = lead_raw
         loc_card = f"""
         <div class="location-card">
             <div>
                 <span style="color: var(--color-accent); font-weight: 600; font-size: 0.85rem; text-transform: uppercase;">Distance: {loc['transit']['distance']}</span>
                 <h3 style="margin: 8px 0 12px; font-size: 1.6rem;"><a href="/locations/{loc['slug']}/" style="color: var(--color-primary); text-decoration: none;">{loc['name']}</a></h3>
-                <p style="color: #555; font-size: 1rem; line-height: 1.5; margin-bottom: 16px;">{loc['hero']['lead'][:180]}...</p>
+                <p style="color: #555; font-size: 1rem; line-height: 1.5; margin-bottom: 16px;">{lead_snippet}</p>
                 <p style="font-size: 0.9rem; color: #777;"><strong>Commute to Pimple Saudagar Clinic:</strong> {loc['transit']['drive_time']}</p>
             </div>
             <div style="margin-top: 16px;">
@@ -963,10 +968,10 @@ def build_site():
         story_template = f.read()
     out_dir = os.path.join(base_dir, 'public', 'our-story')
     os.makedirs(out_dir, exist_ok=True)
-    site_data['seo_head_tags'] = '''<title>Founders’ Story | Authentic Kerala Ayurveda in Pune | Karmanya</title>
-<meta name="description" content="Discover the story behind Karmanya Ayurveda, founded by Dr. Anandu and Dr. Aditya to bring authentic Kerala Ayurveda and traditional Ayurvedic knowledge to Pune.">
-<meta property="og:title" content="Why We Started Karmanya Ayurveda">
-<meta property="og:description" content="The story of two friends and a shared belief in authentic Kerala Ayurveda.">
+    site_data['seo_head_tags'] = '''<title>Our Story & Heritage | Dr. Irshad T.M. & Dr. Tejasvi Mulik | Karmanya Ayurveda</title>
+<meta name="description" content="Discover how Dr. Irshad T.M. and Dr. Tejasvi Mulik founded Karmanya Ayurveda in Pimple Saudagar, Pune — bringing uncompromised Kerala Ashtavaidya Chikitsa, Nadi Pariksha, and authentic Panchakarma to Pune.">
+<meta property="og:title" content="Why We Started Karmanya Ayurveda | Authentic Kerala Medical Care">
+<meta property="og:description" content="The clinical journey of Dr. Irshad T.M. and Dr. Tejasvi Mulik bringing classical Ashtavaidya medicine to Pimple Saudagar, Pune.">
 <meta property="og:url" content="https://karmanyaayurveda.com/our-story/">'''
     with open(os.path.join(out_dir, 'index.html'), 'w') as f:
         f.write(render_template(story_template, site_data))

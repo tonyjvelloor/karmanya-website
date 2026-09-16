@@ -40,7 +40,7 @@ reviews = [
         "condition": "PCOD & Irregular Cycles",
         "date": "2026-06-10",
         "review": "I had been on OCPs for 4 years for PCOD. My gynaecologist wanted to put me on Metformin next. I wanted to try something that addressed the cause, not just suppressed symptoms. Dr. Tejasvi at Karmanya did a thorough assessment — she explained how my insulin resistance and Kapha imbalance were causing the PCOD. After 2 months of treatment and strict dietary changes, my cycles regularised completely for the first time in 6 years. My follow-up ultrasound showed significant reduction in cyst count. I feel like myself again.",
-        "doctor": "Dr. Tejasiv Mulik",
+        "doctor": "Dr. Tejasvi Mulik",
         "doctor_url": "/doctors/dr-tejasvi/"
     },
     {
