@@ -1505,7 +1505,7 @@ html, body {
    Chronic Conditions We Specialise In (20-Condition Grid Benchmark)
    ========================================================================== */
 .chronic-conditions-section {
-    padding: 70px 0 80px;
+    padding: 76px 0 88px;
     background: #FFFFFF;
     position: relative;
 }
@@ -1513,30 +1513,31 @@ html, body {
 .chronic-conditions-header {
     text-align: center;
     max-width: 900px;
-    margin: 0 auto 44px;
+    margin: 0 auto 46px;
     padding: 0 var(--space-4);
 }
 
 .chronic-conditions-title {
-    font-size: clamp(2rem, 3.8vw, 2.85rem);
-    color: #172E27;
+    font-size: clamp(2.1rem, 4vw, 2.9rem);
+    color: #166534;
     margin: 0;
-    font-family: var(--font-heading), 'Marcellus', serif;
-    letter-spacing: -0.01em;
+    font-family: 'Jost', var(--font-body), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    letter-spacing: -0.02em;
     line-height: 1.25;
     font-weight: 700;
 }
 
-.chronic-conditions-title .title-light {
-    font-weight: 400;
-    color: #1b4d3e;
+.chronic-conditions-title .title-light,
+.chronic-conditions-title .title-dark {
+    font-weight: 700;
+    color: #1F2937;
 }
 
 .conditions-icon-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 18px;
-    max-width: 1120px;
+    gap: 28px 22px;
+    max-width: 1140px;
     margin: 0 auto;
     padding: 0 var(--space-4);
 }
@@ -1545,98 +1546,107 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background: #EAF4EE;
-    border: 1px solid rgba(27, 77, 62, 0.08);
-    border-radius: 16px;
-    padding: 22px 14px 18px;
+    justify-content: flex-start;
+    background: transparent;
+    border: none;
+    padding: 0;
     text-decoration: none;
-    color: #172E27;
-    min-height: 116px;
+    cursor: pointer;
     box-sizing: border-box;
-    transition: transform 0.22s ease, background-color 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
-    box-shadow: 0 2px 4px rgba(27, 77, 62, 0.02);
-    position: relative;
-}
-
-.condition-icon-card:hover {
-    background: #E0EEE5;
-    transform: translateY(-3px);
-    border-color: rgba(27, 77, 62, 0.22);
-    box-shadow: 0 8px 20px rgba(27, 77, 62, 0.08);
-}
-
-.condition-icon-card:active {
-    transform: translateY(-1px);
-    box-shadow: 0 4px 10px rgba(27, 77, 62, 0.05);
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .condition-icon-svg-wrap {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 42px;
-    height: 42px;
-    margin-bottom: 10px;
-    transition: transform 0.22s ease;
+    width: 100%;
+    height: 88px;
+    background: #EAF5EE;
+    border-radius: 14px;
+    border: 1px solid rgba(22, 101, 52, 0.06);
+    box-shadow: 0 1px 3px rgba(22, 101, 52, 0.03);
+    color: #166534;
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .condition-icon-card:hover .condition-icon-svg-wrap {
-    transform: scale(1.08);
+    background: #DFEEE4;
+    border-color: rgba(22, 101, 52, 0.2);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(22, 101, 52, 0.12);
+}
+
+.condition-icon-card:active .condition-icon-svg-wrap {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 8px rgba(22, 101, 52, 0.08);
 }
 
 .condition-icon-svg {
-    width: 38px;
-    height: 38px;
+    width: 40px;
+    height: 40px;
+    color: #166534;
     stroke: #166534;
-    stroke-width: 1.8;
+    stroke-width: 1.75;
     stroke-linecap: round;
     stroke-linejoin: round;
     fill: none;
+    transition: transform 0.25s ease;
+}
+
+.condition-icon-card:hover .condition-icon-svg {
+    transform: scale(1.08);
+}
+
+.condition-icon-svg [fill="currentColor"] {
+    fill: #166534 !important;
 }
 
 .condition-icon-label {
     font-family: var(--font-body), 'Jost', sans-serif;
     font-size: 0.95rem;
     font-weight: 500;
-    color: #172E27;
+    color: #1F2937;
     text-align: center;
-    line-height: 1.3;
-    margin: 0;
+    line-height: 1.35;
+    margin-top: 10px;
     letter-spacing: -0.01em;
+    transition: color 0.2s ease, font-weight 0.2s ease;
+}
+
+.condition-icon-card:hover .condition-icon-label {
+    color: #166534;
+    font-weight: 600;
 }
 
 @media (max-width: 1024px) {
     .conditions-icon-grid {
         grid-template-columns: repeat(3, 1fr);
-        gap: 14px;
+        gap: 24px 18px;
+    }
+    .condition-icon-svg-wrap {
+        height: 82px;
     }
 }
 
 @media (max-width: 640px) {
     .chronic-conditions-section {
-        padding: 44px 0 54px;
+        padding: 48px 0 58px;
     }
     .chronic-conditions-header {
         margin-bottom: 28px;
     }
     .chronic-conditions-title {
-        font-size: 1.75rem;
+        font-size: 1.8rem;
     }
     .conditions-icon-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
+        gap: 16px 10px;
         padding: 0 12px;
     }
-    .condition-icon-card {
-        padding: 16px 8px 14px;
-        min-height: 105px;
-        border-radius: 12px;
-    }
     .condition-icon-svg-wrap {
-        width: 34px;
-        height: 34px;
-        margin-bottom: 6px;
+        height: 72px;
+        border-radius: 12px;
     }
     .condition-icon-svg {
         width: 32px;
@@ -1644,6 +1654,8 @@ html, body {
     }
     .condition-icon-label {
         font-size: 0.84rem;
+        margin-top: 7px;
     }
 }
+
 
