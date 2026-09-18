@@ -417,17 +417,11 @@ Chronic mental tension aggravates Prana Vata and Sadhaka Pitta, which increases 
                 <h3 style="font-family: var(--font-heading); font-size: clamp(1.6rem, 3.5vw, 2.2rem); color: var(--color-primary); margin: 12px 0 10px;">Begin Your Healing Journey with Pulse Diagnosis</h3>
                 <p style="font-size: 1.05rem; color: #555; max-width: 620px; margin: 0 auto 20px; line-height: 1.6;">Every treatment protocol begins with an in-depth physical consultation and Nadi Pariksha by Dr. Irshad T.M. or Dr. Tejasvi Mulik. No generic therapies — your treatment plan is tailored to your unique Prakriti.</p>
                 
-                <!-- Transparent Fee Trust Card -->
-                <div style="background: #f0fdf4; border: 1.5px solid #22c55e; border-radius: 10px; padding: 12px 14px; margin: 0 auto 20px; max-width: 440px; text-align: center;">
-                    <div style="font-size: 0.8rem; color: #166534; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;">
-                        In-Clinic Senior Doctor Consultation
-                    </div>
-                    <div style="font-size: 1.6rem; font-weight: 800; color: #1a3d2b; margin: 3px 0;">
-                        ₹500 <span style="font-size: 0.85rem; font-weight: 500; color: #4b5563;">only</span>
-                    </div>
-                    <div style="font-size: 0.8rem; color: #15803d; font-weight: 500;">
-                        ✓ Detailed Nadi Pariksha &amp; Joint Evaluation · No Hidden Charges
-                    </div>
+                <!-- Live OPD & Transparent Fee Trust Card -->
+                <div style="background: #f0fdf4; border: 1.5px solid #22c55e; border-radius: 8px; padding: 10px; margin: 0 auto 20px; max-width: 440px; text-align: center;">
+                    <span class="dynamic-opd-day" style="color: #166534; font-weight: 700; font-size: 0.85rem;">🟢 SATURDAY OPD OPEN TODAY (10 AM – 8 PM)</span><br>
+                    <span style="color: #1a3d2b; font-size: 1.3rem; font-weight: 800;">Consultation Fee: ₹500</span><br>
+                    <span style="color: #4b5563; font-size: 0.78rem;">Detailed Nadi Pariksha &amp; Joint Assessment · No Surprise Charges</span>
                 </div>
 
                 <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
@@ -471,6 +465,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 panel.style.maxHeight = panel.scrollHeight + "px";
             }
         });
+    });
+
+    // Dynamic OPD Day Updater
+    var days = ['SUNDAY', 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY'];
+    var today = days[new Date().getDay()];
+    document.querySelectorAll('.dynamic-opd-day').forEach(function(el) {
+        el.textContent = '🟢 ' + today + ' OPD OPEN TODAY (10 AM – 8 PM)';
     });
 });
 </script>
