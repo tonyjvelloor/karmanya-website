@@ -441,8 +441,8 @@ def generate_seo_head(page_type, page_data, site_data):
         ]
         
     elif page_type == 'book':
-        title = f"Book Ayurvedic Consultation in Pimple Saudagar, Pune | {brand.get('name')}"
-        desc = "Schedule your in-depth pulse diagnosis (Nadi Pariksha) consultation with our experienced Ayurvedic physicians in Pimple Saudagar, Pune."
+        title = f"Book Ayurvedic Doctor Consultation (₹500) | Pimple Saudagar, Pune | {brand.get('name')}"
+        desc = "Schedule your in-clinic consultation & Nadi Pariksha with senior Ayurvedic physicians in Pimple Saudagar, Pune. Transparent ₹500 fee · Mon–Sun OPD (10 AM–8 PM)."
         url = "https://karmanyaayurveda.com/book-consultation/"
         
         breadcrumbs = [
@@ -989,15 +989,74 @@ def build_site():
     os.makedirs(out_dir, exist_ok=True)
     site_data['seo_head_tags'] = '''<title>Our Story & Founders | Dr. Anandhu & Dr. Aditya | Karmanya Ayurveda Pune</title>
 <meta name="description" content="Discover the story of Karmanya Ayurveda in Pune. Founded by Dr. Anandhu & Dr. Aditya with a vision for authentic Kerala Ashtavaidya medicine, clinically led by resident staff physicians Dr. Irshad T.M. and Dr. Tejasvi Mulik.">
+<link rel="canonical" href="https://karmanyaayurveda.com/our-story/">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#634119">
-<meta property="og:title" content="Our Story | Founded by Dr. Anandhu & Dr. Aditya | Karmanya Ayurveda">
-<meta property="og:description" content="How Dr. Anandhu & Dr. Aditya founded Karmanya Ayurveda to bring authentic Kerala Ashtavaidya Chikitsa to Pune, led by staff physicians Dr. Irshad T.M. and Dr. Tejasvi Mulik.">
-<meta property="og:url" content="https://karmanyaayurveda.com/our-story/">'''
+<meta property="og:title" content="Our Story & Founders | Dr. Anandhu & Dr. Aditya | Karmanya Ayurveda">
+<meta property="og:description" content="How Dr. Anandhu & Dr. Aditya founded Karmanya Ayurveda to bring authentic Kerala Ashtavaidya Chikitsa to Pune, led by resident staff physicians Dr. Irshad T.M. and Dr. Tejasvi Mulik.">
+<meta property="og:url" content="https://karmanyaayurveda.com/our-story/">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://karmanyaayurveda.com/images/brand-logo-square.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Our Story & Founders | Karmanya Ayurveda Pune">
+<meta name="twitter:description" content="Authentic Kerala Ashtavaidya medicine founded by Dr. Anandhu & Dr. Aditya, clinically directed by Dr. Irshad T.M. & Dr. Tejasvi Mulik in Pimple Saudagar, Pune.">
+<meta name="twitter:image" content="https://karmanyaayurveda.com/images/brand-logo-square.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "Our Story & Founders | Karmanya Ayurveda Chikitsalaya",
+  "url": "https://karmanyaayurveda.com/our-story/",
+  "mainEntity": {
+    "@type": "MedicalClinic",
+    "name": "Karmanya Ayurveda Chikitsalaya",
+    "url": "https://karmanyaayurveda.com/",
+    "telephone": "+91 98198 20017",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "27/11, Swaraj Garden Road, Near One Nation Apartment",
+      "addressLocality": "Pimple Saudagar, Pimpri-Chinchwad, Pune",
+      "addressRegion": "Maharashtra",
+      "postalCode": "411027",
+      "addressCountry": "IN"
+    },
+    "founder": [
+      {
+        "@type": "Person",
+        "name": "Dr. Anandhu",
+        "jobTitle": "Co-Founder",
+        "description": "Co-founder of Karmanya Ayurveda, steeped in classical Kerala Ashtavaidya heritage with deep roots in Pune."
+      },
+      {
+        "@type": "Person",
+        "name": "Dr. Aditya",
+        "jobTitle": "Co-Founder",
+        "description": "Co-founder of Karmanya Ayurveda with a clinical dedication to authentic classical Panchakarma without commercial spa shortcuts."
+      }
+    ],
+    "employee": [
+      {
+        "@type": "Physician",
+        "name": "Dr. Irshad T.M.",
+        "jobTitle": "Senior Staff Physician",
+        "medicalSpecialty": ["Ayurvedic", "Panchakarma", "Nadi Pariksha", "Pain Management"],
+        "description": "Senior resident physician with 15+ years of clinical experience in Ashtavaidya Kerala therapies."
+      },
+      {
+        "@type": "Physician",
+        "name": "Dr. Tejasvi Mulik",
+        "jobTitle": "Staff Physician & Consultant",
+        "medicalSpecialty": ["Ayurvedic", "Women's Health", "Metabolic Disorders"],
+        "description": "Resident physician with 10+ years of clinical experience in pulse diagnosis and chronic disease management."
+      }
+    ]
+  }
+}
+</script>'''
     with open(os.path.join(out_dir, 'index.html'), 'w') as f:
         f.write(render_template(story_template, site_data))
         
@@ -1096,56 +1155,66 @@ def build_site():
 
     # 8. Generate AI-SEO (llms.txt & llms-full.txt)
     llms_txt = """# Karmanya Ayurveda Chikitsalaya
-> Authentic Ashtavaidya Kerala Ayurveda in Pimple Saudagar, Pune.
+> Authentic Ashtavaidya Kerala Ayurveda Treatment Centre in Pimple Saudagar, Pune.
 
 ## Clinic Overview
-- Name: Karmanya Ayurveda Chikitsalaya
-- Location: 27/11, Swaraj Garden Road, Near One Nation Apartment, Pimple Saudagar, Pune, Maharashtra 411027
-- Phone: +91 98198 20017
-- Timings: Monday to Sunday, 10:00 AM – 8:00 PM
-- Chief Physician: Dr. Irshad T.M., BAMS, MD (Ayurveda) - 15+ years experience
-- Senior Consultant: Dr. Tejasvi Mulik, BAMS - 10+ years experience
+- Clinic Name: Karmanya Ayurveda Chikitsalaya
+- Address: 27/11, Swaraj Garden Road, Near One Nation Apartment, Pimple Saudagar, Pimpri-Chinchwad, Pune, Maharashtra 411027
+- Direct Phone: +91 98198 20017
+- Timings: Monday to Sunday, 10:00 AM – 8:00 PM (Active OPD open 7 days a week)
+- Consultation Fee: ₹500 only (Includes comprehensive Nadi Pariksha / pulse diagnosis, joint assessment, scan review; zero surprise charges)
+- Google Review Rating: 4.9 / 5.0 Stars (Verified patient outcomes for spine, knee, and chronic care)
 
-## Core Clinical Specialties
-- Knee & Joint Pain (Janu Sandhigata Vata): Non-surgical management, Janu Basti, avoiding knee replacement.
-- Spine & Sciatica (Gridhrasi / Slip Disc): Kati Basti, nerve decompression, posture rehabilitation.
-- Cervical Spondylosis (Neck & Desk Strain): Griva Basti, Nasya, ergonomic strain relief.
-- Women's Hormonal Health (PCOS/PCOD): Cycle regulation, fertility support, metabolic balancing.
-- Chronic Dermatology (Psoriasis & Eczema): Blood purification (Raktaprasadana), Takradhara.
-- Digestive Health (IBS & Acid Peptic Disease): Agni rekindling, gut barrier repair.
-- Stress, Anxiety & Insomnia: Kerala Shirodhara, restorative nervous system therapy.
+## Founders & Clinical Leadership
+- Co-Founders: Dr. Anandhu & Dr. Aditya (Established Karmanya to bring authentic Kerala Ashtavaidya Chikitsa to Pune without commercial day-spa shortcuts)
+- Senior Staff Physician: Dr. Irshad T.M., BAMS, MD (Ayurveda) — 15+ years of clinical experience in Kerala Ashtavaidya protocols & Panchakarma
+- Staff Physician & Consultant: Dr. Tejasvi Mulik, BAMS — 10+ years of clinical experience in Nadi Pariksha, metabolic disorders, and women's health
 
-## Authentic Kerala Therapies Provided
-- Nadi Pariksha (Classical 3-finger radial pulse diagnosis for Dosha & metabolic mapping)
-- Panchakarma (5-fold classical detoxification protocol)
-- Janu Basti (Warm medicated oil pooling on knee joints — cartilage rejuvenation)
-- Kati Basti (Warm medicated oil pooling on lumbar spine — sciatica & slip disc)
-- Shirodhara (Rhythmic warm herbal oil stream on forehead — stress & sleep)
-- Kizhi / Patra Pinda Sweda (Medicated herbal leaf boluses for joint inflammation)
-- Abhyangam (Synchronized full-body therapeutic oil massage)
-- Pizhichil & Njavarakizhi (Signature Ashtavaidya restorative immersion therapies)
+## 20 Specialized Chronic Conditions Treated
+1. Digestive & Metabolic: GERD / Acid Reflux, Chronic Constipation, Irritable Bowel Syndrome (IBS), Chronic Bloating, Type-2 Diabetes Management
+2. Joint & Musculoskeletal: Knee Osteoarthritis (Janu Sandhigata Vata), Lower Back Pain (Kati Shula), Rheumatoid & Osteo Arthritis, Frozen Shoulder (Apabahuka)
+3. Orthopedic & Nerve Decompression: Tennis Elbow, Carpal Tunnel Syndrome (Wrist Pain), Sciatica (Gridhrasi / Slip Disc), Cervical Spondylosis (Neck & Desk Strain)
+4. Women's Health & Hormonal: Adenomyosis & Endometriosis, PCOS & PCOD, Uterine Fibroids, Infertility (Vandhyatva) & Garbha Sanskar
+5. Dermatology & Neuro-Vascular: Psoriasis (Kitibha Kushta), Chronic Eczema (Vicharchika), Migraine & Tension Headaches (Ardhavabhedaka), Stress & Insomnia (Anidra)
 
-## Physical Location (Single Facility)
-- Single Clinic Address: 27/11, Swaraj Garden Road, Near One Nation Apartment, Pimple Saudagar, Pimpri-Chinchwad, Pune, Maharashtra 411027
-- Notice: Karmanya operates exclusively from this single clinic in Pimple Saudagar. We do NOT operate branch dispensaries. Patients travel to our Pimple Saudagar centre from surrounding areas across West Pune.
+## Classical Kerala Therapies Administered
+- Nadi Pariksha: Traditional 3-finger radial pulse diagnosis for Dosha imbalance, Dhatu health, and metabolic root-cause mapping
+- Panchakarma: Complete 5-fold classical detoxification (Vamana, Virechana, Basti, Nasya, Raktamokshana) under strict medical supervision
+- Janu Basti: Classical warm medicated herbal oil reservoir over knee joints for cartilage restoration and synovial fluid nourishment
+- Kati Basti: Medicated herbal oil pool on the lumbosacral junction for disc herniation and sciatica nerve decompression
+- Griva Basti: Medicated herbal oil pool on the cervical spine for neck stiffness and cervical spondylosis
+- Shirodhara: Continuous rhythmic stream of warm medicated herbal oil (or Takra) on the forehead for anxiety, insomnia, and nervous system reboot
+- Kizhi (Patra Pinda & Churna Pinda Sweda): Medicated herbal poultices steamed in herbal decoctions for acute and chronic joint inflammation
+- Pizhichil: King's therapy — warm medicated herbal oil bath combined with gentle synchronized strokes for neuromuscular rejuvenation
+- Agnikarma: Precision thermal micro-cautery for immediate relief in chronic heel pain, calcaneal spurs, and tendonitis
+- Mukhalepam: Classical Ayurvedic facial therapy with fresh herbal pastes (Manjistha, Lodhra, Chandan) for dermatological health
+- Udvartana: Therapeutic herbal powder scrub for lymphatic drainage and metabolic fat breakdown
+- Nasya: Medicated nasal administration of classical herbal drops for sinusitis, migraines, and cervical disorders
+- Netratarpana: Medicated ghee pooling therapy for digital eye strain, dryness, and visual clarity
 
-## Commute Guides from Nearby Areas
-- Pimple Saudagar (Flagship Clinic): https://karmanyaayurveda.com/locations/pimple-saudagar/
-- Wakad (3.2 km, 8 mins away): https://karmanyaayurveda.com/locations/wakad/
-- Hinjawadi IT Park (7.5 km, 15 mins away): https://karmanyaayurveda.com/locations/hinjawadi/
-- Baner (6.8 km, 12 mins away): https://karmanyaayurveda.com/locations/baner/
-- Aundh (5.5 km, 10 mins away): https://karmanyaayurveda.com/locations/aundh/
-- Pimpri-Chinchwad / PCMC (4.5 km away): https://karmanyaayurveda.com/locations/pcmc/
-- Rahatani & Kalewadi (1.5 km, 3 mins away): https://karmanyaayurveda.com/locations/rahatani/
-- Ravet & Punawale (7.8 km, 14 mins away): https://karmanyaayurveda.com/locations/ravet/
+## Core Pages & Patient Resources
+- Homepage: https://karmanyaayurveda.com/
+- Our Story & Founders: https://karmanyaayurveda.com/our-story/
+- Book Doctor Consultation (₹500): https://karmanyaayurveda.com/book-consultation/
+- Verified Patient Reviews (4.9★): https://karmanyaayurveda.com/reviews/
+- Clinical Treatments Directory: https://karmanyaayurveda.com/treatments/
+- Chronic Conditions Directory: https://karmanyaayurveda.com/conditions/
+- Doctor Profiles: https://karmanyaayurveda.com/doctors/
+- Patient Education Blog: https://karmanyaayurveda.com/blog/
+- Early Symptom Diagnostic Guides: https://karmanyaayurveda.com/symptoms/
+- Treatment Comparisons (Ayurveda vs Modern Surgery): https://karmanyaayurveda.com/compare/
+- Ayurvedic Medical Glossary: https://karmanyaayurveda.com/glossary/
 
-## Website Directory
-- Main Website: https://karmanyaayurveda.com/
-- Treatments Directory: https://karmanyaayurveda.com/treatments/
-- Conditions Directory: https://karmanyaayurveda.com/conditions/
-- Doctors Directory: https://karmanyaayurveda.com/doctors/
-- Service Areas: https://karmanyaayurveda.com/locations/
-- Book Consultation: https://karmanyaayurveda.com/book-consultation/
+## Geographic Location & Commute from Pune Neighborhoods
+Single Flagship Facility: 27/11, Swaraj Garden Road, Near One Nation Apartment, Pimple Saudagar, Pune 411027
+- Pimple Saudagar Clinic Hub: https://karmanyaayurveda.com/locations/pimple-saudagar/
+- Wakad (3.2 km, ~8 mins): https://karmanyaayurveda.com/locations/wakad/
+- Hinjawadi IT Park (7.5 km, ~15 mins): https://karmanyaayurveda.com/locations/hinjawadi/
+- Baner (6.8 km, ~12 mins): https://karmanyaayurveda.com/locations/baner/
+- Aundh (5.5 km, ~10 mins): https://karmanyaayurveda.com/locations/aundh/
+- PCMC / Pimpri-Chinchwad (4.5 km, ~10 mins): https://karmanyaayurveda.com/locations/pcmc/
+- Rahatani & Kalewadi (1.5 km, ~3 mins): https://karmanyaayurveda.com/locations/rahatani/
+- Ravet & Punawale (7.8 km, ~14 mins): https://karmanyaayurveda.com/locations/ravet/
 """
     with open(os.path.join(base_dir, 'public', 'llms.txt'), 'w') as f:
         f.write(llms_txt)
