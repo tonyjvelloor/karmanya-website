@@ -265,6 +265,12 @@ def render_article(art, nav_html, footer_html):
     <title>{art['meta_title']}</title>
     <meta name="description" content="{art['meta_desc']}">
     <link rel="canonical" href="https://karmanyaayurveda.com/blog/{art['slug']}/">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#634119">
     <meta name="geo.region" content="IN-MH">
     <meta name="geo.placename" content="Pimple Saudagar, Pune">
     <meta property="og:title" content="{art['meta_title']}">
@@ -441,6 +447,12 @@ hub_html = f"""<!DOCTYPE html>
     <title>Patient Education Blog | Ayurvedic Health Guides | Karmanya Ayurveda Pune</title>
     <meta name="description" content="Doctor-authored guides on Ayurvedic treatment for knee pain, sciatica, PCOD, Panchakarma, and insomnia. Clinical education from Karmanya Ayurveda, Pimple Saudagar, Pune.">
     <link rel="canonical" href="https://karmanyaayurveda.com/blog/">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#634119">
     <meta name="geo.region" content="IN-MH">
     <meta property="og:title" content="Patient Education Blog | Karmanya Ayurveda Pune">
     <meta property="og:description" content="Doctor-authored clinical guides to Ayurvedic treatment in Pune.">

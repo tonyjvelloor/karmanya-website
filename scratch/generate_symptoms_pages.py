@@ -158,6 +158,12 @@ for s in symptoms:
     <title>{s['meta_title']}</title>
     <meta name="description" content="{s['meta_desc']}">
     <link rel="canonical" href="https://karmanyaayurveda.com/symptoms/{slug}/">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#634119">
     <meta name="geo.region" content="IN-MH">
     <meta name="geo.placename" content="Pimple Saudagar, Pune">
     <meta property="og:title" content="{s['meta_title']}">
@@ -300,6 +306,12 @@ hub_html = f"""<!DOCTYPE html>
     <title>Ayurvedic Symptom Guides | Early Diagnosis & Care | Karmanya Pune</title>
     <meta name="description" content="Understand early warning symptoms from clicking knees to desk backache and stiff neck through classical Ayurveda. Clinical guidance from Karmanya, Pimple Saudagar.">
     <link rel="canonical" href="https://karmanyaayurveda.com/symptoms/">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#634119">
     <link rel="stylesheet" href="/css/tokens.css?v=7">
     <link rel="stylesheet" href="/css/base.css?v=7">
     <link rel="stylesheet" href="/css/components.css?v=7">

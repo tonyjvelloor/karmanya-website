@@ -458,6 +458,14 @@ def generate_seo_head(page_type, page_data, site_data):
     <link rel="alternate" hreflang="en-IN" href="{url}">
     <link rel="alternate" hreflang="x-default" href="{url}">
     
+    <!-- Favicon & App Icons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#634119">
+    
     <!-- Geo Targeting Meta Tags -->
     <meta name="geo.region" content="IN-MH">
     <meta name="geo.placename" content="Pimple Saudagar, Pune">
@@ -570,6 +578,17 @@ def build_site():
         shutil.rmtree(img_dest)
     if os.path.exists(img_src):
         shutil.copytree(img_src, img_dest)
+    
+    # Copy root favicon & webmanifest assets
+    root_static_files = [
+        'favicon.ico', 'favicon-16x16.png', 'favicon-32x32.png', 'favicon-48x48.png',
+        'apple-touch-icon.png', 'android-chrome-192x192.png', 'android-chrome-512x512.png',
+        'site.webmanifest'
+    ]
+    for rf in root_static_files:
+        src_path = os.path.join(base_dir, rf)
+        if os.path.exists(src_path):
+            shutil.copy2(src_path, os.path.join(base_dir, 'public', rf))
     
     # Cross-link and validate
     for cond in conditions:
@@ -970,6 +989,12 @@ def build_site():
     os.makedirs(out_dir, exist_ok=True)
     site_data['seo_head_tags'] = '''<title>Our Story & Founders | Dr. Anandhu & Dr. Aditya | Karmanya Ayurveda Pune</title>
 <meta name="description" content="Discover the story of Karmanya Ayurveda in Pune. Founded by Dr. Anandhu & Dr. Aditya with a vision for authentic Kerala Ashtavaidya medicine, clinically led by resident staff physicians Dr. Irshad T.M. and Dr. Tejasvi Mulik.">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#634119">
 <meta property="og:title" content="Our Story | Founded by Dr. Anandhu & Dr. Aditya | Karmanya Ayurveda">
 <meta property="og:description" content="How Dr. Anandhu & Dr. Aditya founded Karmanya Ayurveda to bring authentic Kerala Ashtavaidya Chikitsa to Pune, led by staff physicians Dr. Irshad T.M. and Dr. Tejasvi Mulik.">
 <meta property="og:url" content="https://karmanyaayurveda.com/our-story/">'''

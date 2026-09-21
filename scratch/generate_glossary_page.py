@@ -263,6 +263,12 @@ page_html = f"""<!DOCTYPE html>
     <title>Ayurvedic Medical Glossary | Key Concepts & Therapies | Karmanya Pune</title>
     <meta name="description" content="Understand classical Ayurvedic medical terms from Panchakarma and Nadi Pariksha to Janu Basti and Doshas. Clinical definitions from Karmanya Ayurveda Pune.">
     <link rel="canonical" href="https://karmanyaayurveda.com/glossary/">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#634119">
     <meta name="geo.region" content="IN-MH">
     <meta name="geo.placename" content="Pimple Saudagar, Pune">
     <meta property="og:title" content="Ayurvedic Medical Glossary | Karmanya Ayurveda Pune">

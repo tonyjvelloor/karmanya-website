@@ -186,6 +186,12 @@ reviews_page = f"""<!DOCTYPE html>
     <title>Patient Reviews & Outcomes | Karmanya Ayurveda Pimple Saudagar, Pune</title>
     <meta name="description" content="Real patient reviews and treatment outcomes from Karmanya Ayurveda, Pimple Saudagar, Pune. 4.9/5 rating. Read verified testimonials for knee pain, sciatica, PCOD, psoriasis, and insomnia treatment.">
     <link rel="canonical" href="https://karmanyaayurveda.com/reviews/">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#634119">
     <meta name="geo.region" content="IN-MH">
     <meta name="geo.placename" content="Pimple Saudagar, Pune">
     <meta property="og:title" content="Patient Reviews | Karmanya Ayurveda Pune — 4.9★ Rating">

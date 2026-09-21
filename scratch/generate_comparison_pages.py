@@ -220,6 +220,12 @@ for item in comparisons:
     <title>{item['meta_title']}</title>
     <meta name="description" content="{item['meta_desc']}">
     <link rel="canonical" href="https://karmanyaayurveda.com/compare/{slug}/">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#634119">
     <meta name="geo.region" content="IN-MH">
     <meta name="geo.placename" content="Pimple Saudagar, Pune">
     <meta property="og:title" content="{item['meta_title']}">
@@ -368,6 +374,12 @@ hub_html = f"""<!DOCTYPE html>
     <title>Ayurvedic vs Modern Medical Treatment Comparisons | Karmanya Pune</title>
     <meta name="description" content="Objective clinical comparisons between Ayurvedic protocols and surgery/long-term medications for knee pain, sciatica, and PCOD. Karmanya Ayurveda, Pimple Saudagar.">
     <link rel="canonical" href="https://karmanyaayurveda.com/compare/">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#634119">
     <link rel="stylesheet" href="/css/tokens.css?v=7">
     <link rel="stylesheet" href="/css/base.css?v=7">
     <link rel="stylesheet" href="/css/components.css?v=7">
