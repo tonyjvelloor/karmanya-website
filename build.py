@@ -452,6 +452,14 @@ def generate_seo_head(page_type, page_data, site_data):
 
     # Compile HTML & GEO Meta Tags
     html_tags = f"""
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QWH0NSNLVE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){{dataLayer.push(arguments);}}
+      gtag('js', new Date());
+      gtag('config', 'G-QWH0NSNLVE');
+    </script>
     <title>{title}</title>
     <meta name="description" content="{desc}">
     <link rel="canonical" href="{url}">
@@ -987,7 +995,15 @@ def build_site():
         story_template = f.read()
     out_dir = os.path.join(base_dir, 'public', 'our-story')
     os.makedirs(out_dir, exist_ok=True)
-    site_data['seo_head_tags'] = '''<title>Our Story & Founders | Dr. Anandhu & Dr. Aditya | Karmanya Ayurveda Pune</title>
+    site_data['seo_head_tags'] = '''<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QWH0NSNLVE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-QWH0NSNLVE');
+</script>
+<title>Our Story & Founders | Dr. Anandhu & Dr. Aditya | Karmanya Ayurveda Pune</title>
 <meta name="description" content="Discover the story of Karmanya Ayurveda in Pune. Founded by Dr. Anandhu & Dr. Aditya with a vision for authentic Kerala Ashtavaidya medicine, clinically led by resident staff physicians Dr. Irshad T.M. and Dr. Tejasvi Mulik.">
 <link rel="canonical" href="https://karmanyaayurveda.com/our-story/">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">

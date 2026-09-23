@@ -257,6 +257,14 @@ bc_schema = {
 page_html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QWH0NSNLVE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){{dataLayer.push(arguments);}}
+      gtag('js', new Date());
+      gtag('config', 'G-QWH0NSNLVE');
+    </script>
     <meta charset="UTF-8">
     <meta name="google-site-verification" content="WkG1EsF3jpOenNE3qVR0DVexfFagjIofHbmUS-MM2I4">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
