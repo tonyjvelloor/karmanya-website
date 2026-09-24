@@ -190,23 +190,38 @@
     <section style="padding: 48px 0 64px; background: var(--color-bg);">
         <div class="container" style="max-width: 1140px;">
             
-            <!-- Page Header -->
+            <!-- Page Header — Dynamic: reads ?condition= URL param -->
             <div style="text-align: center; max-width: 780px; margin: 0 auto 32px;">
                 <span style="display: inline-block; background: rgba(200, 121, 65, 0.12); color: var(--color-accent); padding: 5px 18px; border-radius: 30px; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 12px;">
-                    ✦ DIRECT KERALA ASHTAVAIDYA HERITAGE ✦
+                    ✦ AUTHENTIC KERALA AYURVEDA · PIMPLE SAUDAGAR ✦
                 </span>
-                <h1 style="font-size: clamp(2.1rem, 3.8vw, 3rem); margin-bottom: 12px; color: var(--color-primary); line-height: 1.2;">
-                    Schedule Your In-Person Consultation
+                <h1 id="landing-h1" style="font-size: clamp(2.1rem, 3.8vw, 3rem); margin-bottom: 12px; color: var(--color-primary); line-height: 1.2;">
+                    Book Your Ayurvedic Doctor Consultation
                 </h1>
-                <p style="font-size: 1.05rem; color: #555; line-height: 1.6; margin: 0 0 16px;">
-                    A comprehensive 45-minute clinical pulse diagnosis (<em>Nadi Pariksha</em>), scan review, and personalized recovery plan with our senior Ayurvedic physicians in Pimple Saudagar.
+                <p id="landing-sub" style="font-size: 1.05rem; color: #555; line-height: 1.6; margin: 0 0 16px;">
+                    A 45-minute clinical consultation with a senior Ayurvedic physician — Nadi Pariksha, scan review, and personalised recovery plan. Transparent ₹500 fee, no hidden charges.
                 </p>
+
+                <!-- Mobile-first immediate action buttons — visible above the fold on phones -->
+                <div id="mobile-hero-cta" style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 18px;">
+                    <a href="tel:+919819820017"
+                       style="display: inline-flex; align-items: center; gap: 8px; background: var(--color-primary); color: #fff; font-weight: 700; font-size: 1rem; padding: 13px 22px; border-radius: 8px; text-decoration: none; flex: 1; min-width: 140px; max-width: 200px; justify-content: center;">
+                        📞 Call Clinic
+                    </a>
+                    <a href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20book%20a%20consultation."
+                       target="_blank" rel="noopener"
+                       style="display: inline-flex; align-items: center; gap: 8px; background: #25D366; color: #fff; font-weight: 700; font-size: 1rem; padding: 13px 22px; border-radius: 8px; text-decoration: none; flex: 1; min-width: 140px; max-width: 200px; justify-content: center;">
+                        💬 WhatsApp
+                    </a>
+                </div>
+                <p style="font-size: 0.82rem; color: #888; margin: 0 0 16px;">— or fill the form below to schedule a callback —</p>
+
                 <!-- Trust Ribbon -->
                 <div class="trust-ribbon">
                     <span class="trust-ribbon-item">⭐ <strong>4.9★</strong> Google Rating (186+ Reviews)</span>
-                    <span class="trust-ribbon-item">📍 Sole Clinic HQ: Pimple Saudagar</span>
+                    <span class="trust-ribbon-item">📍 Pimple Saudagar, Pune</span>
                     <span class="trust-ribbon-item">🩺 BAMS &amp; MD Senior Physicians</span>
-                    <span class="trust-ribbon-item">🌿 Classical Ashtavaidya Formulations</span>
+                    <span class="trust-ribbon-item">🌿 Classical Kerala Ashtavaidya</span>
                 </div>
             </div>
 
@@ -525,6 +540,55 @@
         </div>
     </section>
 
+    <!-- Dynamic Landing Page Personalisation — reads ?condition= URL param -->
+    <script>
+    (function() {
+        var CONDITION_MAP = {
+            'knee':      { value: 'knee_joint_pain',  h1: 'Ayurvedic Doctor Consultation for Knee & Joint Pain',  sub: 'Physician-prescribed, non-surgical approach to knee osteoarthritis, cartilage wear, and joint degeneration. Includes Nadi Pariksha, MRI review, and a personalised Kerala therapy protocol. ₹500 consultation fee.' },
+            'sciatica':  { value: 'spine_sciatica',   h1: 'Ayurvedic Doctor Consultation for Sciatica & Back Pain', sub: 'Root-cause assessment for lumbar disc herniation, sciatica nerve pain, and chronic lower back pain. Classical Kati Basti protocol. Nadi Pariksha included. ₹500 consultation.' },
+            'spine':     { value: 'spine_sciatica',   h1: 'Ayurvedic Doctor Consultation for Spine & Back Pain',   sub: 'Physician-led assessment for spinal conditions — disc bulge, spondylitis, or radiating nerve pain. MRI review included. ₹500 consultation fee.' },
+            'cervical':  { value: 'cervical_neck',    h1: 'Ayurvedic Doctor Consultation for Cervical Spondylosis', sub: 'Clinical assessment for cervical spondylosis, neck stiffness, and arm radiating pain. Griva Basti protocol under senior physician. ₹500 consultation fee.' },
+            'panchakarma': { value: 'panchakarma',   h1: 'Physician Consultation for Panchakarma in Pune',         sub: 'Panchakarma at Karmanya Ayurveda is individually prescribed after Nadi Pariksha — not a fixed spa package. Book your ₹500 assessment to know if you are a suitable candidate.' },
+            'pcod':      { value: 'womens_pcod',      h1: 'Ayurvedic Doctor Consultation for PCOD & Women\'s Health', sub: 'Personalised clinical assessment for PCOD, hormonal imbalance, and irregular cycles. Dr. Tejasvi Mulik, BAMS — dedicated female care, private suites. ₹500 consultation.' },
+            'pcod_pcos': { value: 'womens_pcod',      h1: 'Ayurvedic Doctor Consultation for PCOD & Women\'s Health', sub: 'Personalised clinical assessment for PCOD, hormonal imbalance, and irregular cycles. Dr. Tejasvi Mulik, BAMS — dedicated female care, private suites. ₹500 consultation.' },
+            'back':      { value: 'spine_sciatica',   h1: 'Ayurvedic Doctor Consultation for Back Pain',            sub: 'Physician-prescribed assessment for lower back pain, disc herniation, and chronic lumbar conditions. Kati Basti & internal medicine protocol. ₹500 consultation fee.' },
+            'joint':     { value: 'knee_joint_pain',  h1: 'Ayurvedic Doctor Consultation for Joint Pain',           sub: 'Senior Ayurvedic physician assessment for arthritis, joint stiffness, and musculoskeletal conditions. Kerala therapy protocol after Nadi Pariksha. ₹500 consultation.' },
+        };
+
+        var params = new URLSearchParams(window.location.search);
+        var cond   = (params.get('condition') || params.get('c') || '').toLowerCase().trim();
+        var map    = CONDITION_MAP[cond];
+
+        if (map) {
+            // 1. Rewrite H1
+            var h1 = document.getElementById('landing-h1');
+            if (h1) h1.textContent = map.h1;
+
+            // 2. Rewrite subtext
+            var sub = document.getElementById('landing-sub');
+            if (sub) sub.textContent = map.sub;
+
+            // 3. Auto-select concern dropdown
+            var sel = document.getElementById('concern');
+            if (sel) {
+                for (var i = 0; i < sel.options.length; i++) {
+                    if (sel.options[i].value === map.value) {
+                        sel.selectedIndex = i;
+                        break;
+                    }
+                }
+            }
+
+            // 4. Update WhatsApp hero buttons with condition context
+            var waLinks = document.querySelectorAll('a[href*="wa.me"]');
+            var waText = 'Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20book%20a%20consultation%20for%20' + encodeURIComponent(map.h1.replace('Ayurvedic Doctor Consultation for ', '').replace('Physician Consultation for ', '')) + '.';
+            waLinks.forEach(function(a) {
+                a.href = 'https://wa.me/919819820017?text=' + waText;
+            });
+        }
+    })();
+    </script>
+
     <!-- Analytics Tracking & Form Handler -->
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -732,10 +796,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     <!-- Mobile Sticky Action Bar — Floating Action Pill -->
     <div id="mobile-sticky-bar">
-        <a href="/book-consultation/" class="mobile-sticky-btn btn-book">
+        <a href="#bookingForm" onclick="document.getElementById('bookingForm').scrollIntoView({behavior:'smooth'}); return false;" class="mobile-sticky-btn btn-book">
             <span>📅 Book Consultation</span>
         </a>
-        <a href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20inquire%20about%20a%20consultation." target="_blank" rel="noopener" class="mobile-sticky-btn btn-icon btn-whatsapp" aria-label="WhatsApp Doctor">
+        <a href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20book%20a%20consultation." target="_blank" rel="noopener" class="mobile-sticky-btn btn-icon btn-whatsapp" aria-label="WhatsApp Doctor">
             <svg viewBox="0 0 24 24" width="22" height="22" fill="white" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
         </a>
         <a href="tel:+919819820017" class="mobile-sticky-btn btn-icon btn-call" aria-label="Call Clinic">
