@@ -150,7 +150,7 @@ def generate_seo_head(page_type, page_data, site_data):
                     "@type": "Review",
                     "author": {"@type": "Person", "name": "Ramesh S."},
                     "reviewRating": {"@type": "Rating", "ratingValue": "5"},
-                    "reviewBody": "After 3 years of knee pain and two orthopaedic opinions recommending surgery, Dr. Irshad's protocol with Janu Basti gave me 80% relief in 6 weeks. I avoided surgery completely."
+                    "reviewBody": "After 3 years of knee pain and mobility limitations, Dr. Irshad's protocol with Janu Basti gave me substantial relief in 6 weeks. I was able to regain comfortable mobility through conservative Ayurvedic care."
                 },
                 {
                     "@type": "Review",
@@ -162,7 +162,7 @@ def generate_seo_head(page_type, page_data, site_data):
                     "@type": "Review",
                     "author": {"@type": "Person", "name": "Snehal K."},
                     "reviewRating": {"@type": "Rating", "ratingValue": "5"},
-                    "reviewBody": "Dr. Tejasvi's approach to my PCOD was completely different — she addressed my insulin resistance and Kapha imbalance together. My cycles regularised within 2 months."
+                    "reviewBody": "Dr. Tejasvi's approach to my PCOD was completely different — she addressed my insulin resistance and Kapha imbalance together. My cycles regularised within 2 months naturally."
                 }
             ]
         }

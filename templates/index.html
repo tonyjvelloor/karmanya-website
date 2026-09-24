@@ -12,7 +12,7 @@
     <link rel="preload" href="/css/base.css?v=13" as="style">
     <link rel="stylesheet" href="/css/tokens.css?v=9">
     <link rel="stylesheet" href="/css/base.css?v=13">
-    <link rel="stylesheet" href="/css/components.css?v=14">
+    <link rel="stylesheet" href="/css/components.css?v=15">
     <style>
         .hero {
             position: relative;
@@ -1310,26 +1310,171 @@
         </div>
     </section>
 
-<section class="section-padding" style="background-color: var(--color-bg);">
-        <div class="container container-editorial">
+    <!-- Real Patient Testimonials & Video Stories -->
+    <section class="section-padding" style="background-color: var(--color-bg); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border);" id="testimonials">
+        <div class="container">
+            <!-- Section Header -->
             <div style="text-align: center; margin-bottom: var(--space-12);">
-                <span style="display: block; font-size: 0.85rem; font-weight: 600; color: var(--color-accent); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: var(--space-2);">Patient Success</span>
-                <h2 style="font-size: 3.5rem;">Authentic care. Real outcomes.</h2>
+                <div style="display: inline-flex; align-items: center; gap: 8px; padding: 6px 16px; border-radius: 9999px; background: rgba(200, 121, 65, 0.12); color: var(--color-accent); font-size: 0.82rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: var(--space-3);">
+                    <span>✦ Patient Success &amp; Clinical Outcomes ✦</span>
+                </div>
+                <h2 style="font-size: clamp(2.2rem, 4vw, 3.2rem); color: var(--color-primary); margin-bottom: var(--space-4); font-family: var(--font-heading);">
+                    Real Patient Recoveries. Authentic Outcomes.
+                </h2>
+                <p style="font-size: 1.15rem; color: #555; max-width: 760px; margin: 0 auto var(--space-6); line-height: 1.6;">
+                    Hear directly from patients who received physician-led Kerala Ayurvedic care at Karmanya Ayurveda, Pimple Saudagar. Watch real video recovery stories below or read verified clinical reviews.
+                </p>
+                <div style="display: inline-flex; align-items: center; gap: 10px; padding: 8px 20px; border-radius: 9999px; background: white; border: 1px solid var(--color-border); box-shadow: var(--shadow-sm); flex-wrap: wrap; justify-content: center;">
+                    <span style="color: #D4AF37; font-size: 1.15rem; letter-spacing: 2px;">★★★★★</span>
+                    <span style="font-weight: 700; color: var(--color-primary); font-size: 0.95rem;">4.9 / 5 Rating</span>
+                    <span style="color: var(--color-border); opacity: 0.6;">•</span>
+                    <span style="color: #666; font-size: 0.9rem;">180+ Verified Patient Reviews on Google Maps</span>
+                </div>
             </div>
-            
-            <div class="grid-2">
-                {{#positioning.testimonials}}
-                <div class="card luxury-card" style="display: flex; flex-direction: column; justify-content: space-between;">
+
+            <!-- Subsection 1: Patient Video Stories (Instagram Reels) -->
+            <div style="margin-bottom: var(--space-16);">
+                <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: var(--space-6); flex-wrap: wrap; gap: 12px;">
                     <div>
-                        <div style="color: var(--color-accent); font-size: 1.5rem; margin-bottom: var(--space-4);">★★★★★</div>
-                        <p style="font-size: 1.15rem; font-style: italic; color: #444; line-height: 1.6;">"{{quote}}"</p>
+                        <h3 style="font-size: 1.65rem; color: var(--color-primary); font-family: var(--font-heading); margin-bottom: 4px;">
+                            Patient Video Stories
+                        </h3>
+                        <p style="color: #666; font-size: 0.95rem; margin: 0;">Tap play on any video below to watch real recovery experiences directly.</p>
                     </div>
-                    <div style="margin-top: var(--space-6); border-top: 1px solid var(--color-border); padding-top: var(--space-4);">
-                        <p style="font-weight: 600; color: var(--color-primary); margin-bottom: 0;">{{author}}</p>
-                        <p style="font-size: 0.85rem; color: #777; margin-bottom: 0;">Treated for: {{condition}}</p>
+                    <a href="https://www.instagram.com/karmanyaayurveda" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px; font-weight: 600; color: var(--color-accent); font-size: 0.9rem; text-decoration: none;">
+                        <span>Follow @karmanyaayurveda on Instagram</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
+                    </a>
+                </div>
+
+                <div class="video-testimonials-grid">
+                    <!-- Video Reel 1: DNzYOICUJW7 (Knee Care) -->
+                    <div class="video-testimonial-card">
+                        <div class="video-card-header">
+                            <span class="video-card-badge">
+                                <span class="video-card-badge-dot"></span>
+                                Knee Joint Care Story
+                            </span>
+                            <a href="https://www.instagram.com/reel/DNzYOICUJW7/" target="_blank" rel="noopener noreferrer" class="video-card-link">
+                                <span>Watch on Instagram</span>
+                                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
+                            </a>
+                        </div>
+                        <div class="video-card-frame-wrap">
+                            <iframe src="https://www.instagram.com/reel/DNzYOICUJW7/embed/" 
+                                    scrolling="no" 
+                                    allowtransparency="true" 
+                                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                            </iframe>
+                        </div>
+                        <div class="video-card-body">
+                            <p class="video-card-desc">
+                                Patient shares recovery journey with Janu Basti and classical Kerala therapies for chronic joint stiffness.
+                            </p>
+                            <div class="video-card-footer">
+                                <span class="video-card-tag">Janu Basti Protocol</span>
+                                <a href="/conditions/knee-joint-pain/" class="video-card-action">View Protocol &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Video Reel 2: DFFbgpbt85n (Spine & Sciatica) -->
+                    <div class="video-testimonial-card">
+                        <div class="video-card-header">
+                            <span class="video-card-badge">
+                                <span class="video-card-badge-dot"></span>
+                                Spine &amp; Sciatica Care
+                            </span>
+                            <a href="https://www.instagram.com/reel/DFFbgpbt85n/" target="_blank" rel="noopener noreferrer" class="video-card-link">
+                                <span>Watch on Instagram</span>
+                                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
+                            </a>
+                        </div>
+                        <div class="video-card-frame-wrap">
+                            <iframe src="https://www.instagram.com/reel/DFFbgpbt85n/embed/" 
+                                    scrolling="no" 
+                                    allowtransparency="true" 
+                                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                            </iframe>
+                        </div>
+                        <div class="video-card-body">
+                            <p class="video-card-desc">
+                                Patient testimonial on non-surgical lumbar spine decompression and chronic sciatica relief under Dr. Irshad.
+                            </p>
+                            <div class="video-card-footer">
+                                <span class="video-card-tag">Kati Basti Protocol</span>
+                                <a href="/conditions/spine-sciatica-back-pain/" class="video-card-action">View Protocol &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Video Reel 3: DHFwJAGtggY (In-Clinic Experience) -->
+                    <div class="video-testimonial-card">
+                        <div class="video-card-header">
+                            <span class="video-card-badge">
+                                <span class="video-card-badge-dot"></span>
+                                In-Clinic Experience
+                            </span>
+                            <a href="https://www.instagram.com/reel/DHFwJAGtggY/" target="_blank" rel="noopener noreferrer" class="video-card-link">
+                                <span>Watch on Instagram</span>
+                                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
+                            </a>
+                        </div>
+                        <div class="video-card-frame-wrap">
+                            <iframe src="https://www.instagram.com/reel/DHFwJAGtggY/embed/" 
+                                    scrolling="no" 
+                                    allowtransparency="true" 
+                                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                            </iframe>
+                        </div>
+                        <div class="video-card-body">
+                            <p class="video-card-desc">
+                                First-hand patient review on doctor consultation, Nadi Pariksha diagnosis, and authentic treatment quality.
+                            </p>
+                            <div class="video-card-footer">
+                                <span class="video-card-tag">Clinical Nadi Pariksha</span>
+                                <a href="/doctors/" class="video-card-action">Meet Doctors &rarr;</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                {{/positioning.testimonials}}
+            </div>
+
+            <!-- Subsection 2: Verified Written Patient Experiences -->
+            <div>
+                <div style="text-align: center; margin-bottom: var(--space-8);">
+                    <h3 style="font-size: 1.8rem; color: var(--color-primary); font-family: var(--font-heading); margin-bottom: 6px;">
+                        Verified Written Experiences
+                    </h3>
+                    <p style="color: #666; font-size: 1rem; max-width: 600px; margin: 0 auto;">Read documented experiences from patients treated at our Pimple Saudagar clinic.</p>
+                </div>
+
+                <div class="written-reviews-grid">
+                    {{#positioning.testimonials}}
+                    <div class="card luxury-card" style="display: flex; flex-direction: column; justify-content: space-between; background: #ffffff; border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-6);">
+                        <div>
+                            <div style="color: #D4AF37; font-size: 1.25rem; letter-spacing: 2px; margin-bottom: var(--space-3);">★★★★★</div>
+                            <p style="font-size: 1.05rem; font-style: italic; color: #444; line-height: 1.6; margin-bottom: 0;">"{{quote}}"</p>
+                        </div>
+                        <div style="margin-top: var(--space-6); border-top: 1px solid var(--color-border); padding-top: var(--space-4);">
+                            <div style="display: flex; align-items: center; justify-content: space-between;">
+                                <p style="font-weight: 700; color: var(--color-primary); margin-bottom: 0; font-size: 1.05rem;">{{author}}</p>
+                                <span style="font-size: 0.75rem; font-weight: 600; color: #2e7d32; background: rgba(46, 125, 50, 0.08); padding: 2px 8px; border-radius: 4px;">Verified Patient</span>
+                            </div>
+                            <p style="font-size: 0.85rem; color: #777; margin-top: 4px; margin-bottom: 0;">Treated for: {{condition}}</p>
+                        </div>
+                    </div>
+                    {{/positioning.testimonials}}
+                </div>
+
+                <div style="display: flex; justify-content: center; align-items: center; gap: var(--space-4); margin-top: var(--space-10); flex-wrap: wrap;">
+                    <a href="/reviews/" class="btn btn-secondary" style="padding: 12px 28px; font-size: 0.95rem;">
+                        Read All 180+ Verified Patient Reviews &rarr;
+                    </a>
+                    <a href="/book-consultation/" class="btn btn-primary" style="padding: 12px 28px; font-size: 0.95rem;">
+                        Book Clinical Consultation (₹500) &rarr;
+                    </a>
+                </div>
             </div>
         </div>
     </section>
