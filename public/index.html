@@ -409,16 +409,33 @@
 
         <div class="container" style="display: flex; flex-direction: column; align-items: center; position: relative; z-index: 2; max-width: 900px; padding: 0 16px;">
             <div class="reveal">
-                <p style="text-transform: uppercase; letter-spacing: 1.5px; font-size: 0.85rem; font-weight: 700; color: #D4AF37; margin-bottom: 14px;">✦ Physician-Led Kerala Ayurvedic Treatment Centre &middot; Pimple Saudagar, Pune</p>
-                <h1 style="font-size: clamp(1.9rem, 5vw, 3.8rem); line-height: 1.15; margin-bottom: 18px; color: #FFFFFF; font-weight: 400; font-family: var(--font-heading);">
+                <p id="homeHeroPrehead" style="text-transform: uppercase; letter-spacing: 1.5px; font-size: 0.85rem; font-weight: 700; color: #D4AF37; margin-bottom: 14px;">✦ Physician-Led Kerala Ayurvedic Treatment Centre &middot; Pimple Saudagar, Pune</p>
+                <h1 id="homeHeroH1" style="font-size: clamp(1.9rem, 5vw, 3.8rem); line-height: 1.15; margin-bottom: 18px; color: #FFFFFF; font-weight: 400; font-family: var(--font-heading);">
                     Ayurvedic Treatment Centre<br><span style="color: #F3E5AB;">in Pimple Saudagar, Pune</span>
                 </h1>
-                <p style="font-size: clamp(0.95rem, 2.5vw, 1.15rem); color: rgba(255,255,255,0.92); line-height: 1.6; margin-bottom: 14px; max-width: 680px; margin-left: auto; margin-right: auto;">
+                <p id="homeHeroSub" style="font-size: clamp(0.95rem, 2.5vw, 1.15rem); color: rgba(255,255,255,0.92); line-height: 1.6; margin-bottom: 14px; max-width: 680px; margin-left: auto; margin-right: auto;">
                     Doctor-diagnosed. Clinically managed. Condition-specific Ayurvedic treatment for chronic pain, hormonal disorders, digestive disease, skin conditions &amp; more.
                 </p>
-                <p style="font-size: 0.9rem; color: rgba(255,255,255,0.65); margin-bottom: 22px; letter-spacing: 0.02em;">
+                <p style="font-size: 0.9rem; color: rgba(255,255,255,0.65); margin-bottom: 18px; letter-spacing: 0.02em;">
                     Not a spa. A medical centre. Every patient is assessed by a qualified Ayurvedic physician before any therapy begins.
                 </p>
+
+                <!-- Immediate Mobile Call & WhatsApp Action Row (Above the Fold) -->
+                <div id="homeHeroCta" style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 16px;">
+                    <a href="tel:+919819820017" 
+                       onclick="if(typeof gtag==='function'){gtag('event','conversion',{'send_to':'AW-18375933203/91coCMuK5uscEJP6qbpE'});}"
+                       style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: var(--color-accent); color: #FFFFFF; font-weight: 700; padding: 13px 22px; border-radius: 8px; text-decoration: none; font-size: 0.95rem; box-shadow: 0 4px 14px rgba(0,0,0,0.25); min-width: 140px; flex: 1; max-width: 200px;">
+                        <span>📞 Call Clinic</span>
+                    </a>
+                    <a id="homeHeroWaBtn"
+                       href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20inquire%20about%20a%20consultation." 
+                       target="_blank" rel="noopener"
+                       onclick="if(typeof gtag==='function'){gtag('event','conversion',{'send_to':'AW-18375933203/91coCMuK5uscEJP6qbpE'});}"
+                       style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #25D366; color: #FFFFFF; font-weight: 700; padding: 13px 22px; border-radius: 8px; text-decoration: none; font-size: 0.95rem; box-shadow: 0 4px 14px rgba(37,211,102,0.3); min-width: 140px; flex: 1; max-width: 200px;">
+                        <span>💬 WhatsApp</span>
+                    </a>
+                </div>
+
                 <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
                     <a href="/book-consultation/" class="btn" style="background: #FFFFFF; color: var(--color-primary); font-weight: 700; padding: 13px 24px; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.2); font-size: 0.95rem;">Book Doctor Consultation</a>
                     <a href="/conditions/" class="btn btn-secondary" style="border: 1.5px solid rgba(255,255,255,0.4); color: #FFFFFF; background: rgba(255,255,255,0.08); padding: 13px 20px; border-radius: 8px; backdrop-filter: blur(4px); font-size: 0.95rem;">See Conditions We Treat &rarr;</a>
@@ -2137,6 +2154,68 @@ document.addEventListener('DOMContentLoaded', function() {
         if (e.key === 'Escape') closeMenu();
     });
 });
+</script>
+
+<script>
+// Dynamic Message Match from URL Parameters (?condition=knee, ?condition=sciatica, etc.)
+(function() {
+    var params = new URLSearchParams(window.location.search);
+    var cond = (params.get('condition') || params.get('c') || '').toLowerCase().trim();
+    if (!cond) return;
+
+    var preheadEl = document.getElementById('homeHeroPrehead');
+    var h1El = document.getElementById('homeHeroH1');
+    var subEl = document.getElementById('homeHeroSub');
+    var waBtn = document.getElementById('homeHeroWaBtn');
+
+    var MAP = {
+        'knee': {
+            pre: '✦ Non-Surgical Knee Care Clinic · Pimple Saudagar, Pune ✦',
+            h1: 'Specialised Knee Pain & Osteoarthritis Clinic<br><span style="color: #F3E5AB;">in Pimple Saudagar, Pune</span>',
+            sub: 'Doctor-led Ayurvedic care for knee pain, cartilage wear, and joint stiffness. Janu Basti and classical Kerala fomentation protocols in Pimple Saudagar. ₹500 consultation.',
+            wa: 'Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20book%20a%20consultation%20for%20Knee%20Pain.'
+        },
+        'sciatica': {
+            pre: '✦ Spine & Sciatica Decompression Clinic · Pimple Saudagar, Pune ✦',
+            h1: 'Ayurvedic Spine & Sciatica Decompression Clinic<br><span style="color: #F3E5AB;">in Pimple Saudagar, Pune</span>',
+            sub: 'Non-surgical Ayurvedic management for sciatica, disc bulge, and severe lumbar back pain. Kati Basti & targeted spine therapies in Pimple Saudagar. ₹500 consultation.',
+            wa: 'Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20book%20a%20consultation%20for%20Spine%20%26%20Sciatica.'
+        },
+        'back': {
+            pre: '✦ Back Pain & Spine Health Clinic · Pimple Saudagar, Pune ✦',
+            h1: 'Ayurvedic Doctor Consultation for Back Pain<br><span style="color: #F3E5AB;">in Pimple Saudagar, Pune</span>',
+            sub: 'Physician-prescribed assessment for lower back pain, disc herniation, and chronic lumbar conditions. Kati Basti & internal medicine protocol. ₹500 consultation.',
+            wa: 'Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20book%20a%20consultation%20for%20Back%20Pain.'
+        },
+        'pcod': {
+            pre: '✦ Women\'s Hormonal & PCOD Clinic · Pimple Saudagar, Pune ✦',
+            h1: 'Ayurvedic Care for PCOD & Women\'s Health<br><span style="color: #F3E5AB;">in Pimple Saudagar, Pune</span>',
+            sub: 'Personalised clinical assessment for PCOD, hormonal imbalance, and irregular cycles. Dr. Tejasvi Mulik, BAMS — dedicated female care in Pimple Saudagar. ₹500 consultation.',
+            wa: 'Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20book%20a%20consultation%20for%20PCOD.'
+        },
+        'panchakarma': {
+            pre: '✦ Classical Panchakarma Centre · Pimple Saudagar, Pune ✦',
+            h1: 'Authentic Classical Panchakarma Centre<br><span style="color: #F3E5AB;">in Pimple Saudagar, Pune</span>',
+            sub: 'Physician-supervised Panchakarma protocols customized after Nadi Pariksha — not a generic spa package. Root-cause gut reset & metabolic renewal in Pimple Saudagar.',
+            wa: 'Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20book%20a%20consultation%20for%20Panchakarma.'
+        }
+    };
+
+    var matched = MAP[cond];
+    if (!matched) {
+        if (/knee|ghutn|janu|osteoarth|joint/.test(cond)) matched = MAP['knee'];
+        else if (/sciatica|slip|disc|back|kamar|spine|lumbar/.test(cond)) matched = MAP['sciatica'];
+        else if (/pcod|pcos|hormon/.test(cond)) matched = MAP['pcod'];
+        else if (/panchakarma|detox/.test(cond)) matched = MAP['panchakarma'];
+    }
+
+    if (matched) {
+        if (preheadEl) preheadEl.textContent = matched.pre;
+        if (h1El) h1El.innerHTML = matched.h1;
+        if (subEl) subEl.textContent = matched.sub;
+        if (waBtn) waBtn.href = 'https://wa.me/919819820017?text=' + matched.wa;
+    }
+})();
 </script>
 
 </body>
