@@ -452,6 +452,13 @@ def generate_seo_head(page_type, page_data, site_data):
 
     # Compile HTML & GEO Meta Tags
     html_tags = f"""
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){{w[l]=w[l]||[];w[l].push({{'gtm.start':
+    new Date().getTime(),event:'gtm.js'}});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    }})(window,document,'script','dataLayer','GTM-NP2DTL98');</script>
+    <!-- End Google Tag Manager -->
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QWH0NSNLVE"></script>
     <script>
@@ -995,7 +1002,14 @@ def build_site():
         story_template = f.read()
     out_dir = os.path.join(base_dir, 'public', 'our-story')
     os.makedirs(out_dir, exist_ok=True)
-    site_data['seo_head_tags'] = '''<!-- Google tag (gtag.js) -->
+    site_data['seo_head_tags'] = '''<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NP2DTL98');</script>
+<!-- End Google Tag Manager -->
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QWH0NSNLVE"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
