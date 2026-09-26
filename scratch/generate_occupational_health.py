@@ -108,11 +108,16 @@ for prof in professions:
     meta_desc = f"Specialized Ayurvedic care for occupational hazards faced by {prof['name']}. Non-surgical treatment for back pain, neck strain, and stress in Pune."
     
     html = base_html
-    html = html.replace('{{seo.meta_title}}', meta_title)
-    html = html.replace('{{seo.meta_description}}', meta_desc)
-    html = html.replace('{{seo.og_title}}', meta_title)
-    html = html.replace('{{seo.og_description}}', meta_desc)
-    html = html.replace('{{seo.og_url}}', f"https://karmanyaayurveda.com/occupational/{slug}/")
+    seo_block = f'''
+    <title>{meta_title}</title>
+    <meta name="description" content="{meta_desc}">
+    <link rel="canonical" href="https://karmanyaayurveda.com/occupational/{slug}/">
+    <meta property="og:title" content="{meta_title}">
+    <meta property="og:description" content="{meta_desc}">
+    <meta property="og:url" content="https://karmanyaayurveda.com/occupational/{slug}/">
+    <meta property="og:type" content="article">
+    '''
+    html = html.replace('{{seo_head_tags}}', seo_block)
     
     html = re.sub(r'<!-- HERO BLOCK -->.*?<!-- END HERO BLOCK -->', '', html, flags=re.DOTALL)
     
