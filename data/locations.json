@@ -382,5 +382,89 @@
       "longitude": 73.7444,
       "postal_code": "411044"
     }
+  },
+  {
+    "id": "chinchwad",
+    "slug": "chinchwad",
+    "name": "Chinchwad",
+    "full_name": "Chinchwad, Pune",
+    "seo": {
+      "meta_title": "Ayurvedic Doctor in Chinchwad (Clinic in Pimple Saudagar)",
+      "meta_description": "Looking for an Ayurvedic doctor in Chinchwad? Karmanya Ayurveda is just 10 mins away in Pimple Saudagar. Expert Panchakarma, sciatica, and knee pain treatments."
+    },
+    "hero": {
+      "eyebrow": "10 MINS FROM CHINCHWAD \u2022 CLINIC IN PIMPLE SAUDAGAR",
+      "h1": "Ayurvedic Doctor & Clinic for Chinchwad Residents",
+      "lead": "Looking for authentic Ayurvedic treatment in Chinchwad? Karmanya Ayurveda is located just 4 km away at Swaraj Garden Road, Pimple Saudagar, offering specialized Kerala therapies."
+    },
+    "transit": {
+      "distance": "4.0 km from Chinchwad",
+      "drive_time": "10\u201312 minutes drive to our Pimple Saudagar clinic",
+      "landmarks": "Drive via Aundh-Ravet BRTS Road or Kalewadi Phata directly to Swaraj Garden Road."
+    },
+    "clinical_focus": {
+      "overview": "Patients from Chinchwad seeking genuine Kerala Panchakarma and pain management travel to our Pimple Saudagar facility for classical therapies without surgery.",
+      "top_conditions": [
+        "knee-joint-pain",
+        "spine-sciatica-back-pain",
+        "cervical-spondylosis-neck-pain",
+        "digestive-metabolic-disorders"
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Is there a Karmanya Ayurveda clinic in Chinchwad?",
+        "answer": "We operate exclusively from our clinic at 27/11 Swaraj Garden Road, Pimple Saudagar, which is only a 10-minute drive from Chinchwad."
+      },
+      {
+        "question": "What kind of treatments do you offer?",
+        "answer": "We offer classical Kerala Ayurvedic therapies including Janu Basti for knee pain, Kati Basti for sciatica, and full clinical Panchakarma."
+      }
+    ],
+    "geo": {
+      "latitude": 18.6298,
+      "longitude": 73.7997,
+      "postal_code": "411033"
+    }
+  },
+  {
+    "id": "baner",
+    "slug": "baner",
+    "name": "Baner",
+    "full_name": "Baner, Pune",
+    "seo": {
+      "meta_title": "Ayurvedic Doctor Baner (Clinic in Pimple Saudagar)",
+      "meta_description": "Looking for an Ayurvedic doctor in Baner? Karmanya Ayurveda is located just 12 mins away in Pimple Saudagar. Specialized spine, joint & Panchakarma care."
+    },
+    "hero": {
+      "eyebrow": "12 MINS FROM BANER \u2022 CLINIC IN PIMPLE SAUDAGAR",
+      "h1": "Ayurvedic Care for Baner Residents \u2014 Clinic in Pimple Saudagar",
+      "lead": "Patients from Baner visit Karmanya Ayurveda for physician-led pain management. Located across the highway at 27/11 Swaraj Garden Road, Pimple Saudagar."
+    },
+    "transit": {
+      "distance": "6.8 km from Baner",
+      "drive_time": "12\u201315 minutes drive to our Pimple Saudagar clinic",
+      "landmarks": "Drive via Mumbai-Pune Bypass Road or Baner Road directly to Swaraj Garden Road."
+    },
+    "clinical_focus": {
+      "overview": "Baner's IT professionals frequently consult our physicians for desk-related lumbar spine strain, cervical spondylosis, and stress-related metabolic disorders.",
+      "top_conditions": [
+        "spine-sciatica-back-pain",
+        "cervical-spondylosis-neck-pain",
+        "stress-insomnia-anxiety",
+        "womens-health-pcod-hormonal"
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Do you have a branch in Baner?",
+        "answer": "No, our only clinic is located at 27/11 Swaraj Garden Road, Pimple Saudagar, just a short 12-minute drive from Baner."
+      }
+    ],
+    "geo": {
+      "latitude": 18.5590,
+      "longitude": 73.7868,
+      "postal_code": "411045"
+    }
   }
 ]
