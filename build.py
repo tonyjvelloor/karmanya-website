@@ -93,8 +93,8 @@ def generate_seo_head(page_type, page_data, site_data):
     faq_schema = None
     
     if page_type == 'home':
-        title = f"Best Ayurvedic Clinic in Pimple Saudagar, Pune | Kerala Ayurveda | {brand.get('name')}"
-        desc = "Pune's premier Kerala Ayurvedic clinic in Pimple Saudagar. Doctor-prescribed non-surgical knee joint pain care, spine & sciatica decompression, Panchakarma, and Nadi Pariksha. Mon–Sun 10 AM–8 PM."
+        title = f"Best Ayurvedic Clinic Near Me | Panchakarma & Ayurvedic Medical Center Pune | {brand.get('name')}"
+        desc = "Looking for an Ayurvedic clinic near me or a Panchakarma center? Karmanya Ayurveda in Pune offers expert Ayurvedic medical care for knee & spine pain, and authentic Kerala therapies. Mon–Sun 10 AM–8 PM."
         url = "https://karmanyaayurveda.com/"
         
         entity_schema = {
@@ -306,9 +306,9 @@ def generate_seo_head(page_type, page_data, site_data):
             "possibleTreatment": treatments_ld,
             "url": url,
             "recognizingAuthority": {
-                "@type": "MedicalClinic",
+                "@type": ["MedicalClinic", "Physician"],
                 "@id": "https://karmanyaayurveda.com/#clinic",
-                "name": "Karmanya Ayurveda Chikitsalaya",
+                "name": "Karmanya Ayurveda Chikitsalaya - Dr. Irshad T.M.",
                 "url": "https://karmanyaayurveda.com/",
                 "telephone": brand.get('phone', '+919819820017'),
                 "hasMap": "https://maps.google.com/?cid=3077549578320836260",
