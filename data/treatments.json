@@ -11,7 +11,7 @@
         "marketing": {
             "hero_title": "Ayurvedic Panchakarma",
             "hero_description": "A comprehensive, physician-guided detoxification and rejuvenation protocol designed to address the root cause of chronic imbalances.",
-            "image_url": "/images/protocols/protocol-gut-digestive.jpg"
+            "image_url": "/images/protocols/protocol-gut-digestive.webp"
         },
         "clinical": {
             "ayurvedic_perspective": "Panchakarma is not merely a relaxation massage; it is the ultimate, profound detoxification and cellular rejuvenation protocol documented in classical Ayurvedic texts (Charaka Samhita). It literally means 'Five Actions' (Vamana, Virechana, Basti, Nasya, Raktamokshana) designed to uproot deeply embedded metabolic toxins (Ama) from the cellular level and expel them through the body's natural excretory channels. Crucially, classical Panchakarma cannot take place without the preparatory twin pillars of Snehana (Oleation) and Swedana (Sudation/Medicated Steam). Snehana saturates the cellular matrix to loosen crystallized metabolic wastes (Ama), while Swedana dilates the body's channels (Srotas), liquefying toxins and directing them into the digestive tract for expulsion.",
@@ -76,7 +76,7 @@
         "marketing": {
             "hero_title": "Janu Basti Knee Therapy",
             "hero_description": "Classical warm medicated herbal oil pooling therapy designed to nourish synovial fluid, lubricate knee cartilage, and relieve osteoarthritic pain.",
-            "image_url": "/images/protocols/protocol-knee-janu-basti.jpg"
+            "image_url": "/images/protocols/protocol-knee-janu-basti.webp"
         },
         "clinical": {
             "ayurvedic_perspective": "Janu Basti is the premier Snigdha-Swedana procedure for the knee joint (Janu Sandhi). By building a leak-proof dough dam around the patella, warm medicated tailas (like Sahacharadi, Mahanarayana, or Ksheerabala) are pooled continuously for 30 to 45 minutes, deeply diffusing herbal lipids into the subchondral bone and synovial membrane. In addition to Basti, 'Janu Pichu' (continuous medicated oil pad therapy) is frequently utilized for acute knee joint inflammation, ligament sprains, and Baker's cysts.",
@@ -134,7 +134,7 @@
         "marketing": {
             "hero_title": "Kati Basti Spinal Care",
             "hero_description": "Specialized therapeutic oil pooling over the lumbar and sacral spine to soothe inflamed nerves, rehydrate discs, and eliminate chronic back pain.",
-            "image_url": "/images/protocols/protocol-spine-kati-basti.png"
+            "image_url": "/images/protocols/protocol-spine-kati-basti.webp"
         },
         "clinical": {
             "ayurvedic_perspective": "Kati Basti specifically addresses aggravated Apana and Vyana Vata in the lumbosacral region. By pooling warm lipophilic herbal preparations over the lower back, tissue stiffness is resolved, intervertebral spacing is decompressed, and muscle guarding softens. For acute spinal flare-ups or localized disc bulges where a flour ring cannot be sealed, our physicians administer 'Kati Pichu' (continuous medicated oil pad retention) as a targeted companion therapy to deliver sustained transdermal herbal penetration.",
@@ -192,7 +192,7 @@
         "marketing": {
             "hero_title": "Authentic Kerala Shirodhara",
             "hero_description": "A deeply restorative classical therapy featuring a continuous, rhythmic stream of warm medicated oil on the forehead, inducing profound mental stillness and autonomic balance.",
-            "image_url": "/images/protocols/protocol-stress-shirodhara.jpg"
+            "image_url": "/images/protocols/protocol-stress-shirodhara.webp"
         },
         "clinical": {
             "ayurvedic_perspective": "Shirodhara directly soothes Prana Vata and Sadhaka Pitta located in the head and brain (Murdha). The forehead is the site of the Ajna Chakra and a major Marma (vital point). Continuous rhythmic pouring of oil induces a state of deep physiological relaxation, activating the parasympathetic nervous system. Modern research shows Shirodhara lowers sympathetic arousal, slows heart rate, increases alpha and theta brainwaves, and dramatically reduces serum cortisol levels. In complex cases of neurological agitation, severe chronic migraine, or intense insomnia, Shirodhara is combined with 'Thalam'\u2014the classical application of medicated herbal paste retained on the crown of the head.",
@@ -251,7 +251,7 @@
         "marketing": {
             "hero_title": "Kerala Kizhi Therapy",
             "hero_description": "A signature Kerala sudation therapy utilizing heated herbal leaf or powder boluses dipped in warm medicated oils to relieve deep tissue pain and inflammation.",
-            "image_url": "/images/protocols/protocol-pinda-sweda.png"
+            "image_url": "/images/protocols/protocol-pinda-sweda.webp"
         },
         "clinical": {
             "ayurvedic_perspective": "Kizhi is an intensive Ruksha-Snigdha Swedana (sudation) therapy. It is traditionally used to pacify aggravated Vata and Kapha doshas, melt away tissue stiffness, improve peripheral circulation, and remove localized Ama.",
@@ -367,7 +367,7 @@
         "marketing": {
             "hero_title": "Authentic Kerala Chikitsa",
             "hero_description": "The purest form of traditional Ayurvedic therapies, preserved and practiced exactly as they originated in the Ashtavaidya tradition of Kerala.",
-            "image_url": "/images/facility/kerala-droni-suite.jpg"
+            "image_url": "/images/facility/kerala-droni-suite.webp"
         },
         "clinical": {
             "ayurvedic_perspective": "Kerala's Ashtavaidya lineage developed specialized modalities combining deep tissue immersion with high-potency herbal decoctions for severe neuromuscular and degenerative conditions. Kerala Chikitsa represents authentic Ayurvedic Physical Rehabilitation and Marma Physiotherapy. It blends classical Ashtavaidya manual therapies with neuromuscular mobilization to rehabilitate degenerative joints and spinal disc lesions naturally.",
@@ -427,7 +427,7 @@
         "marketing": {
             "hero_title": "Nadi Pariksha (Ayurvedic Pulse Diagnosis)",
             "hero_description": "The classical science of pulse examination to decode your Dosha imbalances, metabolic health, and disease root causes before symptoms manifest.",
-            "image_url": "/images/doctor-consult.jpg"
+            "image_url": "/images/doctor-consult.webp"
         },
         "clinical": {
             "ayurvedic_perspective": "Nadi Pariksha is the cornerstone of classical Ayurvedic diagnostics (Ashtasthana Pariksha). By placing three fingers over the radial artery at the wrist, a trained Vaidya perceives subtle vibrational waveforms corresponding to Vata, Pitta, and Kapha. It reveals deep-seated tissue imbalances (Dhatugata Dosha), sub-clinical toxicity (Ama), and organ stress long before routine diagnostic markers reflect changes.",
@@ -482,7 +482,7 @@
         "marketing": {
             "hero_title": "Classical Kerala Nasya Therapy",
             "hero_description": "One of the five core Panchakarma therapies. Specialized administration of medicated herbal oils through the nasal passageway \u2014 the direct gateway to the head, neck, and brain.",
-            "image_url": "/images/protocols/protocol-nasya.jpg"
+            "image_url": "/images/protocols/protocol-nasya.webp"
         },
         "clinical": {
             "ayurvedic_perspective": "According to classical Ashtanga Hridaya, 'Nasa Hi Shiraso Dvaram' \u2014 the nose is the doorway to the head (Shiras). Medicated oils administered via Nasya penetrate the cribriform plate and cavernous venous sinus to eliminate morbid Kapha and Vata doshas lodged in the supraclavicular region (Urdhva Jatrugata Roga). Authentic Nasya therapy always incorporates 'Dhumapana' (medicated herbal smoke inhalation) as the essential post-nasal protocol to expel residual liquefied Kapha and prevent sinus congestion.",
@@ -530,7 +530,7 @@
         "marketing": {
             "hero_title": "Pizhichil \u2014 The Royal Kerala Oil Squeeze",
             "hero_description": "Known as the 'King of Ayurvedic Therapies'. Continuous streams of rhythmic warm medicated oil poured over the entire body, combining oleation and sudation simultaneously.",
-            "image_url": "/images/protocols/protocol-pizhichil.jpg"
+            "image_url": "/images/protocols/protocol-pizhichil.webp"
         },
         "clinical": {
             "ayurvedic_perspective": "Pizhichil is an elite specialty of the Kerala Ashtavaidya tradition. It combines Snehana (oleation) and Swedana (sudation) into a single master protocol. The sustained absorption of warm lipid-based phytocompounds across the dermal barrier pacifies severe Vata aggravation, lubricates stiff joints, restores peripheral nerve conduction, and arrests degenerative cartilage loss.",
@@ -574,7 +574,7 @@
         "marketing": {
             "hero_title": "Netra Tarpana \u2014 Eye Care & Vision Rejuvenation",
             "hero_description": "Gentle pooling of purified, medicated Ayurvedic ghee over the eyes in specialized herbal dough rings to nourish the optic nerves, cornea, and tired vision.",
-            "image_url": "/images/protocols/protocol-netra-tarpana.jpg"
+            "image_url": "/images/protocols/protocol-netra-tarpana.webp"
         },
         "clinical": {
             "ayurvedic_perspective": "The eyes are governed by Alochaka Pitta, a metabolic sub-dosha responsible for visual perception, highly vulnerable to heat and digital screen exposure. Netra Tarpana provides profound cooling, lipid nourishment, and cellular repair to the ocular tissues, strengthening the extraocular muscles and stabilizing the tear film.",
@@ -617,7 +617,7 @@
         "marketing": {
             "hero_title": "Udvartana \u2014 Lymphatic Herbal Powder Scrub",
             "hero_description": "Vigorous upward strokes using specially compounded warm medicinal herbal powders to mobilize sub-cutaneous fat, stimulate lymphatic circulation, and tone skin.",
-            "image_url": "/images/protocols/protocol-udvartana.jpg"
+            "image_url": "/images/protocols/protocol-udvartana.webp"
         },
         "clinical": {
             "ayurvedic_perspective": "Udvartana literally means upward massage (Pratiloma). Using dry or oil-blended herbal powders with astringent, hot, and scraping (Lekhana) properties, it directly liquefies aggravated Medo Dhatu (adipose tissue), breaks down cellulite, opens blocked skin pores (Romakupa), and enhances peripheral metabolic rate (Bhrajaka Pitta).",
@@ -661,7 +661,7 @@
         "marketing": {
             "hero_title": "Agnikarma \u2014 Precision Thermal Pain Relief",
             "hero_description": "A celebrated ancient Ayurvedic para-surgical technique providing rapid, targeted relief for chronic tendon, ligament, and localized joint pain without drugs or surgery.",
-            "image_url": "/images/protocols/protocol-agnikarma.jpg"
+            "image_url": "/images/protocols/protocol-agnikarma.webp"
         },
         "clinical": {
             "ayurvedic_perspective": "Sushruta Samhita states that conditions cured by Agnikarma do not recur. Severe chronic pain is often caused by localized Vata and Kapha entrapment in tendons (Snayu) and bones (Asthi). Precision thermal stimulation with a specialized metallic probe (Panchadhatu Shalaka) restores localized micro-circulation, eliminates metabolic ischemia, and resets nerve pain pathways. In our clinic, Agnikarma is frequently paired with 'Viddhakarma' (Ayurvedic micro-puncture / dry needling). Viddha-Agni Karma is Ayurveda's most rapid non-surgical pain management protocol for instant decompression of trapped nerves, trigger points, and inflamed ligaments.",
@@ -709,7 +709,7 @@
         "marketing": {
             "hero_title": "Garbha Sanskar & Maternal Wellness",
             "hero_description": "Holistic Ayurvedic protocols for pre-conception purification (Beeja Shuddhi), month-by-month pregnancy regimen (Masanumashika), and restorative post-natal recovery (Sutika Paricharya).",
-            "image_url": "/images/protocols/protocol-womens-hormonal.jpg"
+            "image_url": "/images/protocols/protocol-womens-hormonal.webp"
         },
         "clinical": {
             "ayurvedic_perspective": "Garbha Sanskar encompasses the classical science of creating optimal mental, physical, and cellular health for mother and child. Classical Ayurveda details month-by-month maternal nutrition, dosha balancing herbs, soothing external abhyangam therapies, and meditation to foster maternal vitality, ease natural delivery, and support optimal fetal development.",
@@ -753,7 +753,7 @@
         "marketing": {
             "hero_title": "Mukhalepam Herbal Face Therapy",
             "hero_description": "Classical Ayurvedic facial therapy using customized micro-ground herbal pastes to treat hyperpigmentation, melasma, acne marks, and restore natural cellular skin radiance.",
-            "image_url": "/images/protocols/protocol-mukhalepam.jpg"
+            "image_url": "/images/protocols/protocol-mukhalepam.webp"
         },
         "clinical": {
             "ayurvedic_perspective": "In classical Ayurveda, facial skin health is governed by 'Bhrajaka Pitta' (the sub-dosha responsible for skin luster, complexion, and temperature) and 'Rasa Dhatu'. When toxic heat (Pitta) and metabolic impurities (Ama) accumulate in the micro-channels (Srotas) of the facial skin, it manifests as hyperpigmentation, dark patches (Vyanga / Melasma), acne (Yuvanapidaka), and premature skin dullness. Mukhalepam is the authentic classical therapeutic procedure of applying targeted, freshly prepared herbal pastes (Lepas) formulated with potent Varnya (complexion-enhancing) and Raktaprasadana (blood-purifying) herbs such as Lodhra, Manjistha, Raktachandana, Haridra, Sariva, and saffron.",
