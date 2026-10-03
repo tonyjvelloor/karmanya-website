@@ -2,3 +2,4 @@
 .env*
 scratch/chrome-profile/
 
+service_account.json
