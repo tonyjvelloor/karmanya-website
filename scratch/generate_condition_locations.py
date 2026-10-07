@@ -89,6 +89,7 @@ for cond in conditions:
         html = html.replace('{{seo.og_title}}', meta_title)
         html = html.replace('{{seo.og_description}}', meta_desc)
         html = html.replace('{{seo.og_url}}', f"https://karmanyaayurveda.com/treatments/local/{slug}/")
+        html = html.replace('<head>', f'<head>\n    <link rel="canonical" href="https://karmanyaayurveda.com/treatments/local/{slug}/">')
         
         # Replace hero block with empty string, we provide our own
         html = re.sub(r'<!-- HERO BLOCK -->.*?<!-- END HERO BLOCK -->', '', html, flags=re.DOTALL)
