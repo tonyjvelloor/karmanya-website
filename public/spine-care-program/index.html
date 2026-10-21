@@ -321,7 +321,8 @@
             btn.addEventListener('click', function(e) {
                 var actionType = this.classList.contains('btn-whatsapp') ? 'WhatsApp_Click' : 'Consult_Click';
                 
-                gtag('event', 'conversion', { 'send_to': 'AW-18375933203/91coCMuK5uscEJP6qbpE' });
+                var adsLabel = (actionType === 'WhatsApp_Click') ? 'qPmMCOnFoKQdEJP6qbpE' : '91coCMuK5uscEJP6qbpE';
+                gtag('event', 'conversion', { 'send_to': 'AW-18375933203/' + adsLabel });
                 
                 gtag('event', 'generate_lead', {
                     'event_category': 'Engagement',
