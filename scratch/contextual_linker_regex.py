@@ -10,7 +10,8 @@ LINK_MAP = {
     r'\b(?i)pcos\b': '/conditions/womens-health-pcod-hormonal/',
     r'\b(?i)panchakarma\b': '/treatments/panchakarma/',
     r'\b(?i)shirodhara\b': '/treatments/shirodhara/',
-    r'\b(?i)kerala ayurveda\b': '/treatments/kerala-chikitsa/'
+    r'\b(?i)kerala ayurveda\b': '/treatments/kerala-chikitsa/',
+    r'\b(?i)diwali vacation\b': '/blog/diwali-vacation-ayurveda-panchakarma-pune/'
 }
 
 public_dir = '/Users/tonyvelloor/.gemini/antigravity/scratch/karmanya-website/public'

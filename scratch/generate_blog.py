@@ -8,6 +8,63 @@ base_dir = '/Users/tonyvelloor/.gemini/antigravity/scratch/karmanya-website'
 
 articles = [
 {
+  "slug": "diwali-vacation-ayurveda-panchakarma-pune",
+  "title": "Diwali Vacation Ayurvedic Treatment in Pune: 7 & 14-Day Intensive Healing Programs",
+  "meta_title": "Diwali Vacation Ayurveda & Panchakarma in Pune | 7-Day Healing",
+  "meta_desc": "Take advantage of the Diwali vacation for intensive 7-day or 14-day Kerala Panchakarma & non-surgical pain relief at Karmanya Ayurveda, Pune. Open all 7 days.",
+  "category": "Panchakarma",
+  "date": "October 23, 2026",
+  "author": "Karmanya Ayurveda",
+  "author_url": "/",
+  "condition_url": "/treatments/panchakarma/",
+  "read_time": "6 min read",
+  "intro": "The upcoming Diwali vacation is often viewed as a time for family gatherings and festive indulgence, but for working professionals and families in Pune, it represents something equally rare: consecutive days off work. If you have been delaying treatment for chronic knee pain, a slipped disc, sciatica, or chronic burnout due to busy office schedules, the Diwali holiday break provides the ideal uninterrupted window to undergo intensive, physician-supervised Kerala Ayurvedic care.",
+  "sections": [
+    {
+      "heading": "Why the Diwali Holiday Window Is Ideal for Intensive Ayurvedic Healing",
+      "body": "Classical Kerala Panchakarma therapies\u2014such as Janu Basti (herbal oil pooling for knees), Kati Basti (deep spine therapy), and Shirodhara (nervous system restoration)\u2014are most effective when administered in continuous daily sessions over 7, 10, or 14 consecutive days. During regular work weeks, managing daily clinic visits alongside office deadlines can disrupt treatment consistency and post-therapy rest. Undergoing intensive therapies during the Diwali vacation allows your body to rest, absorb medicated oils, and facilitate cellular tissue rejuvenation without workplace stress."
+    },
+    {
+      "heading": "1. Intensive Non-Surgical Joint & Spine Care (7 to 10-Day Program)",
+      "body": "For individuals suffering from Grade 2 to Grade 4 Knee Osteoarthritis, Lumbar Slipped Discs (L4-L5, L5-S1), or Sciatic nerve impingement, the 7 to 10-day intensive program focuses on active pain resolution without surgery. Using classical Kerala warm oil pooling (Basti) with herb-infused decoctions like Mahanarayana and Sahacharadi tailam, therapies lubricate dehydrated joint cartilage, reduce disc inflammation, and relieve nerve compression. Most patients experience substantial mobility improvements by the end of the holiday week."
+    },
+    {
+      "heading": "2. Festive Metabolic Detox & Digestive Reset (7-Day Program)",
+      "body": "Festive meals, rich sweets, and disrupted sleeping patterns during Diwali frequently aggravate Pitta and Kapha doshas, leading to severe acid reflux, bloating, lethargy, and dangerous spikes in uric acid and fasting blood sugar levels. Our 7-day clinical detox protocol combines Deepana-Pachana (herbal digestive fire stimulation), Abhyangam (lymphatic oil massage), and physician-monitored Virechana (therapeutic purgation) to expel accumulated metabolic toxins (Ama) and restore metabolic equilibrium."
+    },
+    {
+      "heading": "3. Executive Stress, Neck Strain & Insomnia Recovery (7-Day Program)",
+      "body": "IT professionals from Pune's tech corridors (Hinjawadi, Wakad, Baner) who experience chronic cervical spondylosis, tension headaches, and insomnia can utilize the Diwali break for deep neuro-muscular recovery. Daily sessions of Shirodhara\u2014continuous rhythmic pouring of medicated herbal oils or buttermilk across the forehead\u2014significantly reduce elevated cortisol levels, balance the central nervous system, and restore healthy deep-sleep cycles."
+    },
+    {
+      "heading": "4. Pre-Surgery Second Opinions for Visiting Elderly Parents",
+      "body": "When adult children return home to Pune during the festive season, they frequently notice their aging parents struggling with chronic joint pain or facing impending surgery. Karmanya Ayurveda offers an unhurried, \u20b9500 in-clinic assessment where our senior BAMS physicians evaluate recent X-rays and MRI reports, perform Nadi Pariksha (pulse diagnosis), and provide an objective second opinion on whether joint replacement or spinal surgery can be safely avoided."
+    },
+    {
+      "heading": "Clinic Hours, Location & Advance Reservation for Diwali Vacation",
+      "body": "Karmanya Ayurveda Chikitsalaya in Pimple Saudagar remains <strong>open all 7 days throughout the Diwali vacation from 10:00 AM to 8:00 PM</strong>, ensuring full continuity for daily therapies. Our clinic is conveniently located within 10 to 20 minutes from Hinjawadi, Wakad, Baner, Aundh, and Ravet. Because patient intake is capped to maintain doctor-to-patient care ratios, advance slot reservation for holiday batches is strongly recommended."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Karmanya Ayurveda open during Diwali holidays in Pune?",
+      "a": "Yes, Karmanya Ayurveda in Pimple Saudagar remains open all 7 days during Diwali vacation from 10:00 AM to 8:00 PM, allowing patients to complete their full 7-day or 14-day treatment courses without disruption."
+    },
+    {
+      "q": "Can I complete a full Panchakarma treatment during the Diwali vacation?",
+      "a": "Yes. A targeted 7-day or 10-day intensive protocol\u2014such as Janu Basti for knee arthritis, Kati Basti for back pain, or Shirodhara for stress\u2014is specifically structured for working professionals to complete during the vacation."
+    },
+    {
+      "q": "Can I bring my parents for a knee or spine consultation during the holidays?",
+      "a": "Yes. We offer thorough \u20b9500 in-clinic consultations where our BAMS doctors review your parents' medical history, scans, and symptoms to evaluate whether joint or spinal surgery can be avoided."
+    },
+    {
+      "q": "How early should I book a Diwali treatment slot?",
+      "a": "Because vacation treatment suites and doctor consultation slots are limited, we advise reserving your preferred time slot at least 3 to 5 days in advance."
+    }
+  ]
+},
+{
   "slug": "ayurvedic-treatment-pcos-pcod-pune",
   "title": "Ayurvedic Treatment for PCOS/PCOD: A Natural Alternative to Hormonal Pills",
   "meta_title": "Ayurvedic PCOS/PCOD Treatment in Pune | No Hormonal Pills",
