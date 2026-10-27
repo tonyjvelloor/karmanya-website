@@ -566,5 +566,10 @@
       "destination": "/treatments/agnikarma/",
       "permanent": true
     }
-  ]
+  ],
+  "functions": {
+    "api/consultation.js": {
+      "maxDuration": 60
+    }
+  }
 }

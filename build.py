@@ -1114,6 +1114,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     out_dir = os.path.join(base_dir, 'public', 'book-consultation')
     os.makedirs(out_dir, exist_ok=True)
     site_data['seo_head_tags'] = generate_seo_head('book', {}, site_data)
+    # The booking page uses one explicit, acknowledged conversion path.
+    site_data['seo_head_tags'] = re.sub(r'<!-- Google Tag Manager -->.*?<!-- End Google Tag Manager -->', '', site_data['seo_head_tags'], flags=re.DOTALL)
     with open(os.path.join(out_dir, 'index.html'), 'w') as f:
         f.write(render_template(book_template, site_data))
             

@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {ad_user_data: 'denied', ad_personalization: 'denied'});
+</script>
     <meta charset="UTF-8">
     <meta name="google-site-verification" content="WkG1EsF3jpOenNE3qVR0DVexfFagjIofHbmUS-MM2I4">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-NP2DTL98');</script>
-    <!-- End Google Tag Manager -->
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QWH0NSNLVE"></script>
     <script>
@@ -128,10 +127,7 @@
 <!-- End ChatGPT Pixel -->
 </head>
 <body style="background: var(--color-bg);">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NP2DTL98"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+
 
     <!-- Global Header -->
     
@@ -327,19 +323,19 @@
                         <span style="color: #4b5563; font-size: 0.78rem;">Detailed Nadi Pariksha &amp; Joint Assessment · No Surprise Charges</span>
                     </div>
 
-                    <form class="consultation-form" id="bookingForm" onsubmit="handleBooking(event)">
+                    <form class="consultation-form" id="bookingForm" action="/api/consultation" method="post" onsubmit="handleBooking(event)">
                         <div class="form-group" style="margin-bottom: 16px;">
                             <label class="form-label" for="name" style="font-weight: 600; color: var(--color-primary); font-size: 0.84rem; margin-bottom: 6px; display: block; letter-spacing: 0.5px;">FULL NAME *</label>
-                            <input type="text" id="name" class="form-control" placeholder="e.g. Ramesh Kulkarni" required>
+                            <input type="text" id="name" name="name" autocomplete="name" minlength="2" maxlength="120" class="form-control" placeholder="e.g. Ramesh Kulkarni" required>
                         </div>
                         <div class="form-group" style="margin-bottom: 16px;">
                             <label class="form-label" for="phone" style="font-weight: 600; color: var(--color-primary); font-size: 0.84rem; margin-bottom: 6px; display: block; letter-spacing: 0.5px;">MOBILE PHONE NUMBER *</label>
-                            <input type="tel" id="phone" class="form-control" placeholder="e.g. 98198 20017" required>
+                            <input type="tel" id="phone" name="phone" autocomplete="tel" inputmode="tel" maxlength="18" class="form-control" placeholder="e.g. 98198 20017" required>
                         </div>
                         <div class="form-group" style="margin-bottom: 16px;">
-                            <label class="form-label" for="concern" style="font-weight: 600; color: var(--color-primary); font-size: 0.84rem; margin-bottom: 6px; display: block; letter-spacing: 0.5px;">PRIMARY HEALTH CONCERN *</label>
-                            <select id="concern" class="form-control" required style="background: white;">
-                                <option value="" disabled selected>Select your health condition</option>
+                            <label class="form-label" for="concern" style="font-weight: 600; color: var(--color-primary); font-size: 0.84rem; margin-bottom: 6px; display: block; letter-spacing: 0.5px;">REASON FOR VISIT (OPTIONAL)</label>
+                            <select id="concern" class="form-control" style="background: white;">
+                                <option value="" disabled selected>Select a reason (optional)</option>
                                 <option value="knee_joint_pain">Knee &amp; Joint Pain (Osteoarthritis, Cartilage Wear)</option>
                                 <option value="spine_sciatica">Spine, Disc Herniation &amp; Sciatica</option>
                                 <option value="cervical_neck">Cervical Spondylosis &amp; Neck/Shoulder Pain</option>
@@ -360,11 +356,14 @@
                                 <option value="Any Time Slot">Any Available Time Slot</option>
                             </select>
                         </div>
+                        <div hidden aria-hidden="true"><label for="bookingWebsite">Leave this field empty</label><input id="bookingWebsite" name="website" tabindex="-1" autocomplete="off"></div>
                         <button type="submit" class="btn btn-primary btn-block" style="width: 100%; font-size: 1.05rem; padding: 15px; font-weight: 700; letter-spacing: 0.5px; border-radius: 8px; cursor: pointer;">
                             Request Appointment Call &rarr;
                         </button>
                     </form>
-                    <p style="font-size: 0.85rem; color: #d97706; margin-top: 12px; font-weight: 500; text-align: center;">Our reception team will call you back within 1 hour (during clinic hours) to confirm your exact appointment slot.</p>
+                    <p id="bookingStatus" role="status" aria-live="polite" tabindex="-1" hidden style="padding: 16px; color: #1f2937; background: #f4f6f1; border-radius: 8px;"></p>
+                    <noscript><p>Please call +91 98198 20017 or use WhatsApp to arrange your visit.</p></noscript>
+                    <p style="font-size: 0.85rem; color: #d97706; margin-top: 12px; font-weight: 500; text-align: center;">The clinic will contact you during opening hours to confirm availability. Your slot is confirmed only after you hear from the clinic.</p>
 
                     <!-- Trust Checklist below Form -->
                     <div style="margin-top: 18px; display: flex; justify-content: space-between; font-size: 0.82rem; color: #666; border-top: 1px solid var(--color-border); padding-top: 14px; flex-wrap: wrap; gap: 8px;">
@@ -606,68 +605,9 @@
     })();
     </script>
 
-    <!-- Analytics Tracking & Form Handler -->
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function handleBooking(e) {
-            e.preventDefault();
-            var name = document.getElementById('name').value.trim();
-            var phone = document.getElementById('phone').value.trim();
-            var concernSelect = document.getElementById('concern');
-            var concernText = concernSelect.options[concernSelect.selectedIndex].text;
-            var timeSlot = document.getElementById('timeslot') ? document.getElementById('timeslot').value : 'Flexible';
-            
-            // 1. Google Tag Manager Conversion Event
-            window.dataLayer.push({
-                'event': 'generate_lead',
-                'lead_type': 'consultation_form',
-                'patient_name': name,
-                'patient_phone': phone,
-                'health_concern': concernText,
-                'preferred_timeslot': timeSlot
-            });
-            
-            // 2. Save lead locally
-            try {
-                var leads = JSON.parse(localStorage.getItem('karmanya_leads') || '[]');
-                leads.push({ name: name, phone: phone, concern: concernText, timeslot: timeSlot, date: new Date().toISOString() });
-                localStorage.setItem('karmanya_leads', JSON.stringify(leads));
-            } catch(err){}
-            
-            // 3. Render clean on-screen confirmation card
-            var formCard = document.getElementById('bookingForm').parentElement;
-            formCard.innerHTML = `
-                <div style="text-align: center; padding: 24px 12px;">
-                    <div style="width: 64px; height: 64px; border-radius: 50%; background: #e8f8f0; color: #25D366; font-size: 2.2rem; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px;">✔</div>
-                    <h3 style="color: var(--color-primary); font-size: 1.8rem; margin-bottom: 8px;">Consultation Request Received!</h3>
-                    <p style="color: #555; font-size: 1.05rem; line-height: 1.6; margin-bottom: 24px;">
-                        Thank you, <strong>${name}</strong>. Our clinical coordinator at Pimple Saudagar will call you at <strong>${phone}</strong> within clinic hours to confirm your consultation slot.
-                    </p>
-                    <div style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 8px; padding: 18px; margin-bottom: 24px; text-align: left;">
-                        <div style="font-weight: 700; color: var(--color-primary); margin-bottom: 8px; font-size: 0.95rem;">Appointment Summary:</div>
-                        <div style="color: #555; font-size: 0.92rem; line-height: 1.7;">
-                            &bull; <strong>Concern:</strong> ${concernText}<br>
-                            &bull; <strong>Preferred Timing:</strong> ${timeSlot}<br>
-                            &bull; <strong>Location:</strong> 27/11 Swaraj Garden Road, Pimple Saudagar, Pune<br>
-                            &bull; <strong>Hours:</strong> Mon–Sun, 10:00 AM – 8:00 PM<br>
-                            &bull; <strong>Consultation Fee:</strong> ₹500 (Includes Nadi Pariksha)
-                        </div>
-                    </div>
-                    <p style="font-weight: 600; color: var(--color-primary); margin-bottom: 12px;">Need an immediate confirmation?</p>
-                    <a href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20inquire%20about%20a%20consultation." target="_blank" class="btn btn-primary" style="background: #25D366; border-color: #25D366; width: 100%; display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 1.05rem; padding: 14px; text-decoration: none;">
-                        <svg width="20" height="20" viewBox="0 0 32 32" fill="white"><path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.668 4.61 1.832 6.51L4 29l7.695-1.807A12.94 12.94 0 0016 27c6.627 0 12-5.373 12-12S22.627 3 16 3z"/></svg>
-                        Confirm Slot on WhatsApp &rarr;
-                    </a>
-                </div>
-            `;
-            
-            // 4. Also launch WhatsApp directly after 1.2s for convenience
-            setTimeout(function() {
-                var waLink = "https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20inquire%20about%20a%20consultation." + encodeURIComponent(name) + "%20(" + encodeURIComponent(phone) + ").%20I%20just%20submitted%20a%20consultation%20request%20for%20" + encodeURIComponent(concernText) + "%20(" + encodeURIComponent(timeSlot) + ")%20at%20Karmanya%20Ayurveda.";
-                window.open(waLink, '_blank');
-            }, 1200);
-        }
-    </script>
+    <!-- Only acknowledged requests count as leads. -->
+<script defer src="/js/booking-delivery.js"></script>
+<script defer src="/js/consultation-form.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init({
