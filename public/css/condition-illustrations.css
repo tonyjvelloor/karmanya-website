@@ -1,0 +1,64 @@
+/* Homepage illustrations are larger than the directory's compact line icons. */
+.conditions-visual-grid {
+    gap: 28px 22px;
+}
+
+.conditions-visual-grid .condition-icon-card {
+    min-width: 0;
+    border-radius: 16px;
+}
+
+.condition-illustration-wrap {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+    border: 1px solid #eee7df;
+    border-radius: 16px;
+    background: #faf7f1;
+    box-shadow: 0 2px 8px rgba(57, 43, 30, 0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.condition-illustration-wrap img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.conditions-visual-grid .condition-icon-label {
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+.conditions-visual-grid .condition-icon-card:hover .condition-illustration-wrap {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(57, 43, 30, 0.1);
+}
+
+.conditions-visual-grid .condition-icon-card:focus-visible {
+    outline: 3px solid #306b8b;
+    outline-offset: 6px;
+}
+
+@media (max-width: 640px) {
+    .conditions-visual-grid {
+        gap: 22px 12px;
+    }
+    .condition-illustration-wrap {
+        border-radius: 12px;
+    }
+    .conditions-visual-grid .condition-icon-label {
+        margin-top: 9px;
+        font-size: 0.88rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .condition-illustration-wrap {
+        transition: none;
+    }
+    .conditions-visual-grid .condition-icon-card:hover .condition-illustration-wrap {
+        transform: none;
+    }
+}

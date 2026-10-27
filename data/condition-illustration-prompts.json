@@ -1,0 +1,146 @@
+{
+  "mode": "built-in image_gen",
+  "style": "Graphical 3D medical editorial illustrations; varied natural coral, amber and blue accents",
+  "assets": [
+    {
+      "key": "gerd",
+      "label": "GERD",
+      "prompt": "Use case: scientific-educational. Asset type: graphical condition-card illustration for Karmanya Ayurveda homepage. Create ONE original polished 3D medical editorial illustration on a very light warm ivory background, landscape 3:2. Graphical representation only, no photographs and no realistic people. Recognisable subject centred, fills about 70% of canvas, generous clear margins, clean silhouette legible at thumbnail size. Soft matte sculpted forms, natural ivory anatomy, muted coral and rose tissues, amber highlights, slate-blue accents; refined gentle depth and soft studio shadow, coherent family of educational illustrations. This is a conceptual representation of the topic, not a patient scan or a treatment result. No text, no letters, no labels, no logo, no watermark, no before-and-after, no promises of cure or regrowth, no green monochrome, no clutter, no decorative leaves, no gore. Subject: An anatomical stomach connected to a short oesophagus; a small amber upward arrow inside the oesophagus shows reflux rising from the stomach. Natural coral stomach with pale amber contents, no flame or cartoon face.",
+      "alt": "Conceptual stomach and oesophagus illustration showing reflux",
+      "file": "/images/condition-illustrations/gerd.webp"
+    },
+    {
+      "key": "constipation",
+      "label": "Constipation",
+      "prompt": "Use case: scientific-educational. Asset type: graphical condition-card illustration for Karmanya Ayurveda homepage. Create ONE original polished 3D medical editorial illustration on a very light warm ivory background, landscape 3:2. Graphical representation only, no photographs and no realistic people. Recognisable subject centred, fills about 70% of canvas, generous clear margins, clean silhouette legible at thumbnail size. Soft matte sculpted forms, natural ivory anatomy, muted coral and rose tissues, amber highlights, slate-blue accents; refined gentle depth and soft studio shadow, coherent family of educational illustrations. This is a conceptual representation of the topic, not a patient scan or a treatment result. No text, no letters, no labels, no logo, no watermark, no before-and-after, no promises of cure or regrowth, no green monochrome, no clutter, no decorative leaves, no gore. Subject: A front-view anatomical large intestine, natural coral colouring with a small discreet cluster of firm ochre stool shapes inside the descending colon, a short amber slow-transit curved arrow. No toilet, no disgust.",
+      "alt": "Conceptual large-intestine illustration showing slow bowel transit",
+      "file": "/images/condition-illustrations/constipation.webp"
+    },
+    {
+      "key": "ibs",
+      "label": "IBS",
+      "prompt": "Use case: scientific-educational. Asset type: graphical condition-card illustration for Karmanya Ayurveda homepage. Create ONE original polished 3D medical editorial illustration on a very light warm ivory background, landscape 3:2. Graphical representation only, no photographs and no realistic people. Recognisable subject centred, fills about 70% of canvas, generous clear margins, clean silhouette legible at thumbnail size. Soft matte sculpted forms, natural ivory anatomy, muted coral and rose tissues, amber highlights, slate-blue accents; refined gentle depth and soft studio shadow, coherent family of educational illustrations. This is a conceptual representation of the topic, not a patient scan or a treatment result. No text, no letters, no labels, no logo, no watermark, no before-and-after, no promises of cure or regrowth, no green monochrome, no clutter, no decorative leaves, no gore. Subject: A recognisable looped large intestine around small-intestine loops, soft coral and warm rose, with two subtle concentric amber ripple marks around a lower segment representing sensitivity and cramping. Intact bowel, no ulcers or damage.",
+      "alt": "Conceptual bowel illustration with a highlighted area of sensitivity",
+      "file": "/images/condition-illustrations/ibs.webp"
+    },
+    {
+      "key": "bloating",
+      "label": "Bloating",
+      "prompt": "Use case: scientific-educational. Asset type: graphical condition-card illustration for Karmanya Ayurveda homepage. Create ONE original polished 3D medical editorial illustration on a very light warm ivory background, landscape 3:2. Graphical representation only, no photographs and no realistic people. Recognisable subject centred, fills about 70% of canvas, generous clear margins, clean silhouette legible at thumbnail size. Soft matte sculpted forms, natural ivory anatomy, muted coral and rose tissues, amber highlights, slate-blue accents; refined gentle depth and soft studio shadow, coherent family of educational illustrations. This is a conceptual representation of the topic, not a patient scan or a treatment result. No text, no letters, no labels, no logo, no watermark, no before-and-after, no promises of cure or regrowth, no green monochrome, no clutter, no decorative leaves, no gore. Subject: A simplified translucent front-view human abdomen with the stomach and bowel softly visible, a few gentle sky-blue gas bubbles in the bowel and small outward curved amber arrows; natural silhouette, no obesity caricature.",
+      "alt": "Conceptual abdomen illustration showing gas in the digestive tract",
+      "file": "/images/condition-illustrations/bloating.webp"
+    },
+    {
+      "key": "knee-pain",
+      "label": "Knee Pain",
+      "prompt": "Use case: scientific-educational. Asset type: graphical condition-card illustration for Karmanya Ayurveda homepage. Create ONE original polished 3D medical editorial illustration on a very light warm ivory background, landscape 3:2. Graphical representation only, no photographs and no realistic people. Recognisable subject centred, fills about 70% of canvas, generous clear margins, clean silhouette legible at thumbnail size. Soft matte sculpted forms, natural ivory anatomy, muted coral and rose tissues, amber highlights, slate-blue accents; refined gentle depth and soft studio shadow, coherent family of educational illustrations. This is a conceptual representation of the topic, not a patient scan or a treatment result. No text, no letters, no labels, no logo, no watermark, no before-and-after, no promises of cure or regrowth, no green monochrome, no clutter, no decorative leaves, no gore. Subject: A natural ivory anatomical knee joint in three-quarter view, cartilage in soft blue-grey, coral ligaments, a gentle amber highlight around the joint line indicating the area of discomfort. No fracture or regeneration arrows.",
+      "alt": "Conceptual knee-joint illustration highlighting the joint area",
+      "file": "/images/condition-illustrations/knee-pain.webp"
+    },
+    {
+      "key": "lower-back-pain",
+      "label": "Lower Back Pain",
+      "prompt": "Use case: scientific-educational. Asset type: graphical condition-card illustration for Karmanya Ayurveda homepage. Create ONE original polished 3D medical editorial illustration on a very light warm ivory background, landscape 3:2. Graphical representation only, no photographs and no realistic people. Recognisable subject centred, fills about 70% of canvas, generous clear margins, clean silhouette legible at thumbnail size. Soft matte sculpted forms, natural ivory anatomy, muted coral and rose tissues, amber highlights, slate-blue accents; refined gentle depth and soft studio shadow, coherent family of educational illustrations. This is a conceptual representation of the topic, not a patient scan or a treatment result. No text, no letters, no labels, no logo, no watermark, no before-and-after, no promises of cure or regrowth, no green monochrome, no clutter, no decorative leaves, no gore. Subject: A simplified translucent neutral human torso from behind with the lumbar vertebrae visible in natural ivory, a gentle coral halo confined to the lower back. Correct lumbar location, not neck.",
+      "alt": "Conceptual lower-back illustration highlighting the lumbar area",
+      "file": "/images/condition-illustrations/lower-back-pain.webp"
+    },
+    {
+      "key": "arthritis",
+      "label": "Arthritis",
+      "prompt": "Use case: scientific-educational. Asset type: graphical condition-card illustration for Karmanya Ayurveda homepage. Create ONE original polished 3D medical editorial illustration on a very light warm ivory background, landscape 3:2. Graphical representation only, no photographs and no realistic people. Recognisable subject centred, fills about 70% of canvas, generous clear margins, clean silhouette legible at thumbnail size. Soft matte sculpted forms, natural ivory anatomy, muted coral and rose tissues, amber highlights, slate-blue accents; refined gentle depth and soft studio shadow, coherent family of educational illustrations. This is a conceptual representation of the topic, not a patient scan or a treatment result. No text, no letters, no labels, no logo, no watermark, no before-and-after, no promises of cure or regrowth, no green monochrome, no clutter, no decorative leaves, no gore. Subject: A close anatomical hand showing natural ivory finger bones and subtle blue cartilage, restrained coral highlights around several finger joints. Five anatomically plausible fingers, no extreme deformity.",
+      "alt": "Conceptual hand illustration highlighting finger joints",
+      "file": "/images/condition-illustrations/arthritis.webp"
+    },
+    {
+      "key": "frozen-shoulder",
+      "label": "Frozen Shoulder",
+      "prompt": "Use case: scientific-educational. Asset type: graphical condition-card illustration for Karmanya Ayurveda homepage. Create ONE original polished 3D medical editorial illustration on a very light warm ivory background, landscape 3:2. Graphical representation only, no photographs and no realistic people. Recognisable subject centred, fills about 70% of canvas, generous clear margins, clean silhouette legible at thumbnail size. Soft matte sculpted forms, natural ivory anatomy, muted coral and rose tissues, amber highlights, slate-blue accents; refined gentle depth and soft studio shadow, coherent family of educational illustrations. This is a conceptual representation of the topic, not a patient scan or a treatment result. No text, no letters, no labels, no logo, no watermark, no before-and-after, no promises of cure or regrowth, no green monochrome, no clutter, no decorative leaves, no gore. Subject: An anatomical shoulder joint with upper humerus and scapula in ivory, soft coral joint capsule, a short muted-blue curved motion arc with a small amber stop mark to suggest limited movement. Do not show a physically frozen or icy shoulder.",
+      "alt": "Conceptual shoulder-joint illustration showing restricted movement",
+      "file": "/images/condition-illustrations/frozen-shoulder.webp"
+    },
+    {
+      "key": "tennis-elbow",
+      "label": "Tennis Elbow",
+      "prompt": "Use case: scientific-educational. Asset type: graphical condition-card illustration for Karmanya Ayurveda homepage. Create ONE original polished 3D medical editorial illustration on a very light warm ivory background, landscape 3:2. Graphical representation only, no photographs and no realistic people. Recognisable subject centred, fills about 70% of canvas, generous clear margins, clean silhouette legible at thumbnail size. Soft matte sculpted forms, natural ivory anatomy, muted coral and rose tissues, amber highlights, slate-blue accents; refined gentle depth and soft studio shadow, coherent family of educational illustrations. This is a conceptual representation of the topic, not a patient scan or a treatment result. No text, no letters, no labels, no logo, no watermark, no before-and-after, no promises of cure or regrowth, no green monochrome, no clutter, no decorative leaves, no gore. Subject: An anatomical bent elbow with natural ivory bones, coral forearm extensor tendons, and a subtle amber pinpoint at the lateral epicondyle on the outside of the elbow. Clean educational composition, no tennis equipment.",
+      "alt": "Conceptual elbow illustration highlighting the outer tendon area",
+      "file": "/images/condition-illustrations/tennis-elbow.webp"
+    },
+    {
+      "key": "wrist-pain",
+      "label": "Wrist Pain (CTS)",
+      "prompt": "Use case: scientific-educational. Asset type: graphical condition-card illustration for Karmanya Ayurveda homepage. Create ONE original polished 3D medical editorial illustration on a very light warm ivory background, landscape 3:2. Graphical representation only, no photographs and no realistic people. Recognisable subject centred, fills about 70% of canvas, generous clear margins, clean silhouette legible at thumbnail size. Soft matte sculpted forms, natural ivory anatomy, muted coral and rose tissues, amber highlights, slate-blue accents; refined gentle depth and soft studio shadow, coherent family of educational illustrations. This is a conceptual representation of the topic, not a patient scan or a treatment result. No text, no letters, no labels, no logo, no watermark, no before-and-after, no promises of cure or regrowth, no green monochrome, no clutter, no decorative leaves, no gore. Subject: A palmar anatomical wrist and hand with five natural fingers, ivory wrist bones, a muted-blue transverse carpal ligament and an amber median nerve passing beneath it, gentle coral highlight at the wrist. No impossible bone arrangement.",
+      "alt": "Conceptual wrist illustration showing the carpal tunnel area",
+      "file": "/images/condition-illustrations/wrist-pain.webp"
+    },
+    {
+      "key": "sciatica",
+      "label": "Sciatica",
+      "prompt": "Use case: scientific-educational. Create one original non-graphic educational 3D medical illustration for a website card about sciatica. Isolated natural ivory lower lumbar spine and pelvic bone model, connected to a short upper femur bone, with a single amber sciatic nerve pathway descending beside the bone. Bones and nerve only, no human body or skin, no face, no genitals, no nudity, no gore. Clean warm ivory background, subtle slate-blue discs and coral accent, soft matte sculpted surface, landscape 3:2. Centre the medical model with clear margins. No text, no logo, no watermark, no before/after or treatment effect.",
+      "alt": "Conceptual illustration of the sciatic nerve path through the hip and leg",
+      "file": "/images/condition-illustrations/sciatica.webp"
+    },
+    {
+      "key": "spondylosis",
+      "label": "Spondylosis",
+      "prompt": "Use case: scientific-educational. Asset type: graphical condition-card illustration for Karmanya Ayurveda homepage. Create ONE original polished 3D medical editorial illustration on a very light warm ivory background, landscape 3:2. Graphical representation only, no photographs and no realistic people. Recognisable subject centred, fills about 70% of canvas, generous clear margins, clean silhouette legible at thumbnail size. Soft matte sculpted forms, natural ivory anatomy, muted coral and rose tissues, amber highlights, slate-blue accents; refined gentle depth and soft studio shadow, coherent family of educational illustrations. This is a conceptual representation of the topic, not a patient scan or a treatment result. No text, no letters, no labels, no logo, no watermark, no before-and-after, no promises of cure or regrowth, no green monochrome, no clutter, no decorative leaves, no gore. Subject: A short curved column of natural ivory cervical vertebrae with soft slate-blue intervertebral discs, one subtly narrowed disc space and small mild bony edge changes. Accurate recognisable spine, no severe damage.",
+      "alt": "Conceptual cervical-spine illustration showing vertebrae and discs",
+      "file": "/images/condition-illustrations/spondylosis.webp"
+    },
+    {
+      "key": "endometriosis",
+      "label": "Adenomyosis & Endometriosis",
+      "prompt": "Use case: scientific-educational. Asset type: graphical condition-card illustration for Karmanya Ayurveda homepage. Create ONE original polished 3D medical editorial illustration on a very light warm ivory background, landscape 3:2. Graphical representation only, no photographs and no realistic people. Recognisable subject centred, fills about 70% of canvas, generous clear margins, clean silhouette legible at thumbnail size. Soft matte sculpted forms, natural ivory anatomy, muted coral and rose tissues, amber highlights, slate-blue accents; refined gentle depth and soft studio shadow, coherent family of educational illustrations. This is a conceptual representation of the topic, not a patient scan or a treatment result. No text, no letters, no labels, no logo, no watermark, no before-and-after, no promises of cure or regrowth, no green monochrome, no clutter, no decorative leaves, no gore. Subject: A clean front-view anatomical uterus with fallopian tubes and two ovaries in natural muted coral, a few small burgundy dots on the OUTSIDE pelvic tissue around the uterus to symbolise endometriosis, subtle heavier rose wall detail as a conceptual reference to adenomyosis. No foetus, no blood, no diagnosis text.",
+      "alt": "Conceptual uterus and pelvic-tissue illustration",
+      "file": "/images/condition-illustrations/endometriosis.webp"
+    },
+    {
+      "key": "pcos",
+      "label": "PCOS & PCOD",
+      "prompt": "Use case: scientific-educational. Asset type: graphical condition-card illustration for Karmanya Ayurveda homepage. Create ONE original polished 3D medical editorial illustration on a very light warm ivory background, landscape 3:2. Graphical representation only, no photographs and no realistic people. Recognisable subject centred, fills about 70% of canvas, generous clear margins, clean silhouette legible at thumbnail size. Soft matte sculpted forms, natural ivory anatomy, muted coral and rose tissues, amber highlights, slate-blue accents; refined gentle depth and soft studio shadow, coherent family of educational illustrations. This is a conceptual representation of the topic, not a patient scan or a treatment result. No text, no letters, no labels, no logo, no watermark, no before-and-after, no promises of cure or regrowth, no green monochrome, no clutter, no decorative leaves, no gore. Subject: A front-view uterus with fallopian tubes and two ovaries in muted coral; one ovary enlarged as an adjacent simple circular cutaway showing several small peripheral follicles, natural cream and rose, no gross pathology, no foetus.",
+      "alt": "Conceptual uterus and ovary illustration with a follicle detail",
+      "file": "/images/condition-illustrations/pcos.webp"
+    },
+    {
+      "key": "fibroids",
+      "label": "Fibroids",
+      "prompt": "Use case: scientific-educational. Create one original non-graphic educational 3D medical textbook illustration of an isolated uterus model for a website card about uterine fibroids. Show a simplified coral pear-shaped uterine organ cutaway with one small smooth pale-rose round nodule embedded in its muscular wall. Tiny curved fallopian tubes at the top for anatomical recognition. Organs only; no person, no external body, no genitals, no nudity, no sexual context, no foetus, no blood, no gore. Warm ivory background, soft matte sculpted educational model, landscape 3:2, centred with clear margins. No text, no labels, no logo, no watermark or treatment promise.",
+      "alt": "Conceptual uterine-wall illustration with a fibroid detail",
+      "file": "/images/condition-illustrations/fibroids.webp"
+    },
+    {
+      "key": "infertility",
+      "label": "Infertility",
+      "prompt": "Use case: scientific-educational. Asset type: graphical condition-card illustration for Karmanya Ayurveda homepage. Create ONE original polished 3D medical editorial illustration on a very light warm ivory background, landscape 3:2. Graphical representation only, no photographs and no realistic people. Recognisable subject centred, fills about 70% of canvas, generous clear margins, clean silhouette legible at thumbnail size. Soft matte sculpted forms, natural ivory anatomy, muted coral and rose tissues, amber highlights, slate-blue accents; refined gentle depth and soft studio shadow, coherent family of educational illustrations. This is a conceptual representation of the topic, not a patient scan or a treatment result. No text, no letters, no labels, no logo, no watermark, no before-and-after, no promises of cure or regrowth, no green monochrome, no clutter, no decorative leaves, no gore. Subject: A respectful conceptual reproductive-health graphic: a softly rendered ivory human egg cell and several tiny muted-blue sperm approaching along an open curved amber path, still separate with space between them. Balanced composition with no broken or shaming symbols, no baby or treatment outcome.",
+      "alt": "Conceptual reproductive-health illustration of an egg and sperm",
+      "file": "/images/condition-illustrations/infertility.webp"
+    },
+    {
+      "key": "psoriasis",
+      "label": "Psoriasis",
+      "prompt": "Use case: scientific-educational. Asset type: graphical condition-card illustration for Karmanya Ayurveda homepage. Create ONE original polished 3D medical editorial illustration on a very light warm ivory background, landscape 3:2. Graphical representation only, no photographs and no realistic people. Recognisable subject centred, fills about 70% of canvas, generous clear margins, clean silhouette legible at thumbnail size. Soft matte sculpted forms, natural ivory anatomy, muted coral and rose tissues, amber highlights, slate-blue accents; refined gentle depth and soft studio shadow, coherent family of educational illustrations. This is a conceptual representation of the topic, not a patient scan or a treatment result. No text, no letters, no labels, no logo, no watermark, no before-and-after, no promises of cure or regrowth, no green monochrome, no clutter, no decorative leaves, no gore. Subject: A small curved sample of medium-brown skin seen obliquely, a mild raised rosy plaque with fine pale scales on its surface and a simple layered skin cross-section beneath. Clean non-graphic educational model, no wound or blood.",
+      "alt": "Conceptual skin illustration showing a scaly plaque",
+      "file": "/images/condition-illustrations/psoriasis.webp"
+    },
+    {
+      "key": "eczema",
+      "label": "Eczema",
+      "prompt": "Use case: scientific-educational. Asset type: graphical condition-card illustration for Karmanya Ayurveda homepage. Create ONE original polished 3D medical editorial illustration on a very light warm ivory background, landscape 3:2. Graphical representation only, no photographs and no realistic people. Recognisable subject centred, fills about 70% of canvas, generous clear margins, clean silhouette legible at thumbnail size. Soft matte sculpted forms, natural ivory anatomy, muted coral and rose tissues, amber highlights, slate-blue accents; refined gentle depth and soft studio shadow, coherent family of educational illustrations. This is a conceptual representation of the topic, not a patient scan or a treatment result. No text, no letters, no labels, no logo, no watermark, no before-and-after, no promises of cure or regrowth, no green monochrome, no clutter, no decorative leaves, no gore. Subject: A small curved sample of medium-brown skin with a mild dry rosy irritated patch at a gentle skin fold, a few subtle amber itch ripple marks nearby, smooth simple layers visible in a small cross-section. Fine dryness, no raised thick silver scales, no wound or blood.",
+      "alt": "Conceptual skin illustration showing a dry irritated patch",
+      "file": "/images/condition-illustrations/eczema.webp"
+    },
+    {
+      "key": "migraine",
+      "label": "Migraine",
+      "prompt": "Use case: scientific-educational. Asset type: graphical condition-card illustration for Karmanya Ayurveda homepage. Create ONE original polished 3D medical editorial illustration on a very light warm ivory background, landscape 3:2. Graphical representation only, no photographs and no realistic people. Recognisable subject centred, fills about 70% of canvas, generous clear margins, clean silhouette legible at thumbnail size. Soft matte sculpted forms, natural ivory anatomy, muted coral and rose tissues, amber highlights, slate-blue accents; refined gentle depth and soft studio shadow, coherent family of educational illustrations. This is a conceptual representation of the topic, not a patient scan or a treatment result. No text, no letters, no labels, no logo, no watermark, no before-and-after, no promises of cure or regrowth, no green monochrome, no clutter, no decorative leaves, no gore. Subject: A clean side-profile translucent human head silhouette in warm ivory with a softly visible muted-blue brain and a restrained coral/amber halo at ONE temple, a few subtle curved sensitivity lines. No lightning bolts through the skull, no gruesome imagery.",
+      "alt": "Conceptual head illustration highlighting one temple",
+      "file": "/images/condition-illustrations/migraine.webp"
+    },
+    {
+      "key": "diabetes",
+      "label": "Diabetes",
+      "prompt": "Use case: scientific-educational. Asset type: graphical condition-card illustration for Karmanya Ayurveda homepage. Create ONE original polished 3D medical editorial illustration on a very light warm ivory background, landscape 3:2. Graphical representation only, no photographs and no realistic people. Recognisable subject centred, fills about 70% of canvas, generous clear margins, clean silhouette legible at thumbnail size. Soft matte sculpted forms, natural ivory anatomy, muted coral and rose tissues, amber highlights, slate-blue accents; refined gentle depth and soft studio shadow, coherent family of educational illustrations. This is a conceptual representation of the topic, not a patient scan or a treatment result. No text, no letters, no labels, no logo, no watermark, no before-and-after, no promises of cure or regrowth, no green monochrome, no clutter, no decorative leaves, no gore. Subject: A clear conceptual glucose-monitoring graphic: a slate-blue handheld glucometer with a blank cream display and correctly inserted small test strip, next to one tiny coral blood-drop symbol and a simple ivory hexagonal glucose motif. No numbers, needles, brands or results.",
+      "alt": "Conceptual glucose-monitoring illustration with a meter and test strip",
+      "file": "/images/condition-illustrations/diabetes.webp"
+    }
+  ]
+}
