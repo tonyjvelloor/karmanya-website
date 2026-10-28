@@ -93,8 +93,8 @@ def generate_seo_head(page_type, page_data, site_data):
     faq_schema = None
     
     if page_type == 'home':
-        title = f"Best Ayurvedic Clinic Near Me | Panchakarma & Ayurvedic Medical Center Pune | {brand.get('name')}"
-        desc = "Looking for an Ayurvedic clinic near me or a Panchakarma center? Karmanya Ayurveda in Pune offers expert Ayurvedic medical care for knee & spine pain, and authentic Kerala therapies. Mon–Sun 10 AM–8 PM."
+        title = f"Ayurvedic Clinic in Pimple Saudagar, Pune | {brand.get('name')}"
+        desc = "Karmanya Ayurveda is a physician-led Ayurvedic medical clinic in Pimple Saudagar, Pune. Specializing in authentic Kerala Panchakarma, joint care, and spine therapies. Open daily 10 AM–8 PM."
         url = "https://karmanyaayurveda.com/"
         
         entity_schema = {
@@ -1123,7 +1123,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     with open(os.path.join(out_dir, 'index.html'), 'w') as f:
         f.write(render_template(book_template, site_data))
             
-    # 7. Generate Enhanced XML Sitemap
+    # 7. Generate Enhanced XML Sitemap (guaranteed unique URLs)
+    seen_urls = set()
+    unique_urls_for_sitemap = []
+    for item in urls_for_sitemap:
+        if item[0] not in seen_urls:
+            seen_urls.add(item[0])
+            unique_urls_for_sitemap.append(item)
+    urls_for_sitemap = unique_urls_for_sitemap
+
     sitemap_xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     for url, priority, freq in urls_for_sitemap:
         sitemap_xml += f"""  <url>
