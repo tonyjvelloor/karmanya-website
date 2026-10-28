@@ -108,8 +108,8 @@ articles = [
   "meta_desc": "Searching for the best Kerala Ayurveda in Pune? Discover the differences between commercial spas and authentic, physician-led Kerala Panchakarma centers.",
   "category": "Education",
   "date": "October 7, 2026",
-  "author": "Dr. Irshad T.M., BAMS, MD (Ayurveda)",
-  "author_url": "/doctors/dr-irshad/",
+  "author": "Dr. Tejasvi Mulik, BAMS",
+  "author_url": "/doctors/dr-tejasvi/",
   "condition_url": "/treatments/kerala-chikitsa/",
   "read_time": "6 min read",
   "intro": "Pune is home to hundreds of Ayurvedic spas and wellness centers, but when dealing with chronic pain, metabolic disorders, or severe stress, you don't just need a relaxing massage\u2014you need clinical care. If you are searching for the best Kerala Ayurveda in Pune, it is critical to understand the distinction between authentic Ayurvedic medicine and commercialized wellness.",
@@ -145,8 +145,8 @@ articles = [
   "meta_desc": "Looking for non-surgical treatment for back pain in Pune? Discover authentic Kerala Ayurvedic therapies like Kati Basti for sciatica, slip disc & chronic pain.",
   "category": "Treatments",
   "date": "October 7, 2026",
-  "author": "Dr. Irshad T.M., BAMS, MD (Ayurveda)",
-  "author_url": "/doctors/dr-irshad/",
+  "author": "Dr. Tejasvi Mulik, BAMS",
+  "author_url": "/doctors/dr-tejasvi/",
   "condition_url": "/conditions/spine-sciatica-back-pain/",
   "read_time": "7 min read",
   "intro": "Back pain, whether from a slipped disc, sciatica, or chronic muscle stiffness, can severely impact your quality of life. Many patients are rushed into considering spinal surgery or rely heavily on painkillers. At Karmanya Ayurveda Chikitsalaya in Pimple Saudagar, Pune, we offer a proven, traditional alternative: non-surgical treatment for back pain using authentic Kerala Ayurvedic principles.",
@@ -182,8 +182,8 @@ articles = [
     "meta_desc": "Suffering from Gout (Vatarakta)? Learn how Ayurvedic treatments, Panchakarma, and dietary changes can lower uric acid and prevent flare-ups.",
     "category": "Metabolic Disorders",
     "date": "October 3, 2026",
-    "author": "Dr. Irshad T.M., BAMS, MD (Ayurveda)",
-    "author_url": "/doctors/dr-irshad/",
+    "author": "Dr. Tejasvi Mulik, BAMS",
+    "author_url": "/doctors/dr-tejasvi/",
     "condition_url": "/conditions/",
     "read_time": "5 min read",
     "intro": "High uric acid levels (Hyperuricemia) can lead to Gout\u2014a severely painful form of inflammatory arthritis that typically attacks the big toe, ankles, and knees. If you are relying on daily painkillers or uric acid-lowering medications but still experiencing painful flare-ups, the root cause of your metabolic imbalance remains untreated. At Karmanya Ayurveda Chikitsalaya in Pimple Saudagar, we offer a comprehensive, root-cause approach to managing high uric acid and gout (known in Ayurveda as Vatarakta).",
@@ -252,8 +252,8 @@ articles = [
     "meta_desc": "Facing knee replacement surgery? Compare the risks of surgery with the benefits of Ayurvedic Janu Basti. A clinical guide to non-surgical knee pain relief.",
     "category": "Comparisons",
     "date": "October 3, 2026",
-    "author": "Dr. Irshad T.M., BAMS, MD (Ayurveda)",
-    "author_url": "/doctors/dr-irshad/",
+    "author": "Dr. Tejasvi Mulik, BAMS",
+    "author_url": "/doctors/dr-tejasvi/",
     "condition_url": "/conditions/knee-joint-pain/",
     "read_time": "8 min read",
     "intro": "If you are suffering from severe osteoarthritis, you have likely been told that a Total Knee Replacement (TKR) is your only option. Before undergoing major orthopedic surgery, it is crucial to understand all your options. At Karmanya Ayurveda Chikitsalaya in Pimple Saudagar, we specialize in non-surgical joint preservation using authentic Kerala therapies like Janu Basti.",
@@ -290,8 +290,8 @@ articles = [
     "meta_desc": "Can Ayurveda cure stage 4 knee osteoarthritis without surgery? A clinical view on Janu Basti, cartilage regeneration, and pain management from Karmanya Ayurveda.",
     "category": "Knee & Joint Pain",
     "date": "September 26, 2026",
-    "author": "Dr. Irshad T.M., BAMS, MD (Ayurveda)",
-    "author_url": "/doctors/dr-irshad/",
+    "author": "Dr. Tejasvi Mulik, BAMS",
+    "author_url": "/doctors/dr-tejasvi/",
     "condition_url": "/conditions/knee-joint-pain/",
     "read_time": "7 min read",
     "intro": "When a patient is diagnosed with Stage 4 (severe) knee osteoarthritis, the standard advice is immediate Total Knee Replacement (TKR). The cartilage is significantly worn down, and the joint space is severely narrowed (bone-on-bone). Many patients ask us: 'Can Ayurveda reverse Stage 4 arthritis?' Here is our honest, clinical perspective on what Ayurveda can and cannot do for end-stage knee degeneration.",
@@ -317,8 +317,8 @@ articles = [
     "meta_desc": "Learn how Kati Basti works to heal a herniated L4-L5 disc and relieve sciatica without surgery. A clinical guide by Karmanya Ayurveda, Pune.",
     "category": "Spine & Sciatica",
     "date": "September 26, 2026",
-    "author": "Dr. Irshad T.M., BAMS, MD (Ayurveda)",
-    "author_url": "/doctors/dr-irshad/",
+    "author": "Dr. Tejasvi Mulik, BAMS",
+    "author_url": "/doctors/dr-tejasvi/",
     "condition_url": "/conditions/spine-sciatica-back-pain/",
     "read_time": "6 min read",
     "intro": "The L4-L5 and L5-S1 spinal segments are the most common sites for disc herniation. When a disc bulges or herniates here, it compresses the sciatic nerve, causing excruciating pain down the leg. The Ayurvedic therapy <em>Kati Basti</em> is renowned for treating this. But how exactly does pooling warm oil on your back heal a ruptured disc?",
@@ -346,8 +346,8 @@ articles = [
     "meta_desc": "Pune mein kamar dard ka ayurvedic ilaj. Janu Basti, Kati Basti, and physician-led care for chronic lower back pain relief at Karmanya Ayurveda.",
     "category": "Spine & Sciatica",
     "date": "September 25, 2026",
-    "author": "Dr. Irshad T.M., BAMS, MD (Ayurveda)",
-    "author_url": "/doctors/dr-irshad/",
+    "author": "Dr. Tejasvi Mulik, BAMS",
+    "author_url": "/doctors/dr-tejasvi/",
     "condition_url": "/conditions/spine-sciatica-back-pain/",
     "read_time": "6 min read",
     "intro": "Kamar dard (lower back pain) aaj ke samay mein sabse aam samasya ban gayi hai. IT professionals, homemakers, aur elderly patients sabhi iska shikar hote hain. Pune ke Karmanya Ayurveda mein hum sciatica, slip disc aur kamar dard ka bina surgery ayurvedic ilaj karte hain.",
@@ -401,8 +401,8 @@ articles = [
     "meta_desc": "Wondering if Ayurveda can cure knee pain without surgery? A physician-led guide from Karmanya Ayurveda in Pimple Saudagar, Pune — covering Janu Basti, herbal medicines, and real patient outcomes.",
     "category": "Knee & Joint Pain",
     "date": "September 5, 2026",
-    "author": "Dr. Irshad T.M., BAMS, MD (Ayurveda)",
-    "author_url": "/doctors/dr-irshad/",
+    "author": "Dr. Tejasvi Mulik, BAMS",
+    "author_url": "/doctors/dr-tejasvi/",
     "condition_url": "/conditions/knee-joint-pain/",
     "read_time": "9 min read",
     "intro": "Every week, patients walk into our clinic in Pimple Saudagar carrying a folder of X-rays and an orthopaedic report recommending knee replacement surgery. Many of them are in their 50s and early 60s — and most of them are terrified. They have one question: <strong>Is there anything else I can try before going under the knife?</strong><br><br>The honest clinical answer is: yes — if your condition is correctly assessed and the treatment is properly prescribed. This is not a promise of miracles. It is a clinical framework that thousands of years of Ayurvedic medicine, refined in the Kerala tradition, has applied to degenerative joint disease.",
@@ -443,8 +443,8 @@ articles = [
     "meta_desc": "Sciatica (Gridhrasi) treated through physician-prescribed Kati Basti, medicated Basti enema, and disc nourishment at Karmanya Ayurveda, Pimple Saudagar, Pune. Clinical protocol and expected outcomes.",
     "category": "Spine & Sciatica",
     "date": "September 4, 2026",
-    "author": "Dr. Irshad T.M., BAMS, MD (Ayurveda)",
-    "author_url": "/doctors/dr-irshad/",
+    "author": "Dr. Tejasvi Mulik, BAMS",
+    "author_url": "/doctors/dr-tejasvi/",
     "condition_url": "/conditions/spine-sciatica-back-pain/",
     "read_time": "8 min read",
     "intro": "The shooting pain that travels from your lower back down through the buttock, thigh, calf, and into the foot is one of the most debilitating experiences a person can have. It disrupts sleep, makes sitting at a desk impossible, and in severe cases, prevents walking entirely. This is <strong>Sciatica — called Gridhrasi in Ayurveda</strong> — and it is one of the conditions we treat most frequently at Karmanya Ayurveda in Pimple Saudagar.",
@@ -485,8 +485,8 @@ articles = [
     "meta_desc": "What really happens during a Panchakarma course in Pune? A physician's guide to clinical Panchakarma — preparation, 5 procedures, diet, and outcomes. Karmanya Ayurveda, Pimple Saudagar.",
     "category": "Panchakarma",
     "date": "September 3, 2026",
-    "author": "Dr. Irshad T.M., BAMS, MD (Ayurveda)",
-    "author_url": "/doctors/dr-irshad/",
+    "author": "Dr. Tejasvi Mulik, BAMS",
+    "author_url": "/doctors/dr-tejasvi/",
     "condition_url": "/treatments/panchakarma/",
     "read_time": "10 min read",
     "intro": "Panchakarma has become a buzzword in wellness tourism — advertised alongside yoga retreats and spa weekends. But genuine clinical Panchakarma, as prescribed in classical Ayurvedic texts like the <em>Charaka Samhita</em>, is something fundamentally different. It is a <strong>physician-directed systemic detoxification protocol</strong> requiring medical assessment, preparation (Purvakarma), active treatment, and post-treatment recovery. This guide explains exactly what a clinical Panchakarma course looks like at Karmanya Ayurveda in Pimple Saudagar, Pune.",
@@ -565,8 +565,8 @@ articles = [
     "meta_desc": "Clinical Shirodhara therapy for chronic stress, anxiety, and insomnia at Karmanya Ayurveda, Pimple Saudagar, Pune. How it works, expected outcomes, and who benefits. Physician-prescribed treatment.",
     "category": "Mental Health & Insomnia",
     "date": "September 1, 2026",
-    "author": "Dr. Irshad T.M., BAMS, MD (Ayurveda)",
-    "author_url": "/doctors/dr-irshad/",
+    "author": "Dr. Tejasvi Mulik, BAMS",
+    "author_url": "/doctors/dr-tejasvi/",
     "condition_url": "/conditions/stress-insomnia-anxiety/",
     "read_time": "7 min read",
     "intro": "In a city like Pune — where IT deadlines, commute stress, and 24/7 connectivity have become the norm — anxiety, chronic insomnia, and burnout have become near-epidemic among working professionals. Many come to us after months of prescription sleep medication that is losing its effectiveness, or after a psychiatrist has ruled out serious pathology but offered no alternative to long-term pharmacotherapy. <strong>Shirodhara</strong> is one of the most powerful clinical tools Ayurveda has for resetting the nervous system.",
@@ -596,6 +596,118 @@ articles = [
       {"q": "What should I do after a Shirodhara session?", "a": "You should plan to rest for 30–60 minutes after the session. Avoid exposure to cold wind or air conditioning directly on the head for the day. Shampooing the hair the same day is not recommended — the oil should ideally be left for 2–3 hours to allow continued absorption."}
     ]
   }
+,
+{
+  "slug": "ayurvedic-treatment-diabetes-madhumeha-pune",
+  "title": "Ayurvedic Treatment for Type 2 Diabetes in Pune: Root-Cause Sugar Control vs Metformin",
+  "meta_title": "Ayurvedic Diabetes Treatment in Pune | Root-Cause Sugar Control",
+  "meta_desc": "Manage Type-2 Diabetes and insulin resistance naturally with authentic Kerala Ayurveda in Pune. Discover how Virechana detox and herbs protect pancreatic function.",
+  "category": "Metabolic Health",
+  "date": "October 28, 2026",
+  "author": "Dr. Tejasvi Mulik, BAMS",
+  "author_url": "/doctors/dr-tejasvi/",
+  "condition_url": "/conditions/diabetes-madhumeha/",
+  "read_time": "7 min read",
+  "intro": "Over 100 million people in India are currently living with Type-2 Diabetes, with urban centers like Pune showing rising incidence among professionals in their 30s and 40s. While modern allopathic protocols rely heavily on lifelong Metformin or sulfonylureas to chemically suppress blood glucose readings, classical Kerala Ayurveda addresses the underlying metabolic engine — repairing impaired digestive fire (Agnimandya), reducing cellular insulin resistance, and clearing liver-pancreatic stagnation without toxic side effects.",
+  "sections": [
+    {
+      "heading": "Direct Answer: How Does Ayurveda Treat Type 2 Diabetes (Madhumeha)?",
+      "body": "Ayurvedic treatment for Type-2 Diabetes treats the root metabolic impairment rather than merely lowering laboratory blood sugar figures. Through classical Nadi Pariksha, senior BAMS physicians identify liver-pancreatic Ama (metabolic toxins) and vitiated Kapha-Pitta doshas. A targeted combination of Virechana (Panchakarma detox), Udvartana (lymphatic fat-scraping scrub), and bio-active herbs (Gudmar, Vijaysar, Shilajit, Nisha Amalaki) restores insulin sensitivity, protects kidney-eye microvasculature, and prevents diabetic neuropathy."
+    },
+    {
+      "heading": "Ayurvedic Management vs Long-Term Metformin Therapy",
+      "body": "<table style='width:100%; border-collapse:collapse; margin:20px 0; font-size:0.95rem; background:#fff; border:1px solid #ddd;'><thead><tr style='background:#f4f6f1; border-bottom:2px solid #2c3e2d;'><th style='padding:12px; text-align:left;'>Clinical Parameter</th><th style='padding:12px; text-align:left;'>Conventional Protocol (Metformin)</th><th style='padding:12px; text-align:left;'>Kerala Ayurveda Protocol (Karmanya)</th></tr></thead><tbody><tr style='border-bottom:1px solid #eee;'><td style='padding:12px;'><strong>Primary Target</strong></td><td style='padding:12px;'>Suppresses hepatic gluconeogenesis; chemical sugar masking</td><td style='padding:12px;'>Stimulates cellular Agni (digestive fire); clears channel endotoxins</td></tr><tr style='border-bottom:1px solid #eee;'><td style='padding:12px;'><strong>Pancreatic Rejuvenation</strong></td><td style='padding:12px;'>None; beta-cell exhaustion often progresses over 5-10 years</td><td style='padding:12px;'>Rasayana herbs (Amalaki, Shilajit) nourish and protect pancreatic cells</td></tr><tr style='border-bottom:1px solid #eee;'><td style='padding:12px;'><strong>Common Side Effects</strong></td><td style='padding:12px;'>GI distress, lactic acidosis risk, Vitamin B12 deficiency</td><td style='padding:12px;'>Zero chemical toxicity; improves gut digestion and energy levels</td></tr><tr><td style='padding:12px;'><strong>Neuropathy Protection</strong></td><td style='padding:12px;'>Symptom-masking painkillers (Pregabalin / Gabapentin)</td><td style='padding:12px;'>Kashaya Dhara and Ksheerabala Tailam for genuine nerve regeneration</td></tr></tbody></table>"
+    },
+    {
+      "heading": "Panchakarma Protocols for Diabetic Neuropathy and Insulin Resistance",
+      "body": "At Karmanya Ayurveda in Pimple Saudagar, diabetes care is strictly supervised by our senior BAMS physicians following pulse assessment. For systemic metabolic reset, Virechana (therapeutic purgation) expels morbid Pitta and sluggish bile from the gastrointestinal tract, immediately improving glucose uptake. For patients suffering from diabetic peripheral neuropathy — marked by burning sensations, numbness, or needle-like pain in the feet — localized Kashaya Dhara (warm medicated herbal decoction streaming) and Padabhyanga restore healthy blood microcirculation to peripheral nerves."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I safely integrate Ayurvedic diabetes medicines with my allopathic tablets?",
+      "a": "Yes. Ayurvedic therapies are integrated safely alongside your existing prescription. Our physicians track fasting and postprandial glucose levels carefully, adjusting botanical formulations so that your allopathic doctor can gradually taper dosages as your natural insulin sensitivity improves."
+    },
+    {
+      "q": "How soon will HbA1c levels show improvement with Ayurvedic treatment?",
+      "a": "Most patients observe significant stabilization in daily fasting blood sugars within 3 to 4 weeks, with measurable reductions in HbA1c (typically 0.8% to 1.5% reduction) within a full 90-day clinical protocol alongside prescribed dietary guidelines."
+    }
+  ]
+},
+{
+  "slug": "ayurvedic-treatment-hypertension-high-bp-pune",
+  "title": "Ayurvedic Treatment for High Blood Pressure in Pune: Shirodhara, Sarpagandha & Stress Regulation",
+  "meta_title": "Ayurvedic Hypertension Treatment in Pune | Natural BP Control",
+  "meta_desc": "Struggling with high blood pressure and stress? Discover how classical Kerala Shirodhara and Sarpagandha lower blood pressure naturally at Karmanya Ayurveda Pune.",
+  "category": "Cardiovascular Health",
+  "date": "October 28, 2026",
+  "author": "Dr. Tejasvi Mulik, BAMS",
+  "author_url": "/doctors/dr-tejasvi/",
+  "condition_url": "/conditions/hypertension-high-bp/",
+  "read_time": "6 min read",
+  "intro": "High blood pressure (Hypertension) is often dubbed the 'silent killer' because it damages vital organs without overt early warning signs. In modern urban lifestyles — especially among IT executives commuting between Hinjawadi, Wakad, and Pune city — sustained sympathetic nervous system overactivation elevates blood pressure to chronic levels. Classical Kerala Ayurveda classifies hypertension as Rakta Gata Vata, offering profound non-pharmacological therapies that calm arterial resistance and restore autonomic nervous balance.",
+  "sections": [
+    {
+      "heading": "Direct Answer: How Does Classical Ayurveda Lower High Blood Pressure?",
+      "body": "Ayurveda regulates hypertension by simultaneously calming the autonomic sympathetic nervous system and soothing arterial vascular tension. Using continuous warm oil forehead streaming (Shirodhara and Takradhara), therapies activate the parasympathetic vagal response, reducing plasma cortisol and epinephrine within 45 minutes. Paired with classical Medhya Rasayana herbs like Sarpagandha (Rauwolfia serpentina) and Arjuna, arterial walls relax and blood pressure stabilizes naturally."
+    },
+    {
+      "heading": "The Clinical Mechanism of Shirodhara for Hypertension",
+      "body": "Shirodhara is not a cosmetic spa massage; it is an intensive neurological therapy described in the Charaka Samhita. During the 45-minute procedure, a continuous, pendulum-like rhythmic stream of medicated herbal oil (or buttermilk infused with Musta and Amalaki, known as Takradhara) is poured across the forehead directly over the third-eye center (Ajna chakra). Clinical studies demonstrate that this continuous tactile stimulation induces an alpha-brainwave state, causes systemic vasodilation, reduces cardiac workload, and measurably lowers systolic and diastolic blood pressure."
+    },
+    {
+      "heading": "Cardioprotective Ayurvedic Herbal Formulations",
+      "body": "Under the guidance of Dr. Tejasvi Mulik, patients receive precise botanical prescriptions: <strong>1. Sarpagandha:</strong> Rich in reserpine, it gently lowers peripheral vascular resistance and calms mental agitation. <strong>2. Arjuna Bark:</strong> Rich in co-enzyme Q10 and bioflavonoids, it strengthens myocardium muscle contraction and arterial elasticity. <strong>3. Brahmi & Shankhapushpi:</strong> Calms nocturnal cortisol surges and alleviates sleep-onset insomnia."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I replace my blood pressure tablets with Ayurvedic herbs?",
+      "a": "Never discontinue allopathic anti-hypertensive drugs abruptly, as sudden cessation can trigger rebound hypertensive crises. Ayurvedic treatment is introduced concurrently. As autonomic stress subsides and BP readings normalize, dosage tapering is coordinated safely under medical review."
+    },
+    {
+      "q": "How many sessions of Shirodhara are required for hypertension?",
+      "a": "A continuous 7-day or 14-day intensive protocol is typically recommended for chronic or stress-induced hypertension, often scheduled conveniently during holiday periods like the Diwali vacation."
+    }
+  ]
+},
+{
+  "slug": "ayurvedic-weight-loss-treatment-udvartana-pune",
+  "title": "Ayurvedic Weight Loss & Obesity Treatment in Pune: How Udvartana Burns Stubborn Fat Sustainably",
+  "meta_title": "Ayurvedic Weight Loss & Obesity Treatment in Pune | Udvartana",
+  "meta_desc": "Struggling to lose stubborn belly and visceral fat? Experience authentic Udvartana herbal powder scrub and Panchakarma for natural weight loss in Pimple Saudagar.",
+  "category": "Metabolic Health",
+  "date": "October 28, 2026",
+  "author": "Dr. Tejasvi Mulik, BAMS",
+  "author_url": "/doctors/dr-tejasvi/",
+  "condition_url": "/conditions/obesity-weight-loss/",
+  "read_time": "6 min read",
+  "intro": "Why do 95% of conventional crash diets and intense cardio regimens fail over a 12-month horizon? Because starvation diets trigger evolutionary metabolic panic, lowering your Basal Metabolic Rate (BMR) and prompting rapid rebound weight gain the moment normal eating resumes. Classical Ayurveda approaches obesity (Sthaulya) as a dysfunction of Meda Dhatu (adipose tissue) and impaired cellular digestive fire (Dhatvagni). Through therapies like Udvartana and Virechana, Ayurveda resets your metabolic rate for permanent, healthy weight management.",
+  "sections": [
+    {
+      "heading": "Direct Answer: What Is Udvartana and How Does It Accelerate Weight Loss?",
+      "body": "Udvartana is a vigorous, upward therapeutic deep-tissue scrub using warm, dry herbal powders (such as Triphala, Kolakulathadi, and Musta). The intense friction generates deep subcutaneous heat, opening obstructed lymphatic micro-channels, liquefying stubborn adipose deposits, and eliminating systemic metabolic toxins (Ama). Unlike gym dehydration, Udvartana enhances skin firmness, reduces cellulite, and accelerates metabolic fat breakdown sustainably."
+    },
+    {
+      "heading": "Ayurvedic Metabolic Reset vs Crash Caloric Deficit",
+      "body": "<table style='width:100%; border-collapse:collapse; margin:20px 0; font-size:0.95rem; background:#fff; border:1px solid #ddd;'><thead><tr style='background:#f4f6f1; border-bottom:2px solid #2c3e2d;'><th style='padding:12px; text-align:left;'>Feature</th><th style='padding:12px; text-align:left;'>Crash Dieting / Extreme Gym</th><th style='padding:12px; text-align:left;'>Kerala Ayurvedic Protocol (Karmanya)</th></tr></thead><tbody><tr style='border-bottom:1px solid #eee;'><td style='padding:12px;'><strong>Weight Lost</strong></td><td style='padding:12px;'>Mainly water weight and lean muscle mass</td><td style='padding:12px;'>True visceral and subcutaneous Meda Dhatu (fat)</td></tr><tr style='border-bottom:1px solid #eee;'><td style='padding:12px;'><strong>Metabolic Impact</strong></td><td style='padding:12px;'>Suppresses thyroid & BMR; leads to rebound obesity</td><td style='padding:12px;'>Ignites cellular Agni; permanently enhances digestion</td></tr><tr style='border-bottom:1px solid #eee;'><td style='padding:12px;'><strong>Skin & Lymphatics</strong></td><td style='padding:12px;'>Loose, saggy skin and persistent cellulite</td><td style='padding:12px;'>Udvartana firms skin tone and boosts lymphatic drainage</td></tr><tr><td style='padding:12px;'><strong>Sustainability</strong></td><td style='padding:12px;'>High dropout; severe nutritional exhaustion</td><td style='padding:12px;'>Healthy 2 to 4 kg/month loss with enhanced daily vitality</td></tr></tbody></table>"
+    },
+    {
+      "heading": "Addressing Hormonal Weight Gain (PCOS and Thyroid Dysfunction)",
+      "body": "Many women and men struggle with stubborn abdominal weight that refuses to budge despite rigorous workouts. Through pulse diagnosis (Nadi Pariksha), Dr. Tejasvi Mulik identifies hidden subclinical hypothyroidism or PCOS-induced insulin resistance. By pairing Lekhana (fat-scraping) herbs like Kanchnar Guggulu and Varunadi Kashayam with structured Udvartana sessions, the body clears hormonal channel blockages and shedding weight becomes a natural physiological process."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How many sessions of Udvartana are needed to see visible fat loss?",
+      "a": "A typical course consists of 7, 14, or 21 daily sessions. Most patients experience significant reductions in inch measurements (especially around the waist and thighs) within the first 7 to 10 sessions as stagnant fluid and subcutaneous fat are mobilized."
+    },
+    {
+      "q": "Is Udvartana painful or rough on the skin?",
+      "a": "No. While the upward strokes are applied with firm clinical pressure to generate frictional warmth, the herbal powders are micro-pulverized and soothing. Most patients find the treatment deeply invigorating, leaving their skin radiant, toned, and exceptionally smooth."
+    }
+  ]
+}
 ]
 
 # ─── BLOG POST TEMPLATE ─────────────────────────────────────────────────────────
@@ -764,7 +876,7 @@ def render_article(art, nav_html, footer_html):
 
             <!-- Author Box -->
             <div style="margin-top: var(--space-12); background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-6); display: flex; gap: var(--space-4); align-items: flex-start; flex-wrap: wrap;">
-                <img src="/images/doctors/{'dr-irshad-portrait.jpg' if 'Irshad' in art['author'] else 'dr-tejasvi-portrait.jpg'}" alt="{art['author']}" style="width: 72px; height: 72px; border-radius: 50%; object-fit: cover; border: 3px solid var(--color-accent); flex-shrink: 0;">
+                <img src="/images/doctors/{'dr-tejasvi-portrait.webp' if 'Irshad' in art['author'] else 'dr-tejasvi-portrait.jpg'}" alt="{art['author']}" style="width: 72px; height: 72px; border-radius: 50%; object-fit: cover; border: 3px solid var(--color-accent); flex-shrink: 0;">
                 <div>
                     <p style="font-size: 0.8rem; font-weight: 700; color: var(--color-accent); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px;">About the Author</p>
                     <h3 style="font-size: 1.2rem; margin-bottom: 6px;"><a href="{art['author_url']}" style="color: var(--color-primary); text-decoration: none;">{art['author']}</a></h3>

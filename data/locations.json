@@ -45,7 +45,8 @@
       "latitude": 18.5956,
       "longitude": 73.7979,
       "postal_code": "411027"
-    }
+    },
+    "lead": ""
   },
   {
     "id": "wakad",
@@ -93,7 +94,8 @@
       "latitude": 18.5987,
       "longitude": 73.7667,
       "postal_code": "411057"
-    }
+    },
+    "lead": ""
   },
   {
     "id": "hinjawadi",
@@ -141,7 +143,8 @@
       "latitude": 18.5913,
       "longitude": 73.7389,
       "postal_code": "411057"
-    }
+    },
+    "lead": ""
   },
   {
     "id": "baner",
@@ -189,7 +192,8 @@
       "latitude": 18.559,
       "longitude": 73.7868,
       "postal_code": "411045"
-    }
+    },
+    "lead": ""
   },
   {
     "id": "aundh",
@@ -237,7 +241,8 @@
       "latitude": 18.5601,
       "longitude": 73.8031,
       "postal_code": "411007"
-    }
+    },
+    "lead": ""
   },
   {
     "id": "pcmc",
@@ -285,7 +290,8 @@
       "latitude": 18.6298,
       "longitude": 73.7997,
       "postal_code": "411018"
-    }
+    },
+    "lead": ""
   },
   {
     "id": "rahatani",
@@ -333,7 +339,8 @@
       "latitude": 18.6015,
       "longitude": 73.7912,
       "postal_code": "411017"
-    }
+    },
+    "lead": ""
   },
   {
     "id": "ravet",
@@ -381,7 +388,8 @@
       "latitude": 18.6475,
       "longitude": 73.7444,
       "postal_code": "411044"
-    }
+    },
+    "lead": ""
   },
   {
     "id": "chinchwad",
@@ -425,7 +433,8 @@
       "latitude": 18.6298,
       "longitude": 73.7997,
       "postal_code": "411033"
-    }
+    },
+    "lead": ""
   },
   {
     "id": "baner",
@@ -465,7 +474,8 @@
       "latitude": 18.559,
       "longitude": 73.7868,
       "postal_code": "411045"
-    }
+    },
+    "lead": ""
   },
   {
     "id": "aundh",
@@ -505,7 +515,8 @@
       "latitude": 18.5626,
       "longitude": 73.8087,
       "postal_code": "411007"
-    }
+    },
+    "lead": ""
   },
   {
     "id": "rahatani",
@@ -545,7 +556,8 @@
       "latitude": 18.6015,
       "longitude": 73.7846,
       "postal_code": "411017"
-    }
+    },
+    "lead": ""
   },
   {
     "id": "pimpri",
@@ -584,7 +596,8 @@
       "latitude": 18.6279,
       "longitude": 73.8014,
       "postal_code": "411018"
-    }
+    },
+    "lead": ""
   },
   {
     "id": "kalewadi",
@@ -623,7 +636,8 @@
       "latitude": 18.6046,
       "longitude": 73.785,
       "postal_code": "411017"
-    }
+    },
+    "lead": ""
   },
   {
     "id": "thergaon",
@@ -662,6 +676,7 @@
       "latitude": 18.6186,
       "longitude": 73.7656,
       "postal_code": "411033"
-    }
+    },
+    "lead": ""
   }
 ]
