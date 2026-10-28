@@ -9,7 +9,7 @@ NEW_WHATSAPP_FLOAT = '''
         <div id="wa-label" style="background: #fff; color: #1a1a1a; font-size: 0.88rem; font-weight: 600; padding: 8px 14px; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); white-space: nowrap; display: none; border: 1px solid #e5e5e5;">
             Chat with our doctor on WhatsApp
         </div>
-        <a href="https://wa.me/919819820017?text=Hello%20Dr.%20Irshad%2C%20I%20would%20like%20to%20book%20a%20consultation%20at%20Karmanya%20Ayurveda." 
+        <a href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20book%20a%20consultation." 
            target="_blank" rel="noopener"
            aria-label="Chat with Karmanya Ayurveda on WhatsApp"
            style="display: flex; align-items: center; justify-content: center; width: 60px; height: 60px; border-radius: 50%; background: #25D366; box-shadow: 0 4px 20px rgba(37,211,102,0.45); transition: transform 0.2s, box-shadow 0.2s; text-decoration: none;"

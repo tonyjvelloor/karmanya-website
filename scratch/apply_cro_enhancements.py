@@ -37,7 +37,7 @@ STICKY_BAR_HTML = """
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
             Call Clinic
         </a>
-        <a href="https://wa.me/919819820017?text=Hello%20Dr.%20Irshad%2C%20I%20would%20like%20to%20book%20a%20consultation%20at%20Karmanya%20Ayurveda." target="_blank" rel="noopener" class="mobile-sticky-btn" style="background: #25D366; color: white;">
+        <a href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20I%20would%20like%20to%20book%20a%20consultation." target="_blank" rel="noopener" class="mobile-sticky-btn" style="background: #25D366; color: white;">
             <svg width="16" height="16" viewBox="0 0 32 32" fill="white"><path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.668 4.61 1.832 6.51L4 29l7.695-1.807A12.94 12.94 0 0016 27c6.627 0 12-5.373 12-12S22.627 3 16 3z"/></svg>
             WhatsApp
         </a>
@@ -264,7 +264,7 @@ new_script = """    <script>
                         </div>
                     </div>
                     <p style="font-weight: 600; color: var(--color-primary); margin-bottom: 12px;">Need an immediate confirmation?</p>
-                    <a href="https://wa.me/919819820017?text=Hello%20Dr.%20Irshad%2C%20my%20name%20is%20${encodeURIComponent(name)}%20(${encodeURIComponent(phone)}).%20I%20just%20submitted%20a%20consultation%20request%20for%20${encodeURIComponent(concernText)}%20at%20Karmanya%20Ayurveda." target="_blank" class="btn btn-primary" style="background: #25D366; border-color: #25D366; width: 100%; display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 1.05rem; padding: 14px; text-decoration: none;">
+                    <a href="https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20my%20name%20is%20${encodeURIComponent(name)}%20(${encodeURIComponent(phone)}).%20I%20just%20submitted%20a%20consultation%20request%20for%20${encodeURIComponent(concernText)}%20at%20Karmanya%20Ayurveda." target="_blank" class="btn btn-primary" style="background: #25D366; border-color: #25D366; width: 100%; display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 1.05rem; padding: 14px; text-decoration: none;">
                         <svg width="20" height="20" viewBox="0 0 32 32" fill="white"><path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.668 4.61 1.832 6.51L4 29l7.695-1.807A12.94 12.94 0 0016 27c6.627 0 12-5.373 12-12S22.627 3 16 3z"/></svg>
                         Confirm Slot on WhatsApp &rarr;
                     </a>
@@ -273,7 +273,7 @@ new_script = """    <script>
             
             // 4. Also launch WhatsApp directly after 1.2s for convenience
             setTimeout(function() {
-                var waLink = "https://wa.me/919819820017?text=Hello%20Dr.%20Irshad%2C%20my%20name%20is%20" + encodeURIComponent(name) + "%20(" + encodeURIComponent(phone) + ").%20I%20just%20submitted%20a%20consultation%20request%20for%20" + encodeURIComponent(concernText) + "%20at%20Karmanya%20Ayurveda.";
+                var waLink = "https://wa.me/919819820017?text=Hello%20Karmanya%20Ayurveda%2C%20my%20name%20is%20" + encodeURIComponent(name) + "%20(" + encodeURIComponent(phone) + ").%20I%20just%20submitted%20a%20consultation%20request%20for%20" + encodeURIComponent(concernText) + "%20at%20Karmanya%20Ayurveda.";
                 window.open(waLink, '_blank');
             }, 1200);
         }

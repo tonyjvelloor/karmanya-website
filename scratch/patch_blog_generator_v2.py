@@ -9,8 +9,8 @@ with open(blog_gen_path, 'r', encoding='utf-8') as f:
 # 1. Replace Dr. Irshad author references with Dr. Tejasvi Mulik
 code = code.replace('"author": "Dr. Irshad T.M., BAMS, MD (Ayurveda)"', '"author": "Dr. Tejasvi Mulik, BAMS"')
 code = code.replace('"author_url": "/doctors/dr-irshad/"', '"author_url": "/doctors/dr-tejasvi/"')
-code = code.replace("Hi Dr. Irshad", "Hi Dr. Tejasvi")
-code = code.replace("Hello Dr. Irshad", "Hello Dr. Tejasvi")
+code = code.replace("Hello Karmanya Ayurveda", "Hi Dr. Tejasvi")
+code = code.replace("Hello Karmanya Ayurveda", "Hello Dr. Tejasvi")
 code = code.replace("dr-irshad-portrait.jpg", "dr-tejasvi-portrait.webp")
 code = code.replace("dr-irshad-portrait.webp", "dr-tejasvi-portrait.webp")
 

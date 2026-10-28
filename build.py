@@ -176,7 +176,7 @@ def generate_seo_head(page_type, page_data, site_data):
                     "name": "Does Karmanya Ayurveda offer non-surgical treatment for knee and spine pain in Pune?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Yes. Karmanya Ayurveda specializes in physician-prescribed, non-surgical management of knee osteoarthritis, sciatica, and lumbar disc bulges. Using authentic Kerala therapies like Janu Basti, Kati Basti, and Patra Pinda Sweda, our doctors focus on restoring synovial fluid and decompressing trapped nerve roots without surgery."
+                        "text": "Yes. Karmanya Ayurveda specializes in physician-prescribed, non-surgical management of knee osteoarthritis, sciatica, and lumbar disc bulges. Using authentic Kerala therapies like Janu Basti, Kati Basti, and Patra Pinda Sweda, our doctors focus on nourishing joint tissues, soothing irritated nerve pathways, and improving mobility without surgery."
                     }
                 },
                 {
@@ -633,7 +633,8 @@ def build_site():
         treat['clinical']['resolved_conditions'] = resolved_conditions
         
     for doc in doctors:
-        urls_for_sitemap.append((f"https://karmanyaayurveda.com/doctors/{doc['slug']}/", '0.8', 'monthly'))
+        if not doc.get('on_leave') and not doc.get('inactive'):
+            urls_for_sitemap.append((f"https://karmanyaayurveda.com/doctors/{doc['slug']}/", '0.8', 'monthly'))
         all_errors.extend(validate_page(doc, 'doctor'))
 
     for loc in locations:
@@ -962,10 +963,25 @@ def build_site():
     with open(os.path.join(base_dir, 'templates', 'doctor.html'), 'r') as f:
         doc_template = f.read()
     for doc in doctors:
-        data = {**doc, **site_data}
-        data['seo_head_tags'] = generate_seo_head('doctor', doc, site_data)
         out_dir = os.path.join(base_dir, 'public', 'doctors', doc['slug'])
         os.makedirs(out_dir, exist_ok=True)
+        if doc.get('on_leave') or doc.get('inactive'):
+            with open(os.path.join(out_dir, 'index.html'), 'w') as f:
+                f.write("""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0; url=/doctors/dr-tejasvi/">
+    <link rel="canonical" href="https://karmanyaayurveda.com/doctors/dr-tejasvi/">
+    <title>Redirecting to Dr. Tejasvi Mulik | Karmanya Ayurveda</title>
+</head>
+<body>
+    <p>Redirecting to <a href="/doctors/dr-tejasvi/">Senior Consulting Physician Dr. Tejasvi Mulik</a>...</p>
+</body>
+</html>""")
+            continue
+        data = {**doc, **site_data}
+        data['seo_head_tags'] = generate_seo_head('doctor', doc, site_data)
         with open(os.path.join(out_dir, 'index.html'), 'w') as f:
             f.write(render_template(doc_template, data))
             
@@ -1286,15 +1302,15 @@ Sitemap: https://karmanyaayurveda.com/sitemap.xml
 ## 20 Specialized Chronic Conditions Treated
 1. Digestive & Metabolic: GERD / Acid Reflux, Chronic Constipation, Irritable Bowel Syndrome (IBS), Chronic Bloating, Type-2 Diabetes Management
 2. Joint & Musculoskeletal: Knee Osteoarthritis (Janu Sandhigata Vata), Lower Back Pain (Kati Shula), Rheumatoid & Osteo Arthritis, Frozen Shoulder (Apabahuka)
-3. Orthopedic & Nerve Decompression: Tennis Elbow, Carpal Tunnel Syndrome (Wrist Pain), Sciatica (Gridhrasi / Slip Disc), Cervical Spondylosis (Neck & Desk Strain)
+3. Orthopedic & Nerve Pathway Care: Tennis Elbow, Carpal Tunnel Syndrome (Wrist Pain), Sciatica (Gridhrasi / Slip Disc), Cervical Spondylosis (Neck & Desk Strain)
 4. Women's Health & Hormonal: Adenomyosis & Endometriosis, PCOS & PCOD, Uterine Fibroids, Infertility (Vandhyatva) & Garbha Sanskar
 5. Dermatology & Neuro-Vascular: Psoriasis (Kitibha Kushta), Chronic Eczema (Vicharchika), Migraine & Tension Headaches (Ardhavabhedaka), Stress & Insomnia (Anidra)
 
 ## Classical Kerala Therapies Administered
 - Nadi Pariksha: Traditional 3-finger radial pulse diagnosis for Dosha imbalance, Dhatu health, and metabolic root-cause mapping
 - Panchakarma: Complete 5-fold classical detoxification (Vamana, Virechana, Basti, Nasya, Raktamokshana) under strict medical supervision
-- Janu Basti: Classical warm medicated herbal oil reservoir over knee joints for cartilage restoration and synovial fluid nourishment
-- Kati Basti: Medicated herbal oil pool on the lumbosacral junction for disc herniation and sciatica nerve decompression
+- Janu Basti: Classical warm medicated herbal oil reservoir over knee joints for synovial fluid nourishment, joint lubrication, and mobility maintenance
+- Kati Basti: Medicated herbal oil pool on the lumbosacral junction for disc herniation care, sciatica nerve soothing, and muscular spasm relief
 - Griva Basti: Medicated herbal oil pool on the cervical spine for neck stiffness and cervical spondylosis
 - Shirodhara: Continuous rhythmic stream of warm medicated herbal oil (or Takra) on the forehead for anxiety, insomnia, and nervous system reboot
 - Kizhi (Patra Pinda & Churna Pinda Sweda): Medicated herbal poultices steamed in herbal decoctions for acute and chronic joint inflammation

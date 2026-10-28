@@ -42,6 +42,21 @@
   ],
   "redirects": [
     {
+      "source": "/doctors/dr-irshad",
+      "destination": "/doctors/dr-tejasvi/",
+      "permanent": true
+    },
+    {
+      "source": "/doctors/dr-irshad/",
+      "destination": "/doctors/dr-tejasvi/",
+      "permanent": true
+    },
+    {
+      "source": "/doctors/dr-irshad/(.*)",
+      "destination": "/doctors/dr-tejasvi/",
+      "permanent": true
+    },
+    {
       "source": "/panchakarma",
       "destination": "/treatments/panchakarma/",
       "permanent": true
