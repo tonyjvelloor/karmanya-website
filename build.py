@@ -749,12 +749,28 @@ def build_site():
     # 3b. Render Conditions Directory Hub
     with open(os.path.join(base_dir, 'templates', 'conditions.html'), 'r') as f:
         conditions_hub_template = f.read()
-        
+
+    condition_illustrations = {
+        'knee-joint-pain': '/images/condition-illustrations/knee-pain.webp',
+        'spine-sciatica-back-pain': '/images/condition-illustrations/lower-back-pain.webp',
+        'cervical-spondylosis-neck-pain': '/images/condition-illustrations/spondylosis.webp',
+        'digestive-metabolic-disorders': '/images/condition-illustrations/ibs.webp',
+        'skin-disorders-psoriasis': '/images/condition-illustrations/psoriasis.webp',
+        'womens-health-pcod-hormonal': '/images/condition-illustrations/pcos.webp',
+        'stress-insomnia-anxiety': '/images/condition-illustrations/migraine.webp',
+        'kerala-ayurveda': '/images/condition-illustrations/knee-pain.webp',
+        'diabetes-madhumeha': '/images/condition-illustrations/diabetes.webp',
+        'hypertension-high-bp': '/images/condition-illustrations/migraine.webp',
+        'obesity-weight-loss': '/images/condition-illustrations/bloating.webp',
+    }
+
     cond_grid_html = ""
     for c in conditions:
-        img_url = c.get('marketing', {}).get('image_url', '')
+        img_url = condition_illustrations.get(c['slug']) or c.get('marketing', {}).get('image_url', '')
         c_title = c['title']
-        img_html = f'<div class="condition-card-image" style="height: 160px; margin-bottom: 14px;"><img src="{img_url}" alt="{c_title} Ayurvedic Treatment" loading="lazy"></div>' if img_url else ''
+        img_html = f'''<div class="condition-illustration-wrap" style="margin-bottom: 16px;">
+            <img src="{img_url}" alt="{c_title} Ayurvedic Treatment" width="600" height="400" loading="lazy" decoding="async">
+        </div>''' if img_url else ''
         card = f"""
         <div class="condition-card">
             <div>
