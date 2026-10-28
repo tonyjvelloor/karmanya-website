@@ -3,21 +3,22 @@
     "id": "dr-irshad",
     "name": "Dr. Irshad T.M.",
     "slug": "dr-irshad",
-    "title": "Senior Staff Physician & Nadi Parikshan Specialist",
+    "on_leave": true,
+    "title": "Senior Staff Physician (On Long Leave)",
     "qualifications": "BAMS, MD (Ayurveda) - Rajiv Gandhi University of Health Sciences | Reg: MCIM-83742",
     "seo": {
-      "meta_title": "Dr. Irshad T.M. | Best Ayurvedic Doctor in Pune | Karmanya Ayurveda",
-      "meta_description": "Consult Dr. Irshad T.M., Senior Staff Physician at Karmanya Ayurveda in Pimple Saudagar, Pune. Specializing in Panchakarma, non-surgical spine & joint care, and Kerala therapies."
+      "meta_title": "Dr. Irshad T.M. | Ayurvedic Doctor | Karmanya Ayurveda",
+      "meta_description": "Dr. Irshad T.M. is currently on sabbatical leave. Consult Senior Physician Dr. Tejasvi Mulik at Karmanya Ayurveda in Pimple Saudagar, Pune."
     },
     "marketing": {
-      "hero_title": "Dr. Irshad T.M.",
-      "hero_description": "Expert in authentic Kerala Ashtavaidya Ayurveda, Panchakarma, non-surgical joint rehabilitation, and complex musculoskeletal care with 15+ years of clinical experience.",
+      "hero_title": "Dr. Irshad T.M. (On Leave)",
+      "hero_description": "Dr. Irshad is currently on sabbatical leave. Consult Senior Physician Dr. Tejasvi Mulik for classical Ashtavaidya Panchakarma and pain management.",
       "image_url": "/images/doctors/dr-irshad-portrait.webp"
     },
     "clinical": {
       "experience": "15+ Years",
       "clinical_focus": "Specializes in degenerative knee osteoarthritis, lumbar disc herniation, sciatica, and authentic Kerala Panchakarma therapies.",
-      "ayurvedic_approach": "Dr. Irshad combines classical Ashtavaidya Nadi Pariksha (pulse diagnosis) with modern physical assessment to design individualized, non-surgical treatment plans.",
+      "ayurvedic_approach": "Combines classical Ashtavaidya Nadi Pariksha with modern physical assessment.",
       "specialties": [
         "Pain Management",
         "Panchakarma",
@@ -25,77 +26,76 @@
         "Kerala Chikitsa",
         "Knee Osteoarthritis"
       ],
-      "related_treatments": [
-        "panchakarma",
-        "janu-basti",
-        "kati-basti",
-        "kizhi",
-        "abhyangam",
-        "kerala-chikitsa"
-      ],
-      "related_conditions": [
-        "knee-joint-pain",
-        "spine-sciatica-back-pain",
-        "cervical-spondylosis-neck-pain",
-        "stress-insomnia-anxiety"
-      ],
-      "role_subtitle": "Senior Staff Physician · Pain Management & Nadi Parikshan Specialist"
+      "related_treatments": [],
+      "related_conditions": [],
+      "role_subtitle": "Senior Staff Physician (Currently on Sabbatical Leave)"
     },
     "safety": {
       "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."
     },
     "metadata": {
-      "reviewed_by": "Clinical Review Board",
-      "reviewed_date": "September 2026",
-      "doctor_url": "/doctors/dr-irshad/"
+      "reviewed_by": "Dr. Tejasvi Mulik",
+      "reviewed_date": "October 2026",
+      "doctor_url": "/doctors/dr-tejasvi/"
     }
   },
   {
     "id": "dr-tejasvi",
     "name": "Dr. Tejasvi Mulik",
     "slug": "dr-tejasvi",
-    "title": "Staff Physician & Senior Consultant · Panchakarma & Metabolic Disorders",
+    "title": "Senior Staff Physician & Consultant · Joint Care, Spine, Women's Health & Panchakarma",
     "qualifications": "BAMS - Maharashtra University of Health Sciences | Reg: MCIM-69382",
     "seo": {
-      "meta_title": "Dr. Tejasvi Mulik | Ayurvedic Doctor in Pimple Saudagar, Pune | Karmanya",
-      "meta_description": "Consult Dr. Tejasvi Mulik, Staff Physician & Consultant at Karmanya Ayurveda in Pune. Specialist in women's hormonal health, PCOS/PCOD, chronic dermatology, and gut health."
+      "meta_title": "Dr. Tejasvi Mulik | Senior Ayurvedic Doctor in Pimple Saudagar, Pune | Karmanya",
+      "meta_description": "Consult Dr. Tejasvi Mulik, Senior Staff Physician at Karmanya Ayurveda in Pune. Specialist in non-surgical joint & spine care, Nadi Pariksha, women's hormonal health, and Panchakarma."
     },
     "marketing": {
       "hero_title": "Dr. Tejasvi Mulik",
-      "hero_description": "Specialist in women's health, PCOS/PCOD management, herbal dermatology, and metabolic digestive disorders with 10+ years of clinical practice.",
+      "hero_description": "Senior physician specializing in non-surgical knee & spine rehabilitation, classical Nadi Pariksha, women's hormonal health (PCOS/PCOD), and metabolic Panchakarma with 10+ years of clinical practice.",
       "image_url": "/images/doctors/dr-tejasvi-portrait.webp"
     },
     "clinical": {
       "experience": "10+ Years",
-      "clinical_focus": "Specializes in natural cycle regulation for PCOS/PCOD, chronic skin disorders (psoriasis, eczema), and IBS/metabolic digestive resets.",
-      "ayurvedic_approach": "Emphasizes targeted Ahara (dietary medicine) and Vihara (lifestyle rhythms) paired with classical herbal rasayanas and gentle detoxification to resolve chronic imbalances.",
+      "clinical_focus": "Specializes in non-surgical knee & spine rehabilitation, authentic Nadi Pariksha, PCOS/PCOD reversal, and chronic metabolic resets.",
+      "ayurvedic_approach": "Emphasizes targeted classical Kerala therapies (Janu Basti, Kati Basti, Greeva Basti) paired with Ahara (dietary medicine) and classical rasayanas to resolve chronic pain and metabolic imbalances.",
       "specialties": [
-        "Women's Wellness",
-        "PCOS / PCOD",
-        "Ayurvedic Dermatology",
-        "Digestive Health & IBS",
+        "Joint & Knee Care",
+        "Spine & Sciatica",
+        "Cervical & Neck Pain",
+        "Classical Nadi Pariksha",
+        "Panchakarma",
+        "Women's Wellness & PCOD",
         "Metabolic Reset"
       ],
       "related_treatments": [
+        "janu-basti",
+        "kati-basti",
         "panchakarma",
         "kerala-chikitsa",
         "abhyangam",
+        "kizhi",
         "shirodhara"
       ],
       "related_conditions": [
+        "knee-joint-pain",
+        "spine-sciatica-back-pain",
+        "cervical-spondylosis-neck-pain",
+        "kerala-ayurveda",
+        "diabetes-madhumeha",
+        "hypertension-high-bp",
+        "obesity-weight-loss",
         "womens-health-pcod-hormonal",
-        "skin-disorders-psoriasis",
         "digestive-metabolic-disorders",
         "stress-insomnia-anxiety"
       ],
-      "role_subtitle": "Staff Physician & Consultant · Panchakarma & Metabolic Disorders"
+      "role_subtitle": "Senior Staff Physician · Joint Care, Spine & Classical Panchakarma"
     },
     "safety": {
       "emergency_rule": "Seek appropriate medical evaluation for severe, sudden, worsening, or concerning symptoms. Ayurvedic care should not be presented as a substitute for emergency medical care."
     },
     "metadata": {
-      "reviewed_by": "Clinical Review Board",
-      "reviewed_date": "September 2026",
+      "reviewed_by": "Dr. Tejasvi Mulik",
+      "reviewed_date": "October 2026",
       "doctor_url": "/doctors/dr-tejasvi/"
     }
   }

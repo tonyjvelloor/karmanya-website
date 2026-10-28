@@ -895,10 +895,13 @@
 @media (max-width: 900px) {
     .booking-hero-card {
         grid-template-columns: 1fr !important;
+        display: flex !important;
+        flex-direction: column-reverse !important;
     }
     .booking-left-col {
         border-right: none !important;
-        border-bottom: 1px solid var(--color-border) !important;
+        border-top: 1px solid var(--color-border) !important;
+        border-bottom: none !important;
         padding: 28px 20px !important;
     }
     .booking-right-col {
@@ -1489,6 +1492,8 @@ html, body {
     /* Consultation booking card on mobile */
     .booking-hero-card {
         grid-template-columns: 1fr !important;
+        display: flex !important;
+        flex-direction: column-reverse !important;
         border-radius: 12px !important;
     }
     .booking-left-col, .booking-right-col {

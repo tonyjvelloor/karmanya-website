@@ -150,7 +150,7 @@ def generate_seo_head(page_type, page_data, site_data):
                     "@type": "Review",
                     "author": {"@type": "Person", "name": "Ramesh S."},
                     "reviewRating": {"@type": "Rating", "ratingValue": "5"},
-                    "reviewBody": "After 3 years of knee pain and mobility limitations, Dr. Irshad's protocol with Janu Basti gave me substantial relief in 6 weeks. I was able to regain comfortable mobility through conservative Ayurvedic care."
+                    "reviewBody": "After 3 years of knee pain and mobility limitations, the clinical protocol with Janu Basti gave me substantial relief in 6 weeks. I was able to regain comfortable mobility through conservative Ayurvedic care."
                 },
                 {
                     "@type": "Review",
@@ -308,7 +308,7 @@ def generate_seo_head(page_type, page_data, site_data):
             "recognizingAuthority": {
                 "@type": ["MedicalClinic", "Physician"],
                 "@id": "https://karmanyaayurveda.com/#clinic",
-                "name": "Karmanya Ayurveda Chikitsalaya - Dr. Irshad T.M.",
+                "name": "Karmanya Ayurveda Chikitsalaya - Dr. Tejasvi Mulik",
                 "url": "https://karmanyaayurveda.com/",
                 "telephone": brand.get('phone', '+919819820017'),
                 "hasMap": "https://maps.google.com/?cid=3077549578320836260",
@@ -431,7 +431,7 @@ def generate_seo_head(page_type, page_data, site_data):
         }
         
     elif page_type == 'doctors_hub':
-        title = f"Our Ayurvedic Doctors in Pune | Dr. Irshad & Dr. Tejasvi | {brand.get('name')}"
+        title = f"Our Ayurvedic Doctors in Pune | Dr. Tejasvi Mulik | {brand.get('name')}"
         desc = "Consult expert Ayurvedic physicians at Karmanya Ayurveda in Pune. Specialized in Panchakarma, spine & joint pain, women's health, and dermatology."
         url = "https://karmanyaayurveda.com/doctors/"
         
@@ -975,6 +975,8 @@ def build_site():
     
     doctors_html = ""
     for doc in doctors:
+        if doc.get('on_leave'):
+            continue
         role_sub = doc['clinical'].get('role_subtitle', doc['title'])
         doc_html = f"""
         <div class="doctor-card" style="background: white; border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: var(--space-8); margin-bottom: var(--space-8); box-shadow: var(--shadow-sm);">
@@ -1028,7 +1030,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   gtag('config', 'G-QWH0NSNLVE');
 </script>
 <title>Our Story & Founders | Dr. Anandhu & Dr. Aditya | Karmanya Ayurveda Pune</title>
-<meta name="description" content="Discover the story of Karmanya Ayurveda in Pune. Founded by Dr. Anandhu & Dr. Aditya with a vision for authentic Kerala Ashtavaidya medicine, clinically led by resident staff physicians Dr. Irshad T.M. and Dr. Tejasvi Mulik.">
+<meta name="description" content="Discover the story of Karmanya Ayurveda in Pune. Founded by Dr. Anandhu & Dr. Aditya with a vision for authentic Kerala Ashtavaidya medicine, clinically led by resident staff physician Dr. Tejasvi Mulik.">
 <link rel="canonical" href="https://karmanyaayurveda.com/our-story/">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -1037,13 +1039,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#634119">
 <meta property="og:title" content="Our Story & Founders | Dr. Anandhu & Dr. Aditya | Karmanya Ayurveda">
-<meta property="og:description" content="How Dr. Anandhu & Dr. Aditya founded Karmanya Ayurveda to bring authentic Kerala Ashtavaidya Chikitsa to Pune, led by resident staff physicians Dr. Irshad T.M. and Dr. Tejasvi Mulik.">
+<meta property="og:description" content="How Dr. Anandhu & Dr. Aditya founded Karmanya Ayurveda to bring authentic Kerala Ashtavaidya Chikitsa to Pune, led by resident staff physician Dr. Tejasvi Mulik.">
 <meta property="og:url" content="https://karmanyaayurveda.com/our-story/">
 <meta property="og:type" content="article">
 <meta property="og:image" content="https://karmanyaayurveda.com/images/brand-logo-square.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Our Story & Founders | Karmanya Ayurveda Pune">
-<meta name="twitter:description" content="Authentic Kerala Ashtavaidya medicine founded by Dr. Anandhu & Dr. Aditya, clinically directed by Dr. Irshad T.M. & Dr. Tejasvi Mulik in Pimple Saudagar, Pune.">
+<meta name="twitter:description" content="Authentic Kerala Ashtavaidya medicine founded by Dr. Anandhu & Dr. Aditya, clinically directed by Dr. Tejasvi Mulik in Pimple Saudagar, Pune.">
 <meta name="twitter:image" content="https://karmanyaayurveda.com/images/brand-logo-square.png">
 <script type="application/ld+json">
 {
@@ -1081,13 +1083,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     "employee": [
       {
         "@type": "Physician",
-        "name": "Dr. Irshad T.M.",
+        "name": "Dr. Tejasvi Mulik",
         "jobTitle": "Senior Staff Physician",
-        "medicalSpecialty": ["Ayurvedic", "Panchakarma", "Nadi Pariksha", "Pain Management"],
-        "description": "Senior resident physician with 15+ years of clinical experience in Ashtavaidya Kerala therapies."
-      },
-      {
-        "@type": "Physician",
+        "medicalSpecialty": ["Ayurvedic", "Panchakarma", "Nadi Pariksha", "Pain Management", "Women's Health"],
+        "description": "Resident physician with over a decade of clinical experience in Ashtavaidya Kerala therapies and women's health."
+      }
+    ]
+  }
+}
+</script>
         "name": "Dr. Tejasvi Mulik",
         "jobTitle": "Staff Physician & Consultant",
         "medicalSpecialty": ["Ayurvedic", "Women's Health", "Metabolic Disorders"],
