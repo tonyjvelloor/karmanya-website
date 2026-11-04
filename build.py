@@ -563,11 +563,6 @@ def build_site():
         ('https://karmanyaayurveda.com/book-consultation/', '0.8', 'monthly'),
         ('https://karmanyaayurveda.com/reviews/', '0.85', 'weekly'),
         ('https://karmanyaayurveda.com/blog/', '0.85', 'weekly'),
-        ('https://karmanyaayurveda.com/blog/ayurvedic-treatment-knee-pain-pune/', '0.8', 'monthly'),
-        ('https://karmanyaayurveda.com/blog/ayurvedic-sciatica-treatment-pune/', '0.8', 'monthly'),
-        ('https://karmanyaayurveda.com/blog/panchakarma-pune-what-to-expect/', '0.8', 'monthly'),
-        ('https://karmanyaayurveda.com/blog/ayurvedic-treatment-pcod-pune/', '0.8', 'monthly'),
-        ('https://karmanyaayurveda.com/blog/shirodhara-for-stress-insomnia-pune/', '0.8', 'monthly'),
         ('https://karmanyaayurveda.com/compare/', '0.85', 'weekly'),
         ('https://karmanyaayurveda.com/compare/ayurveda-vs-knee-replacement-surgery/', '0.8', 'monthly'),
         ('https://karmanyaayurveda.com/compare/ayurveda-vs-surgery-painkillers-sciatica/', '0.8', 'monthly'),
@@ -578,6 +573,13 @@ def build_site():
         ('https://karmanyaayurveda.com/symptoms/stiff-neck-computer-work/', '0.8', 'monthly'),
         ('https://karmanyaayurveda.com/glossary/', '0.85', 'monthly')
     ]
+    
+    # Dynamic Blogs Scan for Sitemap
+    blog_dir = os.path.join(base_dir, 'public', 'blog')
+    if os.path.exists(blog_dir):
+        for slug in sorted(os.listdir(blog_dir)):
+            if slug != 'index.html' and os.path.isdir(os.path.join(blog_dir, slug)):
+                urls_for_sitemap.append((f'https://karmanyaayurveda.com/blog/{slug}/', '0.8', 'monthly'))
     
     # Copy Static Assets
     css_src = os.path.join(base_dir, 'css')
@@ -1346,6 +1348,12 @@ Sitemap: https://karmanyaayurveda.com/sitemap.xml
 - Chronic Conditions Directory: https://karmanyaayurveda.com/conditions/
 - Doctor Profiles: https://karmanyaayurveda.com/doctors/
 - Patient Education Blog: https://karmanyaayurveda.com/blog/
+- Non-Surgical Treatment Guide for Back & Knee Pain: https://karmanyaayurveda.com/blog/non-surgical-treatment-back-pain-knee-pain-pune/
+- Ayurvedic Chronic Pain Management: https://karmanyaayurveda.com/blog/ayurveda-treatment-for-chronic-pain-pune/
+- Knee Pain Doctor & Clinic Guide: https://karmanyaayurveda.com/blog/knee-pain-doctor-near-me-pune-ayurveda/
+- Cervical Spondylosis & Neck Strain: https://karmanyaayurveda.com/blog/cervical-spondylosis-neck-pain-ayurvedic-treatment-pune/
+- Janu Basti Procedure & Cost Guide: https://karmanyaayurveda.com/blog/janu-basti-cost-pune-procedure-benefits/
+- Panchakarma Tariff & Program Guide: https://karmanyaayurveda.com/blog/panchakarma-cost-in-pune-package-breakdown/
 - Early Symptom Diagnostic Guides: https://karmanyaayurveda.com/symptoms/
 - Treatment Comparisons (Ayurveda vs Modern Surgery): https://karmanyaayurveda.com/compare/
 - Ayurvedic Medical Glossary: https://karmanyaayurveda.com/glossary/
