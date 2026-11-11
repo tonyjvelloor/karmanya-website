@@ -580,6 +580,21 @@
       "source": "/viddhakarma/(.*)",
       "destination": "/treatments/agnikarma/",
       "permanent": true
+    },
+    {
+      "source": "/treatments/local/(.*)",
+      "destination": "/treatments/",
+      "permanent": true
+    },
+    {
+      "source": "/occupational/(.*)",
+      "destination": "/conditions/",
+      "permanent": true
+    },
+    {
+      "source": "/compare/karmanya-ayurveda-vs-:slug*",
+      "destination": "/compare/",
+      "permanent": true
     }
   ],
   "functions": {

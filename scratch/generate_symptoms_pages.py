@@ -124,53 +124,165 @@ symptoms = [
         "slug": "severe-morning-heel-pain",
         "title": "Severe Morning Heel Pain: Plantar Fasciitis and Ayurvedic Calcaneal Spur Care",
         "meta_title": "Morning Heel Pain Treatment in Pune | Plantar Fasciitis Care",
-        "meta_desc": "Do your first steps out of bed cause severe heel pain? Explore the Ayurvedic understanding of Plantar Fasciitis (Vatakantaka) and Agnikarma treatment.",
+        "meta_desc": "Do your first steps out of bed cause severe heel pain? Explore the Ayurvedic understanding of Plantar Fasciitis (Vatakantaka) and Agnikarma treatment in Pune.",
         "symptom_name": "Morning Heel Pain",
         "target_condition": "Plantar Fasciitis",
-        "condition_url": "/conditions/",
-        "read_time": "4 min read",
-        "summary": "If taking your first steps out of bed in the morning feels like stepping on a nail, you are likely suffering from Plantar Fasciitis or a Calcaneal Spur. Ayurveda identifies this as Vatakantaka.",
+        "condition_url": "/treatments/agnikarma/",
+        "read_time": "5 min read",
+        "summary": "If taking your first steps out of bed in the morning feels like stepping on a sharp stone, you may be experiencing Plantar Fasciitis or a Calcaneal Spur. Classical Ayurveda identifies this localized tendon inflammation as Vatakantaka.",
         "sections": [
             {
                 "heading": "Vatakantaka: When Vata Localizes in the Heel",
-                "content": "Continuous standing, improper footwear, or metabolic blockages cause Vata to lodge in the heel (Parshni). This dries out the plantar fascia tendon, causing micro-tears and intense inflammation, which is worst after a period of rest (like sleeping)."
+                "content": "Continuous standing on hard surfaces, improper footwear, or metabolic stiffness causes aggravated Vata to localize at the heel insertion (<em>Parshni</em>). This dehydrates the plantar fascia ligament, leading to micro-strain and morning stiffness that is sharpest after overnight rest."
             },
             {
-                "heading": "Agnikarma: The Ultimate Ayurvedic Pain Relief",
-                "content": "While insoles provide temporary relief, Karmanya utilizes <strong>Agnikarma</strong> (thermal micro-cautery) and localized <em>Ishtika Sweda</em> (medicated brick fomentation). This immediately pacifies Vata, melts the accumulated stiffness (Stambha), and permanently alters the pain pathway at the heel."
+                "heading": "Targeted Agnikarma & Medicated Fomentation",
+                "content": "While cushioned insoles offer passive support, our physicians at Karmanya utilize precision <strong>Agnikarma</strong> (controlled thermal micro-stimulation) alongside localized <em>Ishtika Sweda</em> (medicated brick fomentation) and <em>Dhanyamla Dhara</em>. This calms local Vata aggravation, softens fascial rigidity (<em>Stambha</em>), and supports natural tissue healing."
             }
         ],
         "faqs": [
             {
-                "q": "Will Ayurvedic treatment cure a heel spur?",
-                "a": "Yes. While the bony spur might remain on an X-ray, the inflammation of the fascia and the agonizing pain can be completely resolved using Agnikarma and specific medicated oils."
+                "q": "How does Ayurvedic treatment help a calcaneal heel spur?",
+                "a": "While a bony calcaneal spur visible on an X-ray does not dissolve, the actual pain comes from chronic inflammation and micro-tearing of the plantar fascia attached to it. Targeted Agnikarma and herbal oil fomentation resolve the fascial inflammation so you can walk comfortably."
             }
         ]
     },
     {
         "slug": "stiff-neck-and-finger-numbness",
-        "title": "Stiff Neck with Numbness in Fingers: The Early Signs of Cervical Spondylosis",
+        "title": "Stiff Neck with Numbness in Fingers: Early Signs of Cervical Radiculopathy",
         "meta_title": "Stiff Neck & Finger Numbness | Cervical Spondylosis Pune",
-        "meta_desc": "Experiencing chronic neck stiffness accompanied by tingling or numbness in your fingers? Discover Ayurvedic Griva Basti treatment for cervical nerve compression.",
+        "meta_desc": "Experiencing chronic neck stiffness accompanied by tingling or numbness in your fingers? Discover Ayurvedic Griva Basti treatment for cervical nerve compression in Pune.",
         "symptom_name": "Neck Stiffness & Numbness",
         "target_condition": "Cervical Spondylosis",
         "condition_url": "/conditions/cervical-spondylosis-neck-pain/",
         "read_time": "5 min read",
-        "summary": "A stiff neck is common. However, when a stiff neck is accompanied by a 'pins and needles' sensation, tingling, or numbness radiating into your shoulders, arms, or fingers, it indicates cervical nerve compression (Cervical Spondylosis).",
+        "summary": "A stiff neck is common after desk work. However, when neck stiffness is accompanied by 'pins and needles', tingling, or numbness radiating into your shoulder, arm, or fingers, it points toward cervical nerve root irritation (Cervical Radiculopathy).",
         "sections": [
             {
-                "heading": "Manyastambha and Nerve Compression",
-                "content": "Constant downward looking at laptops and phones reverses the natural curve of the cervical spine. In Ayurveda, this causes Vata aggravation in the neck (Manyastambha), drying out the C4-C7 discs. As the disc space narrows, the nerves traveling down to your fingers get pinched."
+                "heading": "Manyastambha and Cervical Nerve Irritation",
+                "content": "Sustained downward posture over laptops and smartphones flattens the natural lordotic curve of the neck. In Ayurveda, this triggers Vata-Kapha aggravation in the cervical spine (<em>Manyastambha</em>), dehydrating the C4–C7 intervertebral discs and irritating the brachial plexus nerve pathways traveling to the hand."
             },
             {
-                "heading": "Reversing 'Tech Neck' with Griva Basti",
-                "content": "To prevent permanent nerve damage, Karmanya physicians administer <strong>Griva Basti</strong>. By pooling warm, Vata-pacifying oils over the cervical vertebrae, we reduce the localized inflammation, nourish the spinal nerves, and restore mobility to the neck without the need for cervical collars or surgery."
+                "heading": "Conservative Care with Griva Basti & Nasya",
+                "content": "At Karmanya Ayurveda, Senior Physician <strong>Dr. Tejasvi Mulik</strong> evaluates your cervical range of motion, upper-limb reflexes, and MRI findings before prescribing <strong>Griva Basti</strong> (localized warm medicated oil pooling) paired with <strong>Nasya</strong> therapy. This relaxes deep paraspinal muscle spasm, soothes perineural inflammation, and supports comfortable neck mobility."
             }
         ],
         "faqs": [
             {
-                "q": "Can Ayurveda cure tingling in the fingers?",
-                "a": "Yes. The tingling in the fingers originates from the compressed nerves in the neck. By treating the root cause in the cervical spine through Griva Basti and Nasya, the finger numbness naturally resolves."
+                "q": "Can Ayurvedic therapy help with tingling in the fingers?",
+                "a": "When tingling in the fingers stems from mild-to-moderate cervical disc bulging or muscle spasm compressing the nerve root, addressing the cervical inflammation through Griva Basti, Patra Pinda Sweda, and Nasya gradually relieves the downstream tingling."
+            }
+        ]
+    },
+    {
+        "slug": "burning-sensation-in-feet-and-hands",
+        "title": "Burning Sensation in Feet and Palms (Pada Daha): Ayurvedic Causes & Relief",
+        "meta_title": "Burning Feet & Hands Treatment in Pune | Pada Daha Ayurveda",
+        "meta_desc": "Suffering from burning sensation in soles of feet at night, diabetic neuropathy, or Pitta heat? Learn how classical Ayurvedic Takradhara, Padabhyanga & metabolic care help.",
+        "symptom_name": "Burning Feet & Palms (Pada Daha)",
+        "target_condition": "Diabetes & Metabolic Neuropathy",
+        "condition_url": "/conditions/diabetes-madhumeha/",
+        "read_time": "6 min read",
+        "summary": "A persistent burning, prickling, or heat sensation in the soles of the feet (especially worsening at night) is described in classical Ayurveda as Pada Daha. It frequently signals either aggravated Pitta-Vata in peripheral nerves, early diabetic neuropathy, or chronic metabolic heat.",
+        "sections": [
+            {
+                "heading": "Why Do Your Feet Burn at Night? The Pitta-Vata Connection",
+                "content": "In Ayurvedic pathology, <em>Pada Daha</em> occurs when excess thermal <em>Pitta dosha</em> combines with erratic <em>Vata dosha</em> in the peripheral blood vessels (<em>Rakta Vaha Srotas</em>) and fine nerve endings of the extremities. Common triggers in Pune patients include uncontrolled blood sugar (<em>Madhumeha</em>), Vitamin B12 deficiency, chronic acidity, or high uric acid.<br><br>Ignoring peripheral burning often allows mild nerve irritation to progress into numbness and loss of protective sensation in the feet."
+            },
+            {
+                "heading": "Cooling & Nerve-Nourishing Kerala Protocols at Karmanya",
+                "content": "Rather than merely dulling nerve signals with sedatives, Dr. Tejasvi Mulik assesses whether your burning sensation is metabolic, vascular, or neuropathic. Treatment combines:<br><br>1. <strong>Padabhyanga & Lepam:</strong> Therapeutic foot massage using cooling, nerve-calming classical formulations like <em>Ksheerabala Taila</em> or <em>Pinda Taila</em>.<br>2. <strong>Virechana (Pitta Detox):</strong> Gently clearing systemic Pitta heat from the liver and bloodstream.<br>3. <strong>Internal Rasayanas:</strong> Classical nervine tonics that nourish peripheral myelin and stabilize glycemic metabolism."
+            }
+        ],
+        "faqs": [
+            {
+                "q": "Is burning feet always related to diabetes?",
+                "a": "Not always. While diabetic peripheral neuropathy is a primary cause, burning feet also commonly arise from severe Pitta aggravation, chronic gastritis, hypothyroidism, or B-vitamin deficiencies. A thorough clinical evaluation helps isolate the exact cause."
+            },
+            {
+                "q": "Which oil is best for burning soles at home?",
+                "a": "Applying lukewarm or room-temperature Pinda Taila, Ksheerabala Taila, or pure cow's ghee (Shata Dhauta Ghrita) to the soles before sleep helps pacify localized Pitta heat, though persistent symptoms require a physician consultation."
+            }
+        ]
+    },
+    {
+        "slug": "morning-joint-stiffness-and-swelling",
+        "title": "Morning Joint Stiffness & Swelling: Differentiating Amavata from Wear-and-Tear",
+        "meta_title": "Morning Joint Stiffness & Swelling Treatment Pune | Karmanya Ayurveda",
+        "meta_desc": "Waking up with stiff, swollen fingers, wrists, or knees? Learn how Ayurveda distinguishes inflammatory Amavata from osteoarthritis and treats root gut toxins.",
+        "symptom_name": "Morning Joint Stiffness",
+        "target_condition": "Inflammatory & Degenerative Joint Care",
+        "condition_url": "/conditions/knee-joint-pain/",
+        "read_time": "6 min read",
+        "summary": "How long your joints stay stiff in the morning is one of the most important diagnostic clues in medicine. Stiffness lasting 10 minutes points toward mechanical wear, whereas stiffness lasting over 45–60 minutes with boggy swelling indicates inflammatory Amavata.",
+        "sections": [
+            {
+                "heading": "The 45-Minute Rule: Amavata (Inflammatory) vs Sandhivata (Degenerative)",
+                "content": "In classical Ayurveda, not all joint pain is treated with oil! If your fingers, wrists, ankles, or knees feel hot, swollen, and stiff for more than an hour after waking up, the culprit is <em>Ama</em> — undigested metabolic toxins circulating from a sluggish gut and lodging in the synovial membranes (<em>Amavata</em>, closely paralleling Rheumatoid or inflammatory arthritis).<br><br>Applying heavy oils during an active <em>Ama</em> stage actually worsens stiffness. Conversely, dry degenerative osteoarthritis (<em>Sandhivata</em>) eases quickly once you move and craves warm lipid nourishment."
+            },
+            {
+                "heading": "Stage-Specific Kerala Therapy: Dry Poultices First, Nourishment Second",
+                "content": "At Karmanya Ayurveda in Pimple Saudagar, Dr. Tejasvi Mulik uses three-finger <em>Nadi Pariksha</em> alongside inflammatory markers (ESR, CRP, RA Factor, Uric Acid) to stage your joint condition:<br><br>• <strong>In the Inflammatory (Sama) Stage:</strong> We prescribe <em>Valuka Sweda</em> (heated sand bolus) or <em>Churna Pinda Sweda</em> (dry herbal powder poultice) and <em>Dhanyamla Dhara</em> to dry up joint effusion and clear metabolic Ama.<br>• <strong>In the Restorative (Nirama) Stage:</strong> Once swelling subsides, we transition to nourishing oil therapies (<em>Janu Basti</em>, <em>Patra Pinda Sweda</em>) to protect joint cartilage."
+            }
+        ],
+        "faqs": [
+            {
+                "q": "Why do my joints feel stiffer in the monsoon and winter in Pune?",
+                "a": "Cold, damp weather aggravates both Vata and Kapha while dampening digestive fire (Agni), increasing fluid stagnation in inflamed joints. Seasonal Podikizhi and metabolic herbs prevent winter flares."
+            }
+        ]
+    },
+    {
+        "slug": "chronic-fatigue-and-poor-sleep",
+        "title": "Waking Up Exhausted & Wired at Night: Ayurvedic Care for Burnout & Insomnia",
+        "meta_title": "Chronic Fatigue, Burnout & Insomnia Ayurveda Pune | Shirodhara & Abhyangam",
+        "meta_desc": "Feeling exhausted all day yet unable to fall asleep at night? Discover how authentic Kerala Shirodhara, Medical Abhyangam, and Ojas restoration reset nervous system burnout in Pune.",
+        "symptom_name": "Chronic Fatigue & Insomnia",
+        "target_condition": "Stress, Burnout & Sleep Disorders",
+        "condition_url": "/conditions/stress-insomnia-anxiety/",
+        "read_time": "6 min read",
+        "summary": "Many corporate and IT professionals across Hinjawadi, Baner, and Wakad describe feeling 'tired but wired'—physically exhausted throughout the workday, yet unable to switch off racing thoughts at midnight. Ayurveda recognizes this as Prana-Vata hyperactivity combined with Ojakshaya (depletion of vital resilience).",
+        "sections": [
+            {
+                "heading": "Why Weekend Rest Doesn't Fix Nervous System Burnout",
+                "content": "When you work across late-night time zones, skip meals, and stare at bright screens for 11 hours daily, your sympathetic nervous system ('fight-or-flight') becomes locked in overdrive. In Ayurveda, excessive mental exertion dries out <em>Tarpaka Kapha</em> in the brain and agitates <em>Prana Vata</em>.<br><br>Because the nervous system cannot down-regulate into parasympathetic recovery, sleep remains shallow and fragmented, leading to morning brain fog, irritability, tension headaches, and digestive sluggishness."
+            },
+            {
+                "heading": "Choosing the Right Wellness Therapy: Abhyangam vs Shirodhara vs Pizhichil",
+                "content": "At Karmanya Ayurveda, our wellness and neuro-calming therapies are prescribed clinically to reset autonomic balance:<br><br>• <strong>Medical Abhyangam + Bashpa Sweda:</strong> Synchronized full-body warm medicated oil massage that grounds peripheral Vata, relieves muscular tension, and improves lymphatic circulation.<br>• <strong>Shirodhara (or Takradhara):</strong> A continuous, rhythmic stream of warm herbal oil poured across the forehead for 45 minutes to quiet beta brainwaves, lower elevated cortisol, and restore deep, natural sleep architecture.<br>• <strong>Pizhichil:</strong> Intensive warm oil bath therapy for deep neuromuscular exhaustion."
+            }
+        ],
+        "faqs": [
+            {
+                "q": "Can I book Abhyangam or Shirodhara for general wellness and stress relief?",
+                "a": "Yes. Even if you do not have a severe orthopedic illness, a brief physician pulse assessment before your wellness session ensures we select the exact classical Kerala herbal oil (such as Dhanwantharam, Ksheerabala, or Chandanadi Taila) suited to your body constitution."
+            }
+        ]
+    },
+    {
+        "slug": "tailbone-pain-coccydynia-sitting",
+        "title": "Tailbone Pain (Coccydynia) When Sitting on Office Chairs: Ayurvedic Relief",
+        "meta_title": "Tailbone Pain (Coccydynia) Treatment in Pune | Ayurvedic Kati & Gudagata Care",
+        "meta_desc": "Sharp tailbone pain when sitting or standing up from a chair? Learn how Ayurvedic Kati Basti, Avagaha Sweda, and Pichu relieve coccydynia without steroid injections.",
+        "symptom_name": "Tailbone Pain (Coccydynia)",
+        "target_condition": "Spine & Pelvic Floor Pain",
+        "condition_url": "/conditions/spine-sciatica-back-pain/",
+        "read_time": "5 min read",
+        "summary": "A sharp, bruised, or aching pain at the very base of the spine (coccyx) that worsens when sitting on firm office chairs, driving in Pune traffic, or rising from a seated position is medically termed Coccydynia (Trika Shula in Ayurveda).",
+        "sections": [
+            {
+                "heading": "Why Tailbone Pain Persists for Months",
+                "content": "Tailbone pain frequently starts after a minor fall, postpartum pelvic strain, or months of slouched sitting on hard surfaces. Because the pelvic floor tendons and sacrococcygeal ligaments attach directly to the coccyx, constant sitting prevents local inflammation from healing.<br><br>In Ayurveda, the coccyx is the seat of <em>Muladhara</em> and <em>Apana Vata</em>. Localized trauma or chronic pressure traps Vata in the sacrococcygeal joint."
+            },
+            {
+                "heading": "Non-Invasive Relief via Kati Basti, Pichu & Avagaha Sweda",
+                "content": "Instead of painful local steroid injections into the coccyx, Karmanya Ayurveda utilizes targeted external therapies:<br><br>1. <strong>Low Lumbosacral Kati Basti & Pichu:</strong> Retaining warm <em>Murivenna</em> (Kerala's renowned trauma-healing oil) and <em>Dhanwantharam Taila</em> directly over the sacrococcygeal junction.<br>2. <strong>Avagaha Sweda (Medicated Sitz Bath):</strong> Immersion in warm anti-inflammatory herbal decoctions to relax tight pelvic floor and piriformis muscles pulling on the tailbone."
+            }
+        ],
+        "faqs": [
+            {
+                "q": "How long does tailbone pain take to recover with Ayurvedic therapy?",
+                "a": "Most patients with postural or ligamentous coccydynia notice meaningful comfort within a 7 to 14-day course of localized Murivenna Kati Basti/Pichu combined with a coccyx-cutout ergonomic cushion."
             }
         ]
     }
@@ -203,6 +315,12 @@ for s in symptoms:
         "headline": s['title'],
         "description": s['meta_desc'],
         "url": f"https://karmanyaayurveda.com/symptoms/{slug}/",
+        "author": {
+            "@type": "Physician",
+            "name": "Dr. Tejasvi Mulik",
+            "jobTitle": "Senior Consulting Physician (BAMS)",
+            "url": "https://karmanyaayurveda.com/doctors/dr-tejasvi/"
+        },
         "publisher": {
             "@type": "MedicalClinic",
             "name": "Karmanya Ayurveda Chikitsalaya",
@@ -339,7 +457,7 @@ for s in symptoms:
             <!-- CTA Card -->
             <div style="background: var(--color-primary); color: white; border-radius: var(--radius-lg); padding: var(--space-8); margin: var(--space-10) 0; text-align: center;">
                 <h3 style="color: white; font-size: 1.8rem; margin-bottom: var(--space-2);">Stop Early Symptoms from Becoming Chronic Disease</h3>
-                <p style="color: rgba(255,255,255,0.85); max-width: 600px; margin: 0 auto var(--space-6); line-height: 1.6;">Consult Dr. Irshad T.M. or Dr. Tejasvi Mulik at our Pimple Saudagar clinic for an in-depth pulse assessment and personalised protocol.</p>
+                <p style="color: rgba(255,255,255,0.85); max-width: 600px; margin: 0 auto var(--space-6); line-height: 1.6;">Consult Senior Physician Dr. Tejasvi Mulik (BAMS) at our Pimple Saudagar clinic for an in-depth ₹500 pulse assessment and personalised protocol.</p>
                 <div style="display: flex; gap: var(--space-4); justify-content: center; flex-wrap: wrap;">
                     <a href="/book-consultation/" class="btn btn-primary" style="background: var(--color-accent); border-color: var(--color-accent); color: white; padding: 12px 26px;">Book Physician Consultation</a>
                     <a href="https://wa.me/919819820017?text=Hi%2C%20I%20am%20experiencing%20{s['symptom_name']}%20and%20would%20like%20to%20consult%20a%20physician." class="btn btn-secondary" style="border-color: rgba(255,255,255,0.4); color: white; padding: 12px 26px;">Ask on WhatsApp</a>

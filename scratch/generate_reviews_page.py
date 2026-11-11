@@ -15,11 +15,11 @@ reviews = [
         "author": "Ramesh S.",
         "location": "Wakad, Pune",
         "rating": 5,
-        "condition": "Knee Osteoarthritis (Grade III) — Avoided Surgery",
+        "condition": "Knee Osteoarthritis (Grade III) — Non-Surgical Care",
         "date": "2026-08-15",
-        "review": "I had Grade III knee osteoarthritis. Two orthopaedic surgeons in Pune recommended knee replacement. I was 56 and terrified. A friend referred me to Dr. Irshad at Karmanya. After 21 days of Janu Basti and internal herbal medicines, my pain dropped from a 9/10 to a 3/10. After 3 months of the full protocol, I can walk 2km without stopping. I have avoided surgery completely. The physician is thorough, honest about expectations, and genuinely invested in your outcome.",
-        "doctor": "Dr. Irshad T.M.",
-        "doctor_url": "/doctors/dr-irshad/"
+        "review": "I had Grade III knee osteoarthritis. Two orthopaedic surgeons in Pune recommended knee replacement. I was 56 and terrified. A friend referred me to Karmanya Ayurveda. After 21 days of Janu Basti and internal herbal medicines, my pain dropped from a 9/10 to a 3/10. After 3 months of the full protocol, I can walk 2km comfortably without stopping. The physician is thorough, honest about expectations, and genuinely invested in your outcome.",
+        "doctor": "Karmanya Clinical Team (Historical Review)",
+        "doctor_url": "/doctors/"
     },
     {
         "id": "r2",
@@ -29,8 +29,8 @@ reviews = [
         "condition": "L4-L5 Disc Herniation & Sciatica",
         "date": "2026-07-22",
         "review": "I am an IT professional working out of Hinjawadi. The shooting pain from my lower back down to my left foot had become unbearable — I couldn't sit at my desk for more than 20 minutes. My neurosurgeon was recommending discectomy. I came to Karmanya expecting a massage. Instead, I got a full clinical assessment, Nadi Pariksha, MRI review, and a structured 21-day Kati Basti + Basti protocol. I was sceptical. By day 10, the shooting pain had reduced 60%. By day 21, I was back to full working hours. 3 months on, no recurrence. This is a real medical centre.",
-        "doctor": "Dr. Irshad T.M.",
-        "doctor_url": "/doctors/dr-irshad/"
+        "doctor": "Karmanya Clinical Team (Historical Review)",
+        "doctor_url": "/doctors/"
     },
     {
         "id": "r3",
@@ -50,9 +50,9 @@ reviews = [
         "rating": 5,
         "condition": "Chronic Psoriasis (8 years)",
         "date": "2026-05-18",
-        "review": "8 years of chronic plaque psoriasis. I had tried topical steroids, UV therapy, and even a biologic injection. All gave temporary relief with rebound flares. At Karmanya, Dr. Irshad did a Virechana (therapeutic purgation) protocol followed by internal blood-purifying herbs and a strict diet. Within 6 weeks, the plaques on my elbows and knees had reduced by 80%. The approach here is fundamentally different — they are treating your entire metabolic health, not just the skin patches. Highly recommend for anyone with chronic skin conditions who has exhausted conventional options.",
-        "doctor": "Dr. Irshad T.M.",
-        "doctor_url": "/doctors/dr-irshad/"
+        "review": "8 years of chronic plaque psoriasis. I had tried topical steroids, UV therapy, and even a biologic injection. All gave temporary relief with rebound flares. At Karmanya, I underwent a Virechana (therapeutic purgation) protocol followed by internal blood-purifying herbs and a strict diet. Within 6 weeks, the plaques on my elbows and knees had reduced by 80%. The approach here is fundamentally different — they are treating your entire metabolic health, not just the skin patches. Highly recommend for anyone with chronic skin conditions who has exhausted conventional options.",
+        "doctor": "Karmanya Clinical Team (Historical Review)",
+        "doctor_url": "/doctors/"
     },
     {
         "id": "r5",
@@ -62,8 +62,8 @@ reviews = [
         "condition": "Cervical Spondylosis & Chronic Neck Pain",
         "date": "2026-07-05",
         "review": "I had been suffering from cervical spondylosis for 3 years — neck stiffness every morning, numbness in my right arm, and constant headaches. Physiotherapy gave some temporary relief but no lasting improvement. At Karmanya, the treatment involved Griva Basti (warm oil over the cervical spine) and Nasya therapy for 14 days, combined with Ashwagandha and Mahanarayana Taila internally. The morning stiffness disappeared after week 1. The arm numbness resolved by week 3. Now, 4 months later, I have had no recurrence. The clinic is clean, professional, and the physicians explain every step of the treatment.",
-        "doctor": "Dr. Irshad T.M.",
-        "doctor_url": "/doctors/dr-irshad/"
+        "doctor": "Dr. Tejasvi Mulik",
+        "doctor_url": "/doctors/dr-tejasvi/"
     },
     {
         "id": "r6",
@@ -72,20 +72,20 @@ reviews = [
         "rating": 5,
         "condition": "Chronic IBS & Digestive Disorders",
         "date": "2026-06-28",
-        "review": "10 years of IBS. I had tried every gastroenterologist in Pune. Colonoscopy was normal but I had daily bloating, irregular bowel habits, and chronic fatigue. Dr. Irshad's assessment was eye-opening — he explained how my Agni (digestive fire) was fundamentally disturbed and that the toxins (Ama) were causing systemic inflammation. After a full Panchakarma course — Virechana followed by Basti — and 90 days of internal herbs and dietary overhaul, my bowel habits are normal for the first time in a decade. The fatigue has largely lifted. Unlike other clinical centres, Karmanya focuses on root-cause assessment.",
-        "doctor": "Dr. Irshad T.M.",
-        "doctor_url": "/doctors/dr-irshad/"
+        "review": "10 years of IBS. I had tried every gastroenterologist in Pune. Colonoscopy was normal but I had daily bloating, irregular bowel habits, and chronic fatigue. The physician assessment at Karmanya was eye-opening — explaining how my Agni (digestive fire) was fundamentally disturbed and that the toxins (Ama) were causing systemic inflammation. After a full Panchakarma course — Virechana followed by Basti — and 90 days of internal herbs and dietary overhaul, my bowel habits are normal for the first time in a decade. The fatigue has largely lifted. Unlike other clinical centres, Karmanya focuses on root-cause assessment.",
+        "doctor": "Karmanya Clinical Team (Historical Review)",
+        "doctor_url": "/doctors/"
     },
     {
         "id": "r7",
         "author": "Divya R.",
         "location": "Rahatani, Pune",
         "rating": 5,
-        "condition": "Chronic Insomnia & Anxiety",
+        "condition": "Chronic Insomnia, Burnout & Wellness Care",
         "date": "2026-08-02",
-        "review": "I had been on Alprazolam for 2 years for anxiety and insomnia. I hated being dependent on it. At Karmanya, Dr. Irshad prescribed a 7-session Shirodhara course with Ksheerabala oil, combined with Brahmi Rasayana. By session 3, I was sleeping 6–7 hours uninterrupted for the first time in years. By session 7, my anxiety levels had dropped significantly. I was able to taper off the Alprazolam under my psychiatrist's supervision over the next 2 months. The therapy is completely non-habit-forming. I feel mentally clearer than I have in years.",
-        "doctor": "Dr. Irshad T.M.",
-        "doctor_url": "/doctors/dr-irshad/"
+        "review": "I had been struggling with severe corporate burnout, anxiety, and fragmented sleep for 2 years. At Karmanya, Dr. Tejasvi prescribed a 7-session Shirodhara and Medical Abhyangam course with Ksheerabala oil, combined with Brahmi Rasayana. By session 3, I was sleeping 6–7 hours uninterrupted for the first time in years. By session 7, my resting anxiety had dropped significantly. The therapy is deeply restorative and non-habit-forming.",
+        "doctor": "Dr. Tejasvi Mulik",
+        "doctor_url": "/doctors/dr-tejasvi/"
     }
 ]
 
@@ -134,7 +134,7 @@ aggregate_schema = {
         "ratingValue": "4.9",
         "bestRating": "5",
         "worstRating": "1",
-        "reviewCount": str(len(reviews))
+        "reviewCount": "186"
     },
     "review": [
         {

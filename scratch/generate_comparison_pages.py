@@ -19,255 +19,113 @@ footer_match = re.search(r'<footer[^>]*>.*?</footer>', idx, re.DOTALL)
 footer_html = footer_match.group(0) if footer_match else ''
 
 comparisons = [
-
     {
-        "slug": "karmanya-ayurveda-vs-punarvasu-ayurved",
-        "title": "Karmanya Ayurveda vs Punarvasu Ayurved in Pune",
-        "meta_title": "Karmanya Ayurveda vs Punarvasu Ayurved Pune | Compare",
-        "meta_desc": "Compare Karmanya Ayurveda in Pimple Saudagar with Punarvasu Ayurved. Learn about our targeted clinical protocols for knee and spine pain.",
-        "condition_name": "Ayurvedic Clinics",
-        "condition_url": "/locations/",
-        "read_time": "4 min read",
-        "summary": "Patients exploring Ayurvedic treatment options in Pune frequently consider both Karmanya Ayurveda and Punarvasu Ayurved. This comparison helps clarify our specialized clinical approach.",
-        "table": [
-            ("Parameter", "Karmanya Ayurveda", "Punarvasu Ayurved"),
-            ("Specialization", "Non-Surgical Joint & Spine Care", "General Ayurveda"),
-            ("Therapies", "Authentic Kerala Protocols", "Traditional Ayurvedic treatments"),
-            ("Location", "Pimple Saudagar", "Pune locations")
-        ],
-        "sections": [
-            {
-                "heading": "Specialized Kerala Pain Management",
-                "content": "Karmanya's core focus is on preventing surgery for conditions like Stage 4 Knee Osteoarthritis and Lumbar Disc Herniation. Our highly specific Kerala protocols (Janu Basti, Kati Basti) are administered directly under MD/BAMS physician oversight."
-            }
-        ],
-        "faqs": [
-            {
-                "q": "What makes Karmanya Ayurveda different?",
-                "a": "Our intense clinical focus on pain management and avoiding surgery, combined with authentic Kerala medicines."
-            }
-        ]
-    },
-    {
-        "slug": "karmanya-ayurveda-vs-tapasvi-ayurved",
-        "title": "Karmanya Ayurveda vs Tapasvi Ayurved",
-        "meta_title": "Karmanya Ayurveda vs Tapasvi Ayurved Pune | Compare",
-        "meta_desc": "Comparing Karmanya Ayurveda with Tapasvi Ayurved. Discover our physician-led Kerala therapies for sciatica, joint pain, and panchakarma.",
-        "condition_name": "Ayurvedic Clinics",
-        "condition_url": "/locations/",
-        "read_time": "4 min read",
-        "summary": "When deciding between Karmanya Ayurveda and Tapasvi Ayurved, it helps to understand their different clinical models and treatment specialties.",
-        "table": [
-            ("Parameter", "Karmanya Ayurveda", "Tapasvi Ayurved"),
-            ("Clinic Model", "Physician-Led Pain Management Clinic", "General Ayurveda Clinic"),
-            ("Core Treatments", "Kerala Panchakarma, Kizhi, Basti", "General consultations"),
-            ("Location", "Pimple Saudagar", "Pune")
-        ],
-        "sections": [
-            {
-                "heading": "Clinical Panchakarma",
-                "content": "Panchakarma at Karmanya is an intensive medical protocol requiring pre-purification (Purvakarma) and post-recovery (Paschat Karma). We focus on delivering clinical results for conditions like PCOD and severe Vata disorders."
-            }
-        ],
-        "faqs": [
-            {
-                "q": "Why do patients travel to Pimple Saudagar for Karmanya?",
-                "a": "For the specific Kerala Ayurvedic protocols that have proven successful in managing severe joint and spine pain without surgery."
-            }
-        ]
-    },
-    {
-        "slug": "karmanya-ayurveda-vs-khadiwale-vaidya",
-        "title": "Karmanya Ayurveda vs Khadiwale Vaidya",
-        "meta_title": "Karmanya Ayurveda vs Khadiwale Vaidya Pune | Compare",
-        "meta_desc": "Compare Karmanya Ayurveda with the traditional approach of Khadiwale Vaidya in Pune.",
-        "condition_name": "Ayurvedic Clinics",
-        "condition_url": "/locations/",
-        "read_time": "4 min read",
-        "summary": "Khadiwale Vaidya is a historic and highly respected name in Pune's traditional Ayurveda. Karmanya Ayurveda brings a different approach: specialized Kerala Ayurvedic clinical protocols.",
-        "table": [
-            ("Parameter", "Karmanya Ayurveda", "Khadiwale Vaidya"),
-            ("Tradition", "Kerala Ayurveda (Ashtavaidya tradition)", "Maharashtrian Traditional Ayurveda"),
-            ("Focus", "Intensive In-Clinic Therapies (Basti, Kizhi)", "Herbal dispensing and consultations"),
-            ("Medicines", "Arya Vaidya Sala Kottakkal", "Khadiwale products")
-        ],
-        "sections": [
-            {
-                "heading": "In-Clinic Therapy vs Dispensing",
-                "content": "While traditional setups often focus heavily on dispensing medicines for home use, Karmanya is a fully equipped therapy center. For conditions like severe sciatica, we perform daily Kati Basti and Njavara Kizhi in-clinic to achieve structural pain relief."
-            }
-        ],
-        "faqs": [
-            {
-                "q": "Does Karmanya use local medicines?",
-                "a": "We strictly use classical formulations from reputed Kerala pharmacies to ensure maximum potency for our pain management protocols."
-            }
-        ]
-    },
-
-
-    {
-        "slug": "karmanya-ayurveda-vs-nisarg-ayurved-pune",
-        "title": "Karmanya Ayurveda vs Nisarg Ayurved: A Clinical Comparison in Pune",
-        "meta_title": "Karmanya Ayurveda vs Nisarg Ayurved Pune | Compare Clinics",
-        "meta_desc": "Comparing Karmanya Ayurveda (Pimple Saudagar) and Nisarg Ayurved. Understand the differences in Panchakarma, pain management, and physician care.",
-        "condition_name": "Ayurvedic Clinics",
-        "condition_url": "/locations/",
-        "read_time": "5 min read",
-        "summary": "When seeking authentic Ayurvedic treatments in Pune, patients often compare Karmanya Ayurveda and Nisarg Ayurved. Both offer traditional therapies, but their clinical focus and methodologies differ.",
-        "table": [
-            ("Parameter", "Karmanya Ayurveda", "Nisarg Ayurved"),
-            ("Clinical Focus", "Non-Surgical Joint/Spine Care & Medical Panchakarma", "General Ayurveda & Wellness"),
-            ("Specialization", "Kerala Ayurvedic Therapies (Kizhi, Basti)", "Traditional Ayurvedic Treatments"),
-            ("Patient Experience", "Physician-led individualized protocols", "Consultation and general therapy")
-        ],
-        "sections": [
-            {
-                "heading": "Medical Panchakarma vs General Detox",
-                "content": "At Karmanya, Panchakarma is conducted as a strict medical procedure. It is never offered as a spa package. Our focus on chronic conditions like Sciatica and Grade 4 Arthritis means therapies like Kati Basti and Janu Basti are administered with precision and classical medicated oils."
-            }
-        ],
-        "faqs": [
-            {
-                "q": "Why choose Karmanya over general clinics?",
-                "a": "Karmanya specializes in avoiding surgery for joint and spine issues using authentic Kerala protocols, backed by experienced MD/BAMS doctors."
-            }
-        ]
-    },
-    {
-        "slug": "karmanya-ayurveda-vs-jiva-ayurveda-pune",
-        "title": "Karmanya Ayurveda vs Jiva Ayurveda (Pune Clinics)",
-        "meta_title": "Karmanya Ayurveda vs Jiva Ayurveda Pune | Compare",
-        "meta_desc": "Comparing the boutique clinical care of Karmanya Ayurveda in Pimple Saudagar with the corporate chain model of Jiva Ayurveda in Pune.",
-        "condition_name": "Ayurvedic Clinics",
-        "condition_url": "/locations/",
+        "slug": "ayurvedic-abhyangam-vs-spa-massage-pune",
+        "title": "Clinical Kerala Abhyangam vs Commercial Spa Massage: What Every Patient in Pune Should Know",
+        "meta_title": "Medical Abhyangam vs Spa Massage in Pune | Karmanya Ayurveda",
+        "meta_desc": "Looking for an Ayurvedic massage or wellness therapy in Pune? Compare physician-prescribed Kerala Medical Abhyangam with commercial spa relaxation massages.",
+        "condition_name": "Wellness & Neuromuscular Care",
+        "condition_url": "/treatments/abhyangam/",
         "read_time": "6 min read",
-        "summary": "Jiva Ayurveda is a well-known national chain, while Karmanya Ayurveda operates as a highly specialized, single-location boutique clinic in Pimple Saudagar. Here is how they compare.",
+        "summary": "Many people searching for relief from body ache, high stress, or chronic fatigue book a generic 'Ayurvedic spa massage'—only to experience worsened muscle soreness the next day. Here is the clinical difference between commercial spa rubs and physician-prescribed Kerala Medical Abhyangam at Karmanya Ayurveda.",
         "table": [
-            ("Parameter", "Karmanya Ayurveda (Pimple Saudagar)", "Jiva Ayurveda (Pune Clinics)"),
-            ("Clinic Model", "Boutique, Single-Location Physician-Led Clinic", "National Corporate Chain"),
-            ("Doctor Interaction", "Consistent 1-on-1 care with Dr. Irshad or Dr. Tejasvi", "Rotating doctors across branches"),
-            ("Medicines", "Arya Vaidya Sala Kottakkal & Vaidyaratnam", "In-house Jiva brand products"),
-            ("Therapy Style", "Authentic Kerala therapies (wooden droni)", "Standardized chain therapies")
+            ("Parameter", "Kerala Medical Abhyangam (Karmanya)", "Commercial Spa / Salon Massage"),
+            ("Diagnostic Basis", "Preceded by physician Nadi Pariksha & Prakriti assessment", "No medical diagnosis; standardized menu selection"),
+            ("Oils Used", "Classical Kottakkal / Vaidyaratnam herbal tailas (Dhanwantharam, Ksheerabala, Karpooradi)", "Mineral oil, scented almond/coconut base oils, or synthetic aroma blends"),
+            ("Stroke Biomechanics", "Anuloma-gati (aligned with arterial flow, nerve roots, and Marma points)", "Arbitrary deep-tissue friction or Swedish relaxation strokes"),
+            ("Treatment Table", "Traditional carved medicinal wooden Droni table", "Standard padded salon couch"),
+            ("Post-Therapy Steam", "Medicated Bashpa Sweda (Dashamoola herbal steam chamber)", "Plain hot water steam or none"),
+            ("Clinical Contraindications", "Strictly screened (avoided in fever, high Ama, acute thrombosis)", "Rarely screened; applying oil in Ama states can worsen inflammation")
         ],
         "sections": [
             {
-                "heading": "The Boutique vs Chain Experience",
-                "content": "As a national chain, Jiva Ayurveda offers accessibility across India. However, patients looking for highly personalized, consistent doctor-patient relationships prefer Karmanya's single-clinic model. Here, the doctor who diagnoses you is the same doctor who oversees your daily therapy."
+                "heading": "Why Oil Selection Determines Whether a Therapy Heals or Hurts",
+                "content": "In authentic Kerala Ayurveda, oil is not merely a lubricant to reduce skin friction—it is a transdermal lipid vehicle carrying 40+ decocted medicinal herbs into the deep fascia and micro-circulation. Applying a cooling oil to a patient with Kapha-Vata joint stiffness will worsen their pain, whereas applying a heating oil to someone with Pitta neuropathy causes burning.<br><br>At Karmanya Ayurveda in Pimple Saudagar, Senior Physician <strong>Dr. Tejasvi Mulik (BAMS)</strong> evaluates your pulse and tissue state before selecting the exact medicated oil and thermal intensity for your session."
             },
             {
-                "heading": "Sourcing Genuine Kerala Medicines",
-                "content": "Karmanya does not manufacture its own white-label products. We source our medicated oils and Kashayams directly from the most respected traditional pharmacies in Kerala, ensuring uncompromised potency for our pain management protocols."
+                "heading": "When Should You Choose Medical Abhyangam + Swedanam?",
+                "content": "Medical Abhyangam followed by herbal steam (<em>Swedanam</em>) is ideal for:<br>• IT professionals experiencing full-body postural stiffness, neck tension, and mental burnout<br>• Individuals recovering from sports strain or chronic muscular fatigue<br>• Preventative seasonal wellness (<em>Ritucharya</em>) to keep Vata dosha grounded and sleep deep<br>• Preparatory oleation (<em>Snehana</em>) before intensive Panchakarma detoxification"
             }
         ],
         "faqs": [
             {
-                "q": "Is Karmanya Ayurveda part of a chain?",
-                "a": "No. We operate a single, highly specialized clinic in Pimple Saudagar, Pune, to maintain strict quality control over our treatments."
+                "q": "Can I book a single session of Medical Abhyangam for wellness and stress relief?",
+                "a": "Yes. You can book a single therapeutic Abhyangam + Swedanam session or a structured 7-day wellness rejuvenation course following a brief physician assessment at our Pimple Saudagar clinic."
+            },
+            {
+                "q": "Are therapies performed by same-gender therapists?",
+                "a": "Yes, strictly. All therapies at Karmanya Ayurveda are conducted in private clinical therapy suites by trained same-gender Kerala therapists under physician supervision."
             }
         ]
     },
     {
-        "slug": "karmanya-ayurveda-vs-muppra-kerala",
-        "title": "Karmanya Ayurveda vs Muppra Kerala Ayurveda Pune",
-        "meta_title": "Karmanya Ayurveda vs Muppra Kerala Ayurveda Pune",
-        "meta_desc": "Compare Karmanya Ayurveda in Pimple Saudagar with Muppra Kerala Ayurveda. Both offer Kerala therapies, but their focus areas differ.",
-        "condition_name": "Ayurvedic Clinics",
-        "condition_url": "/locations/",
-        "read_time": "5 min read",
-        "summary": "Both Karmanya Ayurveda and Muppra Kerala Ayurveda specialize in Kerala-style treatments in Pune. This page outlines the differences to help you decide.",
+        "slug": "panchakarma-detox-vs-naturopathy-cleanse",
+        "title": "Classical Kerala Panchakarma vs Generic Detox Cleanses & Naturopathy",
+        "meta_title": "Panchakarma Detox vs Naturopathy Cleanse in Pune | Karmanya Ayurveda",
+        "meta_desc": "Comparing physician-led Ayurvedic Panchakarma (Vamana, Virechana, Basti) with juice fasts, colon hydrotherapy, and generic detox retreats in Pune.",
+        "condition_name": "Metabolic Detox & Wellness",
+        "condition_url": "/treatments/panchakarma/",
+        "read_time": "7 min read",
+        "summary": "The word 'detox' is used for everything from 3-day raw juice fasts to colon hydrotherapy. However, in classical Ayurvedic medicine, cellular toxins (Ama) are predominantly lipid-soluble and cannot be flushed out with water or raw juices alone. Compare true 3-stage Kerala Panchakarma with conventional detox programs.",
         "table": [
-            ("Parameter", "Karmanya Ayurveda", "Muppra Kerala Ayurveda"),
-            ("Location", "Pimple Saudagar (West Pune/PCMC)", "Multiple locations"),
-            ("Primary Focus", "Non-Surgical Spine & Joint Pain, PCOD", "Kerala Therapies & Wellness"),
-            ("Diagnostics", "Nadi Pariksha + MRI/X-Ray Integration", "Standard Consultation")
+            ("Parameter", "Classical Ayurvedic Panchakarma (Karmanya)", "Juice Cleanses / Colon Hydrotherapy / Naturopathy"),
+            ("Core Mechanism", "Binds fat-soluble cellular toxins via internal & external medicated lipids (Snehapana), then eliminates via GI tract", "Water-soluble flushing, raw fiber fasting, or mechanical water irrigation of the lower colon"),
+            ("3-Stage Medical Structure", "Purvakarma (Prep) → Pradhanakarma (Core Detox) → Paschatkarma (Digestive Rebuild)", "Immediate fasting or colon wash without cellular mobilization"),
+            ("Effect on Vata Dosha", "Deeply pacifies Vata via medicated oil/decoction Basti and warm therapies", "Raw juices, cold salads, and water enemas severely dry and aggravate Vata"),
+            ("Targeted Organ Systems", "Liver & biliary tract (Virechana), respiratory/gastric (Vamana), colon & nervous system (Basti)", "Primarily superficial digestive transit"),
+            ("Medical Supervision", "Daily pulse, BP, and digestive Agni monitoring by BAMS physician", "Often self-guided or wellness-coach supervised")
         ],
         "sections": [
             {
-                "heading": "Targeted Pain Management Protocols",
-                "content": "Karmanya has built its reputation on rescuing patients from imminent knee and spine surgeries. Our 14-to-21 day intensive protocols for Sciatica and Osteoarthritis are strictly doctor-managed."
+                "heading": "Why Raw Juice Fasting & Water Enemas Aggravate Chronic Pain",
+                "content": "According to classical Ayurvedic physiology, raw cold juices and plain water colonics strip the protective mucosal lining of the colon—which is the primary anatomical home of <em>Vata dosha</em>. While a patient may lose temporary water weight, aggravated Vata soon triggers rebound bloating, anxiety, insomnia, dry skin, and joint pain.<br><br>True <strong>Panchakarma</strong> at Karmanya Ayurveda uses a scientifically sequenced 3-phase protocol: first mobilizing deep tissue toxins into the digestive tract using warm medicated ghee/oils and herbal steam (<em>Purvakarma</em>), safely expelling them through targeted <em>Virechana</em> or <em>Basti</em>, and carefully rebuilding digestive fire (<em>Samsarjana Krama</em>)."
+            },
+            {
+                "heading": "Do You Need to Take Leave from Work for Panchakarma in Pune?",
+                "content": "Because Karmanya operates as a specialized outpatient clinical center in Pimple Saudagar (open 10 AM – 8 PM daily), most patients from Wakad, Hinjawadi, Baner, and Aundh complete their daily 60–75 minute preparatory therapies before or after office hours, needing only 1–2 rest days at home on the main purgation (<em>Virechana</em>) day."
             }
         ],
         "faqs": [
             {
-                "q": "Which clinic is better for slip disc?",
-                "a": "Karmanya's specific Spine Care program integrates Kati Basti, Basti, and Viddhakarma to decompress nerves effectively without surgery."
-            }
-        ]
-    },
-
-
-    {
-        "slug": "karmanya-ayurveda-vs-jivan-urja-chikitsalaya",
-        "title": "Karmanya Ayurveda vs Jivan Urja Chikitsalaya: Choosing the Right Ayurvedic Clinic in Pune",
-        "meta_title": "Karmanya Ayurveda vs Jivan Urja Chikitsalaya | Pune Clinic Comparison",
-        "meta_desc": "Comparing Karmanya Ayurveda (Pimple Saudagar) vs Jivan Urja Chikitsalaya. Read our guide to understand the differences in treatments, physician care, and panchakarma.",
-        "condition_name": "Ayurvedic Treatment in Pune",
-        "condition_url": "/locations/",
-        "read_time": "5 min read",
-        "summary": "When searching for authentic Ayurvedic treatment in Pune, patients often compare top clinics. Both Karmanya Ayurveda and Jivan Urja Chikitsalaya are well-known, but they have different clinical models and treatment approaches.",
-        "table": [
-            ("Parameter", "Karmanya Ayurveda (Pimple Saudagar)", "Jivan Urja Chikitsalaya"),
-            ("Specialization", "Clinical Kerala Ayurveda, Pain Management, Panchakarma", "General Ayurveda & Wellness"),
-            ("Primary Treatments", "Janu Basti, Kati Basti, Authentic Njavara Kizhi", "General consultations and mixed therapies"),
-            ("Physician Led", "Yes, direct MD/BAMS oversight for all procedures", "Physician consultation available"),
-            ("Location", "Pimple Saudagar (serving PCMC, Wakad, Hinjawadi)", "Multiple / specific local branches")
-        ],
-        "sections": [
-            {
-                "heading": "The Kerala Ayurveda Difference",
-                "content": "Karmanya Ayurveda strictly adheres to the classical Kerala Ayurvedic tradition. Our therapeutic formulations are sourced from the legendary Arya Vaidya Sala Kottakkal and Vaidyaratnam Oushadhasala. Every procedure, from Janu Basti to full Panchakarma detoxification, is executed under strict clinical protocols."
-            },
-            {
-                "heading": "Focus on Pain Management without Surgery",
-                "content": "While many clinics offer general wellness massages, Karmanya is fundamentally a pain management and clinical treatment center. Our success in managing Grade 1-3 knee osteoarthritis and lumbar disc herniation (sciatica) without surgery draws patients from across Pune and PCMC."
-            }
-        ],
-        "faqs": [
-            {
-                "q": "Does Karmanya Ayurveda treat the same conditions as Jivan Urja?",
-                "a": "Yes, we treat similar chronic conditions, but our approach relies heavily on specialized Kerala therapies like Kizhi, Pizhichil, and targeted Basti programs."
-            },
-            {
-                "q": "Why choose Karmanya Ayurveda?",
-                "a": "Patients choose Karmanya for the individualized clinical attention from Dr. Irshad and Dr. Tejasvi, genuine medicines, and the highly specific, non-surgical pain management protocols."
+                "q": "Which conditions benefit most from a clinical Panchakarma course?",
+                "a": "Clinical Panchakarma is highly effective for chronic acidity (GERD), Grade 1–2 fatty liver, PCOS/PCOD, plaque psoriasis, chronic eczema, stubborn metabolic weight gain, and recurring lumbar/cervical spine disorders."
             }
         ]
     },
     {
-        "slug": "karmanya-ayurveda-vs-sadhana-ayurvedic-clinic",
-        "title": "Karmanya Ayurveda vs Sadhana Ayurvedic Clinic",
-        "meta_title": "Karmanya Ayurveda vs Sadhana Ayurvedic Clinic Pune | Compare Clinics",
-        "meta_desc": "Comparing Karmanya Ayurveda and Sadhana Ayurvedic Clinic in Pune. Understand the differences in approach, therapies, and specializations for knee pain and sciatica.",
-        "condition_name": "Ayurvedic Clinics",
-        "condition_url": "/locations/",
-        "read_time": "5 min read",
-        "summary": "Many patients seeking relief from chronic pain or metabolic disorders in Pune weigh their options between Karmanya Ayurveda and Sadhana Ayurvedic Clinic. This page provides a transparent comparison to help you choose the best clinical fit for your needs.",
+        "slug": "ayurveda-vs-steroid-injections-joint-pain",
+        "title": "Ayurvedic Janu & Kati Basti vs Cortisone Steroid Injections for Knee & Spine Pain",
+        "meta_title": "Ayurveda vs Steroid Injections for Knee & Back Pain Pune | Karmanya",
+        "meta_desc": "Considering a cortisone or epidural steroid injection for knee arthritis, frozen shoulder, or sciatica? Compare long-term tissue impact with Ayurvedic Janu & Kati Basti.",
+        "condition_name": "Pain Management & Joint Care",
+        "condition_url": "/conditions/knee-joint-pain/",
+        "read_time": "6 min read",
+        "summary": "When oral painkillers stop working for knee osteoarthritis, frozen shoulder, plantar fasciitis, or lumbar sciatica, intra-articular or epidural corticosteroid injections are commonly offered for rapid pain suppression. Before consenting to repeated steroid shots, understand how they affect cartilage and tendons compared to conservative Ayurvedic care.",
         "table": [
-            ("Parameter", "Karmanya Ayurveda", "Sadhana Ayurvedic Clinic"),
-            ("Core Focus", "Non-Surgical Joint & Spine Care, Women's Health", "Ayurvedic Consultations & General Care"),
-            ("Tradition", "Authentic Kerala Ayurvedic Protocols", "Traditional Ayurveda"),
-            ("Medicine Sourcing", "Arya Vaidya Sala Kottakkal & Vaidyaratnam", "In-house or varied sources"),
-            ("Patient Experience", "1-on-1 clinical tracking, structured rehab plans", "Consultation-focused")
+            ("Parameter", "Classical Ayurvedic Care (Basti, Kizhi, Agnikarma)", "Corticosteroid / Epidural Injections"),
+            ("Biological Action", "Nourishes synovial lining, improves local micro-circulation, relaxes muscle spasm", "Potently suppresses local immune and inflammatory signalling"),
+            ("Onset of Relief", "Gradual, progressive relief over 7 to 21 days", "Rapid pain numbing within 24–72 hours"),
+            ("Duration & Repeatability", "Cumulative structural benefit; safe to repeat seasonally", "Typically wears off in 6–12 weeks; limited to 2–3 shots per year due to tissue toxicity"),
+            ("Effect on Cartilage & Tendons", "Preserves and lubricates subchondral tissue and ligaments", "Repeated intra-articular steroids can accelerate cartilage thinning and weaken tendons"),
+            ("Impact on Blood Sugar", "Metabolically safe; tailored for diabetic patients", "Causes acute blood glucose spikes for 5–10 days in diabetic patients")
         ],
         "sections": [
             {
-                "heading": "Specialized Spine and Joint Programs",
-                "content": "Karmanya Ayurveda is renowned in Pimple Saudagar and West Pune for its highly structured Spine & Pain Management Programs. We don't just offer temporary relief; we use diagnostic integration (MRI/X-Ray review + Nadi Pariksha) to deliver targeted therapies like Kati Basti and Viddhakarma to avoid surgery."
+                "heading": "The Hidden Cost of Repeated Joint Steroid Injections",
+                "content": "Orthopaedic literature increasingly cautions that while corticosteroid injections provide short-term chemical relief, repeated intra-articular injections can inhibit chondrocyte (cartilage cell) synthesis and accelerate joint space narrowing—pushing the joint faster toward replacement surgery.<br><br>Furthermore, in diabetic patients (a common co-morbidity in frozen shoulder and knee arthritis), steroid injections frequently cause sharp, hard-to-control spikes in blood sugar."
             },
             {
-                "heading": "Clinical Panchakarma vs Spa Detox",
-                "content": "Panchakarma at Karmanya is a medical procedure. It requires pre-purification (Purvakarma), strict dietary adherence, and post-procedure recovery (Paschat Karma). It is never sold as a relaxing spa package, ensuring high clinical efficacy for conditions like PCOD, IBS, and severe Vata disorders."
+                "heading": "How Karmanya Resolves Inflammation Without Tissue Degradation",
+                "content": "At Karmanya Ayurveda, we match the stage of joint inflammation with the right thermal and herbal modality:<br>• <strong>For Swollen, Hot Joints (Ama Stage):</strong> <em>Dhanyamla Dhara</em> and <em>Podikizhi</em> draw out inflammatory effusion naturally.<br>• <strong>For Dry, Degenerative Joints & Discs:</strong> <em>Janu Basti</em> and <em>Kati Basti</em> infuse warm medicated lipid formulations deep into the joint capsule.<br>• <strong>For Focal Tendon & Heel Pain:</strong> Precision <em>Agnikarma</em> stimulates natural collagen repair without tendon weakening."
             }
         ],
         "faqs": [
             {
-                "q": "Where is Karmanya Ayurveda located compared to other clinics?",
-                "a": "We are centrally located in Pimple Saudagar, making it highly accessible for patients from Wakad, Hinjawadi, Aundh, and Baner."
+                "q": "Can I start Ayurvedic therapy if I already took a steroid injection 2 months ago?",
+                "a": "Yes. Waiting at least 3 to 4 weeks after a steroid injection allows the acute synthetic depot effect to settle, after which restorative Janu Basti, Kati Basti, or Kizhi protocols can safely begin."
             }
         ]
     },
-
     {
         "slug": "ayurveda-vs-knee-replacement-surgery",
         "title": "Ayurvedic Treatment vs Knee Replacement Surgery: A Clinical Decision Guide",
@@ -433,6 +291,12 @@ for item in comparisons:
         "headline": item['title'],
         "description": item['meta_desc'],
         "url": f"https://karmanyaayurveda.com/compare/{slug}/",
+        "author": {
+            "@type": "Physician",
+            "name": "Dr. Tejasvi Mulik",
+            "jobTitle": "Senior Consulting Physician (BAMS)",
+            "url": "https://karmanyaayurveda.com/doctors/dr-tejasvi/"
+        },
         "publisher": {
             "@type": "MedicalClinic",
             "name": "Karmanya Ayurveda Chikitsalaya",

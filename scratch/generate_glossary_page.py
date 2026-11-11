@@ -205,9 +205,41 @@ terms = [
         "term": "Ashtavaidya",
         "transliteration": "Aṣṭavaidya",
         "category": "Tradition",
-        "definition": "The revered Kerala Ayurvedic physician lineage that mastered all eight classical branches (Ashtanga) of Ayurveda, renowned worldwide for developing specialized oil procedures and curative chikitsa traditions.",
-        "related_link": "/doctors/dr-irshad/",
-        "link_text": "Dr. Irshad's Background"
+        "definition": "The revered Kerala Ayurvedic physician lineage that mastered all eight classical branches (Ashtanga) of Ayurveda, renowned worldwide for developing specialized oil procedures and restorative chikitsa traditions.",
+        "related_link": "/our-story/",
+        "link_text": "Karmanya's Ashtavaidya Heritage"
+    },
+    {
+        "term": "Agnikarma",
+        "transliteration": "Agnikarma",
+        "category": "Therapies",
+        "definition": "A classical para-surgical thermal micro-stimulation procedure described by Acharya Sushruta for chronic localized tendon, ligament, and heel pain (such as plantar fasciitis, calcaneal spur, and tennis elbow).",
+        "related_link": "/treatments/agnikarma/",
+        "link_text": "View Agnikarma Protocol"
+    },
+    {
+        "term": "Pizhichil",
+        "transliteration": "Piḻiccil",
+        "category": "Therapies",
+        "definition": "Known as the 'King of Kerala Therapies' (Kayaseka), combining a continuous warm stream of medicated herbal oil squeezed from linen cloths with synchronized neuromuscular strokes to support severe Vata disorders and neurological rehabilitation.",
+        "related_link": "/treatments/pizhichil/",
+        "link_text": "View Pizhichil Therapy"
+    },
+    {
+        "term": "Udvartana",
+        "transliteration": "Udvartana",
+        "category": "Therapies",
+        "definition": "A vigorous upward lymphatic herbal powder scrub using warm, fat-mobilizing botanicals (Triphala, Kolakulathadi) to clear subcutaneous Kapha stagnation, support metabolic weight management, and improve insulin sensitivity.",
+        "related_link": "/treatments/udvartana/",
+        "link_text": "View Udvartana Protocol"
+    },
+    {
+        "term": "Netratarpana",
+        "transliteration": "Netratarpaṇa",
+        "category": "Therapies",
+        "definition": "A specialized ophthalmic rejuvenation therapy where warm, clarified medicated ghee (Triphala Ghrita) is retained over the eyes inside a black gram dough reservoir to relieve severe computer vision strain, dry eyes, and optic nerve fatigue.",
+        "related_link": "/treatments/netratarpana/",
+        "link_text": "View Netratarpana Care"
     }
 ]
 

@@ -564,22 +564,28 @@ def build_site():
         ('https://karmanyaayurveda.com/reviews/', '0.85', 'weekly'),
         ('https://karmanyaayurveda.com/blog/', '0.85', 'weekly'),
         ('https://karmanyaayurveda.com/compare/', '0.85', 'weekly'),
-        ('https://karmanyaayurveda.com/compare/ayurveda-vs-knee-replacement-surgery/', '0.8', 'monthly'),
-        ('https://karmanyaayurveda.com/compare/ayurveda-vs-surgery-painkillers-sciatica/', '0.8', 'monthly'),
-        ('https://karmanyaayurveda.com/compare/ayurveda-vs-hormonal-pills-pcod/', '0.8', 'monthly'),
         ('https://karmanyaayurveda.com/symptoms/', '0.85', 'weekly'),
-        ('https://karmanyaayurveda.com/symptoms/knee-clicking-popping-sound/', '0.8', 'monthly'),
-        ('https://karmanyaayurveda.com/symptoms/lower-back-pain-when-sitting/', '0.8', 'monthly'),
-        ('https://karmanyaayurveda.com/symptoms/stiff-neck-computer-work/', '0.8', 'monthly'),
         ('https://karmanyaayurveda.com/glossary/', '0.85', 'monthly')
     ]
     
-    # Dynamic Blogs Scan for Sitemap
+    # Dynamic Blogs, Comparisons, and Symptoms Scan for Sitemap
     blog_dir = os.path.join(base_dir, 'public', 'blog')
     if os.path.exists(blog_dir):
         for slug in sorted(os.listdir(blog_dir)):
             if slug != 'index.html' and os.path.isdir(os.path.join(blog_dir, slug)):
                 urls_for_sitemap.append((f'https://karmanyaayurveda.com/blog/{slug}/', '0.8', 'monthly'))
+
+    compare_dir = os.path.join(base_dir, 'public', 'compare')
+    if os.path.exists(compare_dir):
+        for slug in sorted(os.listdir(compare_dir)):
+            if slug != 'index.html' and os.path.isdir(os.path.join(compare_dir, slug)):
+                urls_for_sitemap.append((f'https://karmanyaayurveda.com/compare/{slug}/', '0.8', 'monthly'))
+
+    symptoms_dir = os.path.join(base_dir, 'public', 'symptoms')
+    if os.path.exists(symptoms_dir):
+        for slug in sorted(os.listdir(symptoms_dir)):
+            if slug != 'index.html' and os.path.isdir(os.path.join(symptoms_dir, slug)):
+                urls_for_sitemap.append((f'https://karmanyaayurveda.com/symptoms/{slug}/', '0.8', 'monthly'))
     
     # Copy Static Assets
     css_src = os.path.join(base_dir, 'css')
@@ -1125,15 +1131,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     ]
   }
 }
-</script>
-        "name": "Dr. Tejasvi Mulik",
-        "jobTitle": "Staff Physician & Consultant",
-        "medicalSpecialty": ["Ayurvedic", "Women's Health", "Metabolic Disorders"],
-        "description": "Resident physician with 10+ years of clinical experience in pulse diagnosis and chronic disease management."
-      }
-    ]
-  }
-}
 </script>'''
     with open(os.path.join(out_dir, 'index.html'), 'w') as f:
         f.write(render_template(story_template, site_data))
@@ -1214,6 +1211,8 @@ Sitemap: https://karmanyaayurveda.com/sitemap.xml
         'obesity-management': '/conditions/obesity-weight-loss/',
         'pain-management': '/conditions/spine-sciatica-back-pain/',
         'spine-and-joint-care-program': '/conditions/spine-sciatica-back-pain/',
+        'spine-care-program': '/conditions/spine-sciatica-back-pain/',
+        'knee-pain-care-program': '/conditions/knee-joint-pain/',
         'panchakarma-detoxification-program': '/treatments/panchakarma/',
         'hypertension-management': '/conditions/hypertension-high-bp/',
         'ayurvedic-services-pune': '/treatments/',
@@ -1353,10 +1352,33 @@ Sitemap: https://karmanyaayurveda.com/sitemap.xml
 - Knee Pain Doctor & Clinic Guide: https://karmanyaayurveda.com/blog/knee-pain-doctor-near-me-pune-ayurveda/
 - Cervical Spondylosis & Neck Strain: https://karmanyaayurveda.com/blog/cervical-spondylosis-neck-pain-ayurvedic-treatment-pune/
 - Janu Basti Procedure & Cost Guide: https://karmanyaayurveda.com/blog/janu-basti-cost-pune-procedure-benefits/
+- Shirodhara Cost & Procedure Guide: https://karmanyaayurveda.com/blog/shirodhara-cost-pune-procedure-benefits/
+- Nadi Pariksha Pulse Diagnosis Guide: https://karmanyaayurveda.com/blog/nadi-pariksha-pune-pulse-diagnosis/
+- Ankylosing Spondylitis Care: https://karmanyaayurveda.com/blog/ankylosing-spondylitis-ayurvedic-treatment-pune/
+- Frozen Shoulder (Apabahuka) Care: https://karmanyaayurveda.com/blog/frozen-shoulder-ayurvedic-treatment-pune/
+- Plantar Fasciitis & Heel Pain (Agnikarma): https://karmanyaayurveda.com/blog/plantar-fasciitis-heel-pain-ayurvedic-treatment-pune/
+- Fatty Liver (Grade 1 & 2) Reversal: https://karmanyaayurveda.com/blog/fatty-liver-grade-1-2-ayurvedic-treatment-pune/
+- Chronic Acidity & GERD (Amlapitta): https://karmanyaayurveda.com/blog/chronic-acidity-gerd-ayurvedic-treatment-pune/
 - Panchakarma Tariff & Program Guide: https://karmanyaayurveda.com/blog/panchakarma-cost-in-pune-package-breakdown/
 - Early Symptom Diagnostic Guides: https://karmanyaayurveda.com/symptoms/
-- Treatment Comparisons (Ayurveda vs Modern Surgery): https://karmanyaayurveda.com/compare/
-- Ayurvedic Medical Glossary: https://karmanyaayurveda.com/glossary/
+  - Knee Clicking & Popping: https://karmanyaayurveda.com/symptoms/knee-clicking-popping-sound/
+  - Lower Back Pain When Sitting: https://karmanyaayurveda.com/symptoms/lower-back-pain-when-sitting/
+  - Stiff Neck from Computer Work: https://karmanyaayurveda.com/symptoms/stiff-neck-computer-work/
+  - Pain Radiating Down Leg (Sciatica): https://karmanyaayurveda.com/symptoms/pain-radiating-down-leg/
+  - Severe Morning Heel Pain: https://karmanyaayurveda.com/symptoms/severe-morning-heel-pain/
+  - Stiff Neck & Finger Numbness: https://karmanyaayurveda.com/symptoms/stiff-neck-and-finger-numbness/
+  - Burning Feet & Palms (Pada Daha): https://karmanyaayurveda.com/symptoms/burning-sensation-in-feet-and-hands/
+  - Morning Joint Stiffness & Swelling: https://karmanyaayurveda.com/symptoms/morning-joint-stiffness-and-swelling/
+  - Chronic Fatigue & Poor Sleep: https://karmanyaayurveda.com/symptoms/chronic-fatigue-and-poor-sleep/
+  - Tailbone Pain (Coccydynia): https://karmanyaayurveda.com/symptoms/tailbone-pain-coccydynia-sitting/
+- Clinical Modality Comparisons: https://karmanyaayurveda.com/compare/
+  - Medical Abhyangam vs Spa Massage: https://karmanyaayurveda.com/compare/ayurvedic-abhyangam-vs-spa-massage-pune/
+  - Classical Panchakarma vs Naturopathy Detox: https://karmanyaayurveda.com/compare/panchakarma-detox-vs-naturopathy-cleanse/
+  - Ayurveda vs Steroid Joint Injections: https://karmanyaayurveda.com/compare/ayurveda-vs-steroid-injections-joint-pain/
+  - Ayurveda vs Knee Replacement Surgery: https://karmanyaayurveda.com/compare/ayurveda-vs-knee-replacement-surgery/
+  - Ayurveda vs Spine Surgery & Painkillers: https://karmanyaayurveda.com/compare/ayurveda-vs-surgery-painkillers-sciatica/
+  - Ayurveda vs Hormonal Pills for PCOD: https://karmanyaayurveda.com/compare/ayurveda-vs-hormonal-pills-pcod/
+- Ayurvedic Medical Glossary (28 Clinical Terms): https://karmanyaayurveda.com/glossary/
 
 ## Geographic Location & Commute from Pune Neighborhoods
 Single Flagship Facility: 27/11, Swaraj Garden Road, Near One Nation Apartment, Pimple Saudagar, Pune 411027

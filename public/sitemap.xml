@@ -51,39 +51,9 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://karmanyaayurveda.com/compare/ayurveda-vs-knee-replacement-surgery/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://karmanyaayurveda.com/compare/ayurveda-vs-surgery-painkillers-sciatica/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://karmanyaayurveda.com/compare/ayurveda-vs-hormonal-pills-pcod/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://karmanyaayurveda.com/symptoms/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://karmanyaayurveda.com/symptoms/knee-clicking-popping-sound/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://karmanyaayurveda.com/symptoms/lower-back-pain-when-sitting/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://karmanyaayurveda.com/symptoms/stiff-neck-computer-work/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://karmanyaayurveda.com/glossary/</loc>
@@ -247,6 +217,86 @@
   </url>
   <url>
     <loc>https://karmanyaayurveda.com/blog/stage-4-knee-osteoarthritis-ayurvedic-treatment/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karmanyaayurveda.com/compare/ayurveda-vs-hormonal-pills-pcod/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karmanyaayurveda.com/compare/ayurveda-vs-knee-replacement-surgery/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karmanyaayurveda.com/compare/ayurveda-vs-steroid-injections-joint-pain/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karmanyaayurveda.com/compare/ayurveda-vs-surgery-painkillers-sciatica/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karmanyaayurveda.com/compare/ayurvedic-abhyangam-vs-spa-massage-pune/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karmanyaayurveda.com/compare/panchakarma-detox-vs-naturopathy-cleanse/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karmanyaayurveda.com/symptoms/burning-sensation-in-feet-and-hands/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karmanyaayurveda.com/symptoms/chronic-fatigue-and-poor-sleep/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karmanyaayurveda.com/symptoms/knee-clicking-popping-sound/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karmanyaayurveda.com/symptoms/lower-back-pain-when-sitting/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karmanyaayurveda.com/symptoms/morning-joint-stiffness-and-swelling/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karmanyaayurveda.com/symptoms/pain-radiating-down-leg/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karmanyaayurveda.com/symptoms/severe-morning-heel-pain/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karmanyaayurveda.com/symptoms/stiff-neck-and-finger-numbness/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karmanyaayurveda.com/symptoms/stiff-neck-computer-work/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karmanyaayurveda.com/symptoms/tailbone-pain-coccydynia-sitting/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
