@@ -93,8 +93,8 @@ def generate_seo_head(page_type, page_data, site_data):
     faq_schema = None
     
     if page_type == 'home':
-        title = f"Ayurvedic Clinic in Pimple Saudagar, Pune | {brand.get('name')}"
-        desc = "Karmanya Ayurveda is a physician-led Ayurvedic medical clinic in Pimple Saudagar, Pune. Specializing in authentic Kerala Panchakarma, joint care, and spine therapies. Open daily 10 AM–8 PM."
+        title = f"Ayurvedic Clinic & Pain Care Centre in Pune | {brand.get('name')}"
+        desc = "Physician-led Ayurvedic clinic in Pimple Saudagar, Pune. Non-surgical treatment for knee pain, back pain, sciatica & authentic Kerala Panchakarma. ₹500 consult."
         url = "https://karmanyaayurveda.com/"
         
         entity_schema = {
@@ -209,6 +209,22 @@ def generate_seo_head(page_type, page_data, site_data):
                     "acceptedAnswer": {
                         "@type": "Answer",
                         "text": "Karmanya Ayurveda serves patients across West Pune and PCMC, easily accessible within 5 to 15 minutes from Wakad (3.2 km), Hinjawadi IT Park (7.5 km), Baner (6.8 km), Aundh (5.5 km), Rahatani (1.5 km), and Ravet."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Who is the senior Ayurvedic doctor for knee and back pain at Karmanya?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Senior Consulting Physician Dr. Tejasvi Mulik (BAMS) leads all clinical evaluations for knee pain, osteoarthritis, sciatica, and chronic spine disorders at Karmanya Ayurveda. In-person assessments include classical three-finger Nadi Pariksha and a detailed review of previous MRI or X-ray reports."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the consultation fee and how do I schedule an appointment?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The initial in-depth 45-minute physician consultation fee is ₹500. You can book an appointment online at karmanyaayurveda.com/book-consultation/ or call the clinic directly at +91 98198 20017. The clinic is open Monday to Sunday from 10:00 AM to 8:00 PM at 27/11, Swaraj Garden Road, Pimple Saudagar, Pune."
                     }
                 }
             ]
