@@ -480,6 +480,7 @@ def generate_seo_head(page_type, page_data, site_data):
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){{dataLayer.push(arguments);}}
+      gtag('consent', 'default', {{'ad_user_data': 'granted', 'ad_personalization': 'granted', 'ad_storage': 'granted', 'analytics_storage': 'granted'}});
       gtag('js', new Date());
       gtag('config', 'G-QWH0NSNLVE');
     </script>
@@ -1082,6 +1083,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {'ad_user_data': 'granted', 'ad_personalization': 'granted', 'ad_storage': 'granted', 'analytics_storage': 'granted'});
   gtag('js', new Date());
   gtag('config', 'G-QWH0NSNLVE');
 </script>
