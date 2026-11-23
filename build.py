@@ -484,6 +484,8 @@ def generate_seo_head(page_type, page_data, site_data):
       gtag('js', new Date());
       gtag('config', 'G-QWH0NSNLVE');
     </script>
+    <!-- Google Preferred Sources Publisher Script -->
+    <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
     <title>{title}</title>
     <meta name="description" content="{desc}">
     <link rel="canonical" href="{url}">
@@ -1087,6 +1089,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   gtag('js', new Date());
   gtag('config', 'G-QWH0NSNLVE');
 </script>
+<!-- Google Preferred Sources Publisher Script -->
+<script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 <title>Our Story & Founders | Dr. Anandhu & Dr. Aditya | Karmanya Ayurveda Pune</title>
 <meta name="description" content="Discover the story of Karmanya Ayurveda in Pune. Founded by Dr. Anandhu & Dr. Aditya with a vision for authentic Kerala Ashtavaidya medicine, clinically led by resident staff physician Dr. Tejasvi Mulik.">
 <link rel="canonical" href="https://karmanyaayurveda.com/our-story/">
